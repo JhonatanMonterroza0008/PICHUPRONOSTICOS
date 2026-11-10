@@ -1,0 +1,349 @@
+{
+ "title": "Champions League, jornada 4",
+ "note": "Horas de España. Goles, córners y tarjetas verificados con las estadísticas de ESPN.",
+ "matches": [
+  {
+   "comp": "Champions League",
+   "time": "18:45",
+   "home": "AEK",
+   "away": "Real Madrid",
+   "score": "2-3",
+   "meta": "Árbitro: Maurizio Mariani",
+   "picks": [
+    {
+     "market": "Gana Real Madrid",
+     "prob": null,
+     "conf": "media",
+     "why": "9 victorias en 10 y 52 % según el modelo",
+     "result": "hit",
+     "fact": "2-3",
+     "top": true
+    },
+    {
+     "market": "Más de 2.5 goles",
+     "prob": null,
+     "conf": "media",
+     "why": "86 % de los partidos del Madrid con +2.5",
+     "result": "hit",
+     "fact": "5 goles",
+     "top": false
+    },
+    {
+     "market": "AEK recibe más tarjetas",
+     "prob": null,
+     "conf": "media",
+     "why": "14,5 faltas por partido contra 9",
+     "result": "hit",
+     "fact": "2 a 1",
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "Champions League",
+   "time": "18:45",
+   "home": "Fenerbahçe",
+   "away": "Liverpool",
+   "score": "3-2",
+   "meta": "Árbitro: Clément Turpin",
+   "picks": [
+    {
+     "market": "No hay empate",
+     "prob": null,
+     "conf": "media",
+     "why": "Liverpool: 46 partidos europeos sin empatar",
+     "result": "hit",
+     "fact": "Ganó Fenerbahçe",
+     "top": true
+    },
+    {
+     "market": "Más de 4.5 tarjetas",
+     "prob": null,
+     "conf": "media",
+     "why": "2,2 + 2,0 amarillas y muchas faltas",
+     "result": "miss",
+     "fact": "2 tarjetas",
+     "top": false
+    },
+    {
+     "market": "Más de 9.5 córners",
+     "prob": null,
+     "conf": "media",
+     "why": "5,6 + 5,9 córners por partido",
+     "result": "hit",
+     "fact": "16 córners",
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "Champions League",
+   "time": "21:00",
+   "home": "Borussia Dortmund",
+   "away": "Real Betis",
+   "score": "2-1",
+   "meta": "Árbitro: Serdar Gözübüyük",
+   "picks": [
+    {
+     "market": "Dortmund saca más córners",
+     "prob": null,
+     "conf": "media",
+     "why": "7,1 contra 5,1 por partido",
+     "result": "miss",
+     "fact": "2 a 5",
+     "top": false
+    },
+    {
+     "market": "Más de 9.5 córners",
+     "prob": null,
+     "conf": "media",
+     "why": "12,2 córners de media entre los dos",
+     "result": "miss",
+     "fact": "7 córners",
+     "top": false
+    },
+    {
+     "market": "Dortmund o empate",
+     "prob": null,
+     "conf": "media",
+     "why": "Fuerte en casa ante españoles",
+     "result": "hit",
+     "fact": "Ganó Dortmund",
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "Champions League",
+   "time": "21:00",
+   "home": "Porto",
+   "away": "Napoli",
+   "score": "4-1",
+   "meta": "Árbitro: Michael Oliver",
+   "picks": [
+    {
+     "market": "Porto o empate",
+     "prob": null,
+     "conf": "media",
+     "why": "74 % entre victoria y empate; Napoli con 7 bajas",
+     "result": "hit",
+     "fact": "Ganó Porto",
+     "top": false
+    },
+    {
+     "market": "Menos de 4.5 tarjetas",
+     "prob": null,
+     "conf": "media",
+     "why": "Oliver saca unas 2,7 amarillas por partido",
+     "result": "miss",
+     "fact": "6 tarjetas, una roja",
+     "top": true
+    },
+    {
+     "market": "Porto saca más córners",
+     "prob": null,
+     "conf": "media",
+     "why": "6,0 contra 4,5 por partido",
+     "result": "hit",
+     "fact": "6 a 5",
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "Champions League",
+   "time": "21:00",
+   "home": "PSV Eindhoven",
+   "away": "Club Brugge",
+   "score": "1-2",
+   "meta": "Árbitro: Irfan Peljto",
+   "picks": [
+    {
+     "market": "Más de 2.5 goles",
+     "prob": null,
+     "conf": "alta",
+     "why": "Brujas: 16 de 16 en Champions con +2.5",
+     "result": "hit",
+     "fact": "3 goles",
+     "top": true
+    },
+    {
+     "market": "Más de 10.5 córners",
+     "prob": null,
+     "conf": "media",
+     "why": "6,7 + 7,1 córners por partido",
+     "result": "hit",
+     "fact": "13 córners",
+     "top": false
+    },
+    {
+     "market": "Ambos marcan",
+     "prob": null,
+     "conf": "media",
+     "why": "PSV siempre marca en casa",
+     "result": "hit",
+     "fact": "1-2",
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "Champions League",
+   "time": "21:00",
+   "home": "RB Leipzig",
+   "away": "Manchester City",
+   "score": "2-3",
+   "meta": "Árbitro: Marco Guida",
+   "picks": [
+    {
+     "market": "City o empate",
+     "prob": null,
+     "conf": "media",
+     "why": "71 % según el modelo",
+     "result": "hit",
+     "fact": "Ganó City",
+     "top": false
+    },
+    {
+     "market": "Más de 2.5 goles",
+     "prob": null,
+     "conf": "media",
+     "why": "77 % y 71 % de sus partidos con +2.5",
+     "result": "hit",
+     "fact": "5 goles",
+     "top": false
+    },
+    {
+     "market": "Haaland marca",
+     "prob": null,
+     "conf": "media",
+     "why": "12 goles en 8 partidos ante Leipzig",
+     "result": "hit",
+     "fact": "Gol al minuto 78",
+     "top": false
+    },
+    {
+     "market": "Menos de 4.5 tarjetas",
+     "prob": null,
+     "conf": "media",
+     "why": "1,4 amarillas por partido cada uno",
+     "result": "miss",
+     "fact": "6 tarjetas",
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "Champions League",
+   "time": "21:00",
+   "home": "Lens",
+   "away": "Como",
+   "score": "1-9",
+   "meta": "Árbitro: Rohit Saggi",
+   "picks": [
+    {
+     "market": "Como o empate",
+     "prob": null,
+     "conf": "media",
+     "why": "Como ganó 7 de sus últimos 10",
+     "result": "hit",
+     "fact": "Ganó Como",
+     "top": false
+    },
+    {
+     "market": "Ambos marcan",
+     "prob": null,
+     "conf": "media",
+     "why": "67 % Lens y 69 % Como",
+     "result": "hit",
+     "fact": "1-9",
+     "top": false
+    },
+    {
+     "market": "Como marca en el primer tiempo",
+     "prob": null,
+     "conf": "media",
+     "why": "Lo hizo en sus 3 partidos de Champions",
+     "result": "hit",
+     "fact": "Gol al minuto 7",
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "Champions League",
+   "time": "21:00",
+   "home": "Slavia Praha",
+   "away": "Arsenal",
+   "score": "1-2",
+   "meta": "Árbitro: Tobias Stieler",
+   "picks": [
+    {
+     "market": "Arsenal o empate",
+     "prob": null,
+     "conf": "alta",
+     "why": "84 % según el modelo",
+     "result": "hit",
+     "fact": "Ganó Arsenal",
+     "top": true
+    },
+    {
+     "market": "Menos de 3.5 goles",
+     "prob": null,
+     "conf": "media",
+     "why": "El modelo esperaba 2,45 goles",
+     "result": "hit",
+     "fact": "3 goles",
+     "top": false
+    },
+    {
+     "market": "Slavia recibe más tarjetas",
+     "prob": null,
+     "conf": "media",
+     "why": "13,2 faltas por partido contra 9,9",
+     "result": "miss",
+     "fact": "1 a 2",
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "Champions League",
+   "time": "21:00",
+   "home": "Viking",
+   "away": "Sabah",
+   "score": "4-1",
+   "meta": "Árbitro: Sander van der Eijk",
+   "picks": [
+    {
+     "market": "Más de 2.5 goles",
+     "prob": null,
+     "conf": "media",
+     "why": "7 partidos europeos seguidos en casa con 3+ goles",
+     "result": "hit",
+     "fact": "5 goles",
+     "top": true
+    },
+    {
+     "market": "No hay empate",
+     "prob": null,
+     "conf": "media",
+     "why": "Sabah: 15 partidos europeos sin empatar",
+     "result": "hit",
+     "fact": "Ganó Viking",
+     "top": false
+    },
+    {
+     "market": "Gana Viking",
+     "prob": null,
+     "conf": "baja",
+     "why": "39 % según el modelo",
+     "result": "hit",
+     "fact": "4-1",
+     "top": false
+    }
+   ]
+  }
+ ],
+ "date": "2026-11-04"
+}

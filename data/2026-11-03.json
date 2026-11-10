@@ -1,0 +1,367 @@
+{
+ "title": "Champions League, jornada 4",
+ "note": "Horas de España. Goles, córners y tarjetas verificados con las estadísticas de ESPN.",
+ "matches": [
+  {
+   "comp": "Champions League",
+   "time": "18:45",
+   "home": "Galatasaray",
+   "away": "Stuttgart",
+   "score": "2-0",
+   "meta": "Árbitro: Chris Kavanagh",
+   "picks": [
+    {
+     "market": "Más de 2.5 goles",
+     "prob": null,
+     "conf": "media",
+     "why": "Galatasaray: 85 % de sus partidos con +2.5",
+     "result": "miss",
+     "fact": "2 goles",
+     "top": true
+    },
+    {
+     "market": "Más de 9.5 córners",
+     "prob": null,
+     "conf": "media",
+     "why": "6,5 + 6,4 córners por partido",
+     "result": "hit",
+     "fact": "10 córners",
+     "top": false
+    },
+    {
+     "market": "Más de 3.5 tarjetas",
+     "prob": null,
+     "conf": "media",
+     "why": "Kavanagh es de los que más saca en la Premier",
+     "result": "hit",
+     "fact": "8 tarjetas",
+     "top": false
+    },
+    {
+     "market": "Ambos marcan",
+     "prob": null,
+     "conf": "media",
+     "why": "62 % y 54 %; Stuttgart siempre marcaba de visita",
+     "result": "miss",
+     "fact": "Stuttgart no marcó",
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "Champions League",
+   "time": "18:45",
+   "home": "Shakhtar Donetsk",
+   "away": "Sporting CP",
+   "score": "0-1",
+   "meta": "Árbitro: Ivan Kružliak",
+   "picks": [
+    {
+     "market": "Menos de 2.5 goles",
+     "prob": null,
+     "conf": "media",
+     "why": "Shakhtar recibía 0,5 goles por partido",
+     "result": "hit",
+     "fact": "1 gol",
+     "top": true
+    },
+    {
+     "market": "Menos de 10.5 córners",
+     "prob": null,
+     "conf": "media",
+     "why": "5,1 + 4,6 córners por partido",
+     "result": "hit",
+     "fact": "9 córners",
+     "top": false
+    },
+    {
+     "market": "Sporting o empate",
+     "prob": null,
+     "conf": "baja",
+     "why": "Modelo: 37 % Sporting y 34 % empate",
+     "result": "hit",
+     "fact": "Ganó Sporting",
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "Champions League",
+   "time": "21:00",
+   "home": "Atlético Madrid",
+   "away": "Bayern Munich",
+   "score": "0-2",
+   "meta": "Árbitro: François Letexier",
+   "picks": [
+    {
+     "market": "Más de 9.5 córners",
+     "prob": null,
+     "conf": "alta",
+     "why": "13,5 córners de media entre los dos",
+     "result": "miss",
+     "fact": "8 córners",
+     "top": true
+    },
+    {
+     "market": "Bayern saca más córners",
+     "prob": null,
+     "conf": "media",
+     "why": "8,2 contra 5,3 por partido",
+     "result": "miss",
+     "fact": "4 a 4",
+     "top": false
+    },
+    {
+     "market": "Ambos marcan",
+     "prob": null,
+     "conf": "media",
+     "why": "Bayern: 8 de 8 de visita con ambos marcando",
+     "result": "miss",
+     "fact": "Atlético no marcó",
+     "top": false
+    },
+    {
+     "market": "Kane marca",
+     "prob": null,
+     "conf": "media",
+     "why": "10 partidos seguidos marcando en Champions",
+     "result": "miss",
+     "fact": "Marcaron Karl y Laimer",
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "Champions League",
+   "time": "21:00",
+   "home": "Barcelona",
+   "away": "Aston Villa",
+   "score": "3-0",
+   "meta": "Árbitro: Davide Massa",
+   "picks": [
+    {
+     "market": "Más de 2.5 goles",
+     "prob": null,
+     "conf": "alta",
+     "why": "93 % de los partidos del Barça con +2.5",
+     "result": "hit",
+     "fact": "3 goles",
+     "top": true
+    },
+    {
+     "market": "Gana Barcelona",
+     "prob": null,
+     "conf": "media",
+     "why": "51 % según el modelo",
+     "result": "hit",
+     "fact": "3-0",
+     "top": false
+    },
+    {
+     "market": "Ambos marcan",
+     "prob": null,
+     "conf": "media",
+     "why": "El Barça recibía gol en 15 seguidos de Champions",
+     "result": "miss",
+     "fact": "Villa no marcó",
+     "top": false
+    },
+    {
+     "market": "Villa recibe más tarjetas",
+     "prob": null,
+     "conf": "media",
+     "why": "2,0 amarillas por partido contra 1,36",
+     "result": "hit",
+     "fact": "3 a 1",
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "Champions League",
+   "time": "21:00",
+   "home": "Feyenoord",
+   "away": "Inter",
+   "score": "0-3",
+   "meta": "Árbitro: Glenn Nyberg",
+   "picks": [
+    {
+     "market": "Ambos marcan",
+     "prob": null,
+     "conf": "media",
+     "why": "64 % Feyenoord y 69 % Inter",
+     "result": "miss",
+     "fact": "Feyenoord no marcó",
+     "top": false
+    },
+    {
+     "market": "Inter o empate",
+     "prob": null,
+     "conf": "media",
+     "why": "Modelo: 47 % Inter + 24 % empate",
+     "result": "hit",
+     "fact": "Ganó Inter",
+     "top": false
+    },
+    {
+     "market": "Más de 9.5 córners",
+     "prob": null,
+     "conf": "media",
+     "why": "5,6 + 6,4 córners por partido",
+     "result": "miss",
+     "fact": "9 córners",
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "Champions League",
+   "time": "21:00",
+   "home": "Bodø/Glimt",
+   "away": "Lille",
+   "score": "0-0",
+   "meta": "Árbitro: João Pinheiro",
+   "picks": [
+    {
+     "market": "Bodø o empate",
+     "prob": null,
+     "conf": "media",
+     "why": "6 partidos invicto en casa en Champions",
+     "result": "hit",
+     "fact": "Empate",
+     "top": false
+    },
+    {
+     "market": "Bodø saca más córners",
+     "prob": null,
+     "conf": "media",
+     "why": "5,8 contra 3,5 de Lille",
+     "result": "miss",
+     "fact": "3 a 4",
+     "top": false
+    },
+    {
+     "market": "Menos de 4.5 tarjetas",
+     "prob": null,
+     "conf": "media",
+     "why": "Bodø recibe 0,8 amarillas por partido",
+     "result": "hit",
+     "fact": "1 tarjeta",
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "Champions League",
+   "time": "21:00",
+   "home": "LASK Linz",
+   "away": "Slovan Bratislava",
+   "score": "4-0",
+   "meta": "Árbitro: Donatas Rumšas",
+   "picks": [
+    {
+     "market": "Más de 2.5 goles",
+     "prob": null,
+     "conf": "media",
+     "why": "84 % de los partidos de LASK con +2.5",
+     "result": "hit",
+     "fact": "4 goles",
+     "top": false
+    },
+    {
+     "market": "LASK o empate",
+     "prob": null,
+     "conf": "media",
+     "why": "Slovan nunca había sumado en Champions",
+     "result": "hit",
+     "fact": "Ganó LASK",
+     "top": false
+    },
+    {
+     "market": "Más de 9.5 córners",
+     "prob": null,
+     "conf": "media",
+     "why": "6,3 + 4,8 córners por partido",
+     "result": "hit",
+     "fact": "10 córners",
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "Champions League",
+   "time": "21:00",
+   "home": "Manchester United",
+   "away": "Roma",
+   "score": "3-2",
+   "meta": "Árbitro: Jesús Gil Manzano",
+   "picks": [
+    {
+     "market": "Roma o empate",
+     "prob": null,
+     "conf": "media",
+     "why": "Roma: 1 derrota en 10; United: 1 victoria en 10",
+     "result": "miss",
+     "fact": "Remontó United",
+     "top": false
+    },
+    {
+     "market": "Ambos marcan",
+     "prob": null,
+     "conf": "media",
+     "why": "United recibía 1,85 goles por partido",
+     "result": "hit",
+     "fact": "3-2",
+     "top": false
+    },
+    {
+     "market": "Más de 3.5 tarjetas",
+     "prob": null,
+     "conf": "media",
+     "why": "2,1 + 1,8 amarillas por partido",
+     "result": "hit",
+     "fact": "7 tarjetas",
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "Champions League",
+   "time": "21:00",
+   "home": "Villarreal",
+   "away": "PSG",
+   "score": "0-6",
+   "meta": "Árbitro: Felix Zwayer",
+   "picks": [
+    {
+     "market": "Gana PSG",
+     "prob": null,
+     "conf": "media",
+     "why": "53 % según el modelo",
+     "result": "hit",
+     "fact": "0-6",
+     "top": false
+    },
+    {
+     "market": "Más de 2.5 goles",
+     "prob": null,
+     "conf": "media",
+     "why": "Villarreal: 7 de 7 en Champions con +2.5",
+     "result": "hit",
+     "fact": "6 goles",
+     "top": false
+    },
+    {
+     "market": "Villarreal recibe más tarjetas",
+     "prob": null,
+     "conf": "media",
+     "why": "2,07 contra 0,83 amarillas por partido",
+     "result": "hit",
+     "fact": "4 a 1",
+     "top": false
+    }
+   ]
+  }
+ ],
+ "date": "2026-11-03"
+}

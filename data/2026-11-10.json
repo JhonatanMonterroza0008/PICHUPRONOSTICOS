@@ -1,0 +1,825 @@
+{
+ "title": "EFL Trophy, Copa del Rey, Copa Colombia y Champions femenina",
+ "note": "Parón de selecciones: no hay ligas principales. Forma de los últimos 6 partidos; córners con promedios de liga.",
+ "matches": [
+  {
+   "comp": "Copa Colombia",
+   "time": "20:30",
+   "home": "Once Caldas",
+   "away": "Atlético Nacional",
+   "score": null,
+   "meta": "hora de Colombia · Árbitro: Diego Ulloa (5 a 6 amarillas por partido según la fuente)",
+   "picks": [
+    {
+     "market": "Más de 4.5 tarjetas",
+     "prob": 68,
+     "conf": "alta",
+     "why": "Promedio alto del árbitro y partido de eliminación directa",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Menos de 2.5 goles",
+     "prob": 58,
+     "conf": "media",
+     "why": "Ida de semifinal; los dos tienen fecha de liga pendiente",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Gana Nacional",
+     "prob": 37,
+     "conf": "baja",
+     "why": "Sin Rengifo ni Velásquez (selección); recibió 3 goles de Pereira",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "Copa Colombia",
+   "time": "18:30",
+   "home": "Inter Bogotá",
+   "away": "América de Cali",
+   "score": null,
+   "meta": "hora de Colombia · Árbitro: José Ortiz (sin datos de tarjetas) · Estadio de Techo",
+   "picks": [
+    {
+     "market": "América o empate",
+     "prob": 70,
+     "conf": "alta",
+     "why": "América ganó 0-2 en Bogotá este semestre y llega en buen nivel",
+     "result": "pending",
+     "fact": null,
+     "top": true
+    },
+    {
+     "market": "Más de 4.5 tarjetas",
+     "prob": 60,
+     "conf": "media",
+     "why": "Clima tenso por la demanda del Inter ante el TAS",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Gana América",
+     "prob": 40,
+     "conf": "baja",
+     "why": "Visitante en ida de semifinal",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "EFL Trophy",
+   "time": "19:00",
+   "home": "Leicester",
+   "away": "Walsall",
+   "score": null,
+   "meta": "hora de Inglaterra · El ganador se clasifica · Córners por partido: Leicester 7.4 a favor, Walsall 5.7",
+   "picks": [
+    {
+     "market": "Más de 8.5 córners",
+     "prob": 76,
+     "conf": "alta",
+     "why": "Total esperado cercano a 12 con los promedios de ambos",
+     "result": "pending",
+     "fact": null,
+     "top": true
+    },
+    {
+     "market": "Ambos marcan",
+     "prob": 65,
+     "conf": "alta",
+     "why": "Leicester: 1 portería a cero en 12; Walsall: ambos marcaron en sus últimos 5 fuera",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Más de 2.5 goles",
+     "prob": 65,
+     "conf": "alta",
+     "why": "Walsall: 3-1, 3-1 y 2-4 en sus últimos; Leicester viene de un 4-2",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Gana Leicester",
+     "prob": 55,
+     "conf": "media",
+     "why": "Ganó los 3 últimos cruces",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "EFL Trophy",
+   "time": "19:00",
+   "home": "Barnet",
+   "away": "Leyton Orient",
+   "score": null,
+   "meta": "hora de Inglaterra · Barnet 2.º de League Two · Orient 14.º de League One",
+   "picks": [
+    {
+     "market": "Más de 8.5 córners",
+     "prob": 76,
+     "conf": "alta",
+     "why": "Barnet saca 6.4 y Orient concede 8.2 por partido",
+     "result": "pending",
+     "fact": null,
+     "top": true
+    },
+    {
+     "market": "Barnet o empate",
+     "prob": 70,
+     "conf": "alta",
+     "why": "Barnet pasa si evita una derrota amplia; solo 1 derrota en 6",
+     "result": "pending",
+     "fact": null,
+     "top": true
+    },
+    {
+     "market": "Barnet saca más córners",
+     "prob": 66,
+     "conf": "alta",
+     "why": "Orient es de los que más córners concede",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Ambos marcan",
+     "prob": 58,
+     "conf": "media",
+     "why": "Barnet marcó en sus 6 últimos; Orient en 4 de 6",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "EFL Trophy",
+   "time": "19:00",
+   "home": "Grimsby",
+   "away": "Nottingham Forest sub-21",
+   "score": null,
+   "meta": "hora de Inglaterra · Los dos necesitan ganar",
+   "picks": [
+    {
+     "market": "Más de 2.5 goles",
+     "prob": 72,
+     "conf": "alta",
+     "why": "Grimsby: 2-2, 4-1, 5-2 y 3-3; Forest sub-21: 5-1, 4-3 y 2-2",
+     "result": "pending",
+     "fact": null,
+     "top": true
+    },
+    {
+     "market": "Ambos marcan",
+     "prob": 68,
+     "conf": "alta",
+     "why": "Grimsby con bajas en defensa tras 120 minutos de FA Cup",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Gana Grimsby",
+     "prob": 52,
+     "conf": "media",
+     "why": "Local, pero puede salir con un canterano atrás",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "EFL Trophy",
+   "time": "19:00",
+   "home": "Stockport",
+   "away": "Tranmere",
+   "score": null,
+   "meta": "hora de Inglaterra · Stockport 2.º de League One y ya clasificado · Tranmere 11.º de League Two",
+   "picks": [
+    {
+     "market": "Más de 8.5 córners",
+     "prob": 68,
+     "conf": "alta",
+     "why": "Stockport saca 7.5; Tranmere concede 6.1",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Stockport saca más córners",
+     "prob": 66,
+     "conf": "alta",
+     "why": "7.5 a favor contra 4.3 de Tranmere",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Gana Stockport",
+     "prob": 58,
+     "conf": "media",
+     "why": "4 victorias en 5, pero descansa su goleador y cambia de portero",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "EFL Trophy",
+   "time": "19:30",
+   "home": "Bradford",
+   "away": "York",
+   "score": null,
+   "meta": "hora de Inglaterra · Bradford líder del grupo · York último y sin opciones",
+   "picks": [
+    {
+     "market": "Más de 8.5 córners",
+     "prob": 70,
+     "conf": "alta",
+     "why": "Bradford saca 7.6 por partido",
+     "result": "pending",
+     "fact": null,
+     "top": true
+    },
+    {
+     "market": "Gana Bradford",
+     "prob": 58,
+     "conf": "media",
+     "why": "York descansa a su delantero y perdió 1-3 y 2-5 hace poco",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Menos de 2.5 goles",
+     "prob": 50,
+     "conf": "media",
+     "why": "Bradford: 0-0, 0-0, 2-0 y 2-0 en liga",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "EFL Trophy",
+   "time": "19:00",
+   "home": "Burton",
+   "away": "Notts County",
+   "score": null,
+   "meta": "hora de Inglaterra · Solo datos de córners",
+   "picks": [
+    {
+     "market": "Más de 8.5 córners",
+     "prob": 69,
+     "conf": "alta",
+     "why": "Burton concede 6.9 por partido",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "EFL Trophy",
+   "time": "19:30",
+   "home": "Bromley",
+   "away": "MK Dons",
+   "score": null,
+   "meta": "hora de Inglaterra · Solo datos de córners · MK Dons líder del grupo",
+   "picks": [
+    {
+     "market": "Más de 8.5 córners",
+     "prob": 68,
+     "conf": "alta",
+     "why": "Bromley concede 7.2 por partido",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "MK Dons saca más córners",
+     "prob": 58,
+     "conf": "media",
+     "why": "5.0 a favor contra 4.0 de Bromley",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "EFL Trophy",
+   "time": "19:00",
+   "home": "Plymouth",
+   "away": "Swindon",
+   "score": null,
+   "meta": "hora de Inglaterra · Plymouth 5.º de League One y ya clasificado · Swindon eliminado",
+   "picks": [
+    {
+     "market": "Plymouth o empate",
+     "prob": 80,
+     "conf": "alta",
+     "why": "Swindon llega con 7 bajas",
+     "result": "pending",
+     "fact": null,
+     "top": true
+    },
+    {
+     "market": "Más de 8.5 córners",
+     "prob": 67,
+     "conf": "alta",
+     "why": "Los dos conceden más de 5.5 córners por partido",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Gana Plymouth",
+     "prob": 58,
+     "conf": "media",
+     "why": "Puede rotar; le basta el empate para ser primero",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "EFL Trophy",
+   "time": "19:00",
+   "home": "Oxford",
+   "away": "Cheltenham",
+   "score": null,
+   "meta": "hora de Inglaterra · Oxford sin su portero titular, sancionado",
+   "picks": [
+    {
+     "market": "Menos de 3.5 goles",
+     "prob": 70,
+     "conf": "alta",
+     "why": "Los últimos 5 de Oxford acabaron con menos de 2.5",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Más de 8.5 córners",
+     "prob": 67,
+     "conf": "alta",
+     "why": "Oxford saca 6.6 y concede 6.1",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Gana Oxford",
+     "prob": 62,
+     "conf": "media",
+     "why": "1 derrota en 12; Cheltenham perdió sus 3 últimas salidas (9-2 global)",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "EFL Trophy",
+   "time": "19:00",
+   "home": "Northampton",
+   "away": "Gillingham",
+   "score": null,
+   "meta": "hora de Inglaterra · Solo datos de córners",
+   "picks": [
+    {
+     "market": "Menos de 10.5 córners",
+     "prob": 70,
+     "conf": "alta",
+     "why": "Total esperado cercano a 9; Gillingham saca solo 3.3",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "EFL Trophy",
+   "time": "19:00",
+   "home": "Bristol Rovers",
+   "away": "Reading",
+   "score": null,
+   "meta": "hora de Inglaterra · Rovers 17.º de League Two y eliminado · Reading 6.º de League One",
+   "picks": [
+    {
+     "market": "Menos de 10.5 córners",
+     "prob": 68,
+     "conf": "alta",
+     "why": "Total esperado cercano a 9",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Gana Reading",
+     "prob": 60,
+     "conf": "media",
+     "why": "Rovers: 4 derrotas en 6; Reading necesita ganar por varios goles",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Más de 2.5 goles",
+     "prob": 55,
+     "conf": "media",
+     "why": "Reading obligado a atacar",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Reading hándicap -1.5",
+     "prob": 38,
+     "conf": "baja",
+     "why": "Marcó 8 en 6 partidos, pero 5 fueron en uno solo",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "EFL Trophy",
+   "time": "19:00",
+   "home": "Stevenage",
+   "away": "Fulham sub-21",
+   "score": null,
+   "meta": "hora de Inglaterra · Stevenage ya clasificado · Fulham sub-21 eliminado",
+   "picks": [
+    {
+     "market": "Más de 2.5 goles",
+     "prob": 66,
+     "conf": "alta",
+     "why": "Fulham sub-21 recibió 6 y 3 goles en sus dos partidos del torneo",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Gana Stevenage",
+     "prob": 55,
+     "conf": "media",
+     "why": "Rotará mucho y tiene 3 jugadores con selecciones",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "EFL Trophy",
+   "time": "19:00",
+   "home": "Mansfield",
+   "away": "Chesterfield",
+   "score": null,
+   "meta": "hora de Inglaterra · Chesterfield viene de ganar 5-1 a Crewe",
+   "picks": [
+    {
+     "market": "Más de 8.5 córners",
+     "prob": 64,
+     "conf": "media",
+     "why": "Chesterfield saca 7.6 por partido",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Chesterfield saca más córners",
+     "prob": 55,
+     "conf": "media",
+     "why": "7.6 a favor y solo 2.3 en contra",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "EFL Trophy",
+   "time": "19:00",
+   "home": "Huddersfield",
+   "away": "Liverpool sub-21",
+   "score": null,
+   "meta": "hora de Inglaterra · Huddersfield líder de League One y primero de grupo · Liverpool sub-21 eliminado",
+   "picks": [
+    {
+     "market": "Más de 2.5 goles",
+     "prob": 60,
+     "conf": "media",
+     "why": "Huddersfield no arriesgará titulares",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Gana Huddersfield",
+     "prob": 45,
+     "conf": "baja",
+     "why": "Rotación completa; la previa da 1-2",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "EFL Trophy",
+   "time": "19:30",
+   "home": "Crawley",
+   "away": "Brentford sub-21",
+   "score": null,
+   "meta": "hora de Inglaterra · Crawley último de League Two con técnico interino; le vale el empate",
+   "picks": [
+    {
+     "market": "Ambos marcan",
+     "prob": 60,
+     "conf": "media",
+     "why": "Crawley marcó en 5 de 6; Brentford sub-21 juega partidos abiertos",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Más de 2.5 goles",
+     "prob": 60,
+     "conf": "media",
+     "why": "Brentford sub-21: 4-3 y 1-7 hace poco",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Gana Crawley",
+     "prob": 35,
+     "conf": "baja",
+     "why": "Perdió 0-2 con Wimborne, de categoría inferior, en FA Cup",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "EFL Trophy",
+   "time": "19:45",
+   "home": "Colchester",
+   "away": "Ipswich sub-21",
+   "score": null,
+   "meta": "hora de Inglaterra · Los dos eliminados",
+   "picks": [
+    {
+     "market": "Más de 2.5 goles",
+     "prob": 58,
+     "conf": "media",
+     "why": "Ipswich sub-21: 0-6, 1-4 y 5-0",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Gana Colchester",
+     "prob": 52,
+     "conf": "media",
+     "why": "23.º de League Two, pero alineará un once fuerte",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "EFL Trophy",
+   "time": "19:00",
+   "home": "Crewe",
+   "away": "Wigan",
+   "score": null,
+   "meta": "hora de Inglaterra · Solo datos de córners",
+   "picks": [
+    {
+     "market": "Más de 8.5 córners",
+     "prob": 53,
+     "conf": "media",
+     "why": "Total esperado cercano a 9",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "Copa del Rey",
+   "time": "21:00",
+   "home": "Tavernes",
+   "away": "Valencia",
+   "score": null,
+   "meta": "hora de España · Se juega en Mestalla · Tavernes es de sexta categoría",
+   "picks": [
+    {
+     "market": "Valencia hándicap -2.5",
+     "prob": 62,
+     "conf": "media",
+     "why": "Aguirre anunció un once reconocible; Tavernes está en descenso de su liga",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Valencia hándicap -3.5",
+     "prob": 45,
+     "conf": "baja",
+     "why": "Valencia está en descenso en LaLiga y ganó 1 partido con Aguirre",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "Copa del Rey",
+   "time": "19:00",
+   "home": "Anaitasuna",
+   "away": "Alavés",
+   "score": null,
+   "meta": "hora de España · Campo de Txerloia · Anaitasuna es de sexta categoría",
+   "picks": [
+    {
+     "market": "Alavés hándicap -1.5",
+     "prob": 66,
+     "conf": "alta",
+     "why": "Diferencia de cinco categorías",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Alavés hándicap -2.5",
+     "prob": 48,
+     "conf": "baja",
+     "why": "8 partidos sin ganar, 3 bajas por selecciones y campo pequeño",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "Champions femenina",
+   "time": "18:45",
+   "home": "Häcken",
+   "away": "Chelsea",
+   "score": null,
+   "meta": "hora de España · Chelsea líder con 7 puntos · Häcken en el fondo de la tabla",
+   "picks": [
+    {
+     "market": "Gana Chelsea",
+     "prob": 78,
+     "conf": "alta",
+     "why": "Chelsea: 2 victorias y 1 empate; Häcken: 1 empate y 2 derrotas",
+     "result": "pending",
+     "fact": null,
+     "top": true
+    },
+    {
+     "market": "Chelsea hándicap -1.5",
+     "prob": 55,
+     "conf": "media",
+     "why": "Visitante, pero con clara diferencia de nivel",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "Champions femenina",
+   "time": "21:00",
+   "home": "Inter",
+   "away": "Manchester City",
+   "score": null,
+   "meta": "hora de España · Inter 8.º con 4 puntos · City 9.º con 3",
+   "picks": [
+    {
+     "market": "City o empate",
+     "prob": 72,
+     "conf": "alta",
+     "why": "City empató sus 3 partidos y no ha perdido",
+     "result": "pending",
+     "fact": null,
+     "top": true
+    },
+    {
+     "market": "Gana City",
+     "prob": 45,
+     "conf": "baja",
+     "why": "Aún sin victorias en el torneo",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "Champions femenina",
+   "time": "21:00",
+   "home": "PSG",
+   "away": "Bayern",
+   "score": null,
+   "meta": "hora de España · Los dos con 5 puntos e invictos",
+   "picks": [
+    {
+     "market": "Bayern o empate",
+     "prob": 64,
+     "conf": "media",
+     "why": "Misma forma en ambos: empate, victoria, empate",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Ambos marcan",
+     "prob": 58,
+     "conf": "media",
+     "why": "Duelo parejo entre dos ataques fuertes",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "Champions femenina",
+   "time": "21:00",
+   "home": "Roma",
+   "away": "Servette",
+   "score": null,
+   "meta": "hora de España · Roma con 1 punto · Servette con 1 victoria",
+   "picks": [
+    {
+     "market": "Gana Roma",
+     "prob": 62,
+     "conf": "media",
+     "why": "Local y de liga más fuerte, aunque lleva 2 derrotas y 1 empate",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "Champions femenina",
+   "time": "18:45",
+   "home": "Real Madrid",
+   "away": "Paris FC",
+   "score": null,
+   "meta": "hora de España · Real Madrid con 3 puntos · Paris FC con 2",
+   "picks": [
+    {
+     "market": "Gana Real Madrid",
+     "prob": 60,
+     "conf": "media",
+     "why": "Local; Paris FC lleva 2 empates y 1 derrota",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Menos de 2.5 goles",
+     "prob": 55,
+     "conf": "media",
+     "why": "Real Madrid empató sus 3 partidos",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  }
+ ],
+ "date": "2026-11-10"
+}

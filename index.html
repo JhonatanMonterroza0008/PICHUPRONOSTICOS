@@ -1,0 +1,216 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PICHUPRONOSTICOS</title>
+<meta name="description" content="Pronósticos diarios de fútbol con su resultado verificado y el porcentaje de acierto acumulado.">
+<meta name="theme-color" content="#05080b">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@600;700&family=JetBrains+Mono:wght@400;500;700&display=swap">
+<style>
+:root{
+  --bg:#05080b; --panel:#0a1217; --line:#15352c; --line-soft:#0f241f;
+  --ink:#dcffee; --muted:#86b5a0; --accent:#00ff9c;
+  --hit:#00ff9c; --hit-bg:#00301f; --miss:#ff4d79; --miss-bg:#3a0c1b;
+  --mid:#ffd23f; --mid-bg:#352b05; --wait:#6fd3ff; --wait-bg:#0a2b3a;
+  --display:"Chakra Petch","JetBrains Mono",ui-monospace,monospace;
+  --mono:"JetBrains Mono",ui-monospace,"Cascadia Mono",Consolas,monospace;
+  --ease:cubic-bezier(.16,1,.3,1);
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+html{scrollbar-color:var(--line) var(--bg);scroll-padding-top:120px}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 14px/1.55 var(--mono);font-variant-numeric:tabular-nums;caret-color:var(--accent);
+  background-image:repeating-linear-gradient(0deg,rgba(0,255,156,.03) 0 1px,transparent 1px 4px);background-attachment:fixed}
+::selection{background:var(--accent);color:var(--bg)}
+::-webkit-scrollbar{width:10px;height:10px} ::-webkit-scrollbar-thumb{background:var(--line)} ::-webkit-scrollbar-track{background:var(--bg)}
+:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+a{color:var(--accent);text-underline-offset:3px}
+h1,h2,h3,h4{font-family:var(--display);margin:0;text-wrap:balance;font-weight:700}
+.wrap{max-width:1040px;margin:0 auto;padding-inline:max(16px,env(safe-area-inset-left,0px)) max(16px,env(safe-area-inset-right,0px))}
+
+.status{background:var(--accent);color:var(--bg);font-size:11.5px;font-weight:700;letter-spacing:.1em;text-transform:uppercase}
+.status .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:4px 20px;padding-block:6px}
+
+.mast{padding-block:44px 28px}
+h1{font-size:clamp(30px,7.4vw,68px);letter-spacing:-.02em;line-height:1;text-transform:uppercase;color:var(--accent);text-shadow:0 0 22px rgba(0,255,156,.35);overflow-wrap:anywhere}
+h1 i{font-style:normal;color:var(--miss);animation:blink 1.1s steps(1) infinite}
+@keyframes blink{50%{opacity:0}}
+.lede{max-width:66ch;color:var(--muted);margin:14px 0 0}
+
+.ledger{border-block:1px solid var(--line);padding-block:26px;display:grid;gap:26px}
+.readout{display:flex;flex-wrap:wrap;align-items:baseline;gap:6px 18px}
+.readout b{font:700 clamp(40px,9vw,76px)/1 var(--display);color:var(--ink);letter-spacing:-.02em}
+.readout span{color:var(--muted)}
+.tape{display:flex;flex-wrap:wrap;gap:3px}
+.tape i{width:11px;height:16px;background:var(--hit)} .tape i.miss{background:var(--miss)} .tape i.pending{background:transparent;box-shadow:inset 0 0 0 1px var(--line)}
+.tape i.gap{width:9px;background:none;box-shadow:none}
+.splits{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:22px 40px}
+.splits h2{font-size:13px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);font-weight:600;margin-bottom:8px}
+table{width:100%;border-collapse:collapse}
+td,th{padding:7px 0;border-top:1px solid var(--line-soft);text-align:left;font-weight:400}
+td.n,td.p{text-align:right;white-space:nowrap;padding-left:14px} td.p{color:var(--accent);font-weight:700;width:5ch}
+td.b{width:38%;padding-left:16px}
+.meter{height:6px;background:var(--miss-bg);position:relative} .meter s{position:absolute;inset:0 auto 0 0;background:var(--hit)}
+
+.days{position:sticky;top:0;z-index:5;background:rgba(5,8,11,.94);border-bottom:1px solid var(--line);margin-top:30px}
+.tabs{display:flex;gap:6px;overflow-x:auto;padding-block:10px;scrollbar-width:none}
+.tab{flex:none;font:inherit;color:var(--muted);background:none;border:1px solid var(--line);padding:8px 14px;cursor:pointer;display:grid;gap:2px;text-align:left;transition:color .2s var(--ease),border-color .2s var(--ease),background .2s var(--ease)}
+.tab b{font:700 16px/1.1 var(--display);letter-spacing:.04em;color:var(--ink)}
+.tab small{font-size:11.5px}
+.tab:hover{border-color:var(--muted)}
+.tab[aria-selected="true"]{background:var(--accent);border-color:var(--accent);color:var(--bg)} .tab[aria-selected="true"] b{color:var(--bg)}
+.scroll{height:2px;background:var(--accent);width:0;box-shadow:0 0 10px var(--accent)}
+
+.day{padding-block:34px 60px;display:grid;gap:36px}
+.dayhead h2{font-size:clamp(24px,4.6vw,38px);text-transform:uppercase;letter-spacing:.01em}
+.dayhead p{margin:8px 0 0;color:var(--muted);max-width:72ch}
+.dayhead .rec{color:var(--ink);font-weight:700}
+h3{font-size:15px;letter-spacing:.14em;text-transform:uppercase;color:var(--accent);font-weight:600;padding-bottom:8px;border-bottom:1px solid var(--accent)}
+.group{display:grid;gap:26px}
+.match header{display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:4px 18px;margin-bottom:6px}
+h4{font-size:20px;font-weight:600} h4 b{color:var(--accent);padding-inline:.35em;font-weight:700}
+.meta{color:var(--muted);font-size:12.5px}
+.picks{list-style:none;margin:0;padding:0}
+.pick{display:grid;grid-template-columns:118px minmax(0,1.15fr) 76px minmax(0,1.7fr) minmax(0,.9fr);gap:4px 16px;align-items:center;padding:9px 0;border-top:1px dashed var(--line)}
+.res{display:inline-flex;align-items:center;gap:7px;font-size:11.5px;font-weight:700;letter-spacing:.08em;padding:3px 7px;width:fit-content}
+.res svg{width:13px;height:13px;flex:none;fill:none;stroke:currentColor;stroke-width:2.4;stroke-linecap:square}
+.hit .res{background:var(--hit);color:var(--bg)} .miss .res{background:var(--miss);color:var(--bg)}
+.pending .res{color:var(--wait);box-shadow:inset 0 0 0 1px var(--wait)}
+.void .res{color:var(--muted);box-shadow:inset 0 0 0 1px var(--muted)}
+.mk{font-weight:700;min-width:0} .miss .mk{color:var(--muted);text-decoration:line-through;text-decoration-color:var(--miss)}
+.conf{font-size:12.5px;font-weight:700;text-align:center;padding:2px 0;box-shadow:inset 0 0 0 1px currentColor}
+.conf.alta{color:var(--hit);background:var(--hit-bg)} .conf.media{color:var(--mid);background:var(--mid-bg)} .conf.baja{color:var(--miss);background:var(--miss-bg)}
+.why{color:var(--muted);font-size:13px;min-width:0}
+.fact{font-size:13px;text-align:right;min-width:0} .hit .fact{color:var(--hit)} .miss .fact{color:var(--miss)}
+.toplist .pick{grid-template-columns:118px minmax(0,1.2fr) 76px minmax(0,1.6fr)}
+.toplist .mk small{display:block;font-weight:400;color:var(--muted);font-size:12.5px}
+@media (max-width:760px){
+  .pick,.toplist .pick{grid-template-columns:auto minmax(0,1fr) 64px}
+  .why,.fact{grid-column:1/-1;text-align:left}
+}
+.msg{padding:28px 0;color:var(--muted)}
+footer{border-top:1px solid var(--line);padding-block:22px 40px;color:var(--muted);font-size:12.5px}
+footer p{max-width:80ch;margin:0 0 6px}
+@media (prefers-reduced-motion:reduce){ h1 i{animation:none} *{transition:none!important} }
+</style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-hit" viewBox="0 0 16 16"><path d="M2.5 8.5l3.5 3.5 7.5-8"/></symbol>
+  <symbol id="i-miss" viewBox="0 0 16 16"><path d="M3 3l10 10M13 3L3 13"/></symbol>
+  <symbol id="i-pending" viewBox="0 0 16 16"><circle cx="8" cy="8" r="5.6"/><path d="M8 4.8V8l2.3 1.6"/></symbol>
+  <symbol id="i-void" viewBox="0 0 16 16"><path d="M3 8h10"/></symbol>
+</svg>
+
+<div class="status"><div class="wrap"><span>Acceso concedido</span><span id="updated">Cargando datos</span><span>Actualización diaria 23:59 (UTC−3)</span></div></div>
+
+<div class="wrap">
+  <header class="mast">
+    <h1>Pichu<wbr>pronosticos<i>_</i></h1>
+    <p class="lede">Pronósticos de fútbol de cada día, con su resultado marcado cuando termina el partido y el porcentaje de acierto acumulado. Son estimaciones estadísticas, no resultados seguros.</p>
+  </header>
+
+  <section class="ledger" aria-label="Historial de aciertos">
+    <div class="readout"><b id="rate">--</b><span id="rateText">de acierto</span></div>
+    <div class="tape" id="tape" role="img"></div>
+    <div class="splits">
+      <div><h2>Por mercado</h2><table id="byCat"></table></div>
+      <div><h2>Por confianza</h2><table id="byConf"></table></div>
+    </div>
+  </section>
+</div>
+
+<nav class="days" aria-label="Días">
+  <div class="wrap"><div class="tabs" id="tabs" role="tablist"></div></div>
+  <div class="scroll" id="scroll"></div>
+</nav>
+
+<main class="wrap"><div class="day" id="day"><p class="msg">Cargando pronósticos…</p></div></main>
+
+<footer><div class="wrap">
+  <p>Análisis estadístico propio a partir de la forma reciente de cada equipo. No es una garantía ni asesoría financiera.</p>
+  <p>Solo para mayores de 18 años. Si apuestas, hazlo con dinero que puedas permitirte perder.</p>
+</div></footer>
+
+<script>
+const $ = s => document.querySelector(s);
+const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const LABEL = {hit:"Acertó", miss:"Falló", pending:"Pendiente", void:"Anulada"};
+const CONF = {alta:"Alta", media:"Media", baja:"Baja"};
+const cat = m => /c[oó]rner/i.test(m) ? "Córners" : /tarjeta/i.test(m) ? "Tarjetas" : /gol|marca/i.test(m) ? "Goles" : "Resultado";
+const picksOf = d => d.matches.flatMap(m => m.picks.map(p => ({...p, match: m})));
+const tally = ps => { const h = ps.filter(p => p.result === "hit").length, x = ps.filter(p => p.result === "miss").length;
+  return {h, n: h + x, wait: ps.filter(p => p.result === "pending").length, pct: h + x ? Math.round(100 * h / (h + x)) : null}; };
+const dt = d => new Date(d + "T12:00:00");
+const reduce = matchMedia("(prefers-reduced-motion: reduce)").matches;
+let DAYS = [];
+
+// el único movimiento de la página: la cifra se "descifra" al cargar o cambiar de día
+function decrypt(el, text){
+  if (reduce) { el.textContent = text; return; }
+  const t0 = performance.now(), dur = 650;
+  (function f(t){ const k = Math.min(1, (t - t0) / dur);
+    el.textContent = [...text].map((c, i) => i < k * text.length || !/\d/.test(c) ? c : Math.floor(Math.random() * 10)).join("");
+    if (k < 1) requestAnimationFrame(f); })(t0);
+}
+const rows = (groups, ps, key) => groups.map(g => { const t = tally(ps.filter(p => key(p) === g));
+  return t.n ? `<tr><th scope="row">${esc(CONF[g] || g)}</th><td class="b"><div class="meter"><s style="width:${t.pct}%"></s></div></td><td class="n">${t.h}/${t.n}</td><td class="p">${t.pct}%</td></tr>` : ""; }).join("");
+
+function renderLedger(){
+  const all = DAYS.flatMap(picksOf), t = tally(all);
+  decrypt($("#rate"), t.pct === null ? "--" : t.pct + "%");
+  $("#rateText").textContent = t.n ? `de acierto · ${t.h} de ${t.n} pronósticos verificados · ${t.wait} pendientes` : "Aún no hay pronósticos verificados";
+  $("#tape").innerHTML = DAYS.map(d => picksOf(d).map(p => `<i class="${p.result}"></i>`).join("")).join('<i class="gap"></i>');
+  $("#tape").setAttribute("aria-label", `${t.h} aciertos, ${t.n - t.h} fallos y ${t.wait} pendientes, en orden de fecha`);
+  $("#byCat").innerHTML = rows(["Goles","Resultado","Córners","Tarjetas"], all, p => cat(p.market));
+  $("#byConf").innerHTML = rows(["alta","media","baja"], all, p => p.conf);
+}
+function renderTabs(sel){
+  $("#tabs").innerHTML = DAYS.map(d => { const t = tally(picksOf(d)), x = dt(d.date);
+    return `<button class="tab" role="tab" id="tab-${d.date}" aria-selected="${d.date === sel}" data-d="${d.date}"><b>${x.getDate().toString().padStart(2,"0")} ${x.toLocaleDateString("es",{month:"short"}).replace(".","").toUpperCase()}</b><small>${t.n ? `${t.h}/${t.n} · ${t.pct}%` : "Pendiente"}</small></button>`; }).join("");
+  const b = $(`#tab-${CSS.escape(sel)}`); // solo desplaza la fila de pestañas, nunca la página
+  if (b) $("#tabs").scrollLeft = b.offsetLeft - ($("#tabs").clientWidth - b.offsetWidth) / 2;
+}
+const pickRow = (p, withMatch) => `<li class="pick ${p.result}">
+  <span class="res"><svg aria-hidden="true"><use href="#i-${p.result}"/></svg>${LABEL[p.result] || p.result}</span>
+  <span class="mk">${esc(p.market)}${withMatch ? `<small>${esc(p.match.home)} – ${esc(p.match.away)}</small>` : ""}</span>
+  <span class="conf ${p.conf}" title="Confianza ${CONF[p.conf] || ""}">${p.prob ? p.prob + " %" : esc(CONF[p.conf] || "")}</span>
+  <span class="why">${esc(p.why)}</span>${withMatch ? "" : `<span class="fact">${esc(p.fact)}</span>`}</li>`;
+
+function renderDay(date){
+  const d = DAYS.find(x => x.date === date) || DAYS[DAYS.length - 1], ps = picksOf(d), t = tally(ps);
+  renderTabs(d.date);
+  const comps = [...new Set(d.matches.map(m => m.comp))], top = ps.filter(p => p.top);
+  const rec = t.n ? `<span class="rec">${t.h} de ${t.n} acertados (${t.pct}%)</span>${t.wait ? ` · ${t.wait} pendientes` : ""}` : `<span class="rec">${t.wait} pronósticos pendientes</span>: se marcan tras la actualización de las 23:59.`;
+  $("#day").innerHTML = `<div class="dayhead"><h2>${esc(dt(d.date).toLocaleDateString("es",{weekday:"long",day:"numeric",month:"long"}))}</h2>
+    <p>${esc(d.title)}. ${esc(d.note)}</p><p>${rec}</p></div>`
+    + (top.length ? `<section class="group toplist"><h3>Lo más probable del día</h3><ul class="picks">${top.map(p => pickRow(p, true)).join("")}</ul></section>` : "")
+    + comps.map(c => `<section class="group"><h3>${esc(c)}</h3>` + d.matches.filter(m => m.comp === c).map(m =>
+      `<article class="match"><header><h4>${esc(m.home)} ${m.score ? `<b>${esc(m.score)}</b>` : "–"} ${esc(m.away)}</h4><span class="meta">${esc(m.time)} · ${esc(m.meta)}</span></header>
+      <ul class="picks">${m.picks.map(p => pickRow({...p, match: m}, false)).join("")}</ul></article>`).join("") + `</section>`).join("");
+  if (location.hash.slice(1) !== d.date) history.replaceState(null, "", "#" + d.date);
+}
+
+$("#tabs").addEventListener("click", e => { const b = e.target.closest(".tab"); if (!b) return;
+  renderDay(b.dataset.d); $(".days").scrollIntoView({behavior: reduce ? "auto" : "smooth"}); });
+addEventListener("hashchange", () => DAYS.length && renderDay(location.hash.slice(1)));
+addEventListener("scroll", () => { const h = document.documentElement; $("#scroll").style.width = (100 * h.scrollTop / Math.max(1, h.scrollHeight - h.clientHeight)) + "%"; }, {passive: true});
+
+(async () => {
+  try {
+    const get = u => fetch(u, {cache: "no-cache"}).then(r => { if (!r.ok) throw new Error(u); return r.json(); });
+    const idx = await get("data/index.json");
+    DAYS = await Promise.all(idx.days.map(d => get(`data/${d}.json`)));
+    $("#updated").textContent = "Actualizado " + dt(idx.updated).toLocaleDateString("es",{day:"numeric",month:"long",year:"numeric"});
+    renderLedger(); renderDay(location.hash.slice(1));
+  } catch (e) {
+    $("#updated").textContent = "Sin datos";
+    $("#day").innerHTML = `<p class="msg">No se pudieron cargar los pronósticos. Recarga la página; si sigue igual, vuelve en unos minutos.</p>`;
+  }
+})();
+</script>
+</body>
+</html>
