@@ -21,6 +21,7 @@
   color-scheme:dark;
 }
 *{box-sizing:border-box}
+[hidden]{display:none!important}
 html{scrollbar-color:var(--line) var(--bg);scroll-padding-top:120px}
 body{margin:0;background:var(--bg);color:var(--ink);font:400 14px/1.55 var(--mono);font-variant-numeric:tabular-nums;caret-color:var(--accent);
   background-image:repeating-linear-gradient(0deg,rgba(0,255,156,.03) 0 1px,transparent 1px 4px);background-attachment:fixed}
@@ -62,6 +63,28 @@ td.b{width:38%;padding-left:16px}
 .tab small{font-size:11.5px}
 .tab:hover{border-color:var(--muted)}
 .tab[aria-selected="true"]{background:var(--accent);border-color:var(--accent);color:var(--bg)} .tab[aria-selected="true"] b{color:var(--bg)}
+.navrow{display:flex;flex-wrap:wrap;gap:0 14px;align-items:center}
+.navrow .tabs{flex:1 1 260px;min-width:0}
+.sports{display:flex;gap:6px;padding-block:10px 0}
+@media (min-width:620px){.sports{padding-block:10px}}
+.sport{font:700 14px/1 var(--display);letter-spacing:.08em;text-transform:uppercase;display:flex;align-items:center;gap:8px;padding:9px 12px;border:1px solid var(--line);background:none;color:var(--muted);cursor:pointer;transition:color .2s var(--ease),border-color .2s var(--ease)}
+.sport svg{width:20px;height:20px;flex:none}
+.sport:hover{border-color:var(--muted)}
+.sport[aria-pressed="true"]{color:var(--accent);border-color:var(--accent);box-shadow:inset 0 -3px 0 var(--accent)}
+.bounce{position:fixed;left:0;top:0;z-index:20;pointer-events:none;animation:bx 1.6s linear forwards}
+.bounce div{animation:by 1.6s linear forwards}
+.bounce svg{display:block;width:64px;height:64px;animation:spin 1.6s linear forwards;filter:drop-shadow(0 0 14px rgba(255,138,31,.55))}
+@keyframes bx{from{transform:translateX(-70px)}to{transform:translateX(100vw)}}
+@keyframes spin{to{transform:rotate(900deg)}}
+@keyframes by{
+  0%{transform:translateY(-70px);animation-timing-function:cubic-bezier(.5,0,1,.55)}
+  26%{transform:translateY(72vh) scaleY(.82);animation-timing-function:cubic-bezier(0,.45,.5,1)}
+  45%{transform:translateY(26vh);animation-timing-function:cubic-bezier(.5,0,1,.55)}
+  62%{transform:translateY(72vh) scaleY(.86);animation-timing-function:cubic-bezier(0,.45,.5,1)}
+  76%{transform:translateY(48vh);animation-timing-function:cubic-bezier(.5,0,1,.55)}
+  88%{transform:translateY(72vh) scaleY(.92);animation-timing-function:cubic-bezier(0,.45,.5,1)}
+  100%{transform:translateY(62vh)}
+}
 .scroll{height:2px;background:var(--accent);width:0;box-shadow:0 0 10px var(--accent)}
 
 .day{padding-block:34px 60px;display:grid;gap:36px}
@@ -94,7 +117,10 @@ h4{font-size:20px;font-weight:600} h4 b{color:var(--accent);padding-inline:.35em
 .msg{padding:28px 0;color:var(--muted)}
 footer{border-top:1px solid var(--line);padding-block:22px 40px;color:var(--muted);font-size:12.5px}
 footer p{max-width:80ch;margin:0 0 6px}
-@media (prefers-reduced-motion:reduce){ h1 i{animation:none} *{transition:none!important} }
+@keyframes pop{0%{opacity:0}20%,75%{opacity:1}100%{opacity:0}}
+@media (prefers-reduced-motion:reduce){ h1 i{animation:none} *{transition:none!important}
+  /* sin rebote: el balón solo aparece un momento en el centro */
+  .bounce{left:calc(50% - 32px);top:38vh;animation:pop .9s ease-out forwards} .bounce div,.bounce svg{animation:none} }
 </style>
 </head>
 <body>
@@ -103,6 +129,8 @@ footer p{max-width:80ch;margin:0 0 6px}
   <symbol id="i-miss" viewBox="0 0 16 16"><path d="M3 3l10 10M13 3L3 13"/></symbol>
   <symbol id="i-pending" viewBox="0 0 16 16"><circle cx="8" cy="8" r="5.6"/><path d="M8 4.8V8l2.3 1.6"/></symbol>
   <symbol id="i-void" viewBox="0 0 16 16"><path d="M3 8h10"/></symbol>
+  <symbol id="i-ball" viewBox="0 0 32 32"><circle cx="16" cy="16" r="14" fill="#ff8a1f"/><g fill="none" stroke="#2a1200" stroke-width="1.6" stroke-linecap="round"><circle cx="16" cy="16" r="14"/><path d="M16 2v28M2 16h28M6.2 6.2c5 4.6 5 15 0 19.6M25.8 6.2c-5 4.6-5 15 0 19.6"/></g></symbol>
+  <symbol id="i-foot" viewBox="0 0 32 32"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><circle cx="16" cy="16" r="13"/><path d="M16 10.5l5.2 3.8-2 6.2h-6.4l-2-6.2zM16 10.5V3.4M21.2 14.3l6.6-2.2M19.2 20.5l4 5.6M12.8 20.5l-4 5.6M10.8 14.3l-6.6-2.2"/></g></symbol>
 </svg>
 
 <div class="status"><div class="wrap"><span>Acceso concedido</span><span id="updated">Cargando datos</span><span>Actualización diaria 23:59 (UTC−3)</span></div></div>
@@ -110,7 +138,7 @@ footer p{max-width:80ch;margin:0 0 6px}
 <div class="wrap">
   <header class="mast">
     <h1>Pichu<wbr>pronosticos<i>_</i></h1>
-    <p class="lede">Pronósticos de fútbol de cada día, con su resultado marcado cuando termina el partido y el porcentaje de acierto acumulado. Son estimaciones estadísticas, no resultados seguros.</p>
+    <p class="lede">Pronósticos de fútbol y NBA de cada día, con su resultado marcado cuando termina el partido y el porcentaje de acierto acumulado. Son estimaciones estadísticas, no resultados seguros.</p>
   </header>
 
   <section class="ledger" aria-label="Historial de aciertos">
@@ -124,10 +152,17 @@ footer p{max-width:80ch;margin:0 0 6px}
 </div>
 
 <nav class="days" aria-label="Días">
-  <div class="wrap"><div class="tabs" id="tabs" role="tablist"></div></div>
+  <div class="wrap navrow">
+    <div class="sports" id="sports" role="group" aria-label="Deporte">
+      <button class="sport" data-s="futbol" aria-pressed="true"><svg aria-hidden="true"><use href="#i-foot"/></svg>Fútbol</button>
+      <button class="sport" data-s="nba" aria-pressed="false"><svg aria-hidden="true"><use href="#i-ball"/></svg>NBA</button>
+    </div>
+    <div class="tabs" id="tabs" role="tablist"></div>
+  </div>
   <div class="scroll" id="scroll"></div>
 </nav>
 
+<div class="bounce" id="bounce" hidden><div><svg aria-hidden="true"><use href="#i-ball"/></svg></div></div>
 <main class="wrap"><div class="day" id="day"><p class="msg">Cargando pronósticos…</p></div></main>
 
 <footer><div class="wrap">
@@ -140,13 +175,17 @@ const $ = s => document.querySelector(s);
 const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 const LABEL = {hit:"Acertó", miss:"Falló", pending:"Pendiente", void:"Anulada"};
 const CONF = {alta:"Alta", media:"Media", baja:"Baja"};
-const cat = m => /c[oó]rner/i.test(m) ? "Córners" : /tarjeta/i.test(m) ? "Tarjetas" : /gol|marca/i.test(m) ? "Goles" : "Resultado";
+const CATS = {futbol: ["Goles","Resultado","Córners","Tarjetas"], nba: ["Puntos","Asistencias","Triples","Rebotes","Ganador"]};
+const cat = m => SPORT === "nba"
+  ? (/punto/i.test(m) ? "Puntos" : /asistencia/i.test(m) ? "Asistencias" : /triple/i.test(m) ? "Triples" : /rebote/i.test(m) ? "Rebotes" : "Ganador")
+  : (/c[oó]rner/i.test(m) ? "Córners" : /tarjeta/i.test(m) ? "Tarjetas" : /gol|marca/i.test(m) ? "Goles" : "Resultado");
 const picksOf = d => d.matches.flatMap(m => m.picks.map(p => ({...p, match: m})));
 const tally = ps => { const h = ps.filter(p => p.result === "hit").length, x = ps.filter(p => p.result === "miss").length;
   return {h, n: h + x, wait: ps.filter(p => p.result === "pending").length, pct: h + x ? Math.round(100 * h / (h + x)) : null}; };
 const dt = d => new Date(d + "T12:00:00");
 const reduce = matchMedia("(prefers-reduced-motion: reduce)").matches;
-let DAYS = [];
+let DAYS = [], SPORT = "futbol";
+const ALL = {futbol: [], nba: []};
 
 // el único movimiento de la página: la cifra se "descifra" al cargar o cambiar de día
 function decrypt(el, text){
@@ -165,7 +204,8 @@ function renderLedger(){
   $("#rateText").textContent = t.n ? `de acierto · ${t.h} de ${t.n} pronósticos verificados · ${t.wait} pendientes` : "Aún no hay pronósticos verificados";
   $("#tape").innerHTML = DAYS.map(d => picksOf(d).map(p => `<i class="${p.result}"></i>`).join("")).join('<i class="gap"></i>');
   $("#tape").setAttribute("aria-label", `${t.h} aciertos, ${t.n - t.h} fallos y ${t.wait} pendientes, en orden de fecha`);
-  $("#byCat").innerHTML = rows(["Goles","Resultado","Córners","Tarjetas"], all, p => cat(p.market));
+  $(".splits").hidden = !t.n; // sin verificados no hay nada que desglosar
+  $("#byCat").innerHTML = rows(CATS[SPORT], all, p => cat(p.market));
   $("#byConf").innerHTML = rows(["alta","media","baja"], all, p => p.conf);
 }
 function renderTabs(sel){
@@ -181,6 +221,7 @@ const pickRow = (p, withMatch) => `<li class="pick ${p.result}">
   <span class="why">${esc(p.why)}</span>${withMatch ? "" : `<span class="fact">${esc(p.fact)}</span>`}</li>`;
 
 function renderDay(date){
+  if (!DAYS.length) { $("#tabs").innerHTML = ""; $("#day").innerHTML = `<p class="msg">Todavía no hay pronósticos cargados en esta sección.</p>`; return; }
   const d = DAYS.find(x => x.date === date) || DAYS[DAYS.length - 1], ps = picksOf(d), t = tally(ps);
   renderTabs(d.date);
   const comps = [...new Set(d.matches.map(m => m.comp))], top = ps.filter(p => p.top);
@@ -191,21 +232,31 @@ function renderDay(date){
     + comps.map(c => `<section class="group"><h3>${esc(c)}</h3>` + d.matches.filter(m => m.comp === c).map(m =>
       `<article class="match"><header><h4>${esc(m.home)} ${m.score ? `<b>${esc(m.score)}</b>` : "–"} ${esc(m.away)}</h4><span class="meta">${esc(m.time)} · ${esc(m.meta)}</span></header>
       <ul class="picks">${m.picks.map(p => pickRow({...p, match: m}, false)).join("")}</ul></article>`).join("") + `</section>`).join("");
-  if (location.hash.slice(1) !== d.date) history.replaceState(null, "", "#" + d.date);
+  const h = (SPORT === "nba" ? "nba-" : "") + d.date;
+  if (location.hash.slice(1) !== h) history.replaceState(null, "", "#" + h);
 }
+// la dirección decide deporte y día: #2026-11-10 es fútbol, #nba-2026-11-11 es NBA
+function route(hash){
+  SPORT = hash.startsWith("nba") ? "nba" : "futbol"; DAYS = ALL[SPORT];
+  document.querySelectorAll(".sport").forEach(b => b.setAttribute("aria-pressed", b.dataset.s === SPORT));
+  renderLedger(); renderDay(hash.replace(/^nba-?/, ""));
+}
+$("#sports").addEventListener("click", e => { const b = e.target.closest(".sport"); if (!b || b.dataset.s === SPORT) return;
+  if (b.dataset.s === "nba") { const el = $("#bounce"); el.hidden = false; el.onanimationend = ev => { if (ev.target === el) el.hidden = true; }; }
+  route(b.dataset.s === "nba" ? "nba" : ""); });
 
 $("#tabs").addEventListener("click", e => { const b = e.target.closest(".tab"); if (!b) return;
   renderDay(b.dataset.d); $(".days").scrollIntoView({behavior: reduce ? "auto" : "smooth"}); });
-addEventListener("hashchange", () => DAYS.length && renderDay(location.hash.slice(1)));
+addEventListener("hashchange", () => route(location.hash.slice(1)));
 addEventListener("scroll", () => { const h = document.documentElement; $("#scroll").style.width = (100 * h.scrollTop / Math.max(1, h.scrollHeight - h.clientHeight)) + "%"; }, {passive: true});
 
 (async () => {
   try {
     const get = u => fetch(u, {cache: "no-cache"}).then(r => { if (!r.ok) throw new Error(u); return r.json(); });
     const idx = await get("data/index.json");
-    DAYS = await Promise.all(idx.days.map(d => get(`data/${d}.json`)));
+    [ALL.futbol, ALL.nba] = await Promise.all([Promise.all(idx.days.map(d => get(`data/${d}.json`))), Promise.all((idx.nba || []).map(d => get(`data/nba-${d}.json`)))]);
     $("#updated").textContent = "Actualizado " + dt(idx.updated).toLocaleDateString("es",{day:"numeric",month:"long",year:"numeric"});
-    renderLedger(); renderDay(location.hash.slice(1));
+    route(location.hash.slice(1));
   } catch (e) {
     $("#updated").textContent = "Sin datos";
     $("#day").innerHTML = `<p class="msg">No se pudieron cargar los pronósticos. Recarga la página; si sigue igual, vuelve en unos minutos.</p>`;

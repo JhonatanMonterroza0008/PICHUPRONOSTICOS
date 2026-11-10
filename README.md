@@ -39,3 +39,9 @@ Goles, córners y tarjetas salen de la API pública de ESPN:
 `https://site.api.espn.com/apis/site/v2/sports/soccer/<liga>/scoreboard?dates=AAAAMMDD` y
 `.../summary?event=<id>` (`boxscore.teams[].statistics`: `wonCorners`, `yellowCards`, `redCards`).
 Las tarjetas cuentan amarillas más rojas. Un empate en "saca más córners" o "recibe más tarjetas" es fallo.
+
+## NBA
+
+Los días de NBA van en `data/nba-AAAA-MM-DD.json` (mismo formato) y su fecha en la lista `nba` de `data/index.json`.
+Se generan con `python tools/nba.py AAAA-MM-DD` (fecha de EE. UU.), que lee partidos, lesiones y los últimos 10
+partidos de cada jugador en la API de ESPN. Los umbrales ("20+ puntos") son propios, no líneas de casas de apuestas.
