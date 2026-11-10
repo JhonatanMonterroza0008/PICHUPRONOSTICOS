@@ -1,0 +1,8 @@
+{
+ "NY":   {"ml": [1.08, 7.50], "spread": -15.5, "spread_odds": [1.91, 1.90], "total": 219.5, "total_odds": [1.89, 1.91]},
+ "PHI":  {"ml": [2.04, 1.80], "spread": 1.5,   "spread_odds": [1.91, 1.90], "total": 217.5, "total_odds": [1.92, 1.88]},
+ "PHX":  {"ml": [1.50, 2.55], "spread": -4.5,  "spread_odds": [1.85, 1.95], "total": 226.5, "total_odds": [1.94, 1.87]},
+ "UTAH": {"ml": [4.10, 1.24], "spread": 9.5,   "spread_odds": [1.93, 1.88], "total": 228.5, "total_odds": [1.93, 1.87]},
+ "SAC":  {"ml": [2.75, 1.45], "spread": 5.5,   "spread_odds": [1.90, 1.90], "total": 221.5, "total_odds": [1.94, 1.87]},
+ "POR":  {"ml": [1.98, 1.82], "spread": 0.5,   "spread_odds": [1.98, 1.82], "total": 226.5, "total_odds": [1.93, 1.88]}
+}

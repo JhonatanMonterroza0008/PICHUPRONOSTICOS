@@ -175,9 +175,9 @@ const $ = s => document.querySelector(s);
 const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 const LABEL = {hit:"Acertó", miss:"Falló", pending:"Pendiente", void:"Anulada"};
 const CONF = {alta:"Alta", media:"Media", baja:"Baja"};
-const CATS = {futbol: ["Goles","Resultado","Córners","Tarjetas"], nba: ["Puntos","Asistencias","Triples","Rebotes","Ganador"]};
+const CATS = {futbol: ["Goles","Resultado","Córners","Tarjetas"], nba: ["Puntos","Asistencias","Triples","Rebotes","Hándicap y total","Ganador"]};
 const cat = m => SPORT === "nba"
-  ? (/punto/i.test(m) ? "Puntos" : /asistencia/i.test(m) ? "Asistencias" : /triple/i.test(m) ? "Triples" : /rebote/i.test(m) ? "Rebotes" : "Ganador")
+  ? (/^(total|h[aá]ndicap)/i.test(m) ? "Hándicap y total" : /punto/i.test(m) ? "Puntos" : /asistencia/i.test(m) ? "Asistencias" : /triple/i.test(m) ? "Triples" : /rebote/i.test(m) ? "Rebotes" : "Ganador")
   : (/c[oó]rner/i.test(m) ? "Córners" : /tarjeta/i.test(m) ? "Tarjetas" : /gol|marca/i.test(m) ? "Goles" : "Resultado");
 const picksOf = d => d.matches.flatMap(m => m.picks.map(p => ({...p, match: m})));
 const tally = ps => { const h = ps.filter(p => p.result === "hit").length, x = ps.filter(p => p.result === "miss").length;

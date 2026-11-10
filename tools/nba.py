@@ -1,11 +1,13 @@
 """Genera data/nba-AAAA-MM-DD.json con pronósticos de la NBA para esa fecha (fecha de EE. UU.).
 
-Uso: python tools/nba.py 2026-11-11
+Uso: python tools/nba.py 2026-11-11 [tools/lines/nba-2026-11-11.json]
+El segundo argumento es opcional: líneas de una casa de apuestas por abreviatura del local
+(ml, spread del local, total y sus cuotas [local/más, visitante/menos]). Con él se añaden hándicap y total.
 Fuente: API pública de ESPN. Solo biblioteca estándar.
 Los umbrales ("20+ puntos") son propios: el mayor valor que el jugador alcanzó en al menos
 el 80 % de sus últimos 10 partidos. No son líneas de casas de apuestas.
 """
-import json, math, pathlib, sys, urllib.request
+import json, math, pathlib, statistics, sys, urllib.request
 from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timedelta
 
@@ -49,10 +51,51 @@ def pick_for(vals, floor, step):
     t = sorted(vals, reverse=True)[math.ceil(0.8 * n) - 1] // step * step
     return (t, sum(v >= t for v in vals)) if t >= floor else None
 
+def team_form(team_id):
+    """Últimos 10 partidos terminados del equipo: lista de (puntos a favor, puntos en contra)."""
+    out = []
+    for e in get(f"{SITE}/teams/{team_id}/schedule")["events"]:
+        c = e["competitions"][0]
+        if not c["status"]["type"]["completed"]:
+            continue
+        me = next(x for x in c["competitors"] if x["team"]["id"] == team_id)
+        other = next(x for x in c["competitors"] if x["team"]["id"] != team_id)
+        out.append((me["score"]["value"], other["score"]["value"]))
+    return out[-10:]
+
+def shrunk(p):
+    """Probabilidad en %, acercada al 50 porque la muestra es de unos 10 partidos."""
+    return round(50 + (100 * p - 50) * 0.6)
+
+def line_picks(teams, line):
+    """Hándicap y total frente a la línea de la casa. Desviaciones típicas habituales en NBA: 13 (margen) y 18 (total)."""
+    phi = statistics.NormalDist().cdf
+    h, a = team_form(teams["home"]["team"]["id"]), team_form(teams["away"]["team"]["id"])
+    if len(h) < 5 or len(a) < 5:
+        return []
+    avg = lambda rows, i: sum(r[i] for r in rows) / len(rows)
+    total = (avg(h, 0) + avg(a, 1)) / 2 + (avg(a, 0) + avg(h, 1)) / 2
+    margin = ((avg(h, 0) - avg(h, 1)) - (avg(a, 0) - avg(a, 1))) / 2 + 2.5  # 2,5 puntos por jugar en casa
+    hn, an = teams["home"]["team"]["shortDisplayName"], teams["away"]["team"]["shortDisplayName"]
+    picks = []
+    def add(market, p, odds, why):
+        if p >= 55:  # por debajo no hay ventaja clara frente a la línea
+            picks.append({"market": f"{market} (cuota {odds:.2f})", "prob": min(p, 85), "conf": conf(p), "why": why.replace(".", ","),
+                          "result": "pending", "fact": None, "top": False})
+    sp, t = line["spread"], line["total"]
+    p_home = shrunk(1 - phi((-sp - margin) / 13))
+    side = (f"Hándicap {hn} {sp:+g}", p_home, line["spread_odds"][0]) if p_home >= 50 else (f"Hándicap {an} {-sp:+g}", 100 - p_home, line["spread_odds"][1])
+    add(*side, f"Diferencia esperada: {hn} {margin:+.1f} con los últimos {len(h)} y {len(a)} partidos")
+    p_over = shrunk(1 - phi((t - total) / 18))
+    over_h, over_a = sum(x + y > t for x, y in h), sum(x + y > t for x, y in a)
+    side = (f"Total: más de {t:g} puntos", p_over, line["total_odds"][0]) if p_over >= 50 else (f"Total: menos de {t:g} puntos", 100 - p_over, line["total_odds"][1])
+    add(*side, f"Total esperado {total:.0f}; lo superaron {hn} en {over_h} de {len(h)} y {an} en {over_a} de {len(a)}")
+    return picks
+
 def conf(p):
     return "alta" if p >= 65 else "media" if p >= 50 else "baja"
 
-def build(date):
+def build(date, lines=None):
     events = get(f"{SITE}/scoreboard?dates={date.replace('-', '')}")["events"]
     matches = []
     for e in events:
@@ -88,12 +131,16 @@ def build(date):
             ph, pa = float(pred["homeTeam"]["gameProjection"]), float(pred["awayTeam"]["gameProjection"])
             side, p = ("home", ph) if ph >= pa else ("away", pa)
             p = min(85, round(p))
-            picks.append({"market": f"Gana {teams[side]['team']['shortDisplayName']}", "prob": p, "conf": conf(p),
+            line = (lines or {}).get(teams["home"]["team"]["abbreviation"])
+            odds = f" (cuota {line['ml'][0 if side == 'home' else 1]:.2f})" if line else ""
+            picks.append({"market": f"Gana {teams[side]['team']['shortDisplayName']}{odds}", "prob": p, "conf": conf(p),
                           "why": f"{p} % según el modelo de ESPN", "result": "pending", "fact": None, "top": False})
+            if line:
+                picks += line_picks(teams, line)
         except (KeyError, ValueError, TypeError):
             pass
-        for key in STATS:  # los 2 más probables de cada estadística
-            best = sorted((c for c in cands if c["key"] == key), key=lambda c: (-c["prob"], -c["avg"]))[:2]
+        for key in STATS:  # los 3 más probables de cada estadística
+            best = sorted((c for c in cands if c["key"] == key), key=lambda c: (-c["prob"], -c["avg"]))[:3]
             picks += [{k: v for k, v in c.items() if k not in ("key", "avg")} for c in best]
         rec = lambda s: (teams[s].get("records") or [{}])[0].get("summary", "")
         local = datetime.strptime(e["date"], "%Y-%m-%dT%H:%MZ") + timedelta(hours=UTC_OFFSET)
@@ -106,17 +153,22 @@ def build(date):
     assert matches and all(1 <= p["prob"] <= 99 for p in allp), "datos de NBA incompletos"
     for p in sorted(allp, key=lambda p: -p["prob"])[:10]:
         p["top"] = True
+    note = "Umbrales de jugadores propios, a partir de sus últimos 10 partidos; no son líneas de casas de apuestas."
+    if lines:
+        note += " Hándicap, total y cuotas: líneas de una casa de apuestas tomadas el día del partido."
     return {"date": date, "sport": "nba", "title": f"NBA, {len(matches)} partidos",
-            "note": "Umbrales propios a partir de los últimos 10 partidos de cada jugador; no son líneas de casas de apuestas.",
+            "note": note,
             "matches": matches}
 
 if __name__ == "__main__":
     date = sys.argv[1]
-    day = build(date)
+    lines = json.loads(pathlib.Path(sys.argv[2]).read_text(encoding="utf-8")) if len(sys.argv) > 2 else None
+    day = build(date, lines)
     (ROOT / "data" / f"nba-{date}.json").write_text(json.dumps(day, ensure_ascii=False, indent=1), encoding="utf-8")
     idx_path = ROOT / "data" / "index.json"
     idx = json.loads(idx_path.read_text(encoding="utf-8"))
     idx["nba"] = sorted(set(idx.get("nba", [])) | {date})
     idx_path.write_text(json.dumps(idx, indent=1), encoding="utf-8")
     assert pick_for([30, 28, 25, 25, 22, 21, 20, 20, 19, 8], 10, 5) == (20, 8)  # autocomprobación del umbral
+    assert shrunk(0.5) == 50 and shrunk(1) == 80
     print(len(day["matches"]), "partidos,", sum(len(m["picks"]) for m in day["matches"]), "pronósticos")

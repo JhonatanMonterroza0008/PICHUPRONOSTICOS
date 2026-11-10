@@ -45,3 +45,6 @@ Las tarjetas cuentan amarillas más rojas. Un empate en "saca más córners" o "
 Los días de NBA van en `data/nba-AAAA-MM-DD.json` (mismo formato) y su fecha en la lista `nba` de `data/index.json`.
 Se generan con `python tools/nba.py AAAA-MM-DD` (fecha de EE. UU.), que lee partidos, lesiones y los últimos 10
 partidos de cada jugador en la API de ESPN. Los umbrales ("20+ puntos") son propios, no líneas de casas de apuestas.
+
+Con líneas de una casa de apuestas: `python tools/nba.py AAAA-MM-DD tools/lines/nba-AAAA-MM-DD.json` añade hándicap y total
+(solo si la ventaja estimada es del 55 % o más) y la cuota del ganador.
