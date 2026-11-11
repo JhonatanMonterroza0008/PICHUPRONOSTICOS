@@ -506,7 +506,7 @@
    "time": "01:00",
    "home": "Portland Trail Blazers",
    "away": "Oklahoma City Thunder",
-   "score": null,
+   "score": "123-103",
    "meta": "hora UTC−3 · POR 6-3 · OKC 8-2 · Bajas: Ja Morant, Vit Krejci, Shaedon Sharpe, Jaylin Williams, Thomas Sorber, Cason Wallace",
    "picks": [
     {
@@ -514,8 +514,8 @@
      "prob": 61,
      "conf": "media",
      "why": "61 % según el modelo de ESPN",
-     "result": "pending",
-     "fact": null,
+     "result": "miss",
+     "fact": "123-103",
      "top": false
     },
     {
@@ -523,8 +523,8 @@
      "prob": 88,
      "conf": "alta",
      "why": "Lo logró en 9 de sus últimos 9; promedia 22,3",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "24 puntos",
      "top": true
     },
     {
@@ -532,8 +532,8 @@
      "prob": 82,
      "conf": "alta",
      "why": "Lo logró en 8 de sus últimos 9; promedia 19,4",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "25 puntos",
      "top": false
     },
     {
@@ -541,8 +541,8 @@
      "prob": 75,
      "conf": "alta",
      "why": "Lo logró en 8 de sus últimos 10; promedia 29,9",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "26 puntos",
      "top": false
     },
     {
@@ -550,8 +550,8 @@
      "prob": 83,
      "conf": "alta",
      "why": "Lo logró en 9 de sus últimos 10; promedia 10,1",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "9 rebotes",
      "top": false
     },
     {
@@ -559,8 +559,8 @@
      "prob": 82,
      "conf": "alta",
      "why": "Lo logró en 8 de sus últimos 9; promedia 10,0",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "13 rebotes",
      "top": false
     }
    ]
