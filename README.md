@@ -48,3 +48,13 @@ partidos de cada jugador en la API de ESPN. Los umbrales ("20+ puntos") son prop
 
 Con líneas de una casa de apuestas: `python tools/nba.py AAAA-MM-DD tools/lines/nba-AAAA-MM-DD.json` añade hándicap y total
 (solo si la ventaja estimada es del 55 % o más) y la cuota del ganador.
+
+## Actualización automática
+
+`.github/workflows/diario.yml` corre cada día a las 02:59 UTC (23:59 en UTC-3) en GitHub Actions, gratis y sin depender de ningún equipo:
+
+1. `python tools/verify.py` marca los pronósticos pendientes cuyos partidos ya terminaron.
+2. `python tools/futbol.py AAAA-MM-DD` y `python tools/nba.py AAAA-MM-DD` generan el día siguiente si aún no existe.
+3. Sube los cambios de `data/` a `main`.
+
+También se puede lanzar a mano desde la pestaña Actions del repositorio ("Run workflow").

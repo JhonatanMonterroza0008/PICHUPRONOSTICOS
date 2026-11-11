@@ -1,0 +1,30 @@
+name: Actualización diaria
+on:
+  schedule:
+    - cron: "59 2 * * *"   # 23:59 en UTC-3
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency: actualizacion
+jobs:
+  actualizar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Verificar resultados y generar el día siguiente
+        run: |
+          MANANA=$(TZ=America/Montevideo date -d "+1 day" +%F)
+          python tools/verify.py
+          [ -f "data/$MANANA.json" ] || python tools/futbol.py "$MANANA" || echo "fútbol: sin datos"
+          [ -f "data/nba-$MANANA.json" ] || python tools/nba.py "$MANANA" || echo "NBA: sin partidos"
+          python -c "import json,glob; [json.load(open(f,encoding='utf-8')) for f in glob.glob('data/*.json')]"
+      - name: Publicar
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data
+          git diff --cached --quiet || git commit -m "Actualización diaria $(TZ=America/Montevideo date +%F)"
+          git push
