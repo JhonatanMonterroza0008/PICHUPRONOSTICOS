@@ -16,7 +16,7 @@
      "market": "Moldova o empate",
      "prob": 79,
      "conf": "alta",
-     "why": "Moldova: \u0001,\u0002 goles a favor y \u0001,\u0002 en contra; Kazakhstan: \u0001,\u0002 y \u0001,\u0002; el mercado da 38 % a Moldova; cara a cara: KAZ domina 3-2",
+     "why": "Moldova: 0,9 goles a favor y 1,5 en contra; Kazakhstan: 0,4 y 2,5; el mercado da 38 % a Moldova; cara a cara: KAZ domina 3-2",
      "result": "pending",
      "fact": null,
      "top": true
@@ -25,7 +25,7 @@
      "market": "Moldova saca más córners",
      "prob": 72,
      "conf": "alta",
-     "why": "Se esperan \u0001,\u0002 córners: Moldova \u0001,\u0002 y Kazakhstan \u0001,\u0002",
+     "why": "Se esperan 7,7 córners: Moldova 5,5 y Kazakhstan 2,3",
      "result": "pending",
      "fact": null,
      "top": false
@@ -34,7 +34,7 @@
      "market": "Más de 3.5 tarjetas",
      "prob": 70,
      "conf": "alta",
-     "why": "Se esperan \u0001,\u0002 tarjetas entre los dos",
+     "why": "Se esperan 5,3 tarjetas entre los dos",
      "result": "pending",
      "fact": null,
      "top": false
@@ -43,7 +43,7 @@
      "market": "Menos de 9.5 córners",
      "prob": 66,
      "conf": "alta",
-     "why": "Se esperan \u0001,\u0002 córners: Moldova \u0001,\u0002 y Kazakhstan \u0001,\u0002",
+     "why": "Se esperan 7,7 córners: Moldova 5,5 y Kazakhstan 2,3",
      "result": "pending",
      "fact": null,
      "top": false
@@ -60,19 +60,10 @@
    "meta": "hora UTC−3 · últimos partidos: BER 5G 1E 4P · LCA 4G 2E 4P",
    "picks": [
     {
-     "market": "St. Lucia o empate",
-     "prob": 76,
-     "conf": "alta",
-     "why": "Bermuda: \u0001,\u0002 goles a favor y \u0001,\u0002 en contra; St. Lucia: \u0001,\u0002 y \u0001,\u0002; el mercado da 79 % a St. Lucia; sin cuotas del mercado",
-     "result": "pending",
-     "fact": null,
-     "top": false
-    },
-    {
      "market": "Más de 2.5 goles",
      "prob": 72,
      "conf": "alta",
-     "why": "Se esperan \u0001,\u0002 goles; más de \u0001,\u0002 en 7 de 10 de Bermuda y 7 de 10 de St. Lucia",
+     "why": "Se esperan 3,9 goles; más de 2,5 en 7 de 10 de Bermuda y 7 de 10 de St. Lucia",
      "result": "pending",
      "fact": null,
      "top": false
@@ -81,7 +72,16 @@
      "market": "Ambos marcan",
      "prob": 64,
      "conf": "media",
-     "why": "Goles esperados: Bermuda \u0001,\u0002, St. Lucia \u0001,\u0002",
+     "why": "Goles esperados: Bermuda 1,8, St. Lucia 2,1",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Gana St. Lucia",
+     "prob": 63,
+     "conf": "media",
+     "why": "Bermuda: 1,8 goles a favor y 2,4 en contra; St. Lucia: 1,9 y 1,4; el mercado da 79 % a St. Lucia",
      "result": "pending",
      "fact": null,
      "top": false
@@ -101,7 +101,7 @@
      "market": "Menos de 4.5 tarjetas",
      "prob": 77,
      "conf": "alta",
-     "why": "Se esperan \u0001,\u0002 tarjetas entre los dos",
+     "why": "Se esperan 3,3 tarjetas entre los dos",
      "result": "pending",
      "fact": null,
      "top": true
@@ -110,7 +110,16 @@
      "market": "Dominica saca más córners",
      "prob": 71,
      "conf": "alta",
-     "why": "Se esperan \u0001,\u0002 córners: Puerto Rico \u0001,\u0002 y Dominica \u0001,\u0002",
+     "why": "Se esperan 7,5 córners: Puerto Rico 2,3 y Dominica 5,2",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Gana Puerto Rico",
+     "prob": 69,
+     "conf": "alta",
+     "why": "Puerto Rico: 1,8 goles a favor y 0,6 en contra; Dominica: 1,5 y 2,0; el mercado da 78 % a Puerto Rico",
      "result": "pending",
      "fact": null,
      "top": false
@@ -119,16 +128,7 @@
      "market": "Más de 2.5 goles",
      "prob": 66,
      "conf": "alta",
-     "why": "Se esperan \u0001,\u0002 goles; más de \u0001,\u0002 en 3 de 7 de Puerto Rico y 7 de 10 de Dominica",
-     "result": "pending",
-     "fact": null,
-     "top": false
-    },
-    {
-     "market": "Gana Puerto Rico",
-     "prob": 61,
-     "conf": "media",
-     "why": "Puerto Rico: \u0001,\u0002 goles a favor y \u0001,\u0002 en contra; Dominica: \u0001,\u0002 y \u0001,\u0002; el mercado da 78 % a Puerto Rico; sin cuotas del mercado",
+     "why": "Se esperan 3,4 goles; más de 2,5 en 3 de 7 de Puerto Rico y 7 de 10 de Dominica",
      "result": "pending",
      "fact": null,
      "top": false
@@ -148,7 +148,7 @@
      "market": "Andorra o empate",
      "prob": 80,
      "conf": "alta",
-     "why": "Andorra: \u0001,\u0002 goles a favor y \u0001,\u0002 en contra; Gibraltar: \u0001,\u0002 y \u0001,\u0002; el mercado da 57 % a Andorra; cara a cara: GIB domina 2-0-2",
+     "why": "Andorra: 0,2 goles a favor y 1,2 en contra; Gibraltar: 0,8 y 1,2; el mercado da 57 % a Andorra; cara a cara: GIB domina 2-0-2",
      "result": "pending",
      "fact": null,
      "top": true
@@ -157,7 +157,7 @@
      "market": "Más de 4.5 tarjetas",
      "prob": 79,
      "conf": "alta",
-     "why": "Se esperan \u0001,\u0002 tarjetas entre los dos",
+     "why": "Se esperan 8,0 tarjetas entre los dos",
      "result": "pending",
      "fact": null,
      "top": true
@@ -166,7 +166,7 @@
      "market": "Menos de 8.5 córners",
      "prob": 68,
      "conf": "alta",
-     "why": "Se esperan \u0001,\u0002 córners: Andorra \u0001,\u0002 y Gibraltar \u0001,\u0002",
+     "why": "Se esperan 6,6 córners: Andorra 3,2 y Gibraltar 3,4",
      "result": "pending",
      "fact": null,
      "top": false
@@ -175,7 +175,7 @@
      "market": "Menos de 2.5 goles",
      "prob": 65,
      "conf": "alta",
-     "why": "Se esperan \u0001,\u0002 goles; más de \u0001,\u0002 en 2 de 10 de Andorra y 4 de 10 de Gibraltar",
+     "why": "Se esperan 1,7 goles; más de 2,5 en 2 de 10 de Andorra y 4 de 10 de Gibraltar",
      "result": "pending",
      "fact": null,
      "top": false
@@ -195,7 +195,7 @@
      "market": "Iceland o empate",
      "prob": 75,
      "conf": "alta",
-     "why": "Bulgaria: \u0001,\u0002 goles a favor y \u0001,\u0002 en contra; Iceland: \u0001,\u0002 y \u0001,\u0002; el mercado da 53 % a Iceland; cara a cara: BUL domina 2-1",
+     "why": "Bulgaria: 0,7 goles a favor y 1,1 en contra; Iceland: 1,6 y 2,0; el mercado da 53 % a Iceland; cara a cara: BUL domina 2-1",
      "result": "pending",
      "fact": null,
      "top": false
@@ -204,7 +204,7 @@
      "market": "Más de 4.5 tarjetas",
      "prob": 66,
      "conf": "alta",
-     "why": "Se esperan \u0001,\u0002 tarjetas entre los dos",
+     "why": "Se esperan 6,1 tarjetas entre los dos",
      "result": "pending",
      "fact": null,
      "top": false
@@ -213,7 +213,7 @@
      "market": "Menos de 10.5 córners",
      "prob": 64,
      "conf": "media",
-     "why": "Se esperan \u0001,\u0002 córners: Bulgaria \u0001,\u0002 y Iceland \u0001,\u0002",
+     "why": "Se esperan 8,8 córners: Bulgaria 3,8 y Iceland 5,0",
      "result": "pending",
      "fact": null,
      "top": false
@@ -233,7 +233,7 @@
      "market": "Azerbaijan o empate",
      "prob": 79,
      "conf": "alta",
-     "why": "Liechtenstein: \u0001,\u0002 goles a favor y \u0001,\u0002 en contra; Azerbaijan: \u0001,\u0002 y \u0001,\u0002; el mercado da 78 % a Azerbaijan; cara a cara: AZE domina 2-0-2",
+     "why": "Liechtenstein: 0,4 goles a favor y 1,3 en contra; Azerbaijan: 0,9 y 2,5; el mercado da 78 % a Azerbaijan; cara a cara: AZE domina 2-0-2",
      "result": "pending",
      "fact": null,
      "top": true
@@ -253,7 +253,7 @@
      "market": "Luxembourg o empate",
      "prob": 77,
      "conf": "alta",
-     "why": "Luxembourg: \u0001,\u0002 goles a favor y \u0001,\u0002 en contra; Estonia: \u0001,\u0002 y \u0001,\u0002; el mercado da 38 % a Luxembourg; cara a cara: EST domina 3-0",
+     "why": "Luxembourg: 0,4 goles a favor y 1,5 en contra; Estonia: 0,6 y 2,5; el mercado da 38 % a Luxembourg; cara a cara: EST domina 3-0",
      "result": "pending",
      "fact": null,
      "top": true
@@ -262,7 +262,7 @@
      "market": "Luxembourg saca más córners",
      "prob": 75,
      "conf": "alta",
-     "why": "Se esperan 1\u0001,\u0002 córners: Luxembourg \u0001,\u0002 y Estonia \u0001,\u0002",
+     "why": "Se esperan 11,3 córners: Luxembourg 7,9 y Estonia 3,4",
      "result": "pending",
      "fact": null,
      "top": false
@@ -271,7 +271,7 @@
      "market": "Más de 3.5 tarjetas",
      "prob": 68,
      "conf": "alta",
-     "why": "Se esperan \u0001,\u0002 tarjetas entre los dos",
+     "why": "Se esperan 5,1 tarjetas entre los dos",
      "result": "pending",
      "fact": null,
      "top": false
@@ -280,7 +280,7 @@
      "market": "Más de 9.5 córners",
      "prob": 57,
      "conf": "media",
-     "why": "Se esperan 1\u0001,\u0002 córners: Luxembourg \u0001,\u0002 y Estonia \u0001,\u0002",
+     "why": "Se esperan 11,3 córners: Luxembourg 7,9 y Estonia 3,4",
      "result": "pending",
      "fact": null,
      "top": false
@@ -300,7 +300,7 @@
      "market": "Netherlands o empate",
      "prob": 80,
      "conf": "alta",
-     "why": "Netherlands: \u0001,\u0002 goles a favor y \u0001,\u0002 en contra; Greece: \u0001,\u0002 y \u0001,\u0002; el mercado da 61 % a Netherlands; cara a cara: NED domina 3-1-1",
+     "why": "Netherlands: 2,5 goles a favor y 1,0 en contra; Greece: 2,0 y 0,5; el mercado da 61 % a Netherlands; cara a cara: NED domina 3-1-1",
      "result": "pending",
      "fact": null,
      "top": true
@@ -309,7 +309,7 @@
      "market": "Menos de 9.5 córners",
      "prob": 64,
      "conf": "media",
-     "why": "Se esperan \u0001,\u0002 córners: Netherlands \u0001,\u0002 y Greece \u0001,\u0002",
+     "why": "Se esperan 7,9 córners: Netherlands 3,9 y Greece 4,0",
      "result": "pending",
      "fact": null,
      "top": false
@@ -318,7 +318,7 @@
      "market": "Más de 2.5 goles",
      "prob": 62,
      "conf": "media",
-     "why": "Se esperan \u0001,\u0002 goles; más de \u0001,\u0002 en 6 de 10 de Netherlands y 5 de 10 de Greece",
+     "why": "Se esperan 3,2 goles; más de 2,5 en 6 de 10 de Netherlands y 5 de 10 de Greece",
      "result": "pending",
      "fact": null,
      "top": false
@@ -327,7 +327,7 @@
      "market": "Más de 3.5 tarjetas",
      "prob": 62,
      "conf": "media",
-     "why": "Se esperan \u0001,\u0002 tarjetas entre los dos",
+     "why": "Se esperan 4,6 tarjetas entre los dos",
      "result": "pending",
      "fact": null,
      "top": false
@@ -347,7 +347,7 @@
      "market": "Menos de 5.5 tarjetas",
      "prob": 78,
      "conf": "alta",
-     "why": "Se esperan \u0001,\u0002 tarjetas entre los dos",
+     "why": "Se esperan 4,0 tarjetas entre los dos",
      "result": "pending",
      "fact": null,
      "top": true
@@ -356,7 +356,7 @@
      "market": "Menos de 9.5 córners",
      "prob": 62,
      "conf": "media",
-     "why": "Se esperan \u0001,\u0002 córners: Scotland \u0001,\u0002 y North Macedonia \u0001,\u0002",
+     "why": "Se esperan 8,1 córners: Scotland 3,4 y North Macedonia 4,7",
      "result": "pending",
      "fact": null,
      "top": false
@@ -365,7 +365,7 @@
      "market": "Gana Scotland",
      "prob": 57,
      "conf": "media",
-     "why": "Scotland: \u0001,\u0002 goles a favor y \u0001,\u0002 en contra; North Macedonia: \u0001,\u0002 y \u0001,\u0002; el mercado da 81 % a Scotland; cara a cara: SCO domina 3-1-1",
+     "why": "Scotland: 1,1 goles a favor y 0,9 en contra; North Macedonia: 1,6 y 0,6; el mercado da 81 % a Scotland; cara a cara: SCO domina 3-1-1",
      "result": "pending",
      "fact": null,
      "top": false
@@ -385,7 +385,7 @@
      "market": "Germany saca más córners",
      "prob": 69,
      "conf": "alta",
-     "why": "Se esperan \u0001,\u0002 córners: Serbia \u0001,\u0002 y Germany \u0001,\u0002",
+     "why": "Se esperan 9,2 córners: Serbia 3,1 y Germany 6,1",
      "result": "pending",
      "fact": null,
      "top": false
@@ -394,7 +394,7 @@
      "market": "Más de 3.5 tarjetas",
      "prob": 69,
      "conf": "alta",
-     "why": "Se esperan \u0001,\u0002 tarjetas entre los dos",
+     "why": "Se esperan 5,2 tarjetas entre los dos",
      "result": "pending",
      "fact": null,
      "top": false
@@ -403,7 +403,7 @@
      "market": "Gana Germany",
      "prob": 63,
      "conf": "media",
-     "why": "Serbia: \u0001,\u0002 goles a favor y \u0001,\u0002 en contra; Germany: \u0001,\u0002 y \u0001,\u0002; el mercado da 74 % a Germany; cara a cara: GER domina 2-1-1",
+     "why": "Serbia: 0,5 goles a favor y 0,7 en contra; Germany: 2,3 y 1,1; el mercado da 74 % a Germany; cara a cara: GER domina 2-1-1",
      "result": "pending",
      "fact": null,
      "top": false
@@ -412,7 +412,7 @@
      "market": "Más de 7.5 córners",
      "prob": 58,
      "conf": "media",
-     "why": "Se esperan \u0001,\u0002 córners: Serbia \u0001,\u0002 y Germany \u0001,\u0002",
+     "why": "Se esperan 9,2 córners: Serbia 3,1 y Germany 6,1",
      "result": "pending",
      "fact": null,
      "top": false
@@ -429,10 +429,10 @@
    "meta": "hora UTC−3 · últimos partidos: SVK 4G 2E 4P · FRO 2G 4E 4P",
    "picks": [
     {
-     "market": "Slovakia o empate",
-     "prob": 77,
-     "conf": "alta",
-     "why": "Slovakia: \u0001,\u0002 goles a favor y \u0001,\u0002 en contra; Faroe Islands: \u0001,\u0002 y \u0001,\u0002; el mercado da 71 % a Slovakia; sin cuotas del mercado",
+     "market": "Gana Slovakia",
+     "prob": 59,
+     "conf": "media",
+     "why": "Slovakia: 1,3 goles a favor y 1,1 en contra; Faroe Islands: 0,9 y 1,0; el mercado da 71 % a Slovakia",
      "result": "pending",
      "fact": null,
      "top": false
@@ -452,7 +452,7 @@
      "market": "Switzerland o empate",
      "prob": 83,
      "conf": "alta",
-     "why": "Slovenia: \u0001,\u0002 goles a favor y \u0001,\u0002 en contra; Switzerland: \u0001,\u0002 y \u0001,\u0002; el mercado da 54 % a Switzerland; cara a cara: SUI domina 3-1-1",
+     "why": "Slovenia: 0,9 goles a favor y 0,9 en contra; Switzerland: 2,6 y 1,1; el mercado da 54 % a Switzerland; cara a cara: SUI domina 3-1-1",
      "result": "pending",
      "fact": null,
      "top": true
@@ -472,7 +472,7 @@
      "market": "St. Kitts and Nevis o empate",
      "prob": 74,
      "conf": "alta",
-     "why": "Grenada: \u0001,\u0002 goles a favor y \u0001,\u0002 en contra; St. Kitts and Nevis: \u0001,\u0002 y \u0001,\u0002; el mercado da 59 % a St. Kitts and Nevis; cara a cara: empatados 2-2-1",
+     "why": "Grenada: 1,1 goles a favor y 1,4 en contra; St. Kitts and Nevis: 1,0 y 1,4; el mercado da 59 % a St. Kitts and Nevis; cara a cara: empatados 2-2-1",
      "result": "pending",
      "fact": null,
      "top": false
@@ -481,7 +481,7 @@
      "market": "Más de 2.5 goles",
      "prob": 60,
      "conf": "media",
-     "why": "Se esperan \u0001,\u0002 goles; más de \u0001,\u0002 en 5 de 10 de Grenada y 5 de 10 de St. Kitts and Nevis",
+     "why": "Se esperan 3,0 goles; más de 2,5 en 5 de 10 de Grenada y 5 de 10 de St. Kitts and Nevis",
      "result": "pending",
      "fact": null,
      "top": false
@@ -490,7 +490,7 @@
      "market": "Ambos marcan",
      "prob": 55,
      "conf": "media",
-     "why": "Goles esperados: Grenada \u0001,\u0002, St. Kitts and Nevis \u0001,\u0002",
+     "why": "Goles esperados: Grenada 1,7, St. Kitts and Nevis 1,4",
      "result": "pending",
      "fact": null,
      "top": false
@@ -510,7 +510,7 @@
      "market": "St. Martin o empate",
      "prob": 65,
      "conf": "alta",
-     "why": "St. Martin: \u0001,\u0002 goles a favor y \u0001,\u0002 en contra; El Salvador: \u0001,\u0002 y \u0001,\u0002; sin cuotas del mercado",
+     "why": "St. Martin: 2,2 goles a favor y 1,5 en contra; El Salvador: 1,5 y 1,0; sin cuotas del mercado",
      "result": "pending",
      "fact": null,
      "top": false
@@ -519,7 +519,7 @@
      "market": "Más de 2.5 goles",
      "prob": 61,
      "conf": "media",
-     "why": "Se esperan \u0001,\u0002 goles; más de \u0001,\u0002 en 7 de 10 de St. Martin y 4 de 10 de El Salvador",
+     "why": "Se esperan 3,1 goles; más de 2,5 en 7 de 10 de St. Martin y 4 de 10 de El Salvador",
      "result": "pending",
      "fact": null,
      "top": false
@@ -528,7 +528,7 @@
      "market": "Ambos marcan",
      "prob": 55,
      "conf": "media",
-     "why": "Goles esperados: St. Martin \u0001,\u0002, El Salvador \u0001,\u0002",
+     "why": "Goles esperados: St. Martin 1,7, El Salvador 1,4",
      "result": "pending",
      "fact": null,
      "top": false

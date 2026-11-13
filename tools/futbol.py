@@ -119,7 +119,7 @@ def analyse(home, away, hf, af, mk=None, tab=None):
         p = calibra.ajusta(p, market, tab)
         if p >= 55:
             p = min(p, 85)
-            out.append({"market": market, "prob": p, "conf": conf(p), "why": re.sub(r"(\d)\.(\d)", r",", why), "result": "pending", "fact": None, "top": False})
+            out.append({"market": market, "prob": p, "conf": conf(p), "why": re.sub(r"(\d)\.(\d)", r"\1,\2", why), "result": "pending", "fact": None, "top": False})
     n = f"últimos {len(hf['gf'])} y {len(af['gf'])} partidos"
     lh, la = (avg(hf["gf"]) + avg(af["ga"])) / 2 * 1.08, (avg(af["gf"]) + avg(hf["ga"])) / 2 * 0.92
     if "over" in mk:  # el mercado ya descuenta bajas y noticias: se promedia su total de goles con el nuestro
@@ -138,7 +138,7 @@ def analyse(home, away, hf, af, mk=None, tab=None):
         form += f"; el mercado da {100 * mk['h' if fav == home else 'a']:.0f} % a {fav}"
     if "h2h" in mk:
         form += "; cara a cara: " + mk["h2h"].replace(" leads series ", " domina ").replace("Series tied", "empatados")
-    else:  # sin cuotas no se sabe la fuerza real de los rivales anteriores: más prudencia
+    if "h" not in mk:  # sin cuotas no se sabe la fuerza real de los rivales anteriores: más prudencia
         win, dc = {k: v - 8 for k, v in win.items()}, {k: v - 8 for k, v in dc.items()}
         form += "; sin cuotas del mercado"
     fav = max(win, key=win.get)

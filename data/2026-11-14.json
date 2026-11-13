@@ -16,7 +16,7 @@
      "market": "Castellón o empate",
      "prob": 71,
      "conf": "alta",
-     "why": "Real Valladolid: \u0001,\u0002 goles a favor y \u0001,\u0002 en contra; Castellón: \u0001,\u0002 y \u0001,\u0002; el mercado da 42 % a Castellón; cara a cara: empatados 2-2",
+     "why": "Real Valladolid: 1,5 goles a favor y 1,4 en contra; Castellón: 1,3 y 0,7; el mercado da 42 % a Castellón; cara a cara: empatados 2-2",
      "result": "pending",
      "fact": null,
      "top": false
@@ -25,7 +25,7 @@
      "market": "Menos de 10.5 córners",
      "prob": 67,
      "conf": "alta",
-     "why": "Se esperan \u0001,\u0002 córners: Real Valladolid \u0001,\u0002 y Castellón \u0001,\u0002",
+     "why": "Se esperan 8,5 córners: Real Valladolid 3,7 y Castellón 4,8",
      "result": "pending",
      "fact": null,
      "top": false
@@ -34,7 +34,7 @@
      "market": "Más de 4.5 tarjetas",
      "prob": 61,
      "conf": "media",
-     "why": "Se esperan \u0001,\u0002 tarjetas entre los dos",
+     "why": "Se esperan 5,6 tarjetas entre los dos",
      "result": "pending",
      "fact": null,
      "top": false
@@ -54,7 +54,7 @@
      "market": "Kosovo o empate",
      "prob": 81,
      "conf": "alta",
-     "why": "Kosovo: \u0001,\u0002 goles a favor y \u0001,\u0002 en contra; Israel: \u0001,\u0002 y \u0001,\u0002; el mercado da 52 % a Kosovo; cara a cara: KOS domina 1-0-2",
+     "why": "Kosovo: 1,7 goles a favor y 1,5 en contra; Israel: 1,2 y 2,4; el mercado da 52 % a Kosovo; cara a cara: KOS domina 1-0-2",
      "result": "pending",
      "fact": null,
      "top": true
@@ -63,7 +63,7 @@
      "market": "Menos de 5.5 tarjetas",
      "prob": 77,
      "conf": "alta",
-     "why": "Se esperan \u0001,\u0002 tarjetas entre los dos",
+     "why": "Se esperan 4,1 tarjetas entre los dos",
      "result": "pending",
      "fact": null,
      "top": true
@@ -72,7 +72,7 @@
      "market": "Menos de 10.5 córners",
      "prob": 65,
      "conf": "alta",
-     "why": "Se esperan \u0001,\u0002 córners: Kosovo \u0001,\u0002 y Israel \u0001,\u0002",
+     "why": "Se esperan 8,7 córners: Kosovo 4,8 y Israel 3,8",
      "result": "pending",
      "fact": null,
      "top": false
@@ -81,7 +81,7 @@
      "market": "Más de 2.5 goles",
      "prob": 61,
      "conf": "media",
-     "why": "Se esperan \u0001,\u0002 goles; más de \u0001,\u0002 en 9 de 10 de Kosovo y 8 de 10 de Israel",
+     "why": "Se esperan 3,1 goles; más de 2,5 en 9 de 10 de Kosovo y 8 de 10 de Israel",
      "result": "pending",
      "fact": null,
      "top": false
@@ -101,7 +101,7 @@
      "market": "Menos de 5.5 tarjetas",
      "prob": 80,
      "conf": "alta",
-     "why": "Se esperan \u0001,\u0002 tarjetas entre los dos",
+     "why": "Se esperan 3,9 tarjetas entre los dos",
      "result": "pending",
      "fact": null,
      "top": true
@@ -110,7 +110,7 @@
      "market": "Real Sociedad II o empate",
      "prob": 74,
      "conf": "alta",
-     "why": "Real Sociedad II: \u0001,\u0002 goles a favor y \u0001,\u0002 en contra; Sporting Gijón: \u0001,\u0002 y \u0001,\u0002; el mercado da 37 % a Real Sociedad II; cara a cara: empatados 2-2",
+     "why": "Real Sociedad II: 1,3 goles a favor y 1,8 en contra; Sporting Gijón: 1,0 y 1,8; el mercado da 37 % a Real Sociedad II; cara a cara: empatados 2-2",
      "result": "pending",
      "fact": null,
      "top": false
@@ -119,7 +119,7 @@
      "market": "Menos de 9.5 córners",
      "prob": 61,
      "conf": "media",
-     "why": "Se esperan \u0001,\u0002 córners: Real Sociedad II \u0001,\u0002 y Sporting Gijón \u0001,\u0002",
+     "why": "Se esperan 8,3 córners: Real Sociedad II 4,3 y Sporting Gijón 4,0",
      "result": "pending",
      "fact": null,
      "top": false
@@ -128,7 +128,7 @@
      "market": "Más de 2.5 goles",
      "prob": 56,
      "conf": "media",
-     "why": "Se esperan \u0001,\u0002 goles; más de \u0001,\u0002 en 7 de 10 de Real Sociedad II y 4 de 10 de Sporting Gijón",
+     "why": "Se esperan 2,8 goles; más de 2,5 en 7 de 10 de Real Sociedad II y 4 de 10 de Sporting Gijón",
      "result": "pending",
      "fact": null,
      "top": false
@@ -145,28 +145,28 @@
    "meta": "hora UTC−3 · últimos partidos: GEO 5G 1E 4P · HUN 2G 3E 5P",
    "picks": [
     {
-     "market": "Menos de 5.5 tarjetas",
+     "market": "Georgia o empate",
      "prob": 75,
      "conf": "alta",
-     "why": "Se esperan \u0001,\u0002 tarjetas entre los dos",
+     "why": "Georgia: 1,7 goles a favor y 1,3 en contra; Hungary: 0,6 y 1,8; el mercado da 31 % a Georgia",
      "result": "pending",
      "fact": null,
      "top": true
     },
     {
-     "market": "Georgia o empate",
-     "prob": 67,
+     "market": "Menos de 5.5 tarjetas",
+     "prob": 75,
      "conf": "alta",
-     "why": "Georgia: \u0001,\u0002 goles a favor y \u0001,\u0002 en contra; Hungary: \u0001,\u0002 y \u0001,\u0002; el mercado da 31 % a Georgia; sin cuotas del mercado",
+     "why": "Se esperan 4,3 tarjetas entre los dos",
      "result": "pending",
      "fact": null,
-     "top": false
+     "top": true
     },
     {
      "market": "Más de 7.5 córners",
      "prob": 59,
      "conf": "media",
-     "why": "Se esperan \u0001,\u0002 córners: Georgia \u0001,\u0002 y Hungary \u0001,\u0002",
+     "why": "Se esperan 9,4 córners: Georgia 4,2 y Hungary 5,2",
      "result": "pending",
      "fact": null,
      "top": false
@@ -186,7 +186,7 @@
      "market": "Gana Norway",
      "prob": 74,
      "conf": "alta",
-     "why": "Norway: \u0001,\u0002 goles a favor y \u0001,\u0002 en contra; Wales: \u0001,\u0002 y \u0001,\u0002; el mercado da 76 % a Norway; cara a cara: WAL domina 3-0-1",
+     "why": "Norway: 4,1 goles a favor y 0,4 en contra; Wales: 1,3 y 1,2; el mercado da 76 % a Norway; cara a cara: WAL domina 3-0-1",
      "result": "pending",
      "fact": null,
      "top": true
@@ -195,7 +195,7 @@
      "market": "Más de 2.5 goles",
      "prob": 69,
      "conf": "alta",
-     "why": "Se esperan \u0001,\u0002 goles; más de \u0001,\u0002 en 7 de 10 de Norway y 6 de 10 de Wales",
+     "why": "Se esperan 3,6 goles; más de 2,5 en 7 de 10 de Norway y 6 de 10 de Wales",
      "result": "pending",
      "fact": null,
      "top": false
@@ -204,7 +204,7 @@
      "market": "Menos de 4.5 tarjetas",
      "prob": 69,
      "conf": "alta",
-     "why": "Se esperan \u0001,\u0002 tarjetas entre los dos",
+     "why": "Se esperan 3,8 tarjetas entre los dos",
      "result": "pending",
      "fact": null,
      "top": false
@@ -213,7 +213,7 @@
      "market": "Norway saca más córners",
      "prob": 67,
      "conf": "alta",
-     "why": "Se esperan 1\u0001,\u0002 córners: Norway \u0001,\u0002 y Wales \u0001,\u0002",
+     "why": "Se esperan 10,1 córners: Norway 6,4 y Wales 3,7",
      "result": "pending",
      "fact": null,
      "top": false
@@ -233,7 +233,7 @@
      "market": "Menos de 4.5 tarjetas",
      "prob": 74,
      "conf": "alta",
-     "why": "Se esperan \u0001,\u0002 tarjetas entre los dos",
+     "why": "Se esperan 3,5 tarjetas entre los dos",
      "result": "pending",
      "fact": null,
      "top": false
@@ -242,7 +242,7 @@
      "market": "Menos de 10.5 córners",
      "prob": 66,
      "conf": "alta",
-     "why": "Se esperan \u0001,\u0002 córners: Almería \u0001,\u0002 y FC Andorra \u0001,\u0002",
+     "why": "Se esperan 8,6 córners: Almería 3,6 y FC Andorra 5,0",
      "result": "pending",
      "fact": null,
      "top": false
@@ -251,7 +251,7 @@
      "market": "Más de 2.5 goles",
      "prob": 61,
      "conf": "media",
-     "why": "Se esperan \u0001,\u0002 goles; más de \u0001,\u0002 en 4 de 10 de Almería y 7 de 10 de FC Andorra",
+     "why": "Se esperan 3,1 goles; más de 2,5 en 4 de 10 de Almería y 7 de 10 de FC Andorra",
      "result": "pending",
      "fact": null,
      "top": false
@@ -260,7 +260,7 @@
      "market": "Gana Almería",
      "prob": 60,
      "conf": "media",
-     "why": "Almería: \u0001,\u0002 goles a favor y \u0001,\u0002 en contra; FC Andorra: \u0001,\u0002 y \u0001,\u0002; el mercado da 58 % a Almería; cara a cara: ALM domina 2-0",
+     "why": "Almería: 2,0 goles a favor y 0,4 en contra; FC Andorra: 1,4 y 2,0; el mercado da 58 % a Almería; cara a cara: ALM domina 2-0",
      "result": "pending",
      "fact": null,
      "top": false
@@ -280,7 +280,7 @@
      "market": "Menos de 4.5 tarjetas",
      "prob": 83,
      "conf": "alta",
-     "why": "Se esperan \u0001,\u0002 tarjetas entre los dos",
+     "why": "Se esperan 2,8 tarjetas entre los dos",
      "result": "pending",
      "fact": null,
      "top": true
@@ -289,7 +289,7 @@
      "market": "Austria saca más córners",
      "prob": 72,
      "conf": "alta",
-     "why": "Se esperan \u0001,\u0002 córners: Austria \u0001,\u0002 y Republic of Ireland \u0001,\u0002",
+     "why": "Se esperan 7,4 córners: Austria 5,3 y Republic of Ireland 2,1",
      "result": "pending",
      "fact": null,
      "top": false
@@ -298,7 +298,7 @@
      "market": "Gana Austria",
      "prob": 63,
      "conf": "media",
-     "why": "Austria: \u0001,\u0002 goles a favor y \u0001,\u0002 en contra; Republic of Ireland: \u0001,\u0002 y \u0001,\u0002; el mercado da 59 % a Austria; cara a cara: empatados 1-1-3",
+     "why": "Austria: 2,5 goles a favor y 0,7 en contra; Republic of Ireland: 0,7 y 1,6; el mercado da 59 % a Austria; cara a cara: empatados 1-1-3",
      "result": "pending",
      "fact": null,
      "top": false
@@ -307,7 +307,7 @@
      "market": "Menos de 8.5 córners",
      "prob": 60,
      "conf": "media",
-     "why": "Se esperan \u0001,\u0002 córners: Austria \u0001,\u0002 y Republic of Ireland \u0001,\u0002",
+     "why": "Se esperan 7,4 córners: Austria 5,3 y Republic of Ireland 2,1",
      "result": "pending",
      "fact": null,
      "top": false
@@ -327,7 +327,7 @@
      "market": "Northern Ireland o empate",
      "prob": 78,
      "conf": "alta",
-     "why": "Northern Ireland: \u0001,\u0002 goles a favor y \u0001,\u0002 en contra; Ukraine: \u0001,\u0002 y \u0001,\u0002; el mercado da 38 % a Northern Ireland; cara a cara: NIR domina 2-1-2",
+     "why": "Northern Ireland: 1,6 goles a favor y 0,8 en contra; Ukraine: 1,2 y 1,4; el mercado da 38 % a Northern Ireland; cara a cara: NIR domina 2-1-2",
      "result": "pending",
      "fact": null,
      "top": true
@@ -336,7 +336,7 @@
      "market": "Menos de 4.5 tarjetas",
      "prob": 70,
      "conf": "alta",
-     "why": "Se esperan \u0001,\u0002 tarjetas entre los dos",
+     "why": "Se esperan 3,8 tarjetas entre los dos",
      "result": "pending",
      "fact": null,
      "top": false
@@ -345,7 +345,7 @@
      "market": "Northern Ireland saca más córners",
      "prob": 65,
      "conf": "alta",
-     "why": "Se esperan \u0001,\u0002 córners: Northern Ireland \u0001,\u0002 y Ukraine \u0001,\u0002",
+     "why": "Se esperan 9,8 córners: Northern Ireland 6,1 y Ukraine 3,7",
      "result": "pending",
      "fact": null,
      "top": false
@@ -354,7 +354,7 @@
      "market": "Más de 7.5 córners",
      "prob": 62,
      "conf": "media",
-     "why": "Se esperan \u0001,\u0002 córners: Northern Ireland \u0001,\u0002 y Ukraine \u0001,\u0002",
+     "why": "Se esperan 9,8 córners: Northern Ireland 6,1 y Ukraine 3,7",
      "result": "pending",
      "fact": null,
      "top": false
@@ -374,7 +374,7 @@
      "market": "Más de 3.5 tarjetas",
      "prob": 70,
      "conf": "alta",
-     "why": "Se esperan \u0001,\u0002 tarjetas entre los dos",
+     "why": "Se esperan 5,4 tarjetas entre los dos",
      "result": "pending",
      "fact": null,
      "top": false
@@ -383,7 +383,7 @@
      "market": "Más de 2.5 goles",
      "prob": 63,
      "conf": "media",
-     "why": "Se esperan \u0001,\u0002 goles; más de \u0001,\u0002 en 7 de 10 de Portugal y 4 de 10 de Denmark",
+     "why": "Se esperan 3,2 goles; más de 2,5 en 7 de 10 de Portugal y 4 de 10 de Denmark",
      "result": "pending",
      "fact": null,
      "top": false
@@ -392,7 +392,7 @@
      "market": "Gana Portugal",
      "prob": 60,
      "conf": "media",
-     "why": "Portugal: \u0001,\u0002 goles a favor y \u0001,\u0002 en contra; Denmark: \u0001,\u0002 y \u0001,\u0002; el mercado da 62 % a Portugal; cara a cara: POR domina 4-1",
+     "why": "Portugal: 2,7 goles a favor y 1,2 en contra; Denmark: 1,1 y 1,2; el mercado da 62 % a Portugal; cara a cara: POR domina 4-1",
      "result": "pending",
      "fact": null,
      "top": false
@@ -401,7 +401,7 @@
      "market": "Más de 8.5 córners",
      "prob": 60,
      "conf": "media",
-     "why": "Se esperan 1\u0001,\u0002 córners: Portugal \u0001,\u0002 y Denmark \u0001,\u0002",
+     "why": "Se esperan 10,5 córners: Portugal 5,0 y Denmark 5,5",
      "result": "pending",
      "fact": null,
      "top": false
@@ -421,7 +421,7 @@
      "market": "Romania o empate",
      "prob": 68,
      "conf": "alta",
-     "why": "Romania: \u0001,\u0002 goles a favor y \u0001,\u0002 en contra; Poland: \u0001,\u0002 y \u0001,\u0002; el mercado da 24 % a Romania; cara a cara: POL domina 3-2",
+     "why": "Romania: 2,3 goles a favor y 1,0 en contra; Poland: 1,5 y 1,8; el mercado da 24 % a Romania; cara a cara: POL domina 3-2",
      "result": "pending",
      "fact": null,
      "top": false
@@ -430,7 +430,7 @@
      "market": "Más de 3.5 tarjetas",
      "prob": 65,
      "conf": "alta",
-     "why": "Se esperan \u0001,\u0002 tarjetas entre los dos",
+     "why": "Se esperan 4,8 tarjetas entre los dos",
      "result": "pending",
      "fact": null,
      "top": false
@@ -439,7 +439,7 @@
      "market": "Más de 2.5 goles",
      "prob": 62,
      "conf": "media",
-     "why": "Se esperan \u0001,\u0002 goles; más de \u0001,\u0002 en 9 de 10 de Romania y 5 de 10 de Poland",
+     "why": "Se esperan 3,1 goles; más de 2,5 en 9 de 10 de Romania y 5 de 10 de Poland",
      "result": "pending",
      "fact": null,
      "top": false
@@ -448,7 +448,7 @@
      "market": "Más de 8.5 córners",
      "prob": 55,
      "conf": "media",
-     "why": "Se esperan 1\u0001,\u0002 córners: Romania \u0001,\u0002 y Poland \u0001,\u0002",
+     "why": "Se esperan 10,0 córners: Romania 5,4 y Poland 4,6",
      "result": "pending",
      "fact": null,
      "top": false
@@ -468,7 +468,7 @@
      "market": "Más de 2.5 goles",
      "prob": 64,
      "conf": "media",
-     "why": "Se esperan \u0001,\u0002 goles; más de \u0001,\u0002 en 6 de 10 de Sweden y 6 de 10 de Bosnia-Herzegovina",
+     "why": "Se esperan 3,3 goles; más de 2,5 en 6 de 10 de Sweden y 6 de 10 de Bosnia-Herzegovina",
      "result": "pending",
      "fact": null,
      "top": false
@@ -477,7 +477,7 @@
      "market": "Gana Sweden",
      "prob": 63,
      "conf": "media",
-     "why": "Sweden: \u0001,\u0002 goles a favor y \u0001,\u0002 en contra; Bosnia-Herzegovina: \u0001,\u0002 y \u0001,\u0002; el mercado da 61 % a Sweden; cara a cara: SWE domina 1-0-1",
+     "why": "Sweden: 2,7 goles a favor y 1,0 en contra; Bosnia-Herzegovina: 1,2 y 2,0; el mercado da 61 % a Sweden; cara a cara: SWE domina 1-0-1",
      "result": "pending",
      "fact": null,
      "top": false
@@ -497,7 +497,7 @@
      "market": "United States o empate",
      "prob": 74,
      "conf": "alta",
-     "why": "Haiti: \u0001,\u0002 goles a favor y \u0001,\u0002 en contra; United States: \u0001,\u0002 y \u0001,\u0002; el mercado da 71 % a United States; cara a cara: USA domina 3-0-2",
+     "why": "Haiti: 3,1 goles a favor y 1,0 en contra; United States: 2,1 y 0,9; el mercado da 71 % a United States; cara a cara: USA domina 3-0-2",
      "result": "pending",
      "fact": null,
      "top": true
@@ -506,7 +506,7 @@
      "market": "Más de 2.5 goles",
      "prob": 65,
      "conf": "alta",
-     "why": "Se esperan \u0001,\u0002 goles; más de \u0001,\u0002 en 7 de 10 de Haiti y 6 de 10 de United States",
+     "why": "Se esperan 3,3 goles; más de 2,5 en 7 de 10 de Haiti y 6 de 10 de United States",
      "result": "pending",
      "fact": null,
      "top": false
@@ -515,7 +515,7 @@
      "market": "Ambos marcan",
      "prob": 57,
      "conf": "media",
-     "why": "Goles esperados: Haiti \u0001,\u0002, United States \u0001,\u0002",
+     "why": "Goles esperados: Haiti 2,0, United States 1,3",
      "result": "pending",
      "fact": null,
      "top": false
@@ -533,18 +533,18 @@
    "picks": [
     {
      "market": "St. Vincent and the Grenadines o empate",
-     "prob": 74,
+     "prob": 66,
      "conf": "alta",
-     "why": "St. Vincent and the Grenadines: \u0001,\u0002 goles a favor y \u0001,\u0002 en contra; Belize: \u0001,\u0002 y \u0001,\u0002; cara a cara: VIN domina 3-1-1",
+     "why": "St. Vincent and the Grenadines: 1,6 goles a favor y 1,4 en contra; Belize: 1,2 y 1,2; cara a cara: VIN domina 3-1-1; sin cuotas del mercado",
      "result": "pending",
      "fact": null,
-     "top": true
+     "top": false
     },
     {
      "market": "Más de 2.5 goles",
      "prob": 55,
      "conf": "media",
-     "why": "Se esperan \u0001,\u0002 goles; más de \u0001,\u0002 en 5 de 10 de St. Vincent and the Grenadines y 5 de 10 de Belize",
+     "why": "Se esperan 2,7 goles; más de 2,5 en 5 de 10 de St. Vincent and the Grenadines y 5 de 10 de Belize",
      "result": "pending",
      "fact": null,
      "top": false
@@ -564,7 +564,7 @@
      "market": "Mexico o empate",
      "prob": 74,
      "conf": "alta",
-     "why": "Jamaica: \u0001,\u0002 goles a favor y \u0001,\u0002 en contra; Mexico: \u0001,\u0002 y \u0001,\u0002; el mercado da 61 % a Mexico; cara a cara: MEX domina 3-0-2",
+     "why": "Jamaica: 1,7 goles a favor y 0,9 en contra; Mexico: 1,0 y 1,0; el mercado da 61 % a Mexico; cara a cara: MEX domina 3-0-2",
      "result": "pending",
      "fact": null,
      "top": false
