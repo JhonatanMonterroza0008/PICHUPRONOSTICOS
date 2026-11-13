@@ -2,7 +2,8 @@
 
 Uso: python tools/nba.py 2026-11-11 [tools/lines/nba-2026-11-11.json]
 El segundo argumento es opcional: líneas de una casa de apuestas por abreviatura del local
-(ml, spread del local, total y sus cuotas [local/más, visitante/menos]). Con él se añaden hándicap y total.
+(ml, spread del local, total y sus cuotas [local/más, visitante/menos]). Sin él se usan las que publica ESPN.
+Cada probabilidad se corrige con el historial de aciertos de ese tipo de mercado (tools/calibra.py).
 Fuente: API pública de ESPN. Solo biblioteca estándar.
 Los umbrales ("20+ puntos") son propios: el mayor valor que el jugador alcanzó en al menos
 el 80 % de sus últimos 10 partidos. No son líneas de casas de apuestas.
@@ -10,6 +11,7 @@ el 80 % de sus últimos 10 partidos. No son líneas de casas de apuestas.
 import json, math, pathlib, statistics, sys, urllib.request
 from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timedelta
+import calibra
 
 SITE = "https://site.api.espn.com/apis/site/v2/sports/basketball/nba"
 WEB = "https://site.web.api.espn.com/apis/common/v3/sports/basketball/nba"
@@ -67,7 +69,18 @@ def shrunk(p):
     """Probabilidad en %, acercada al 50 porque la muestra es de unos 10 partidos."""
     return round(50 + (100 * p - 50) * 0.6)
 
-def line_picks(teams, line):
+def espn_line(summ):
+    """Línea de ESPN en el mismo formato que tools/lines/*.json, o None."""
+    try:
+        o = summ["pickcenter"][0]
+        h, a = o["homeTeamOdds"], o["awayTeamOdds"]
+        return {"ml": [calibra.decimal(h["moneyLine"]), calibra.decimal(a["moneyLine"])], "spread": float(o["spread"]),
+                "spread_odds": [calibra.decimal(h["spreadOdds"]), calibra.decimal(a["spreadOdds"])],
+                "total": float(o["overUnder"]), "total_odds": [calibra.decimal(o["overOdds"]), calibra.decimal(o["underOdds"])]}
+    except (KeyError, IndexError, TypeError, ValueError):
+        return None
+
+def line_picks(teams, line, tab):
     """Hándicap y total frente a la línea de la casa. Desviaciones típicas habituales en NBA: 13 (margen) y 18 (total)."""
     phi = statistics.NormalDist().cdf
     h, a = team_form(teams["home"]["team"]["id"]), team_form(teams["away"]["team"]["id"])
@@ -79,6 +92,7 @@ def line_picks(teams, line):
     hn, an = teams["home"]["team"]["shortDisplayName"], teams["away"]["team"]["shortDisplayName"]
     picks = []
     def add(market, p, odds, why):
+        p = calibra.ajusta(p, market, tab, True)
         if p >= 55:  # por debajo no hay ventaja clara frente a la línea
             picks.append({"market": f"{market} (cuota {odds:.2f})", "prob": min(p, 85), "conf": conf(p), "why": why.replace(".", ","),
                           "result": "pending", "fact": None, "top": False})
@@ -97,8 +111,10 @@ def conf(p):
 
 def build(date, lines=None):
     events = get(f"{SITE}/scoreboard?dates={date.replace('-', '')}")["events"]
-    matches = []
+    matches, tab = [], calibra.tabla()
     for e in events:
+        if e["status"]["type"]["name"] != "STATUS_SCHEDULED":
+            continue
         comp = e["competitions"][0]
         teams = {t["homeAway"]: t for t in comp["competitors"]}
         summ = get(f"{SITE}/summary?event={e['id']}")
@@ -121,7 +137,7 @@ def build(date, lines=None):
                         continue
                     t, hits = got
                     n, avg = len(vals), sum(vals) / len(vals)
-                    p = min(88, round(100 * (hits + 1) / (n + 2))) - (8 if doubt else 0)
+                    p = min(88, calibra.ajusta(100 * (hits + 1) / (n + 2), f"x {t}+ {name}", tab, True)) - (8 if doubt else 0)
                     why = f"Lo logró en {hits} de sus últimos {n}; promedia {avg:.1f}".replace(".", ",")
                     cands.append({"key": key, "avg": avg, "market": f"{a['displayName']} {t}+ {name}", "prob": p, "conf": conf(p),
                                   "why": why + (" · en duda por lesión" if doubt else ""), "result": "pending", "fact": None, "top": False})
@@ -130,13 +146,18 @@ def build(date, lines=None):
         try:
             ph, pa = float(pred["homeTeam"]["gameProjection"]), float(pred["awayTeam"]["gameProjection"])
             side, p = ("home", ph) if ph >= pa else ("away", pa)
-            p = min(85, round(p))
-            line = (lines or {}).get(teams["home"]["team"]["abbreviation"])
+            line = (lines or {}).get(teams["home"]["team"]["abbreviation"]) or espn_line(summ)
+            why = f"{p:.0f} % según el modelo de ESPN"
+            if line:  # se promedia con lo que dice el mercado, sin su margen
+                i, o = 1 / line["ml"][0 if side == "home" else 1], 1 / line["ml"][1 if side == "home" else 0]
+                why += f" y {100 * i / (i + o):.0f} % según las cuotas"
+                p = (p + 100 * i / (i + o)) / 2
             odds = f" (cuota {line['ml'][0 if side == 'home' else 1]:.2f})" if line else ""
+            p = min(85, calibra.ajusta(p, "gana x", tab, True))
             picks.append({"market": f"Gana {teams[side]['team']['shortDisplayName']}{odds}", "prob": p, "conf": conf(p),
-                          "why": f"{p} % según el modelo de ESPN", "result": "pending", "fact": None, "top": False})
+                          "why": why, "result": "pending", "fact": None, "top": False})
             if line:
-                picks += line_picks(teams, line)
+                picks += line_picks(teams, line, tab)
         except (KeyError, ValueError, TypeError):
             pass
         for key in STATS:  # los 3 más probables de cada estadística
@@ -150,12 +171,13 @@ def build(date, lines=None):
         matches.append({"comp": "NBA", "id": e["id"], "time": local.strftime("%H:%M"), "home": teams["home"]["team"]["displayName"],
                         "away": teams["away"]["team"]["displayName"], "score": None, "meta": meta, "picks": picks})
     allp = [p for m in matches for p in m["picks"]]
-    assert matches and all(1 <= p["prob"] <= 99 for p in allp), "datos de NBA incompletos"
+    if not matches:
+        return None
+    assert all(1 <= p["prob"] <= 99 for p in allp), "datos de NBA incompletos"
     for p in sorted(allp, key=lambda p: -p["prob"])[:10]:
         p["top"] = True
     note = "Umbrales de jugadores propios, a partir de sus últimos 10 partidos; no son líneas de casas de apuestas."
-    if lines:
-        note += " Hándicap, total y cuotas: líneas de una casa de apuestas tomadas el día del partido."
+    note += " Hándicap, total y cuotas: líneas de una casa de apuestas tomadas el día del partido. Cada probabilidad se corrige con el historial de aciertos de ese mercado."
     return {"date": date, "sport": "nba", "title": f"NBA, {len(matches)} partidos",
             "note": note,
             "matches": matches}
@@ -164,6 +186,9 @@ if __name__ == "__main__":
     date = sys.argv[1]
     lines = json.loads(pathlib.Path(sys.argv[2]).read_text(encoding="utf-8")) if len(sys.argv) > 2 else None
     day = build(date, lines)
+    if not day:
+        print("sin partidos de NBA por empezar para", date)
+        sys.exit(0)
     (ROOT / "data" / f"nba-{date}.json").write_text(json.dumps(day, ensure_ascii=False, indent=1), encoding="utf-8")
     idx_path = ROOT / "data" / "index.json"
     idx = json.loads(idx_path.read_text(encoding="utf-8"))

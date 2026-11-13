@@ -9,7 +9,7 @@
    "time": "14:00",
    "home": "Armenia",
    "away": "Cyprus",
-   "score": null,
+   "score": "1-1",
    "meta": "hora UTC−3 · últimos partidos: ARM 3G 1E 6P · CYP 4G 1E 5P",
    "picks": [
     {
@@ -17,8 +17,8 @@
      "prob": 71,
      "conf": "alta",
      "why": "Se esperan 5,3 tarjetas entre los dos",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "5 tarjetas",
      "top": false
     },
     {
@@ -26,8 +26,8 @@
      "prob": 65,
      "conf": "alta",
      "why": "Armenia: 1,2 goles a favor y 2,1 en contra; Cyprus: 1,3 y 2,0",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "1-1",
      "top": false
     },
     {
@@ -35,8 +35,8 @@
      "prob": 63,
      "conf": "media",
      "why": "Se esperan 8,9 córners: Armenia 4,8 y Cyprus 4,1",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "15 córners",
      "top": false
     },
     {
@@ -44,8 +44,8 @@
      "prob": 61,
      "conf": "media",
      "why": "Goles esperados: Armenia 1,7, Cyprus 1,6",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "1-1",
      "top": false
     }
    ]
@@ -56,7 +56,7 @@
    "time": "14:00",
    "home": "Türkiye",
    "away": "Belgium",
-   "score": null,
+   "score": "1-2",
    "meta": "hora UTC−3 · últimos partidos: TUR 6G 1E 3P · BEL 5G 3E 2P",
    "picks": [
     {
@@ -64,8 +64,8 @@
      "prob": 69,
      "conf": "alta",
      "why": "Türkiye: 1,7 goles a favor y 1,6 en contra; Belgium: 2,6 y 1,1",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "1-2",
      "top": false
     },
     {
@@ -73,8 +73,8 @@
      "prob": 67,
      "conf": "alta",
      "why": "Se esperan 4,3 tarjetas entre los dos",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "2 tarjetas",
      "top": false
     },
     {
@@ -82,8 +82,8 @@
      "prob": 66,
      "conf": "alta",
      "why": "Se esperan 9,3 córners: Türkiye 4,0 y Belgium 5,3",
-     "result": "pending",
-     "fact": null,
+     "result": "miss",
+     "fact": "5 córners",
      "top": false
     },
     {
@@ -91,8 +91,8 @@
      "prob": 63,
      "conf": "media",
      "why": "Se esperan 3,4 goles; más de 2,5 en 7 de 10 de Türkiye y 6 de 10 de Belgium",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "3 goles",
      "top": false
     }
    ]
@@ -103,7 +103,7 @@
    "time": "16:00",
    "home": "Barbados",
    "away": "Guadeloupe",
-   "score": null,
+   "score": "0-3",
    "meta": "hora UTC−3 · últimos partidos: BRB 2G 0E 8P · GDL 7G 1E 2P",
    "picks": [
     {
@@ -111,8 +111,8 @@
      "prob": 71,
      "conf": "alta",
      "why": "Se esperan 4,1 goles; más de 2,5 en 10 de 10 de Barbados y 7 de 10 de Guadeloupe",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "3 goles",
      "top": false
     },
     {
@@ -120,8 +120,8 @@
      "prob": 69,
      "conf": "alta",
      "why": "Se esperan 8,2 córners: Barbados 3,1 y Guadeloupe 5,1",
-     "result": "pending",
-     "fact": null,
+     "result": "miss",
+     "fact": "4 a 7",
      "top": false
     },
     {
@@ -129,8 +129,8 @@
      "prob": 64,
      "conf": "media",
      "why": "Goles esperados: Barbados 1,3, Guadeloupe 2,8",
-     "result": "pending",
-     "fact": null,
+     "result": "miss",
+     "fact": "0-3",
      "top": false
     },
     {
@@ -138,8 +138,8 @@
      "prob": 64,
      "conf": "media",
      "why": "Se esperan 8,2 córners: Barbados 3,1 y Guadeloupe 5,1",
-     "result": "pending",
-     "fact": null,
+     "result": "miss",
+     "fact": "11 córners",
      "top": false
     }
    ]
@@ -150,7 +150,7 @@
    "time": "16:00",
    "home": "Cayman Islands",
    "away": "Guyana",
-   "score": null,
+   "score": "0-6",
    "meta": "hora UTC−3 · últimos partidos: CAY 3G 1E 6P · GUY 3G 1E 6P",
    "picks": [
     {
@@ -158,8 +158,8 @@
      "prob": 71,
      "conf": "alta",
      "why": "Cayman Islands: 1,0 goles a favor y 2,6 en contra; Guyana: 1,8 y 1,7",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "0-6",
      "top": false
     },
     {
@@ -167,8 +167,8 @@
      "prob": 63,
      "conf": "media",
      "why": "Se esperan 3,5 goles; más de 2,5 en 8 de 10 de Cayman Islands y 7 de 10 de Guyana",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "6 goles",
      "top": false
     },
     {
@@ -176,8 +176,8 @@
      "prob": 62,
      "conf": "media",
      "why": "Goles esperados: Cayman Islands 1,5, Guyana 2,0",
-     "result": "pending",
-     "fact": null,
+     "result": "miss",
+     "fact": "0-6",
      "top": false
     }
    ]
@@ -188,7 +188,7 @@
    "time": "16:45",
    "home": "Albania",
    "away": "Finland",
-   "score": null,
+   "score": "2-0",
    "meta": "hora UTC−3 · últimos partidos: ALB 3G 2E 5P · FIN 1G 2E 7P",
    "picks": [
     {
@@ -196,8 +196,8 @@
      "prob": 82,
      "conf": "alta",
      "why": "Se esperan 2,3 tarjetas entre los dos",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "4 tarjetas",
      "top": true
     },
     {
@@ -205,8 +205,8 @@
      "prob": 77,
      "conf": "alta",
      "why": "Albania: 0,7 goles a favor y 0,9 en contra; Finland: 0,7 y 1,9",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "2-0",
      "top": true
     },
     {
@@ -214,8 +214,8 @@
      "prob": 69,
      "conf": "alta",
      "why": "Se esperan 8,6 córners: Albania 4,0 y Finland 4,5",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "5 córners",
      "top": false
     },
     {
@@ -223,8 +223,8 @@
      "prob": 60,
      "conf": "media",
      "why": "Se esperan 2,1 goles; más de 2,5 en 3 de 10 de Albania y 5 de 10 de Finland",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "2 goles",
      "top": false
     }
    ]
@@ -235,7 +235,7 @@
    "time": "16:45",
    "home": "Czechia",
    "away": "Spain",
-   "score": null,
+   "score": "0-2",
    "meta": "hora UTC−3 · últimos partidos: CZE 6G 3E 1P · ESP 7G 3E 0P",
    "picks": [
     {
@@ -243,8 +243,8 @@
      "prob": 71,
      "conf": "alta",
      "why": "Se esperan 4,0 tarjetas entre los dos",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "3 tarjetas",
      "top": false
     },
     {
@@ -252,8 +252,8 @@
      "prob": 69,
      "conf": "alta",
      "why": "Czechia: 1,7 goles a favor y 0,9 en contra; Spain: 3,4 y 1,1",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "0-2",
      "top": false
     },
     {
@@ -261,8 +261,8 @@
      "prob": 69,
      "conf": "alta",
      "why": "Se esperan 9,7 córners: Czechia 5,2 y Spain 4,4",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "14 córners",
      "top": false
     },
     {
@@ -270,8 +270,8 @@
      "prob": 63,
      "conf": "media",
      "why": "Se esperan 3,5 goles; más de 2,5 en 4 de 10 de Czechia y 9 de 10 de Spain",
-     "result": "pending",
-     "fact": null,
+     "result": "miss",
+     "fact": "2 goles",
      "top": false
     }
    ]
@@ -282,7 +282,7 @@
    "time": "16:45",
    "home": "England",
    "away": "Croatia",
-   "score": null,
+   "score": "2-1",
    "meta": "hora UTC−3 · últimos partidos: ENG 8G 1E 1P · CRO 5G 3E 2P",
    "picks": [
     {
@@ -290,8 +290,8 @@
      "prob": 82,
      "conf": "alta",
      "why": "Se esperan 10,9 córners: England 7,9 y Croatia 3,0",
-     "result": "pending",
-     "fact": null,
+     "result": "miss",
+     "fact": "6 a 7",
      "top": true
     },
     {
@@ -299,8 +299,8 @@
      "prob": 73,
      "conf": "alta",
      "why": "Se esperan 3,1 tarjetas entre los dos",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "1 tarjetas",
      "top": true
     },
     {
@@ -308,8 +308,8 @@
      "prob": 71,
      "conf": "alta",
      "why": "England: 2,5 goles a favor y 0,4 en contra; Croatia: 2,3 y 0,8",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "2-1",
      "top": false
     },
     {
@@ -317,8 +317,8 @@
      "prob": 70,
      "conf": "alta",
      "why": "Se esperan 10,9 córners: England 7,9 y Croatia 3,0",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "13 córners",
      "top": false
     }
    ]
@@ -329,7 +329,7 @@
    "time": "16:45",
    "home": "Italy",
    "away": "France",
-   "score": null,
+   "score": "3-1",
    "meta": "hora UTC−3 · últimos partidos: ITA 4G 2E 4P · FRA 8G 1E 1P",
    "picks": [
     {
@@ -337,8 +337,8 @@
      "prob": 72,
      "conf": "alta",
      "why": "Se esperan 9,9 córners: Italy 3,7 y France 6,2",
-     "result": "pending",
-     "fact": null,
+     "result": "miss",
+     "fact": "3 a 4",
      "top": true
     },
     {
@@ -346,8 +346,8 @@
      "prob": 71,
      "conf": "alta",
      "why": "Italy: 1,7 goles a favor y 1,8 en contra; France: 2,6 y 1,0",
-     "result": "pending",
-     "fact": null,
+     "result": "miss",
+     "fact": "3-1",
      "top": false
     },
     {
@@ -355,8 +355,8 @@
      "prob": 71,
      "conf": "alta",
      "why": "Se esperan 4,0 tarjetas entre los dos",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "4 tarjetas",
      "top": false
     },
     {
@@ -364,8 +364,8 @@
      "prob": 70,
      "conf": "alta",
      "why": "Se esperan 9,9 córners: Italy 3,7 y France 6,2",
-     "result": "pending",
-     "fact": null,
+     "result": "miss",
+     "fact": "7 córners",
      "top": false
     }
    ]
@@ -376,7 +376,7 @@
    "time": "16:45",
    "home": "Montenegro",
    "away": "Latvia",
-   "score": null,
+   "score": "2-1",
    "meta": "hora UTC−3 · últimos partidos: MNE 3G 0E 7P · LVA 2G 3E 5P",
    "picks": [
     {
@@ -384,8 +384,8 @@
      "prob": 70,
      "conf": "alta",
      "why": "Montenegro: 0,9 goles a favor y 1,5 en contra; Latvia: 0,7 y 1,5",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "2-1",
      "top": false
     },
     {
@@ -393,8 +393,8 @@
      "prob": 57,
      "conf": "media",
      "why": "Se esperan 2,3 goles; más de 2,5 en 4 de 10 de Montenegro y 3 de 10 de Latvia",
-     "result": "pending",
-     "fact": null,
+     "result": "miss",
+     "fact": "3 goles",
      "top": false
     }
    ]
@@ -405,7 +405,7 @@
    "time": "16:45",
    "home": "San Marino",
    "away": "Belarus",
-   "score": null,
+   "score": "0-2",
    "meta": "hora UTC−3 · últimos partidos: SMR 2G 1E 7P · BLR 4G 4E 2P",
    "picks": [
     {
@@ -413,8 +413,8 @@
      "prob": 75,
      "conf": "alta",
      "why": "San Marino: 0,7 goles a favor y 1,8 en contra; Belarus: 1,4 y 0,9",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "0-2",
      "top": true
     },
     {
@@ -422,8 +422,8 @@
      "prob": 56,
      "conf": "media",
      "why": "Se esperan 2,3 goles; más de 2,5 en 3 de 10 de San Marino y 3 de 10 de Belarus",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "2 goles",
      "top": false
     }
    ]
@@ -434,7 +434,7 @@
    "time": "17:00",
    "home": "Bonaire",
    "away": "Cuba",
-   "score": null,
+   "score": "1-7",
    "meta": "hora UTC−3 · últimos partidos: BOE 4G 1E 5P · CUB 3G 3E 4P",
    "picks": [
     {
@@ -442,8 +442,8 @@
      "prob": 67,
      "conf": "alta",
      "why": "Bonaire: 1,4 goles a favor y 1,9 en contra; Cuba: 1,4 y 1,9",
-     "result": "pending",
-     "fact": null,
+     "result": "miss",
+     "fact": "1-7",
      "top": false
     },
     {
@@ -451,8 +451,8 @@
      "prob": 61,
      "conf": "media",
      "why": "Se esperan 3,3 goles; más de 2,5 en 6 de 10 de Bonaire y 7 de 10 de Cuba",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "8 goles",
      "top": false
     },
     {
@@ -460,8 +460,8 @@
      "prob": 61,
      "conf": "media",
      "why": "Goles esperados: Bonaire 1,8, Cuba 1,5",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "1-7",
      "top": false
     }
    ]
@@ -472,7 +472,7 @@
    "time": "19:00",
    "home": "Aruba",
    "away": "Martinique",
-   "score": null,
+   "score": "0-0",
    "meta": "hora UTC−3 · últimos partidos: ARU 4G 1E 5P · MTQ 5G 1E 4P",
    "picks": [
     {
@@ -480,8 +480,8 @@
      "prob": 82,
      "conf": "alta",
      "why": "Se esperan 9,9 córners: Aruba 7,2 y Martinique 2,6",
-     "result": "pending",
-     "fact": null,
+     "result": "miss",
+     "fact": "1 a 2",
      "top": true
     },
     {
@@ -489,8 +489,8 @@
      "prob": 74,
      "conf": "alta",
      "why": "Se esperan 3,0 tarjetas entre los dos",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "3 tarjetas",
      "top": true
     },
     {
@@ -498,8 +498,8 @@
      "prob": 70,
      "conf": "alta",
      "why": "Se esperan 9,9 córners: Aruba 7,2 y Martinique 2,6",
-     "result": "pending",
-     "fact": null,
+     "result": "miss",
+     "fact": "3 córners",
      "top": false
     },
     {
@@ -507,8 +507,8 @@
      "prob": 68,
      "conf": "alta",
      "why": "Aruba: 1,7 goles a favor y 1,6 en contra; Martinique: 1,5 y 1,5",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "0-0",
      "top": false
     }
    ]
@@ -519,7 +519,7 @@
    "time": "20:00",
    "home": "Antigua and Barbuda",
    "away": "Trinidad and Tobago",
-   "score": null,
+   "score": "2-3",
    "meta": "hora UTC−3 · últimos partidos: ATG 2G 2E 6P · TRI 3G 4E 3P",
    "picks": [
     {
@@ -527,8 +527,8 @@
      "prob": 70,
      "conf": "alta",
      "why": "Antigua and Barbuda: 1,2 goles a favor y 3,0 en contra; Trinidad and Tobago: 1,6 y 1,7",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "2-3",
      "top": false
     },
     {
@@ -536,8 +536,8 @@
      "prob": 66,
      "conf": "alta",
      "why": "Se esperan 3,7 goles; más de 2,5 en 8 de 10 de Antigua and Barbuda y 6 de 10 de Trinidad and Tobago",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "5 goles",
      "top": false
     },
     {
@@ -545,8 +545,8 @@
      "prob": 65,
      "conf": "alta",
      "why": "Goles esperados: Antigua and Barbuda 1,6, Trinidad and Tobago 2,1",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "2-3",
      "top": false
     }
    ]
@@ -557,7 +557,7 @@
    "time": "21:30",
    "home": "Curaçao",
    "away": "Panama",
-   "score": null,
+   "score": "0-0",
    "meta": "hora UTC−3 · últimos partidos: CUW 4G 1E 5P · PAN 6G 3E 1P",
    "picks": [
     {
@@ -565,8 +565,8 @@
      "prob": 72,
      "conf": "alta",
      "why": "Curaçao: 1,8 goles a favor y 2,4 en contra; Panama: 1,9 y 0,7",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "0-0",
      "top": true
     },
     {
@@ -574,8 +574,8 @@
      "prob": 61,
      "conf": "media",
      "why": "Se esperan 3,3 goles; más de 2,5 en 6 de 10 de Curaçao y 4 de 10 de Panama",
-     "result": "pending",
-     "fact": null,
+     "result": "miss",
+     "fact": "0 goles",
      "top": false
     },
     {
@@ -583,8 +583,8 @@
      "prob": 60,
      "conf": "media",
      "why": "Goles esperados: Curaçao 1,4, Panama 2,0",
-     "result": "pending",
-     "fact": null,
+     "result": "miss",
+     "fact": "0-0",
      "top": false
     }
    ]

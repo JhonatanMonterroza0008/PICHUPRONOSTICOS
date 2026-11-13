@@ -9,7 +9,7 @@
    "time": "00:00",
    "home": "Pachuca",
    "away": "Monterrey",
-   "score": null,
+   "score": "0-1",
    "meta": "hora UTC−3 · últimos partidos: PAC 3G 1E 6P · MON 9G 0E 1P",
    "picks": [
     {
@@ -17,8 +17,8 @@
      "prob": 69,
      "conf": "alta",
      "why": "Se esperan 3,9 goles; más de 2,5 en 6 de 10 de Pachuca y 10 de 10 de Monterrey",
-     "result": "pending",
-     "fact": null,
+     "result": "miss",
+     "fact": "1 goles",
      "top": false
     },
     {
@@ -26,8 +26,8 @@
      "prob": 65,
      "conf": "alta",
      "why": "Goles esperados: Pachuca 1,5, Monterrey 2,5",
-     "result": "pending",
-     "fact": null,
+     "result": "miss",
+     "fact": "0-1",
      "top": false
     },
     {
@@ -35,8 +35,8 @@
      "prob": 65,
      "conf": "alta",
      "why": "Se esperan 8,1 córners: Pachuca 4,2 y Monterrey 3,8",
-     "result": "pending",
-     "fact": null,
+     "result": "miss",
+     "fact": "12 córners",
      "top": false
     },
     {
@@ -44,8 +44,8 @@
      "prob": 65,
      "conf": "alta",
      "why": "Se esperan 3,7 tarjetas entre los dos",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "1 tarjetas",
      "top": false
     }
    ]
@@ -56,7 +56,7 @@
    "time": "19:00",
    "home": "Londrina",
    "away": "Náutico",
-   "score": null,
+   "score": "2-1",
    "meta": "hora UTC−3 · últimos partidos: LON 2G 3E 5P · NAU 6G 1E 3P",
    "picks": [
     {
@@ -64,8 +64,8 @@
      "prob": 72,
      "conf": "alta",
      "why": "Londrina: 0,8 goles a favor y 1,2 en contra; Náutico: 1,6 y 0,9",
-     "result": "pending",
-     "fact": null,
+     "result": "miss",
+     "fact": "2-1",
      "top": true
     },
     {
@@ -73,8 +73,8 @@
      "prob": 70,
      "conf": "alta",
      "why": "Se esperan 6,4 tarjetas entre los dos",
-     "result": "pending",
-     "fact": null,
+     "result": "miss",
+     "fact": "3 tarjetas",
      "top": false
     },
     {
@@ -82,8 +82,8 @@
      "prob": 67,
      "conf": "alta",
      "why": "Se esperan 12,7 córners: Londrina 6,0 y Náutico 6,8",
-     "result": "pending",
-     "fact": null,
+     "result": "miss",
+     "fact": "6 córners",
      "top": false
     },
     {
@@ -91,8 +91,8 @@
      "prob": 59,
      "conf": "media",
      "why": "Se esperan 2,2 goles; más de 2,5 en 5 de 10 de Londrina y 4 de 10 de Náutico",
-     "result": "pending",
-     "fact": null,
+     "result": "miss",
+     "fact": "3 goles",
      "top": false
     }
    ]
@@ -103,7 +103,7 @@
    "time": "06:30",
    "home": "India",
    "away": "Maldives",
-   "score": null,
+   "score": "1-0",
    "meta": "hora UTC−3 · últimos partidos: IND 0G 5E 5P · MDV 3G 1E 6P",
    "picks": [
     {
@@ -111,8 +111,8 @@
      "prob": 66,
      "conf": "alta",
      "why": "India: 0,4 goles a favor y 1,3 en contra; Maldives: 0,9 y 1,5",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "1-0",
      "top": false
     },
     {
@@ -120,8 +120,8 @@
      "prob": 62,
      "conf": "media",
      "why": "Se esperan 2,0 goles; más de 2,5 en 4 de 10 de India y 5 de 10 de Maldives",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "1 goles",
      "top": false
     }
    ]
@@ -132,7 +132,7 @@
    "time": "11:00",
    "home": "Bangladesh",
    "away": "Sri Lanka",
-   "score": null,
+   "score": "4-0",
    "meta": "hora UTC−3 · últimos partidos: BAN 1G 3E 6P · SRI 1G 5E 4P",
    "picks": [
     {
@@ -140,8 +140,8 @@
      "prob": 77,
      "conf": "alta",
      "why": "Bangladesh: 0,5 goles a favor y 2,6 en contra; Sri Lanka: 0,5 y 0,9",
-     "result": "pending",
-     "fact": null,
+     "result": "miss",
+     "fact": "4-0",
      "top": true
     },
     {
@@ -149,8 +149,8 @@
      "prob": 60,
      "conf": "media",
      "why": "Se esperan 2,2 goles; más de 2,5 en 5 de 10 de Bangladesh y 1 de 10 de Sri Lanka",
-     "result": "pending",
-     "fact": null,
+     "result": "miss",
+     "fact": "4 goles",
      "top": false
     }
    ]
@@ -161,7 +161,7 @@
    "time": "16:00",
    "home": "Barnsley",
    "away": "Oldham Athletic",
-   "score": null,
+   "score": "5-2",
    "meta": "hora UTC−3 · últimos partidos: BAR 3G 4E 3P · OLD 3G 1E 6P",
    "picks": [
     {
@@ -169,8 +169,8 @@
      "prob": 73,
      "conf": "alta",
      "why": "Se esperan 13,3 córners: Barnsley 8,2 y Oldham Athletic 5,1",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "5 a 4",
      "top": true
     },
     {
@@ -178,8 +178,8 @@
      "prob": 70,
      "conf": "alta",
      "why": "Se esperan 13,3 córners: Barnsley 8,2 y Oldham Athletic 5,1",
-     "result": "pending",
-     "fact": null,
+     "result": "miss",
+     "fact": "9 córners",
      "top": false
     },
     {
@@ -187,8 +187,8 @@
      "prob": 69,
      "conf": "alta",
      "why": "Se esperan 4,2 tarjetas entre los dos",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "3 tarjetas",
      "top": false
     },
     {
@@ -196,8 +196,8 @@
      "prob": 68,
      "conf": "alta",
      "why": "Barnsley: 1,4 goles a favor y 1,8 en contra; Oldham Athletic: 1,0 y 1,5",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "5-2",
      "top": false
     }
    ]
@@ -208,7 +208,7 @@
    "time": "16:00",
    "home": "Sheffield Wednesday",
    "away": "Accrington Stanley",
-   "score": null,
+   "score": "0-4",
    "meta": "hora UTC−3 · últimos partidos: SHW 6G 2E 2P · ACC 1G 5E 4P",
    "picks": [
     {
@@ -216,8 +216,8 @@
      "prob": 75,
      "conf": "alta",
      "why": "Sheffield Wednesday: 1,6 goles a favor y 0,9 en contra; Accrington Stanley: 1,5 y 1,9",
-     "result": "pending",
-     "fact": null,
+     "result": "miss",
+     "fact": "0-4",
      "top": true
     },
     {
@@ -225,8 +225,8 @@
      "prob": 71,
      "conf": "alta",
      "why": "Se esperan 4,0 tarjetas entre los dos",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "4 tarjetas",
      "top": false
     },
     {
@@ -234,8 +234,8 @@
      "prob": 64,
      "conf": "media",
      "why": "Se esperan 10,2 córners: Sheffield Wednesday 5,3 y Accrington Stanley 4,8",
-     "result": "pending",
-     "fact": null,
+     "result": "miss",
+     "fact": "3 córners",
      "top": false
     },
     {
@@ -243,8 +243,8 @@
      "prob": 56,
      "conf": "media",
      "why": "Se esperan 3,0 goles; más de 2,5 en 5 de 10 de Sheffield Wednesday y 7 de 10 de Accrington Stanley",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "4 goles",
      "top": false
     }
    ]
@@ -255,7 +255,7 @@
    "time": "14:45",
    "home": "OH Leuven",
    "away": "HB Køge",
-   "score": null,
+   "score": "1-1",
    "meta": "hora UTC−3 · últimos partidos: OHL 3G 2E 2P · HBK 4G 1E 2P",
    "picks": [
     {
@@ -263,8 +263,8 @@
      "prob": 65,
      "conf": "alta",
      "why": "OH Leuven: 1,7 goles a favor y 1,9 en contra; HB Køge: 1,9 y 1,9",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "1-1",
      "top": false
     },
     {
@@ -272,8 +272,8 @@
      "prob": 65,
      "conf": "alta",
      "why": "Se esperan 3,6 goles; más de 2,5 en 5 de 7 de OH Leuven y 4 de 7 de HB Køge",
-     "result": "pending",
-     "fact": null,
+     "result": "miss",
+     "fact": "2 goles",
      "top": false
     },
     {
@@ -281,8 +281,8 @@
      "prob": 65,
      "conf": "alta",
      "why": "Goles esperados: OH Leuven 1,9, HB Køge 1,7",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "1-1",
      "top": false
     }
    ]
@@ -293,7 +293,7 @@
    "time": "17:00",
    "home": "Juventus",
    "away": "OL Lyonnes",
-   "score": null,
+   "score": "0-6",
    "meta": "hora UTC−3 · últimos partidos: JUV 5G 1E 1P · LYON 9G 1E 0P",
    "picks": [
     {
@@ -301,8 +301,8 @@
      "prob": 74,
      "conf": "alta",
      "why": "Se esperan 4,5 goles; más de 2,5 en 6 de 7 de Juventus y 9 de 10 de OL Lyonnes",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "6 goles",
      "top": true
     },
     {
@@ -310,8 +310,8 @@
      "prob": 69,
      "conf": "alta",
      "why": "Goles esperados: Juventus 1,6, OL Lyonnes 2,9",
-     "result": "pending",
-     "fact": null,
+     "result": "miss",
+     "fact": "0-6",
      "top": false
     },
     {
@@ -319,8 +319,8 @@
      "prob": 59,
      "conf": "media",
      "why": "Juventus: 2,4 goles a favor y 0,9 en contra; OL Lyonnes: 5,5 y 0,5",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "0-6",
      "top": false
     }
    ]
@@ -331,7 +331,7 @@
    "time": "13:00",
    "home": "FC Fleury 91",
    "away": "Toulouse",
-   "score": null,
+   "score": "7-0",
    "meta": "hora UTC−3 · últimos partidos: F91 2G 3E 2P · TOU 1G 2E 4P",
    "picks": [
     {
@@ -339,8 +339,8 @@
      "prob": 73,
      "conf": "alta",
      "why": "FC Fleury 91: 1,4 goles a favor y 2,1 en contra; Toulouse: 1,1 y 2,9",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "7-0",
      "top": true
     },
     {
@@ -348,8 +348,8 @@
      "prob": 69,
      "conf": "alta",
      "why": "Se esperan 3,3 tarjetas entre los dos",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "3 tarjetas",
      "top": false
     },
     {
@@ -357,8 +357,8 @@
      "prob": 68,
      "conf": "alta",
      "why": "Se esperan 3,8 goles; más de 2,5 en 4 de 7 de FC Fleury 91 y 6 de 7 de Toulouse",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "7 goles",
      "top": false
     },
     {
@@ -366,8 +366,8 @@
      "prob": 68,
      "conf": "alta",
      "why": "Se esperan 8,8 córners: FC Fleury 91 5,2 y Toulouse 3,6",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "7 córners",
      "top": false
     }
    ]
@@ -378,7 +378,7 @@
    "time": "13:00",
    "home": "Czarni Sosnowiec",
    "away": "SK Brann",
-   "score": null,
+   "score": "1-5",
    "meta": "hora UTC−3 · últimos partidos: CZA 5G 1E 3P · SKB 6G 0E 1P",
    "picks": [
     {
@@ -386,8 +386,8 @@
      "prob": 72,
      "conf": "alta",
      "why": "Se esperan 4,3 goles; más de 2,5 en 8 de 9 de Czarni Sosnowiec y 6 de 7 de SK Brann",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "6 goles",
      "top": false
     },
     {
@@ -395,8 +395,8 @@
      "prob": 71,
      "conf": "alta",
      "why": "Goles esperados: Czarni Sosnowiec 2,1, SK Brann 2,2",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "1-5",
      "top": false
     },
     {
@@ -404,8 +404,8 @@
      "prob": 62,
      "conf": "media",
      "why": "Czarni Sosnowiec: 2,9 goles a favor y 2,0 en contra; SK Brann: 2,7 y 1,0",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "1-5",
      "top": false
     }
    ]
@@ -416,7 +416,7 @@
    "time": "14:00",
    "home": "Brondby",
    "away": "Rosenborg",
-   "score": null,
+   "score": "2-0",
    "meta": "hora UTC−3 · últimos partidos: BRO 3G 3E 1P · ROS 2G 1E 2P",
    "picks": [
     {
@@ -424,8 +424,8 @@
      "prob": 72,
      "conf": "alta",
      "why": "Brondby: 2,4 goles a favor y 1,1 en contra; Rosenborg: 1,8 y 1,2",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "2-0",
      "top": false
     },
     {
@@ -433,8 +433,8 @@
      "prob": 61,
      "conf": "media",
      "why": "Se esperan 3,3 goles; más de 2,5 en 4 de 7 de Brondby y 3 de 5 de Rosenborg",
-     "result": "pending",
-     "fact": null,
+     "result": "miss",
+     "fact": "2 goles",
      "top": false
     },
     {
@@ -442,8 +442,8 @@
      "prob": 60,
      "conf": "media",
      "why": "Goles esperados: Brondby 2,0, Rosenborg 1,4",
-     "result": "pending",
-     "fact": null,
+     "result": "miss",
+     "fact": "2-0",
      "top": false
     }
    ]
@@ -454,7 +454,7 @@
    "time": "14:00",
    "home": "Feberbache",
    "away": "Real Sociedad",
-   "score": null,
+   "score": "0-2",
    "meta": "hora UTC−3 · últimos partidos: FEN 3G 1E 1P · RSO 2G 3E 5P",
    "picks": [
     {
@@ -462,8 +462,8 @@
      "prob": 75,
      "conf": "alta",
      "why": "Feberbache: 1,6 goles a favor y 1,0 en contra; Real Sociedad: 1,3 y 1,7",
-     "result": "pending",
-     "fact": null,
+     "result": "miss",
+     "fact": "0-2",
      "top": true
     }
    ]
@@ -474,7 +474,7 @@
    "time": "14:30",
    "home": "Eintracht Frankfurt",
    "away": "PSV Eindhoven",
-   "score": null,
+   "score": "2-1",
    "meta": "hora UTC−3 · últimos partidos: EIN 5G 1E 1P · PSV 5G 2E 3P",
    "picks": [
     {
@@ -482,8 +482,8 @@
      "prob": 75,
      "conf": "alta",
      "why": "Eintracht Frankfurt: 2,7 goles a favor y 1,0 en contra; PSV Eindhoven: 1,8 y 1,3",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "2-1",
      "top": true
     },
     {
@@ -491,8 +491,8 @@
      "prob": 63,
      "conf": "media",
      "why": "Se esperan 3,5 goles; más de 2,5 en 3 de 7 de Eintracht Frankfurt y 5 de 10 de PSV Eindhoven",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "3 goles",
      "top": false
     },
     {
@@ -500,8 +500,8 @@
      "prob": 61,
      "conf": "media",
      "why": "Goles esperados: Eintracht Frankfurt 2,2, PSV Eindhoven 1,3",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "2-1",
      "top": false
     }
    ]
@@ -512,7 +512,7 @@
    "time": "15:00",
    "home": "Hammarby IF",
    "away": "Spartak Myjava",
-   "score": null,
+   "score": "4-0",
    "meta": "hora UTC−3 · últimos partidos: HAM 4G 0E 1P · SPA 3G 1E 2P",
    "picks": [
     {
@@ -520,8 +520,8 @@
      "prob": 75,
      "conf": "alta",
      "why": "Hammarby IF: 2,6 goles a favor y 0,8 en contra; Spartak Myjava: 2,5 y 2,0",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "4-0",
      "top": true
     },
     {
@@ -529,8 +529,8 @@
      "prob": 70,
      "conf": "alta",
      "why": "Se esperan 4,0 goles; más de 2,5 en 4 de 5 de Hammarby IF y 5 de 6 de Spartak Myjava",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "4 goles",
      "top": false
     },
     {
@@ -538,8 +538,8 @@
      "prob": 66,
      "conf": "alta",
      "why": "Goles esperados: Hammarby IF 2,5, Spartak Myjava 1,5",
-     "result": "pending",
-     "fact": null,
+     "result": "miss",
+     "fact": "4-0",
      "top": false
     }
    ]

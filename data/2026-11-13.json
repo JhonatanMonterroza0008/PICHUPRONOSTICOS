@@ -1,0 +1,539 @@
+{
+ "date": "2026-11-13",
+ "title": "UEFA Nations League, Concacaf Nations League",
+ "note": "Goles con un modelo de Poisson sobre los últimos 10 partidos (los recientes pesan más), mezclado con las cuotas del mercado; córners y tarjetas con los últimos 6 que tienen estadísticas. Cada probabilidad se corrige con el historial de aciertos de ese mercado. Sin datos de árbitros.",
+ "matches": [
+  {
+   "comp": "UEFA Nations League",
+   "id": "401861162",
+   "time": "14:00",
+   "home": "Moldova",
+   "away": "Kazakhstan",
+   "score": null,
+   "meta": "hora UTC−3 · últimos partidos: MDA 4G 1E 5P · KAZ 2G 0E 8P",
+   "picks": [
+    {
+     "market": "Moldova o empate",
+     "prob": 79,
+     "conf": "alta",
+     "why": "Moldova: \u0001,\u0002 goles a favor y \u0001,\u0002 en contra; Kazakhstan: \u0001,\u0002 y \u0001,\u0002; el mercado da 38 % a Moldova; cara a cara: KAZ domina 3-2",
+     "result": "pending",
+     "fact": null,
+     "top": true
+    },
+    {
+     "market": "Moldova saca más córners",
+     "prob": 72,
+     "conf": "alta",
+     "why": "Se esperan \u0001,\u0002 córners: Moldova \u0001,\u0002 y Kazakhstan \u0001,\u0002",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Más de 3.5 tarjetas",
+     "prob": 70,
+     "conf": "alta",
+     "why": "Se esperan \u0001,\u0002 tarjetas entre los dos",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Menos de 9.5 córners",
+     "prob": 66,
+     "conf": "alta",
+     "why": "Se esperan \u0001,\u0002 córners: Moldova \u0001,\u0002 y Kazakhstan \u0001,\u0002",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "Concacaf Nations League",
+   "id": "401929714",
+   "time": "16:00",
+   "home": "Bermuda",
+   "away": "St. Lucia",
+   "score": null,
+   "meta": "hora UTC−3 · últimos partidos: BER 5G 1E 4P · LCA 4G 2E 4P",
+   "picks": [
+    {
+     "market": "St. Lucia o empate",
+     "prob": 76,
+     "conf": "alta",
+     "why": "Bermuda: \u0001,\u0002 goles a favor y \u0001,\u0002 en contra; St. Lucia: \u0001,\u0002 y \u0001,\u0002; el mercado da 79 % a St. Lucia; sin cuotas del mercado",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Más de 2.5 goles",
+     "prob": 72,
+     "conf": "alta",
+     "why": "Se esperan \u0001,\u0002 goles; más de \u0001,\u0002 en 7 de 10 de Bermuda y 7 de 10 de St. Lucia",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Ambos marcan",
+     "prob": 64,
+     "conf": "media",
+     "why": "Goles esperados: Bermuda \u0001,\u0002, St. Lucia \u0001,\u0002",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "Concacaf Nations League",
+   "id": "401929795",
+   "time": "16:00",
+   "home": "Puerto Rico",
+   "away": "Dominica",
+   "score": null,
+   "meta": "hora UTC−3 · últimos partidos: PUR 5G 0E 2P · DMA 4G 1E 5P",
+   "picks": [
+    {
+     "market": "Menos de 4.5 tarjetas",
+     "prob": 77,
+     "conf": "alta",
+     "why": "Se esperan \u0001,\u0002 tarjetas entre los dos",
+     "result": "pending",
+     "fact": null,
+     "top": true
+    },
+    {
+     "market": "Dominica saca más córners",
+     "prob": 71,
+     "conf": "alta",
+     "why": "Se esperan \u0001,\u0002 córners: Puerto Rico \u0001,\u0002 y Dominica \u0001,\u0002",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Más de 2.5 goles",
+     "prob": 66,
+     "conf": "alta",
+     "why": "Se esperan \u0001,\u0002 goles; más de \u0001,\u0002 en 3 de 7 de Puerto Rico y 7 de 10 de Dominica",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Gana Puerto Rico",
+     "prob": 61,
+     "conf": "media",
+     "why": "Puerto Rico: \u0001,\u0002 goles a favor y \u0001,\u0002 en contra; Dominica: \u0001,\u0002 y \u0001,\u0002; el mercado da 78 % a Puerto Rico; sin cuotas del mercado",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "UEFA Nations League",
+   "id": "401861155",
+   "time": "16:45",
+   "home": "Andorra",
+   "away": "Gibraltar",
+   "score": null,
+   "meta": "hora UTC−3 · últimos partidos: AND 1G 1E 8P · GIB 2G 5E 3P",
+   "picks": [
+    {
+     "market": "Andorra o empate",
+     "prob": 80,
+     "conf": "alta",
+     "why": "Andorra: \u0001,\u0002 goles a favor y \u0001,\u0002 en contra; Gibraltar: \u0001,\u0002 y \u0001,\u0002; el mercado da 57 % a Andorra; cara a cara: GIB domina 2-0-2",
+     "result": "pending",
+     "fact": null,
+     "top": true
+    },
+    {
+     "market": "Más de 4.5 tarjetas",
+     "prob": 79,
+     "conf": "alta",
+     "why": "Se esperan \u0001,\u0002 tarjetas entre los dos",
+     "result": "pending",
+     "fact": null,
+     "top": true
+    },
+    {
+     "market": "Menos de 8.5 córners",
+     "prob": 68,
+     "conf": "alta",
+     "why": "Se esperan \u0001,\u0002 córners: Andorra \u0001,\u0002 y Gibraltar \u0001,\u0002",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Menos de 2.5 goles",
+     "prob": 65,
+     "conf": "alta",
+     "why": "Se esperan \u0001,\u0002 goles; más de \u0001,\u0002 en 2 de 10 de Andorra y 4 de 10 de Gibraltar",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "UEFA Nations League",
+   "id": "401861157",
+   "time": "16:45",
+   "home": "Bulgaria",
+   "away": "Iceland",
+   "score": null,
+   "meta": "hora UTC−3 · últimos partidos: BUL 2G 5E 3P · ISL 3G 1E 6P",
+   "picks": [
+    {
+     "market": "Iceland o empate",
+     "prob": 75,
+     "conf": "alta",
+     "why": "Bulgaria: \u0001,\u0002 goles a favor y \u0001,\u0002 en contra; Iceland: \u0001,\u0002 y \u0001,\u0002; el mercado da 53 % a Iceland; cara a cara: BUL domina 2-1",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Más de 4.5 tarjetas",
+     "prob": 66,
+     "conf": "alta",
+     "why": "Se esperan \u0001,\u0002 tarjetas entre los dos",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Menos de 10.5 córners",
+     "prob": 64,
+     "conf": "media",
+     "why": "Se esperan \u0001,\u0002 córners: Bulgaria \u0001,\u0002 y Iceland \u0001,\u0002",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "UEFA Nations League",
+   "id": "401861153",
+   "time": "16:45",
+   "home": "Liechtenstein",
+   "away": "Azerbaijan",
+   "score": null,
+   "meta": "hora UTC−3 · últimos partidos: LIE 1G 3E 6P · AZE 1G 2E 7P",
+   "picks": [
+    {
+     "market": "Azerbaijan o empate",
+     "prob": 79,
+     "conf": "alta",
+     "why": "Liechtenstein: \u0001,\u0002 goles a favor y \u0001,\u0002 en contra; Azerbaijan: \u0001,\u0002 y \u0001,\u0002; el mercado da 78 % a Azerbaijan; cara a cara: AZE domina 2-0-2",
+     "result": "pending",
+     "fact": null,
+     "top": true
+    }
+   ]
+  },
+  {
+   "comp": "UEFA Nations League",
+   "id": "401861154",
+   "time": "16:45",
+   "home": "Luxembourg",
+   "away": "Estonia",
+   "score": null,
+   "meta": "hora UTC−3 · últimos partidos: LUX 1G 3E 6P · EST 1G 1E 8P",
+   "picks": [
+    {
+     "market": "Luxembourg o empate",
+     "prob": 77,
+     "conf": "alta",
+     "why": "Luxembourg: \u0001,\u0002 goles a favor y \u0001,\u0002 en contra; Estonia: \u0001,\u0002 y \u0001,\u0002; el mercado da 38 % a Luxembourg; cara a cara: EST domina 3-0",
+     "result": "pending",
+     "fact": null,
+     "top": true
+    },
+    {
+     "market": "Luxembourg saca más córners",
+     "prob": 75,
+     "conf": "alta",
+     "why": "Se esperan 1\u0001,\u0002 córners: Luxembourg \u0001,\u0002 y Estonia \u0001,\u0002",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Más de 3.5 tarjetas",
+     "prob": 68,
+     "conf": "alta",
+     "why": "Se esperan \u0001,\u0002 tarjetas entre los dos",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Más de 9.5 córners",
+     "prob": 57,
+     "conf": "media",
+     "why": "Se esperan 1\u0001,\u0002 córners: Luxembourg \u0001,\u0002 y Estonia \u0001,\u0002",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "UEFA Nations League",
+   "id": "401861159",
+   "time": "16:45",
+   "home": "Netherlands",
+   "away": "Greece",
+   "score": null,
+   "meta": "hora UTC−3 · últimos partidos: NED 5G 4E 1P · GRE 8G 0E 2P",
+   "picks": [
+    {
+     "market": "Netherlands o empate",
+     "prob": 80,
+     "conf": "alta",
+     "why": "Netherlands: \u0001,\u0002 goles a favor y \u0001,\u0002 en contra; Greece: \u0001,\u0002 y \u0001,\u0002; el mercado da 61 % a Netherlands; cara a cara: NED domina 3-1-1",
+     "result": "pending",
+     "fact": null,
+     "top": true
+    },
+    {
+     "market": "Menos de 9.5 córners",
+     "prob": 64,
+     "conf": "media",
+     "why": "Se esperan \u0001,\u0002 córners: Netherlands \u0001,\u0002 y Greece \u0001,\u0002",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Más de 2.5 goles",
+     "prob": 62,
+     "conf": "media",
+     "why": "Se esperan \u0001,\u0002 goles; más de \u0001,\u0002 en 6 de 10 de Netherlands y 5 de 10 de Greece",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Más de 3.5 tarjetas",
+     "prob": 62,
+     "conf": "media",
+     "why": "Se esperan \u0001,\u0002 tarjetas entre los dos",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "UEFA Nations League",
+   "id": "401861161",
+   "time": "16:45",
+   "home": "Scotland",
+   "away": "North Macedonia",
+   "score": null,
+   "meta": "hora UTC−3 · últimos partidos: SCO 5G 2E 3P · MKD 6G 3E 1P",
+   "picks": [
+    {
+     "market": "Menos de 5.5 tarjetas",
+     "prob": 78,
+     "conf": "alta",
+     "why": "Se esperan \u0001,\u0002 tarjetas entre los dos",
+     "result": "pending",
+     "fact": null,
+     "top": true
+    },
+    {
+     "market": "Menos de 9.5 córners",
+     "prob": 62,
+     "conf": "media",
+     "why": "Se esperan \u0001,\u0002 córners: Scotland \u0001,\u0002 y North Macedonia \u0001,\u0002",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Gana Scotland",
+     "prob": 57,
+     "conf": "media",
+     "why": "Scotland: \u0001,\u0002 goles a favor y \u0001,\u0002 en contra; North Macedonia: \u0001,\u0002 y \u0001,\u0002; el mercado da 81 % a Scotland; cara a cara: SCO domina 3-1-1",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "UEFA Nations League",
+   "id": "401861158",
+   "time": "16:45",
+   "home": "Serbia",
+   "away": "Germany",
+   "score": null,
+   "meta": "hora UTC−3 · últimos partidos: SRB 2G 6E 2P · GER 5G 2E 3P",
+   "picks": [
+    {
+     "market": "Germany saca más córners",
+     "prob": 69,
+     "conf": "alta",
+     "why": "Se esperan \u0001,\u0002 córners: Serbia \u0001,\u0002 y Germany \u0001,\u0002",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Más de 3.5 tarjetas",
+     "prob": 69,
+     "conf": "alta",
+     "why": "Se esperan \u0001,\u0002 tarjetas entre los dos",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Gana Germany",
+     "prob": 63,
+     "conf": "media",
+     "why": "Serbia: \u0001,\u0002 goles a favor y \u0001,\u0002 en contra; Germany: \u0001,\u0002 y \u0001,\u0002; el mercado da 74 % a Germany; cara a cara: GER domina 2-1-1",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Más de 7.5 córners",
+     "prob": 58,
+     "conf": "media",
+     "why": "Se esperan \u0001,\u0002 córners: Serbia \u0001,\u0002 y Germany \u0001,\u0002",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "UEFA Nations League",
+   "id": "401861160",
+   "time": "16:45",
+   "home": "Slovakia",
+   "away": "Faroe Islands",
+   "score": null,
+   "meta": "hora UTC−3 · últimos partidos: SVK 4G 2E 4P · FRO 2G 4E 4P",
+   "picks": [
+    {
+     "market": "Slovakia o empate",
+     "prob": 77,
+     "conf": "alta",
+     "why": "Slovakia: \u0001,\u0002 goles a favor y \u0001,\u0002 en contra; Faroe Islands: \u0001,\u0002 y \u0001,\u0002; el mercado da 71 % a Slovakia; sin cuotas del mercado",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "UEFA Nations League",
+   "id": "401861156",
+   "time": "16:45",
+   "home": "Slovenia",
+   "away": "Switzerland",
+   "score": null,
+   "meta": "hora UTC−3 · últimos partidos: SVN 4G 4E 2P · SUI 7G 2E 1P",
+   "picks": [
+    {
+     "market": "Switzerland o empate",
+     "prob": 83,
+     "conf": "alta",
+     "why": "Slovenia: \u0001,\u0002 goles a favor y \u0001,\u0002 en contra; Switzerland: \u0001,\u0002 y \u0001,\u0002; el mercado da 54 % a Switzerland; cara a cara: SUI domina 3-1-1",
+     "result": "pending",
+     "fact": null,
+     "top": true
+    }
+   ]
+  },
+  {
+   "comp": "Concacaf Nations League",
+   "id": "401929713",
+   "time": "17:00",
+   "home": "Grenada",
+   "away": "St. Kitts and Nevis",
+   "score": null,
+   "meta": "hora UTC−3 · últimos partidos: GRN 2G 4E 4P · SKN 5G 2E 3P",
+   "picks": [
+    {
+     "market": "St. Kitts and Nevis o empate",
+     "prob": 74,
+     "conf": "alta",
+     "why": "Grenada: \u0001,\u0002 goles a favor y \u0001,\u0002 en contra; St. Kitts and Nevis: \u0001,\u0002 y \u0001,\u0002; el mercado da 59 % a St. Kitts and Nevis; cara a cara: empatados 2-2-1",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Más de 2.5 goles",
+     "prob": 60,
+     "conf": "media",
+     "why": "Se esperan \u0001,\u0002 goles; más de \u0001,\u0002 en 5 de 10 de Grenada y 5 de 10 de St. Kitts and Nevis",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Ambos marcan",
+     "prob": 55,
+     "conf": "media",
+     "why": "Goles esperados: Grenada \u0001,\u0002, St. Kitts and Nevis \u0001,\u0002",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "Concacaf Nations League",
+   "id": "401929712",
+   "time": "20:00",
+   "home": "St. Martin",
+   "away": "El Salvador",
+   "score": null,
+   "meta": "hora UTC−3 · últimos partidos: SMN 4G 2E 4P · SLV 5G 3E 2P",
+   "picks": [
+    {
+     "market": "St. Martin o empate",
+     "prob": 65,
+     "conf": "alta",
+     "why": "St. Martin: \u0001,\u0002 goles a favor y \u0001,\u0002 en contra; El Salvador: \u0001,\u0002 y \u0001,\u0002; sin cuotas del mercado",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Más de 2.5 goles",
+     "prob": 61,
+     "conf": "media",
+     "why": "Se esperan \u0001,\u0002 goles; más de \u0001,\u0002 en 7 de 10 de St. Martin y 4 de 10 de El Salvador",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Ambos marcan",
+     "prob": 55,
+     "conf": "media",
+     "why": "Goles esperados: St. Martin \u0001,\u0002, El Salvador \u0001,\u0002",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  }
+ ]
+}

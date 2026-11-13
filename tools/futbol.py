@@ -2,12 +2,15 @@
 
 Uso: python tools/futbol.py 2026-11-11
 Fuente: API pública de ESPN. Solo biblioteca estándar.
-Método: goles con un modelo de Poisson sobre los últimos 10 partidos de cada equipo; córners y tarjetas
-con los promedios de sus últimos 6 partidos con estadísticas. Todo se acerca al 50 % por la muestra pequeña.
+Método: goles con un modelo de Poisson sobre los últimos 10 partidos de cada equipo (los recientes pesan más),
+mezclado a partes iguales con las cuotas del mercado cuando ESPN las publica; córners y tarjetas con los
+promedios de sus últimos 6 partidos con estadísticas. Al final cada probabilidad se corrige con el
+historial de aciertos de ese tipo de mercado (tools/calibra.py).
 """
 import json, math, pathlib, re, statistics, sys, urllib.request
 from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timedelta
+import calibra
 
 SOC = "https://site.api.espn.com/apis/site/v2/sports/soccer/all"
 ROOT = pathlib.Path(__file__).resolve().parent.parent
@@ -73,26 +76,76 @@ def shrunk(p, base=0.5):
 def conf(p):
     return "alta" if p >= 65 else "media" if p >= 50 else "baja"
 
-def analyse(home, away, hf, af):
+def market(eid):
+    """Cuotas del mercado sin margen: {"h","d","a"} y {"line","over"}; y el cara a cara. Lo que falte no aparece."""
+    out = {}
+    try:
+        s = get(f"{SOC}/summary?event={eid}")
+    except Exception:
+        return out
+    try:
+        o = s["pickcenter"][0]
+        raw = [calibra.prob_us(o[k]["moneyLine"]) for k in ("homeTeamOdds", "drawOdds", "awayTeamOdds")]
+        out["h"], out["d"], out["a"] = (x / sum(raw) for x in raw)
+    except (KeyError, IndexError, TypeError, ValueError):
+        pass
+    try:
+        ov, un = calibra.prob_us(o["overOdds"]), calibra.prob_us(o["underOdds"])
+        out["line"], out["over"] = float(o["overUnder"]), ov / (ov + un)
+    except (KeyError, TypeError, ValueError, NameError):
+        pass
+    try:
+        out["h2h"] = next(x["summary"] for x in s["seasonseries"] if x.get("type") == "head-to-head" and x.get("totalCompetitions", 0) >= 2)
+    except (KeyError, StopIteration, TypeError):
+        pass
+    return out
+
+def lam_for(line, p):
+    """Goles totales esperados para que un Poisson dé P(más de line) = p."""
+    lo, hi = 0.2, 8.0
+    for _ in range(40):
+        mid = (lo + hi) / 2
+        lo, hi = (mid, hi) if p_over(mid, line) < p else (lo, mid)
+    return lo
+
+def analyse(home, away, hf, af, mk=None, tab=None):
     """Lista de pronósticos para un partido, del más al menos probable."""
-    avg = lambda v: sum(v) / len(v)
+    mk, tab = mk or {}, tab or {}
+    def avg(v):  # los partidos recientes pesan más: cada partido hacia atrás vale un 12 % menos
+        w = [0.88 ** (len(v) - 1 - i) for i in range(len(v))]
+        return sum(x * y for x, y in zip(v, w)) / sum(w)
     out = []
     def add(market, p, why):
+        p = calibra.ajusta(p, market, tab)
         if p >= 55:
             p = min(p, 85)
-            out.append({"market": market, "prob": p, "conf": conf(p), "why": why.replace(".", ","), "result": "pending", "fact": None, "top": False})
+            out.append({"market": market, "prob": p, "conf": conf(p), "why": re.sub(r"(\d)\.(\d)", r",", why), "result": "pending", "fact": None, "top": False})
     n = f"últimos {len(hf['gf'])} y {len(af['gf'])} partidos"
     lh, la = (avg(hf["gf"]) + avg(af["ga"])) / 2 * 1.08, (avg(af["gf"]) + avg(hf["ga"])) / 2 * 0.92
+    if "over" in mk:  # el mercado ya descuenta bajas y noticias: se promedia su total de goles con el nuestro
+        k = (lh + la + lam_for(mk["line"], mk["over"])) / 2 / (lh + la)
+        lh, la = lh * k, la * k
     grid = [[pois(lh, i) * pois(la, j) for j in range(9)] for i in range(9)]
     ph = sum(grid[i][j] for i in range(9) for j in range(9) if i > j)
     pa = sum(grid[i][j] for i in range(9) for j in range(9) if i < j)
     pd = 1 - ph - pa
-    fav, pf = (home, ph) if ph >= pa else (away, pa)
     form = f"{home}: {avg(hf['gf']):.1f} goles a favor y {avg(hf['ga']):.1f} en contra; {away}: {avg(af['gf']):.1f} y {avg(af['ga']):.1f}"
-    if shrunk(pf, 0.4) >= 55:
-        add(f"Gana {fav}", shrunk(pf, 0.4), form)
+    win, dc = {home: shrunk(ph, 0.4), away: shrunk(pa, 0.4)}, {home: shrunk(ph + pd, 0.66), away: shrunk(pa + pd, 0.66)}
+    if "h" in mk:
+        win = {home: round((win[home] + 100 * mk["h"]) / 2), away: round((win[away] + 100 * mk["a"]) / 2)}
+        dc = {home: round((dc[home] + 100 * (mk["h"] + mk["d"])) / 2), away: round((dc[away] + 100 * (mk["a"] + mk["d"])) / 2)}
+        fav = max(win, key=win.get)
+        form += f"; el mercado da {100 * mk['h' if fav == home else 'a']:.0f} % a {fav}"
+    if "h2h" in mk:
+        form += "; cara a cara: " + mk["h2h"].replace(" leads series ", " domina ").replace("Series tied", "empatados")
+    else:  # sin cuotas no se sabe la fuerza real de los rivales anteriores: más prudencia
+        win, dc = {k: v - 8 for k, v in win.items()}, {k: v - 8 for k, v in dc.items()}
+        form += "; sin cuotas del mercado"
+    fav = max(win, key=win.get)
+    if win[fav] >= 55:
+        add(f"Gana {fav}", win[fav], form)
     else:
-        add(f"{fav} o empate", shrunk(pf + pd, 0.66), form)
+        add(f"{fav} o empate", dc[fav], form)
     po = sum(grid[i][j] for i in range(9) for j in range(9) if i + j > 2)
     o_h, o_a = sum(a + b > 2 for a, b in zip(hf["gf"], hf["ga"])), sum(a + b > 2 for a, b in zip(af["gf"], af["ga"]))
     why = f"Se esperan {lh + la:.1f} goles; más de 2.5 en {o_h} de {len(hf['gf'])} de {home} y {o_a} de {len(af['gf'])} de {away}"
@@ -130,7 +183,7 @@ def build(date):
             rank = len(PRIORITY)
         cands.append((rank, e["date"], e, league))
     cands.sort(key=lambda x: (x[0], x[1]))
-    matches = []
+    matches, tab = [], calibra.tabla()
     for rank, _, e, league in cands[:30]:
         if len(matches) >= MAX_MATCHES:
             break
@@ -138,7 +191,7 @@ def build(date):
         hf, af = team_form(t["home"]["id"]), team_form(t["away"]["id"])
         if not hf or not af or len(hf["gf"]) < 5 or len(af["gf"]) < 5:
             continue
-        picks = analyse(t["home"]["displayName"], t["away"]["displayName"], hf, af)
+        picks = analyse(t["home"]["displayName"], t["away"]["displayName"], hf, af, market(e["id"]), tab)
         if not picks:
             continue
         local = datetime.strptime(e["date"], "%Y-%m-%dT%H:%MZ") + timedelta(hours=UTC_OFFSET)
@@ -153,18 +206,30 @@ def build(date):
         p["top"] = True
     comps = list(dict.fromkeys(m["comp"] for m in matches))
     return {"date": date, "title": ", ".join(comps[:4]) + (" y más" if len(comps) > 4 else ""),
-            "note": "Goles con un modelo de Poisson sobre los últimos 10 partidos de cada equipo; córners y tarjetas con los últimos 6 que tienen estadísticas. Sin datos de árbitros ni bajas.",
+            "note": "Goles con un modelo de Poisson sobre los últimos 10 partidos (los recientes pesan más), mezclado con las cuotas del mercado; córners y tarjetas con los últimos 6 que tienen estadísticas. Cada probabilidad se corrige con el historial de aciertos de ese mercado. Sin datos de árbitros.",
             "matches": matches}
 
+def started(date):
+    return {e["id"] for e in get(f"{SOC}/scoreboard?dates={date.replace('-', '')}&limit=500").get("events", []) if e["status"]["type"]["name"] != "STATUS_SCHEDULED"}
+
+assert abs(lam_for(2.5, p_over(3.1, 2.5)) - 3.1) < 0.01
 assert abs(p_over(2.5, 2.5) - 0.456) < 0.01 and shrunk(0.9) == 80  # autocomprobación
 
 if __name__ == "__main__":
     date = sys.argv[1]
     day = build(date)
+    path = ROOT / "data" / f"{date}.json"
+    if path.exists():  # al regenerar se conservan los partidos que ya empezaron
+        old = [m for m in json.loads(path.read_text(encoding="utf-8"))["matches"] if m.get("id") not in {x["id"] for x in (day or {"matches": []})["matches"]}
+               and (m["score"] or any(p["result"] != "pending" for p in m["picks"]) or m.get("id") in started(date))]
+        if day:
+            day["matches"] = sorted(old + day["matches"], key=lambda m: m["time"])
+        elif old:
+            sys.exit(0)
     if not day:
         print("sin partidos de fútbol con datos suficientes para", date)
         sys.exit(0)
-    (ROOT / "data" / f"{date}.json").write_text(json.dumps(day, ensure_ascii=False, indent=1), encoding="utf-8")
+    path.write_text(json.dumps(day, ensure_ascii=False, indent=1), encoding="utf-8")
     idx_path = ROOT / "data" / "index.json"
     idx = json.loads(idx_path.read_text(encoding="utf-8"))
     idx["days"] = sorted(set(idx.get("days", [])) | {date})

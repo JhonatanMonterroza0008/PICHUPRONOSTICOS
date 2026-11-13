@@ -1,0 +1,575 @@
+{
+ "date": "2026-11-14",
+ "title": "UEFA Nations League, Concacaf Nations League, LALIGA 2",
+ "note": "Goles con un modelo de Poisson sobre los últimos 10 partidos (los recientes pesan más), mezclado con las cuotas del mercado; córners y tarjetas con los últimos 6 que tienen estadísticas. Cada probabilidad se corrige con el historial de aciertos de ese mercado. Sin datos de árbitros.",
+ "matches": [
+  {
+   "comp": "LALIGA 2",
+   "id": "401883114",
+   "time": "10:00",
+   "home": "Real Valladolid",
+   "away": "Castellón",
+   "score": null,
+   "meta": "hora UTC−3 · últimos partidos: VLL 4G 3E 3P · CAS 6G 3E 1P",
+   "picks": [
+    {
+     "market": "Castellón o empate",
+     "prob": 71,
+     "conf": "alta",
+     "why": "Real Valladolid: \u0001,\u0002 goles a favor y \u0001,\u0002 en contra; Castellón: \u0001,\u0002 y \u0001,\u0002; el mercado da 42 % a Castellón; cara a cara: empatados 2-2",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Menos de 10.5 córners",
+     "prob": 67,
+     "conf": "alta",
+     "why": "Se esperan \u0001,\u0002 córners: Real Valladolid \u0001,\u0002 y Castellón \u0001,\u0002",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Más de 4.5 tarjetas",
+     "prob": 61,
+     "conf": "media",
+     "why": "Se esperan \u0001,\u0002 tarjetas entre los dos",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "UEFA Nations League",
+   "id": "401861163",
+   "time": "11:00",
+   "home": "Kosovo",
+   "away": "Israel",
+   "score": null,
+   "meta": "hora UTC−3 · últimos partidos: KOS 7G 0E 3P · ISR 3G 1E 6P",
+   "picks": [
+    {
+     "market": "Kosovo o empate",
+     "prob": 81,
+     "conf": "alta",
+     "why": "Kosovo: \u0001,\u0002 goles a favor y \u0001,\u0002 en contra; Israel: \u0001,\u0002 y \u0001,\u0002; el mercado da 52 % a Kosovo; cara a cara: KOS domina 1-0-2",
+     "result": "pending",
+     "fact": null,
+     "top": true
+    },
+    {
+     "market": "Menos de 5.5 tarjetas",
+     "prob": 77,
+     "conf": "alta",
+     "why": "Se esperan \u0001,\u0002 tarjetas entre los dos",
+     "result": "pending",
+     "fact": null,
+     "top": true
+    },
+    {
+     "market": "Menos de 10.5 córners",
+     "prob": 65,
+     "conf": "alta",
+     "why": "Se esperan \u0001,\u0002 córners: Kosovo \u0001,\u0002 y Israel \u0001,\u0002",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Más de 2.5 goles",
+     "prob": 61,
+     "conf": "media",
+     "why": "Se esperan \u0001,\u0002 goles; más de \u0001,\u0002 en 9 de 10 de Kosovo y 8 de 10 de Israel",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "LALIGA 2",
+   "id": "401883134",
+   "time": "12:15",
+   "home": "Real Sociedad II",
+   "away": "Sporting Gijón",
+   "score": null,
+   "meta": "hora UTC−3 · últimos partidos: RSO2 2G 2E 6P · RSG 4G 1E 5P",
+   "picks": [
+    {
+     "market": "Menos de 5.5 tarjetas",
+     "prob": 80,
+     "conf": "alta",
+     "why": "Se esperan \u0001,\u0002 tarjetas entre los dos",
+     "result": "pending",
+     "fact": null,
+     "top": true
+    },
+    {
+     "market": "Real Sociedad II o empate",
+     "prob": 74,
+     "conf": "alta",
+     "why": "Real Sociedad II: \u0001,\u0002 goles a favor y \u0001,\u0002 en contra; Sporting Gijón: \u0001,\u0002 y \u0001,\u0002; el mercado da 37 % a Real Sociedad II; cara a cara: empatados 2-2",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Menos de 9.5 córners",
+     "prob": 61,
+     "conf": "media",
+     "why": "Se esperan \u0001,\u0002 córners: Real Sociedad II \u0001,\u0002 y Sporting Gijón \u0001,\u0002",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Más de 2.5 goles",
+     "prob": 56,
+     "conf": "media",
+     "why": "Se esperan \u0001,\u0002 goles; más de \u0001,\u0002 en 7 de 10 de Real Sociedad II y 4 de 10 de Sporting Gijón",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "UEFA Nations League",
+   "id": "401861164",
+   "time": "14:00",
+   "home": "Georgia",
+   "away": "Hungary",
+   "score": null,
+   "meta": "hora UTC−3 · últimos partidos: GEO 5G 1E 4P · HUN 2G 3E 5P",
+   "picks": [
+    {
+     "market": "Menos de 5.5 tarjetas",
+     "prob": 75,
+     "conf": "alta",
+     "why": "Se esperan \u0001,\u0002 tarjetas entre los dos",
+     "result": "pending",
+     "fact": null,
+     "top": true
+    },
+    {
+     "market": "Georgia o empate",
+     "prob": 67,
+     "conf": "alta",
+     "why": "Georgia: \u0001,\u0002 goles a favor y \u0001,\u0002 en contra; Hungary: \u0001,\u0002 y \u0001,\u0002; el mercado da 31 % a Georgia; sin cuotas del mercado",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Más de 7.5 córners",
+     "prob": 59,
+     "conf": "media",
+     "why": "Se esperan \u0001,\u0002 córners: Georgia \u0001,\u0002 y Hungary \u0001,\u0002",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "UEFA Nations League",
+   "id": "401861165",
+   "time": "14:00",
+   "home": "Norway",
+   "away": "Wales",
+   "score": null,
+   "meta": "hora UTC−3 · últimos partidos: NOR 9G 1E 0P · WAL 5G 4E 1P",
+   "picks": [
+    {
+     "market": "Gana Norway",
+     "prob": 74,
+     "conf": "alta",
+     "why": "Norway: \u0001,\u0002 goles a favor y \u0001,\u0002 en contra; Wales: \u0001,\u0002 y \u0001,\u0002; el mercado da 76 % a Norway; cara a cara: WAL domina 3-0-1",
+     "result": "pending",
+     "fact": null,
+     "top": true
+    },
+    {
+     "market": "Más de 2.5 goles",
+     "prob": 69,
+     "conf": "alta",
+     "why": "Se esperan \u0001,\u0002 goles; más de \u0001,\u0002 en 7 de 10 de Norway y 6 de 10 de Wales",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Menos de 4.5 tarjetas",
+     "prob": 69,
+     "conf": "alta",
+     "why": "Se esperan \u0001,\u0002 tarjetas entre los dos",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Norway saca más córners",
+     "prob": 67,
+     "conf": "alta",
+     "why": "Se esperan 1\u0001,\u0002 córners: Norway \u0001,\u0002 y Wales \u0001,\u0002",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "LALIGA 2",
+   "id": "401883118",
+   "time": "14:30",
+   "home": "Almería",
+   "away": "FC Andorra",
+   "score": null,
+   "meta": "hora UTC−3 · últimos partidos: ALM 8G 0E 2P · AND 3G 0E 7P",
+   "picks": [
+    {
+     "market": "Menos de 4.5 tarjetas",
+     "prob": 74,
+     "conf": "alta",
+     "why": "Se esperan \u0001,\u0002 tarjetas entre los dos",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Menos de 10.5 córners",
+     "prob": 66,
+     "conf": "alta",
+     "why": "Se esperan \u0001,\u0002 córners: Almería \u0001,\u0002 y FC Andorra \u0001,\u0002",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Más de 2.5 goles",
+     "prob": 61,
+     "conf": "media",
+     "why": "Se esperan \u0001,\u0002 goles; más de \u0001,\u0002 en 4 de 10 de Almería y 7 de 10 de FC Andorra",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Gana Almería",
+     "prob": 60,
+     "conf": "media",
+     "why": "Almería: \u0001,\u0002 goles a favor y \u0001,\u0002 en contra; FC Andorra: \u0001,\u0002 y \u0001,\u0002; el mercado da 58 % a Almería; cara a cara: ALM domina 2-0",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "UEFA Nations League",
+   "id": "401861170",
+   "time": "16:45",
+   "home": "Austria",
+   "away": "Republic of Ireland",
+   "score": null,
+   "meta": "hora UTC−3 · últimos partidos: AUT 7G 2E 1P · IRL 4G 2E 4P",
+   "picks": [
+    {
+     "market": "Menos de 4.5 tarjetas",
+     "prob": 83,
+     "conf": "alta",
+     "why": "Se esperan \u0001,\u0002 tarjetas entre los dos",
+     "result": "pending",
+     "fact": null,
+     "top": true
+    },
+    {
+     "market": "Austria saca más córners",
+     "prob": 72,
+     "conf": "alta",
+     "why": "Se esperan \u0001,\u0002 córners: Austria \u0001,\u0002 y Republic of Ireland \u0001,\u0002",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Gana Austria",
+     "prob": 63,
+     "conf": "media",
+     "why": "Austria: \u0001,\u0002 goles a favor y \u0001,\u0002 en contra; Republic of Ireland: \u0001,\u0002 y \u0001,\u0002; el mercado da 59 % a Austria; cara a cara: empatados 1-1-3",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Menos de 8.5 córners",
+     "prob": 60,
+     "conf": "media",
+     "why": "Se esperan \u0001,\u0002 córners: Austria \u0001,\u0002 y Republic of Ireland \u0001,\u0002",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "UEFA Nations League",
+   "id": "401861169",
+   "time": "16:45",
+   "home": "Northern Ireland",
+   "away": "Ukraine",
+   "score": null,
+   "meta": "hora UTC−3 · últimos partidos: NIR 4G 3E 3P · UKR 3G 3E 4P",
+   "picks": [
+    {
+     "market": "Northern Ireland o empate",
+     "prob": 78,
+     "conf": "alta",
+     "why": "Northern Ireland: \u0001,\u0002 goles a favor y \u0001,\u0002 en contra; Ukraine: \u0001,\u0002 y \u0001,\u0002; el mercado da 38 % a Northern Ireland; cara a cara: NIR domina 2-1-2",
+     "result": "pending",
+     "fact": null,
+     "top": true
+    },
+    {
+     "market": "Menos de 4.5 tarjetas",
+     "prob": 70,
+     "conf": "alta",
+     "why": "Se esperan \u0001,\u0002 tarjetas entre los dos",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Northern Ireland saca más córners",
+     "prob": 65,
+     "conf": "alta",
+     "why": "Se esperan \u0001,\u0002 córners: Northern Ireland \u0001,\u0002 y Ukraine \u0001,\u0002",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Más de 7.5 córners",
+     "prob": 62,
+     "conf": "media",
+     "why": "Se esperan \u0001,\u0002 córners: Northern Ireland \u0001,\u0002 y Ukraine \u0001,\u0002",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "UEFA Nations League",
+   "id": "401861167",
+   "time": "16:45",
+   "home": "Portugal",
+   "away": "Denmark",
+   "score": null,
+   "meta": "hora UTC−3 · últimos partidos: POR 6G 3E 1P · DEN 4G 2E 4P",
+   "picks": [
+    {
+     "market": "Más de 3.5 tarjetas",
+     "prob": 70,
+     "conf": "alta",
+     "why": "Se esperan \u0001,\u0002 tarjetas entre los dos",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Más de 2.5 goles",
+     "prob": 63,
+     "conf": "media",
+     "why": "Se esperan \u0001,\u0002 goles; más de \u0001,\u0002 en 7 de 10 de Portugal y 4 de 10 de Denmark",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Gana Portugal",
+     "prob": 60,
+     "conf": "media",
+     "why": "Portugal: \u0001,\u0002 goles a favor y \u0001,\u0002 en contra; Denmark: \u0001,\u0002 y \u0001,\u0002; el mercado da 62 % a Portugal; cara a cara: POR domina 4-1",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Más de 8.5 córners",
+     "prob": 60,
+     "conf": "media",
+     "why": "Se esperan 1\u0001,\u0002 córners: Portugal \u0001,\u0002 y Denmark \u0001,\u0002",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "UEFA Nations League",
+   "id": "401861168",
+   "time": "16:45",
+   "home": "Romania",
+   "away": "Poland",
+   "score": null,
+   "meta": "hora UTC−3 · últimos partidos: ROU 7G 0E 3P · POL 4G 2E 4P",
+   "picks": [
+    {
+     "market": "Romania o empate",
+     "prob": 68,
+     "conf": "alta",
+     "why": "Romania: \u0001,\u0002 goles a favor y \u0001,\u0002 en contra; Poland: \u0001,\u0002 y \u0001,\u0002; el mercado da 24 % a Romania; cara a cara: POL domina 3-2",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Más de 3.5 tarjetas",
+     "prob": 65,
+     "conf": "alta",
+     "why": "Se esperan \u0001,\u0002 tarjetas entre los dos",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Más de 2.5 goles",
+     "prob": 62,
+     "conf": "media",
+     "why": "Se esperan \u0001,\u0002 goles; más de \u0001,\u0002 en 9 de 10 de Romania y 5 de 10 de Poland",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Más de 8.5 córners",
+     "prob": 55,
+     "conf": "media",
+     "why": "Se esperan 1\u0001,\u0002 córners: Romania \u0001,\u0002 y Poland \u0001,\u0002",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "UEFA Nations League",
+   "id": "401861166",
+   "time": "16:45",
+   "home": "Sweden",
+   "away": "Bosnia-Herzegovina",
+   "score": null,
+   "meta": "hora UTC−3 · últimos partidos: SWE 6G 1E 3P · BIH 4G 2E 4P",
+   "picks": [
+    {
+     "market": "Más de 2.5 goles",
+     "prob": 64,
+     "conf": "media",
+     "why": "Se esperan \u0001,\u0002 goles; más de \u0001,\u0002 en 6 de 10 de Sweden y 6 de 10 de Bosnia-Herzegovina",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Gana Sweden",
+     "prob": 63,
+     "conf": "media",
+     "why": "Sweden: \u0001,\u0002 goles a favor y \u0001,\u0002 en contra; Bosnia-Herzegovina: \u0001,\u0002 y \u0001,\u0002; el mercado da 61 % a Sweden; cara a cara: SWE domina 1-0-1",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "Concacaf Nations League",
+   "id": "401929710",
+   "time": "18:30",
+   "home": "Haiti",
+   "away": "United States",
+   "score": null,
+   "meta": "hora UTC−3 · últimos partidos: HAI 4G 3E 3P · USA 6G 2E 2P",
+   "picks": [
+    {
+     "market": "United States o empate",
+     "prob": 74,
+     "conf": "alta",
+     "why": "Haiti: \u0001,\u0002 goles a favor y \u0001,\u0002 en contra; United States: \u0001,\u0002 y \u0001,\u0002; el mercado da 71 % a United States; cara a cara: USA domina 3-0-2",
+     "result": "pending",
+     "fact": null,
+     "top": true
+    },
+    {
+     "market": "Más de 2.5 goles",
+     "prob": 65,
+     "conf": "alta",
+     "why": "Se esperan \u0001,\u0002 goles; más de \u0001,\u0002 en 7 de 10 de Haiti y 6 de 10 de United States",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Ambos marcan",
+     "prob": 57,
+     "conf": "media",
+     "why": "Goles esperados: Haiti \u0001,\u0002, United States \u0001,\u0002",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "Concacaf Nations League",
+   "id": "401929773",
+   "time": "21:00",
+   "home": "St. Vincent and the Grenadines",
+   "away": "Belize",
+   "score": null,
+   "meta": "hora UTC−3 · últimos partidos: VIN 4G 4E 2P · BLZ 5G 2E 3P",
+   "picks": [
+    {
+     "market": "St. Vincent and the Grenadines o empate",
+     "prob": 74,
+     "conf": "alta",
+     "why": "St. Vincent and the Grenadines: \u0001,\u0002 goles a favor y \u0001,\u0002 en contra; Belize: \u0001,\u0002 y \u0001,\u0002; cara a cara: VIN domina 3-1-1",
+     "result": "pending",
+     "fact": null,
+     "top": true
+    },
+    {
+     "market": "Más de 2.5 goles",
+     "prob": 55,
+     "conf": "media",
+     "why": "Se esperan \u0001,\u0002 goles; más de \u0001,\u0002 en 5 de 10 de St. Vincent and the Grenadines y 5 de 10 de Belize",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "Concacaf Nations League",
+   "id": "401929772",
+   "time": "22:00",
+   "home": "Jamaica",
+   "away": "Mexico",
+   "score": null,
+   "meta": "hora UTC−3 · últimos partidos: JAM 5G 3E 2P · MEX 4G 4E 2P",
+   "picks": [
+    {
+     "market": "Mexico o empate",
+     "prob": 74,
+     "conf": "alta",
+     "why": "Jamaica: \u0001,\u0002 goles a favor y \u0001,\u0002 en contra; Mexico: \u0001,\u0002 y \u0001,\u0002; el mercado da 61 % a Mexico; cara a cara: MEX domina 3-0-2",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  }
+ ]
+}

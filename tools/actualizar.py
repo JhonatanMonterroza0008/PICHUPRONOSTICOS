@@ -7,10 +7,11 @@ manana = str(datetime.date.today() + datetime.timedelta(days=1))
 print("====", datetime.datetime.now().isoformat(timespec="seconds"), "mañana =", manana, flush=True)
 run("git", "pull", "-q", "--ff-only", "origin", "main")
 run(sys.executable, "tools/verify.py")
-if not (ROOT / "data" / f"{manana}.json").exists():
-    run(sys.executable, "tools/futbol.py", manana)
-if not (ROOT / "data" / f"nba-{manana}.json").exists():
-    run(sys.executable, "tools/nba.py", manana)
+for dia in (str(datetime.date.today()), manana):  # hoy también, por si ayer no corrió
+    if not (ROOT / "data" / f"{dia}.json").exists():
+        run(sys.executable, "tools/futbol.py", dia)
+    if not (ROOT / "data" / f"nba-{dia}.json").exists():
+        run(sys.executable, "tools/nba.py", dia)
 run("git", "add", "data")
 if run("git", "diff", "--cached", "--quiet"):
     run("git", "commit", "-q", "-m", f"Actualización diaria {manana}")
