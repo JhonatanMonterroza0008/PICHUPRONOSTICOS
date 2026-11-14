@@ -9,7 +9,7 @@
    "time": "14:00",
    "home": "Moldova",
    "away": "Kazakhstan",
-   "score": null,
+   "score": "2-1",
    "meta": "hora UTC−3 · últimos partidos: MDA 4G 1E 5P · KAZ 2G 0E 8P",
    "picks": [
     {
@@ -17,8 +17,8 @@
      "prob": 79,
      "conf": "alta",
      "why": "Moldova: 0,9 goles a favor y 1,5 en contra; Kazakhstan: 0,4 y 2,5; el mercado da 38 % a Moldova; cara a cara: KAZ domina 3-2",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "2-1",
      "top": true
     },
     {
@@ -26,8 +26,8 @@
      "prob": 72,
      "conf": "alta",
      "why": "Se esperan 7,7 córners: Moldova 5,5 y Kazakhstan 2,3",
-     "result": "pending",
-     "fact": null,
+     "result": "miss",
+     "fact": "2 a 3",
      "top": false
     },
     {
@@ -35,8 +35,8 @@
      "prob": 70,
      "conf": "alta",
      "why": "Se esperan 5,3 tarjetas entre los dos",
-     "result": "pending",
-     "fact": null,
+     "result": "miss",
+     "fact": "3 tarjetas",
      "top": false
     },
     {
@@ -44,8 +44,8 @@
      "prob": 66,
      "conf": "alta",
      "why": "Se esperan 7,7 córners: Moldova 5,5 y Kazakhstan 2,3",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "5 córners",
      "top": false
     }
    ]
@@ -56,7 +56,7 @@
    "time": "16:00",
    "home": "Bermuda",
    "away": "St. Lucia",
-   "score": null,
+   "score": "1-2",
    "meta": "hora UTC−3 · últimos partidos: BER 5G 1E 4P · LCA 4G 2E 4P",
    "picks": [
     {
@@ -64,8 +64,8 @@
      "prob": 72,
      "conf": "alta",
      "why": "Se esperan 3,9 goles; más de 2,5 en 7 de 10 de Bermuda y 7 de 10 de St. Lucia",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "3 goles",
      "top": false
     },
     {
@@ -73,8 +73,8 @@
      "prob": 64,
      "conf": "media",
      "why": "Goles esperados: Bermuda 1,8, St. Lucia 2,1",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "1-2",
      "top": false
     },
     {
@@ -82,8 +82,8 @@
      "prob": 63,
      "conf": "media",
      "why": "Bermuda: 1,8 goles a favor y 2,4 en contra; St. Lucia: 1,9 y 1,4; el mercado da 79 % a St. Lucia",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "1-2",
      "top": false
     }
    ]
@@ -94,7 +94,7 @@
    "time": "16:00",
    "home": "Puerto Rico",
    "away": "Dominica",
-   "score": null,
+   "score": "4-2",
    "meta": "hora UTC−3 · últimos partidos: PUR 5G 0E 2P · DMA 4G 1E 5P",
    "picks": [
     {
@@ -102,8 +102,8 @@
      "prob": 77,
      "conf": "alta",
      "why": "Se esperan 3,3 tarjetas entre los dos",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "3 tarjetas",
      "top": true
     },
     {
@@ -111,8 +111,8 @@
      "prob": 71,
      "conf": "alta",
      "why": "Se esperan 7,5 córners: Puerto Rico 2,3 y Dominica 5,2",
-     "result": "pending",
-     "fact": null,
+     "result": "miss",
+     "fact": "5 a 6",
      "top": false
     },
     {
@@ -120,8 +120,8 @@
      "prob": 69,
      "conf": "alta",
      "why": "Puerto Rico: 1,8 goles a favor y 0,6 en contra; Dominica: 1,5 y 2,0; el mercado da 78 % a Puerto Rico",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "4-2",
      "top": false
     },
     {
@@ -129,8 +129,8 @@
      "prob": 66,
      "conf": "alta",
      "why": "Se esperan 3,4 goles; más de 2,5 en 3 de 7 de Puerto Rico y 7 de 10 de Dominica",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "6 goles",
      "top": false
     }
    ]
@@ -141,7 +141,7 @@
    "time": "16:45",
    "home": "Andorra",
    "away": "Gibraltar",
-   "score": null,
+   "score": "2-0",
    "meta": "hora UTC−3 · últimos partidos: AND 1G 1E 8P · GIB 2G 5E 3P",
    "picks": [
     {
@@ -149,8 +149,8 @@
      "prob": 80,
      "conf": "alta",
      "why": "Andorra: 0,2 goles a favor y 1,2 en contra; Gibraltar: 0,8 y 1,2; el mercado da 57 % a Andorra; cara a cara: GIB domina 2-0-2",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "2-0",
      "top": true
     },
     {
@@ -158,8 +158,8 @@
      "prob": 79,
      "conf": "alta",
      "why": "Se esperan 8,0 tarjetas entre los dos",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "7 tarjetas",
      "top": true
     },
     {
@@ -167,8 +167,8 @@
      "prob": 68,
      "conf": "alta",
      "why": "Se esperan 6,6 córners: Andorra 3,2 y Gibraltar 3,4",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "5 córners",
      "top": false
     },
     {
@@ -176,8 +176,8 @@
      "prob": 65,
      "conf": "alta",
      "why": "Se esperan 1,7 goles; más de 2,5 en 2 de 10 de Andorra y 4 de 10 de Gibraltar",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "2 goles",
      "top": false
     }
    ]
@@ -188,7 +188,7 @@
    "time": "16:45",
    "home": "Bulgaria",
    "away": "Iceland",
-   "score": null,
+   "score": "0-5",
    "meta": "hora UTC−3 · últimos partidos: BUL 2G 5E 3P · ISL 3G 1E 6P",
    "picks": [
     {
@@ -196,8 +196,8 @@
      "prob": 75,
      "conf": "alta",
      "why": "Bulgaria: 0,7 goles a favor y 1,1 en contra; Iceland: 1,6 y 2,0; el mercado da 53 % a Iceland; cara a cara: BUL domina 2-1",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "0-5",
      "top": false
     },
     {
@@ -205,8 +205,8 @@
      "prob": 66,
      "conf": "alta",
      "why": "Se esperan 6,1 tarjetas entre los dos",
-     "result": "pending",
-     "fact": null,
+     "result": "miss",
+     "fact": "4 tarjetas",
      "top": false
     },
     {
@@ -214,8 +214,8 @@
      "prob": 64,
      "conf": "media",
      "why": "Se esperan 8,8 córners: Bulgaria 3,8 y Iceland 5,0",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "5 córners",
      "top": false
     }
    ]
@@ -226,7 +226,7 @@
    "time": "16:45",
    "home": "Liechtenstein",
    "away": "Azerbaijan",
-   "score": null,
+   "score": "0-1",
    "meta": "hora UTC−3 · últimos partidos: LIE 1G 3E 6P · AZE 1G 2E 7P",
    "picks": [
     {
@@ -234,8 +234,8 @@
      "prob": 79,
      "conf": "alta",
      "why": "Liechtenstein: 0,4 goles a favor y 1,3 en contra; Azerbaijan: 0,9 y 2,5; el mercado da 78 % a Azerbaijan; cara a cara: AZE domina 2-0-2",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "0-1",
      "top": true
     }
    ]
@@ -246,7 +246,7 @@
    "time": "16:45",
    "home": "Luxembourg",
    "away": "Estonia",
-   "score": null,
+   "score": "0-1",
    "meta": "hora UTC−3 · últimos partidos: LUX 1G 3E 6P · EST 1G 1E 8P",
    "picks": [
     {
@@ -254,8 +254,8 @@
      "prob": 77,
      "conf": "alta",
      "why": "Luxembourg: 0,4 goles a favor y 1,5 en contra; Estonia: 0,6 y 2,5; el mercado da 38 % a Luxembourg; cara a cara: EST domina 3-0",
-     "result": "pending",
-     "fact": null,
+     "result": "miss",
+     "fact": "0-1",
      "top": true
     },
     {
@@ -263,8 +263,8 @@
      "prob": 75,
      "conf": "alta",
      "why": "Se esperan 11,3 córners: Luxembourg 7,9 y Estonia 3,4",
-     "result": "pending",
-     "fact": null,
+     "result": "miss",
+     "fact": "2 a 2",
      "top": false
     },
     {
@@ -272,8 +272,8 @@
      "prob": 68,
      "conf": "alta",
      "why": "Se esperan 5,1 tarjetas entre los dos",
-     "result": "pending",
-     "fact": null,
+     "result": "miss",
+     "fact": "3 tarjetas",
      "top": false
     },
     {
@@ -281,8 +281,8 @@
      "prob": 57,
      "conf": "media",
      "why": "Se esperan 11,3 córners: Luxembourg 7,9 y Estonia 3,4",
-     "result": "pending",
-     "fact": null,
+     "result": "miss",
+     "fact": "4 córners",
      "top": false
     }
    ]
@@ -293,7 +293,7 @@
    "time": "16:45",
    "home": "Netherlands",
    "away": "Greece",
-   "score": null,
+   "score": "7-0",
    "meta": "hora UTC−3 · últimos partidos: NED 5G 4E 1P · GRE 8G 0E 2P",
    "picks": [
     {
@@ -301,8 +301,8 @@
      "prob": 80,
      "conf": "alta",
      "why": "Netherlands: 2,5 goles a favor y 1,0 en contra; Greece: 2,0 y 0,5; el mercado da 61 % a Netherlands; cara a cara: NED domina 3-1-1",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "7-0",
      "top": true
     },
     {
@@ -310,8 +310,8 @@
      "prob": 64,
      "conf": "media",
      "why": "Se esperan 7,9 córners: Netherlands 3,9 y Greece 4,0",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "9 córners",
      "top": false
     },
     {
@@ -319,8 +319,8 @@
      "prob": 62,
      "conf": "media",
      "why": "Se esperan 3,2 goles; más de 2,5 en 6 de 10 de Netherlands y 5 de 10 de Greece",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "7 goles",
      "top": false
     },
     {
@@ -328,8 +328,8 @@
      "prob": 62,
      "conf": "media",
      "why": "Se esperan 4,6 tarjetas entre los dos",
-     "result": "pending",
-     "fact": null,
+     "result": "miss",
+     "fact": "0 tarjetas",
      "top": false
     }
    ]
@@ -340,7 +340,7 @@
    "time": "16:45",
    "home": "Scotland",
    "away": "North Macedonia",
-   "score": null,
+   "score": "2-1",
    "meta": "hora UTC−3 · últimos partidos: SCO 5G 2E 3P · MKD 6G 3E 1P",
    "picks": [
     {
@@ -348,8 +348,8 @@
      "prob": 78,
      "conf": "alta",
      "why": "Se esperan 4,0 tarjetas entre los dos",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "1 tarjetas",
      "top": true
     },
     {
@@ -357,8 +357,8 @@
      "prob": 62,
      "conf": "media",
      "why": "Se esperan 8,1 córners: Scotland 3,4 y North Macedonia 4,7",
-     "result": "pending",
-     "fact": null,
+     "result": "miss",
+     "fact": "14 córners",
      "top": false
     },
     {
@@ -366,8 +366,8 @@
      "prob": 57,
      "conf": "media",
      "why": "Scotland: 1,1 goles a favor y 0,9 en contra; North Macedonia: 1,6 y 0,6; el mercado da 81 % a Scotland; cara a cara: SCO domina 3-1-1",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "2-1",
      "top": false
     }
    ]
@@ -378,7 +378,7 @@
    "time": "16:45",
    "home": "Serbia",
    "away": "Germany",
-   "score": null,
+   "score": "1-3",
    "meta": "hora UTC−3 · últimos partidos: SRB 2G 6E 2P · GER 5G 2E 3P",
    "picks": [
     {
@@ -386,8 +386,8 @@
      "prob": 69,
      "conf": "alta",
      "why": "Se esperan 9,2 córners: Serbia 3,1 y Germany 6,1",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "6 a 0",
      "top": false
     },
     {
@@ -395,8 +395,8 @@
      "prob": 69,
      "conf": "alta",
      "why": "Se esperan 5,2 tarjetas entre los dos",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "6 tarjetas",
      "top": false
     },
     {
@@ -404,8 +404,8 @@
      "prob": 63,
      "conf": "media",
      "why": "Serbia: 0,5 goles a favor y 0,7 en contra; Germany: 2,3 y 1,1; el mercado da 74 % a Germany; cara a cara: GER domina 2-1-1",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "1-3",
      "top": false
     },
     {
@@ -413,8 +413,8 @@
      "prob": 58,
      "conf": "media",
      "why": "Se esperan 9,2 córners: Serbia 3,1 y Germany 6,1",
-     "result": "pending",
-     "fact": null,
+     "result": "miss",
+     "fact": "6 córners",
      "top": false
     }
    ]
@@ -425,7 +425,7 @@
    "time": "16:45",
    "home": "Slovakia",
    "away": "Faroe Islands",
-   "score": null,
+   "score": "2-2",
    "meta": "hora UTC−3 · últimos partidos: SVK 4G 2E 4P · FRO 2G 4E 4P",
    "picks": [
     {
@@ -433,8 +433,8 @@
      "prob": 59,
      "conf": "media",
      "why": "Slovakia: 1,3 goles a favor y 1,1 en contra; Faroe Islands: 0,9 y 1,0; el mercado da 71 % a Slovakia",
-     "result": "pending",
-     "fact": null,
+     "result": "miss",
+     "fact": "2-2",
      "top": false
     }
    ]
@@ -445,7 +445,7 @@
    "time": "16:45",
    "home": "Slovenia",
    "away": "Switzerland",
-   "score": null,
+   "score": "0-0",
    "meta": "hora UTC−3 · últimos partidos: SVN 4G 4E 2P · SUI 7G 2E 1P",
    "picks": [
     {
@@ -453,8 +453,8 @@
      "prob": 83,
      "conf": "alta",
      "why": "Slovenia: 0,9 goles a favor y 0,9 en contra; Switzerland: 2,6 y 1,1; el mercado da 54 % a Switzerland; cara a cara: SUI domina 3-1-1",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "0-0",
      "top": true
     }
    ]
@@ -465,7 +465,7 @@
    "time": "17:00",
    "home": "Grenada",
    "away": "St. Kitts and Nevis",
-   "score": null,
+   "score": "3-2",
    "meta": "hora UTC−3 · últimos partidos: GRN 2G 4E 4P · SKN 5G 2E 3P",
    "picks": [
     {
@@ -473,8 +473,8 @@
      "prob": 74,
      "conf": "alta",
      "why": "Grenada: 1,1 goles a favor y 1,4 en contra; St. Kitts and Nevis: 1,0 y 1,4; el mercado da 59 % a St. Kitts and Nevis; cara a cara: empatados 2-2-1",
-     "result": "pending",
-     "fact": null,
+     "result": "miss",
+     "fact": "3-2",
      "top": false
     },
     {
@@ -482,8 +482,8 @@
      "prob": 60,
      "conf": "media",
      "why": "Se esperan 3,0 goles; más de 2,5 en 5 de 10 de Grenada y 5 de 10 de St. Kitts and Nevis",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "5 goles",
      "top": false
     },
     {
@@ -491,8 +491,8 @@
      "prob": 55,
      "conf": "media",
      "why": "Goles esperados: Grenada 1,7, St. Kitts and Nevis 1,4",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "3-2",
      "top": false
     }
    ]
@@ -503,7 +503,7 @@
    "time": "20:00",
    "home": "St. Martin",
    "away": "El Salvador",
-   "score": null,
+   "score": "0-2",
    "meta": "hora UTC−3 · últimos partidos: SMN 4G 2E 4P · SLV 5G 3E 2P",
    "picks": [
     {
@@ -511,8 +511,8 @@
      "prob": 65,
      "conf": "alta",
      "why": "St. Martin: 2,2 goles a favor y 1,5 en contra; El Salvador: 1,5 y 1,0; sin cuotas del mercado",
-     "result": "pending",
-     "fact": null,
+     "result": "miss",
+     "fact": "0-2",
      "top": false
     },
     {
@@ -520,8 +520,8 @@
      "prob": 61,
      "conf": "media",
      "why": "Se esperan 3,1 goles; más de 2,5 en 7 de 10 de St. Martin y 4 de 10 de El Salvador",
-     "result": "pending",
-     "fact": null,
+     "result": "miss",
+     "fact": "2 goles",
      "top": false
     },
     {
@@ -529,8 +529,8 @@
      "prob": 55,
      "conf": "media",
      "why": "Goles esperados: St. Martin 1,7, El Salvador 1,4",
-     "result": "pending",
-     "fact": null,
+     "result": "miss",
+     "fact": "0-2",
      "top": false
     }
    ]
