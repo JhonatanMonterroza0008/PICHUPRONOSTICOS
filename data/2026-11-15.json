@@ -1,0 +1,638 @@
+{
+ "date": "2026-11-15",
+ "title": "UEFA Nations League, Concacaf Nations League, LALIGA 2, Liga MX Femenil",
+ "note": "Goles con un modelo de Poisson sobre los últimos 10 partidos (los recientes pesan más), mezclado con las cuotas del mercado; córners y tarjetas con los últimos 6 que tienen estadísticas. Cada probabilidad se corrige con el historial de aciertos de ese mercado. Sin datos de árbitros.",
+ "matches": [
+  {
+   "comp": "UEFA Nations League",
+   "id": "401861172",
+   "time": "11:00",
+   "home": "Cyprus",
+   "away": "Montenegro",
+   "score": null,
+   "meta": "hora UTC−3 · últimos partidos: CYP 3G 1E 6P · MNE 3G 1E 6P",
+   "picks": [
+    {
+     "market": "Montenegro o empate",
+     "prob": 72,
+     "conf": "alta",
+     "why": "Cyprus: 0,8 goles a favor y 2,1 en contra; Montenegro: 0,8 y 1,5; el mercado da 42 % a Montenegro; cara a cara: MNE domina 3-0-2",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Más de 4.5 tarjetas",
+     "prob": 70,
+     "conf": "alta",
+     "why": "Se esperan 7,3 tarjetas entre los dos",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Más de 7.5 córners",
+     "prob": 63,
+     "conf": "media",
+     "why": "Se esperan 9,9 córners: Cyprus 5,2 y Montenegro 4,7",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "UEFA Nations League",
+   "id": "401861171",
+   "time": "11:00",
+   "home": "Latvia",
+   "away": "Armenia",
+   "score": null,
+   "meta": "hora UTC−3 · últimos partidos: LVA 2G 3E 5P · ARM 3G 1E 6P",
+   "picks": [
+    {
+     "market": "Menos de 4.5 tarjetas",
+     "prob": 83,
+     "conf": "alta",
+     "why": "Se esperan 2,9 tarjetas entre los dos",
+     "result": "pending",
+     "fact": null,
+     "top": true
+    },
+    {
+     "market": "Armenia o empate",
+     "prob": 70,
+     "conf": "alta",
+     "why": "Latvia: 0,8 goles a favor y 1,6 en contra; Armenia: 1,5 y 2,0; el mercado da 40 % a Armenia; cara a cara: ARM domina 4-1",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Armenia saca más córners",
+     "prob": 64,
+     "conf": "media",
+     "why": "Se esperan 9,5 córners: Latvia 3,4 y Armenia 6,1",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Más de 7.5 córners",
+     "prob": 60,
+     "conf": "media",
+     "why": "Se esperan 9,5 córners: Latvia 3,4 y Armenia 6,1",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "UEFA Nations League",
+   "id": "401861173",
+   "time": "14:00",
+   "home": "Belarus",
+   "away": "Albania",
+   "score": null,
+   "meta": "hora UTC−3 · últimos partidos: BLR 4G 4E 2P · ALB 3G 3E 4P",
+   "picks": [
+    {
+     "market": "Menos de 5.5 tarjetas",
+     "prob": 74,
+     "conf": "alta",
+     "why": "Se esperan 4,5 tarjetas entre los dos",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Belarus o empate",
+     "prob": 71,
+     "conf": "alta",
+     "why": "Belarus: 1,2 goles a favor y 0,7 en contra; Albania: 0,8 y 1,0; cara a cara: ALB domina 4-0-1; sin cuotas del mercado",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Menos de 10.5 córners",
+     "prob": 67,
+     "conf": "alta",
+     "why": "Se esperan 8,5 córners: Belarus 5,0 y Albania 3,5",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Menos de 2.5 goles",
+     "prob": 65,
+     "conf": "alta",
+     "why": "Se esperan 1,8 goles; más de 2,5 en 3 de 10 de Belarus y 3 de 10 de Albania",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "UEFA Nations League",
+   "id": "401861174",
+   "time": "14:00",
+   "home": "Finland",
+   "away": "San Marino",
+   "score": null,
+   "meta": "hora UTC−3 · últimos partidos: FIN 2G 1E 7P · SMR 2G 1E 7P",
+   "picks": [
+    {
+     "market": "Gana Finland",
+     "prob": 67,
+     "conf": "alta",
+     "why": "Finland: 0,6 goles a favor y 2,0 en contra; San Marino: 0,6 y 1,5; el mercado da 90 % a Finland; cara a cara: FIN domina 5-0",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Más de 3.5 tarjetas",
+     "prob": 67,
+     "conf": "alta",
+     "why": "Se esperan 5,6 tarjetas entre los dos",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Más de 2.5 goles",
+     "prob": 66,
+     "conf": "alta",
+     "why": "Se esperan 3,2 goles; más de 2,5 en 5 de 10 de Finland y 3 de 10 de San Marino",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Menos de 9.5 córners",
+     "prob": 63,
+     "conf": "media",
+     "why": "Se esperan 8,0 córners: Finland 3,2 y San Marino 4,8",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "UEFA Nations League",
+   "id": "401861176",
+   "time": "16:45",
+   "home": "Belgium",
+   "away": "Italy",
+   "score": null,
+   "meta": "hora UTC−3 · últimos partidos: BEL 6G 3E 1P · ITA 5G 2E 3P",
+   "picks": [
+    {
+     "market": "Menos de 4.5 tarjetas",
+     "prob": 85,
+     "conf": "alta",
+     "why": "Se esperan 2,7 tarjetas entre los dos",
+     "result": "pending",
+     "fact": null,
+     "top": true
+    },
+    {
+     "market": "Belgium o empate",
+     "prob": 75,
+     "conf": "alta",
+     "why": "Belgium: 3,0 goles a favor y 1,2 en contra; Italy: 2,1 y 1,5; el mercado da 43 % a Belgium; cara a cara: ITA domina 3-1-1",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Más de 2.5 goles",
+     "prob": 70,
+     "conf": "alta",
+     "why": "Se esperan 3,5 goles; más de 2,5 en 7 de 10 de Belgium y 8 de 10 de Italy",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Belgium saca más córners",
+     "prob": 70,
+     "conf": "alta",
+     "why": "Se esperan 9,3 córners: Belgium 6,5 y Italy 2,8",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "UEFA Nations League",
+   "id": "401861178",
+   "time": "16:45",
+   "home": "Croatia",
+   "away": "Czechia",
+   "score": null,
+   "meta": "hora UTC−3 · últimos partidos: CRO 6G 2E 2P · CZE 5G 4E 1P",
+   "picks": [
+    {
+     "market": "Croatia o empate",
+     "prob": 82,
+     "conf": "alta",
+     "why": "Croatia: 2,0 goles a favor y 0,6 en contra; Czechia: 1,5 y 0,9; el mercado da 59 % a Croatia; cara a cara: CRO domina 2-0-3",
+     "result": "pending",
+     "fact": null,
+     "top": true
+    },
+    {
+     "market": "Menos de 5.5 tarjetas",
+     "prob": 76,
+     "conf": "alta",
+     "why": "Se esperan 4,3 tarjetas entre los dos",
+     "result": "pending",
+     "fact": null,
+     "top": true
+    },
+    {
+     "market": "Czechia saca más córners",
+     "prob": 65,
+     "conf": "alta",
+     "why": "Se esperan 11,9 córners: Croatia 4,3 y Czechia 7,5",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Más de 9.5 córners",
+     "prob": 61,
+     "conf": "media",
+     "why": "Se esperan 11,9 córners: Croatia 4,3 y Czechia 7,5",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "UEFA Nations League",
+   "id": "401861177",
+   "time": "16:45",
+   "home": "France",
+   "away": "Türkiye",
+   "score": null,
+   "meta": "hora UTC−3 · últimos partidos: FRA 8G 1E 1P · TUR 6G 1E 3P",
+   "picks": [
+    {
+     "market": "Más de 2.5 goles",
+     "prob": 75,
+     "conf": "alta",
+     "why": "Se esperan 3,8 goles; más de 2,5 en 8 de 10 de France y 8 de 10 de Türkiye",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Gana France",
+     "prob": 66,
+     "conf": "alta",
+     "why": "France: 2,7 goles a favor y 1,3 en contra; Türkiye: 2,1 y 1,5; el mercado da 77 % a France; cara a cara: FRA domina 3-1-1",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Ambos marcan",
+     "prob": 63,
+     "conf": "media",
+     "why": "Goles esperados: France 2,3, Türkiye 1,6",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Más de 3.5 tarjetas",
+     "prob": 59,
+     "conf": "media",
+     "why": "Se esperan 4,8 tarjetas entre los dos",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "UEFA Nations League",
+   "id": "401861175",
+   "time": "16:45",
+   "home": "Spain",
+   "away": "England",
+   "score": null,
+   "meta": "hora UTC−3 · últimos partidos: ESP 7G 3E 0P · ENG 7G 1E 2P",
+   "picks": [
+    {
+     "market": "Menos de 4.5 tarjetas",
+     "prob": 85,
+     "conf": "alta",
+     "why": "Se esperan 2,2 tarjetas entre los dos",
+     "result": "pending",
+     "fact": null,
+     "top": true
+    },
+    {
+     "market": "Spain o empate",
+     "prob": 78,
+     "conf": "alta",
+     "why": "Spain: 3,4 goles a favor y 1,1 en contra; England: 2,2 y 0,6; el mercado da 53 % a Spain; cara a cara: ESP domina 3-1-1",
+     "result": "pending",
+     "fact": null,
+     "top": true
+    },
+    {
+     "market": "Más de 2.5 goles",
+     "prob": 68,
+     "conf": "alta",
+     "why": "Se esperan 3,3 goles; más de 2,5 en 8 de 10 de Spain y 4 de 10 de England",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "England saca más córners",
+     "prob": 64,
+     "conf": "media",
+     "why": "Se esperan 9,6 córners: Spain 3,4 y England 6,1",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "Concacaf Nations League",
+   "id": "401929709",
+   "time": "20:00",
+   "home": "Panama",
+   "away": "Curaçao",
+   "score": null,
+   "meta": "hora UTC−3 · últimos partidos: PAN 6G 3E 1P · CUW 4G 1E 5P",
+   "picks": [
+    {
+     "market": "Más de 2.5 goles",
+     "prob": 64,
+     "conf": "media",
+     "why": "Se esperan 3,1 goles; más de 2,5 en 4 de 10 de Panama y 6 de 10 de Curaçao",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Gana Panama",
+     "prob": 63,
+     "conf": "media",
+     "why": "Panama: 2,1 goles a favor y 0,8 en contra; Curaçao: 1,5 y 2,7; el mercado da 60 % a Panama; cara a cara: PAN domina 2-0-2",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "LALIGA 2",
+   "id": "401883113",
+   "time": "10:00",
+   "home": "Tenerife",
+   "away": "Ceuta",
+   "score": null,
+   "meta": "hora UTC−3 · últimos partidos: TEN 3G 4E 3P · CEU 2G 2E 6P",
+   "picks": [
+    {
+     "market": "Tenerife o empate",
+     "prob": 82,
+     "conf": "alta",
+     "why": "Tenerife: 1,1 goles a favor y 1,0 en contra; Ceuta: 1,0 y 2,3; el mercado da 53 % a Tenerife",
+     "result": "pending",
+     "fact": null,
+     "top": true
+    },
+    {
+     "market": "Menos de 5.5 tarjetas",
+     "prob": 79,
+     "conf": "alta",
+     "why": "Se esperan 4,0 tarjetas entre los dos",
+     "result": "pending",
+     "fact": null,
+     "top": true
+    },
+    {
+     "market": "Menos de 9.5 córners",
+     "prob": 63,
+     "conf": "media",
+     "why": "Se esperan 8,0 córners: Tenerife 3,3 y Ceuta 4,7",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Más de 2.5 goles",
+     "prob": 57,
+     "conf": "media",
+     "why": "Se esperan 2,7 goles; más de 2,5 en 3 de 10 de Tenerife y 6 de 10 de Ceuta",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "LALIGA 2",
+   "id": "401883116",
+   "time": "12:15",
+   "home": "Granada",
+   "away": "Las Palmas",
+   "score": null,
+   "meta": "hora UTC−3 · últimos partidos: GRA 5G 2E 3P · LPA 4G 2E 4P",
+   "picks": [
+    {
+     "market": "Menos de 4.5 tarjetas",
+     "prob": 79,
+     "conf": "alta",
+     "why": "Se esperan 3,2 tarjetas entre los dos",
+     "result": "pending",
+     "fact": null,
+     "top": true
+    },
+    {
+     "market": "Granada o empate",
+     "prob": 76,
+     "conf": "alta",
+     "why": "Granada: 1,7 goles a favor y 1,1 en contra; Las Palmas: 1,7 y 1,5; el mercado da 47 % a Granada; cara a cara: LPA domina 2-1-2",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Más de 2.5 goles",
+     "prob": 61,
+     "conf": "media",
+     "why": "Se esperan 2,9 goles; más de 2,5 en 6 de 10 de Granada y 7 de 10 de Las Palmas",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Menos de 9.5 córners",
+     "prob": 61,
+     "conf": "media",
+     "why": "Se esperan 8,3 córners: Granada 4,9 y Las Palmas 3,4",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "LALIGA 2",
+   "id": "401883117",
+   "time": "14:30",
+   "home": "Eibar",
+   "away": "Cádiz",
+   "score": null,
+   "meta": "hora UTC−3 · últimos partidos: EIB 7G 1E 2P · CAD 1G 4E 5P",
+   "picks": [
+    {
+     "market": "Menos de 9.5 córners",
+     "prob": 67,
+     "conf": "alta",
+     "why": "Se esperan 7,6 córners: Eibar 3,5 y Cádiz 4,1",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Gana Eibar",
+     "prob": 59,
+     "conf": "media",
+     "why": "Eibar: 1,8 goles a favor y 1,0 en contra; Cádiz: 1,0 y 1,5; el mercado da 58 % a Eibar; cara a cara: empatados 2-2-1",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Más de 2.5 goles",
+     "prob": 58,
+     "conf": "media",
+     "why": "Se esperan 2,8 goles; más de 2,5 en 7 de 10 de Eibar y 5 de 10 de Cádiz",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Más de 3.5 tarjetas",
+     "prob": 58,
+     "conf": "media",
+     "why": "Se esperan 4,7 tarjetas entre los dos",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "LALIGA 2",
+   "id": "401883137",
+   "time": "14:30",
+   "home": "Eldense",
+   "away": "CD Sabadell",
+   "score": null,
+   "meta": "hora UTC−3 · últimos partidos: ELD 3G 2E 5P · CDS 4G 5E 1P",
+   "picks": [
+    {
+     "market": "CD Sabadell o empate",
+     "prob": 71,
+     "conf": "alta",
+     "why": "Eldense: 0,8 goles a favor y 1,3 en contra; CD Sabadell: 1,4 y 0,8; el mercado da 29 % a CD Sabadell",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Más de 7.5 córners",
+     "prob": 61,
+     "conf": "media",
+     "why": "Se esperan 9,6 córners: Eldense 5,0 y CD Sabadell 4,6",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Menos de 2.5 goles",
+     "prob": 57,
+     "conf": "media",
+     "why": "Se esperan 2,2 goles; más de 2,5 en 5 de 10 de Eldense y 4 de 10 de CD Sabadell",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Más de 4.5 tarjetas",
+     "prob": 56,
+     "conf": "media",
+     "why": "Se esperan 5,6 tarjetas entre los dos",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "Liga MX Femenil",
+   "id": "401932064",
+   "time": "22:00",
+   "home": "Monterrey",
+   "away": "Pachuca",
+   "score": null,
+   "meta": "hora UTC−3 · últimos partidos: MON 9G 0E 1P · PAC 3G 1E 6P",
+   "picks": [
+    {
+     "market": "Menos de 4.5 tarjetas",
+     "prob": 76,
+     "conf": "alta",
+     "why": "Se esperan 3,4 tarjetas entre los dos",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Más de 2.5 goles",
+     "prob": 71,
+     "conf": "alta",
+     "why": "Se esperan 3,6 goles; más de 2,5 en 10 de 10 de Monterrey y 6 de 10 de Pachuca",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Menos de 9.5 córners",
+     "prob": 64,
+     "conf": "media",
+     "why": "Se esperan 8,0 córners: Monterrey 3,9 y Pachuca 4,0",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Gana Monterrey",
+     "prob": 61,
+     "conf": "media",
+     "why": "Monterrey: 3,6 goles a favor y 1,2 en contra; Pachuca: 1,3 y 1,4; el mercado da 56 % a Monterrey",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  }
+ ]
+}

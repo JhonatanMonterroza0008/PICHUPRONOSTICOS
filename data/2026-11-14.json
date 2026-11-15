@@ -9,7 +9,7 @@
    "time": "10:00",
    "home": "Real Valladolid",
    "away": "Castellón",
-   "score": null,
+   "score": "0-1",
    "meta": "hora UTC−3 · últimos partidos: VLL 4G 3E 3P · CAS 6G 3E 1P",
    "picks": [
     {
@@ -17,8 +17,8 @@
      "prob": 71,
      "conf": "alta",
      "why": "Real Valladolid: 1,5 goles a favor y 1,4 en contra; Castellón: 1,3 y 0,7; el mercado da 42 % a Castellón; cara a cara: empatados 2-2",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "0-1",
      "top": false
     },
     {
@@ -26,8 +26,8 @@
      "prob": 67,
      "conf": "alta",
      "why": "Se esperan 8,5 córners: Real Valladolid 3,7 y Castellón 4,8",
-     "result": "pending",
-     "fact": null,
+     "result": "miss",
+     "fact": "12 córners",
      "top": false
     },
     {
@@ -35,8 +35,8 @@
      "prob": 61,
      "conf": "media",
      "why": "Se esperan 5,6 tarjetas entre los dos",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "7 tarjetas",
      "top": false
     }
    ]
@@ -47,7 +47,7 @@
    "time": "11:00",
    "home": "Kosovo",
    "away": "Israel",
-   "score": null,
+   "score": "0-0",
    "meta": "hora UTC−3 · últimos partidos: KOS 7G 0E 3P · ISR 3G 1E 6P",
    "picks": [
     {
@@ -55,8 +55,8 @@
      "prob": 81,
      "conf": "alta",
      "why": "Kosovo: 1,7 goles a favor y 1,5 en contra; Israel: 1,2 y 2,4; el mercado da 52 % a Kosovo; cara a cara: KOS domina 1-0-2",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "0-0",
      "top": true
     },
     {
@@ -64,8 +64,8 @@
      "prob": 77,
      "conf": "alta",
      "why": "Se esperan 4,1 tarjetas entre los dos",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "5 tarjetas",
      "top": true
     },
     {
@@ -73,8 +73,8 @@
      "prob": 65,
      "conf": "alta",
      "why": "Se esperan 8,7 córners: Kosovo 4,8 y Israel 3,8",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "9 córners",
      "top": false
     },
     {
@@ -82,8 +82,8 @@
      "prob": 61,
      "conf": "media",
      "why": "Se esperan 3,1 goles; más de 2,5 en 9 de 10 de Kosovo y 8 de 10 de Israel",
-     "result": "pending",
-     "fact": null,
+     "result": "miss",
+     "fact": "0 goles",
      "top": false
     }
    ]
@@ -94,7 +94,7 @@
    "time": "12:15",
    "home": "Real Sociedad II",
    "away": "Sporting Gijón",
-   "score": null,
+   "score": "2-2",
    "meta": "hora UTC−3 · últimos partidos: RSO2 2G 2E 6P · RSG 4G 1E 5P",
    "picks": [
     {
@@ -102,8 +102,8 @@
      "prob": 80,
      "conf": "alta",
      "why": "Se esperan 3,9 tarjetas entre los dos",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "5 tarjetas",
      "top": true
     },
     {
@@ -111,8 +111,8 @@
      "prob": 74,
      "conf": "alta",
      "why": "Real Sociedad II: 1,3 goles a favor y 1,8 en contra; Sporting Gijón: 1,0 y 1,8; el mercado da 37 % a Real Sociedad II; cara a cara: empatados 2-2",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "2-2",
      "top": false
     },
     {
@@ -120,8 +120,8 @@
      "prob": 61,
      "conf": "media",
      "why": "Se esperan 8,3 córners: Real Sociedad II 4,3 y Sporting Gijón 4,0",
-     "result": "pending",
-     "fact": null,
+     "result": "miss",
+     "fact": "12 córners",
      "top": false
     },
     {
@@ -129,8 +129,8 @@
      "prob": 56,
      "conf": "media",
      "why": "Se esperan 2,8 goles; más de 2,5 en 7 de 10 de Real Sociedad II y 4 de 10 de Sporting Gijón",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "4 goles",
      "top": false
     }
    ]
@@ -141,7 +141,7 @@
    "time": "14:00",
    "home": "Georgia",
    "away": "Hungary",
-   "score": null,
+   "score": "0-2",
    "meta": "hora UTC−3 · últimos partidos: GEO 5G 1E 4P · HUN 2G 3E 5P",
    "picks": [
     {
@@ -149,8 +149,8 @@
      "prob": 75,
      "conf": "alta",
      "why": "Georgia: 1,7 goles a favor y 1,3 en contra; Hungary: 0,6 y 1,8; el mercado da 31 % a Georgia",
-     "result": "pending",
-     "fact": null,
+     "result": "miss",
+     "fact": "0-2",
      "top": true
     },
     {
@@ -158,8 +158,8 @@
      "prob": 75,
      "conf": "alta",
      "why": "Se esperan 4,3 tarjetas entre los dos",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "3 tarjetas",
      "top": true
     },
     {
@@ -167,8 +167,8 @@
      "prob": 59,
      "conf": "media",
      "why": "Se esperan 9,4 córners: Georgia 4,2 y Hungary 5,2",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "14 córners",
      "top": false
     }
    ]
@@ -179,7 +179,7 @@
    "time": "14:00",
    "home": "Norway",
    "away": "Wales",
-   "score": null,
+   "score": "3-1",
    "meta": "hora UTC−3 · últimos partidos: NOR 9G 1E 0P · WAL 5G 4E 1P",
    "picks": [
     {
@@ -187,8 +187,8 @@
      "prob": 74,
      "conf": "alta",
      "why": "Norway: 4,1 goles a favor y 0,4 en contra; Wales: 1,3 y 1,2; el mercado da 76 % a Norway; cara a cara: WAL domina 3-0-1",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "3-1",
      "top": true
     },
     {
@@ -196,8 +196,8 @@
      "prob": 69,
      "conf": "alta",
      "why": "Se esperan 3,6 goles; más de 2,5 en 7 de 10 de Norway y 6 de 10 de Wales",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "4 goles",
      "top": false
     },
     {
@@ -205,8 +205,8 @@
      "prob": 69,
      "conf": "alta",
      "why": "Se esperan 3,8 tarjetas entre los dos",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "3 tarjetas",
      "top": false
     },
     {
@@ -214,8 +214,8 @@
      "prob": 67,
      "conf": "alta",
      "why": "Se esperan 10,1 córners: Norway 6,4 y Wales 3,7",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "8 a 2",
      "top": false
     }
    ]
@@ -226,7 +226,7 @@
    "time": "14:30",
    "home": "Almería",
    "away": "FC Andorra",
-   "score": null,
+   "score": "2-1",
    "meta": "hora UTC−3 · últimos partidos: ALM 8G 0E 2P · AND 3G 0E 7P",
    "picks": [
     {
@@ -234,8 +234,8 @@
      "prob": 74,
      "conf": "alta",
      "why": "Se esperan 3,5 tarjetas entre los dos",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "4 tarjetas",
      "top": false
     },
     {
@@ -243,8 +243,8 @@
      "prob": 66,
      "conf": "alta",
      "why": "Se esperan 8,6 córners: Almería 3,6 y FC Andorra 5,0",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "6 córners",
      "top": false
     },
     {
@@ -252,8 +252,8 @@
      "prob": 61,
      "conf": "media",
      "why": "Se esperan 3,1 goles; más de 2,5 en 4 de 10 de Almería y 7 de 10 de FC Andorra",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "3 goles",
      "top": false
     },
     {
@@ -261,8 +261,8 @@
      "prob": 60,
      "conf": "media",
      "why": "Almería: 2,0 goles a favor y 0,4 en contra; FC Andorra: 1,4 y 2,0; el mercado da 58 % a Almería; cara a cara: ALM domina 2-0",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "2-1",
      "top": false
     }
    ]
@@ -273,7 +273,7 @@
    "time": "16:45",
    "home": "Austria",
    "away": "Republic of Ireland",
-   "score": null,
+   "score": "1-0",
    "meta": "hora UTC−3 · últimos partidos: AUT 7G 2E 1P · IRL 4G 2E 4P",
    "picks": [
     {
@@ -281,8 +281,8 @@
      "prob": 83,
      "conf": "alta",
      "why": "Se esperan 2,8 tarjetas entre los dos",
-     "result": "pending",
-     "fact": null,
+     "result": "miss",
+     "fact": "5 tarjetas",
      "top": true
     },
     {
@@ -290,8 +290,8 @@
      "prob": 72,
      "conf": "alta",
      "why": "Se esperan 7,4 córners: Austria 5,3 y Republic of Ireland 2,1",
-     "result": "pending",
-     "fact": null,
+     "result": "miss",
+     "fact": "7 a 12",
      "top": false
     },
     {
@@ -299,8 +299,8 @@
      "prob": 63,
      "conf": "media",
      "why": "Austria: 2,5 goles a favor y 0,7 en contra; Republic of Ireland: 0,7 y 1,6; el mercado da 59 % a Austria; cara a cara: empatados 1-1-3",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "1-0",
      "top": false
     },
     {
@@ -308,8 +308,8 @@
      "prob": 60,
      "conf": "media",
      "why": "Se esperan 7,4 córners: Austria 5,3 y Republic of Ireland 2,1",
-     "result": "pending",
-     "fact": null,
+     "result": "miss",
+     "fact": "19 córners",
      "top": false
     }
    ]
@@ -320,7 +320,7 @@
    "time": "16:45",
    "home": "Northern Ireland",
    "away": "Ukraine",
-   "score": null,
+   "score": "1-0",
    "meta": "hora UTC−3 · últimos partidos: NIR 4G 3E 3P · UKR 3G 3E 4P",
    "picks": [
     {
@@ -328,8 +328,8 @@
      "prob": 78,
      "conf": "alta",
      "why": "Northern Ireland: 1,6 goles a favor y 0,8 en contra; Ukraine: 1,2 y 1,4; el mercado da 38 % a Northern Ireland; cara a cara: NIR domina 2-1-2",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "1-0",
      "top": true
     },
     {
@@ -337,8 +337,8 @@
      "prob": 70,
      "conf": "alta",
      "why": "Se esperan 3,8 tarjetas entre los dos",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "1 tarjetas",
      "top": false
     },
     {
@@ -346,8 +346,8 @@
      "prob": 65,
      "conf": "alta",
      "why": "Se esperan 9,8 córners: Northern Ireland 6,1 y Ukraine 3,7",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "4 a 2",
      "top": false
     },
     {
@@ -355,8 +355,8 @@
      "prob": 62,
      "conf": "media",
      "why": "Se esperan 9,8 córners: Northern Ireland 6,1 y Ukraine 3,7",
-     "result": "pending",
-     "fact": null,
+     "result": "miss",
+     "fact": "6 córners",
      "top": false
     }
    ]
@@ -367,7 +367,7 @@
    "time": "16:45",
    "home": "Portugal",
    "away": "Denmark",
-   "score": null,
+   "score": "1-4",
    "meta": "hora UTC−3 · últimos partidos: POR 6G 3E 1P · DEN 4G 2E 4P",
    "picks": [
     {
@@ -375,8 +375,8 @@
      "prob": 70,
      "conf": "alta",
      "why": "Se esperan 5,4 tarjetas entre los dos",
-     "result": "pending",
-     "fact": null,
+     "result": "miss",
+     "fact": "2 tarjetas",
      "top": false
     },
     {
@@ -384,8 +384,8 @@
      "prob": 63,
      "conf": "media",
      "why": "Se esperan 3,2 goles; más de 2,5 en 7 de 10 de Portugal y 4 de 10 de Denmark",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "5 goles",
      "top": false
     },
     {
@@ -393,8 +393,8 @@
      "prob": 60,
      "conf": "media",
      "why": "Portugal: 2,7 goles a favor y 1,2 en contra; Denmark: 1,1 y 1,2; el mercado da 62 % a Portugal; cara a cara: POR domina 4-1",
-     "result": "pending",
-     "fact": null,
+     "result": "miss",
+     "fact": "1-4",
      "top": false
     },
     {
@@ -402,8 +402,8 @@
      "prob": 60,
      "conf": "media",
      "why": "Se esperan 10,5 córners: Portugal 5,0 y Denmark 5,5",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "13 córners",
      "top": false
     }
    ]
@@ -414,7 +414,7 @@
    "time": "16:45",
    "home": "Romania",
    "away": "Poland",
-   "score": null,
+   "score": "2-1",
    "meta": "hora UTC−3 · últimos partidos: ROU 7G 0E 3P · POL 4G 2E 4P",
    "picks": [
     {
@@ -422,8 +422,8 @@
      "prob": 68,
      "conf": "alta",
      "why": "Romania: 2,3 goles a favor y 1,0 en contra; Poland: 1,5 y 1,8; el mercado da 24 % a Romania; cara a cara: POL domina 3-2",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "2-1",
      "top": false
     },
     {
@@ -431,8 +431,8 @@
      "prob": 65,
      "conf": "alta",
      "why": "Se esperan 4,8 tarjetas entre los dos",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "7 tarjetas",
      "top": false
     },
     {
@@ -440,8 +440,8 @@
      "prob": 62,
      "conf": "media",
      "why": "Se esperan 3,1 goles; más de 2,5 en 9 de 10 de Romania y 5 de 10 de Poland",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "3 goles",
      "top": false
     },
     {
@@ -449,8 +449,8 @@
      "prob": 55,
      "conf": "media",
      "why": "Se esperan 10,0 córners: Romania 5,4 y Poland 4,6",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "11 córners",
      "top": false
     }
    ]
@@ -461,7 +461,7 @@
    "time": "16:45",
    "home": "Sweden",
    "away": "Bosnia-Herzegovina",
-   "score": null,
+   "score": "3-2",
    "meta": "hora UTC−3 · últimos partidos: SWE 6G 1E 3P · BIH 4G 2E 4P",
    "picks": [
     {
@@ -469,8 +469,8 @@
      "prob": 64,
      "conf": "media",
      "why": "Se esperan 3,3 goles; más de 2,5 en 6 de 10 de Sweden y 6 de 10 de Bosnia-Herzegovina",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "5 goles",
      "top": false
     },
     {
@@ -478,8 +478,8 @@
      "prob": 63,
      "conf": "media",
      "why": "Sweden: 2,7 goles a favor y 1,0 en contra; Bosnia-Herzegovina: 1,2 y 2,0; el mercado da 61 % a Sweden; cara a cara: SWE domina 1-0-1",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "3-2",
      "top": false
     }
    ]
@@ -490,7 +490,7 @@
    "time": "18:30",
    "home": "Haiti",
    "away": "United States",
-   "score": null,
+   "score": "0-6",
    "meta": "hora UTC−3 · últimos partidos: HAI 4G 3E 3P · USA 6G 2E 2P",
    "picks": [
     {
@@ -498,8 +498,8 @@
      "prob": 74,
      "conf": "alta",
      "why": "Haiti: 3,1 goles a favor y 1,0 en contra; United States: 2,1 y 0,9; el mercado da 71 % a United States; cara a cara: USA domina 3-0-2",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "0-6",
      "top": true
     },
     {
@@ -507,8 +507,8 @@
      "prob": 65,
      "conf": "alta",
      "why": "Se esperan 3,3 goles; más de 2,5 en 7 de 10 de Haiti y 6 de 10 de United States",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "6 goles",
      "top": false
     },
     {
@@ -516,8 +516,8 @@
      "prob": 57,
      "conf": "media",
      "why": "Goles esperados: Haiti 2,0, United States 1,3",
-     "result": "pending",
-     "fact": null,
+     "result": "miss",
+     "fact": "0-6",
      "top": false
     }
    ]
@@ -528,7 +528,7 @@
    "time": "21:00",
    "home": "St. Vincent and the Grenadines",
    "away": "Belize",
-   "score": null,
+   "score": "1-0",
    "meta": "hora UTC−3 · últimos partidos: VIN 4G 4E 2P · BLZ 5G 2E 3P",
    "picks": [
     {
@@ -536,8 +536,8 @@
      "prob": 66,
      "conf": "alta",
      "why": "St. Vincent and the Grenadines: 1,6 goles a favor y 1,4 en contra; Belize: 1,2 y 1,2; cara a cara: VIN domina 3-1-1; sin cuotas del mercado",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "1-0",
      "top": false
     },
     {
@@ -545,8 +545,8 @@
      "prob": 55,
      "conf": "media",
      "why": "Se esperan 2,7 goles; más de 2,5 en 5 de 10 de St. Vincent and the Grenadines y 5 de 10 de Belize",
-     "result": "pending",
-     "fact": null,
+     "result": "miss",
+     "fact": "1 goles",
      "top": false
     }
    ]
