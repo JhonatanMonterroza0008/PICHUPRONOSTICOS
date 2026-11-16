@@ -557,7 +557,7 @@
    "time": "22:00",
    "home": "Jamaica",
    "away": "Mexico",
-   "score": null,
+   "score": "3-2",
    "meta": "hora UTC−3 · últimos partidos: JAM 5G 3E 2P · MEX 4G 4E 2P",
    "picks": [
     {
@@ -565,8 +565,8 @@
      "prob": 74,
      "conf": "alta",
      "why": "Jamaica: 1,7 goles a favor y 0,9 en contra; Mexico: 1,0 y 1,0; el mercado da 61 % a Mexico; cara a cara: MEX domina 3-0-2",
-     "result": "pending",
-     "fact": null,
+     "result": "miss",
+     "fact": "3-2",
      "top": false
     }
    ]
