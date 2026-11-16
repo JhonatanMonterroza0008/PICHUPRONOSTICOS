@@ -159,6 +159,12 @@ def grade_nba(market, m, c):
     if x := re.match(r"total: (m[aá]s|menos) de ([\d.]+) puntos", k, re.I):
         tot = hg + ag
         return ok(tot > float(x[2]) if x[1].lower() != "menos" else tot < float(x[2])), f"{tot} puntos"
+    if x := re.match(r"(.+?) menos de ([\d.]+) (puntos|asistencias|triples|rebotes)$", k):
+        st = next((v for n, v in c["players"].items() if norm(n) == norm(x[1])), None)
+        if st is None:
+            return "void", "No jugó"
+        v = st[STAT[x[3]]]
+        return ok(v < float(x[2])), f"{v} {x[3]}"
     return None
 
 def main():
@@ -208,6 +214,7 @@ assert grade_soccer("América o empate", _m, _c) == ("hit", "1-2")
 assert grade_soccer("Más de 4.5 tarjetas", _m, _c) == ("hit", "5 tarjetas")
 assert grade_soccer("Inter Bogotá saca más córners", _m, _c) == ("miss", "4 a 4")
 assert grade_soccer("Inter Bogotá hándicap +1.5", _m, _c)[0] == "hit"
+assert grade_nba("A B menos de 25.5 puntos (cuota 1.80)", {"home": "x", "away": "y"}, {"g": [1, 2], "players": {"A B": {"PTS": 25, "AST": 0, "REB": 0, "3PT": 0}}}) == ("hit", "25 puntos")
 assert grade_nba("Hándicap Jazz +9.5 (cuota 1.93)", {"home": "Utah Jazz", "away": "Miami Heat"}, {"g": [100, 109], "players": {}})[0] == "hit"
 
 if __name__ == "__main__":

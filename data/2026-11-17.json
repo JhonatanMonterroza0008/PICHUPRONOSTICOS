@@ -1,0 +1,629 @@
+{
+ "date": "2026-11-17",
+ "title": "Concacaf Nations League, UEFA Nations League",
+ "note": "Goles con un modelo de Poisson sobre los últimos 10 partidos (los recientes pesan más), mezclado con las cuotas del mercado; córners y tarjetas con los últimos 6 que tienen estadísticas. Cada probabilidad se corrige con el historial de aciertos de ese mercado. Sin datos de árbitros.",
+ "matches": [
+  {
+   "comp": "Concacaf Nations League",
+   "id": "401929704",
+   "time": "16:00",
+   "home": "Belize",
+   "away": "Sint Maarten",
+   "score": null,
+   "meta": "hora UTC−3 · últimos partidos: BLZ 6G 1E 3P · SMA 4G 0E 6P",
+   "picks": [
+    {
+     "market": "Belize o empate",
+     "prob": 74,
+     "conf": "alta",
+     "why": "Belize: 1,3 goles a favor y 1,2 en contra; Sint Maarten: 1,7 y 2,3; el mercado da 47 % a Belize; cara a cara: empatados 1-1",
+     "result": "pending",
+     "fact": null,
+     "top": true
+    },
+    {
+     "market": "Más de 2.5 goles",
+     "prob": 62,
+     "conf": "media",
+     "why": "Se esperan 3,1 goles; más de 2,5 en 6 de 10 de Belize y 7 de 10 de Sint Maarten",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Ambos marcan",
+     "prob": 55,
+     "conf": "media",
+     "why": "Goles esperados: Belize 1,8, Sint Maarten 1,3",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "Concacaf Nations League",
+   "id": "401929769",
+   "time": "16:00",
+   "home": "Dominica",
+   "away": "Cayman Islands",
+   "score": null,
+   "meta": "hora UTC−3 · últimos partidos: DMA 4G 1E 5P · CAY 4G 1E 5P",
+   "picks": [
+    {
+     "market": "Menos de 5.5 tarjetas",
+     "prob": 76,
+     "conf": "alta",
+     "why": "Se esperan 4,1 tarjetas entre los dos",
+     "result": "pending",
+     "fact": null,
+     "top": true
+    },
+    {
+     "market": "Dominica saca más córners",
+     "prob": 74,
+     "conf": "alta",
+     "why": "Se esperan 11,9 córners: Dominica 8,4 y Cayman Islands 3,5",
+     "result": "pending",
+     "fact": null,
+     "top": true
+    },
+    {
+     "market": "Más de 2.5 goles",
+     "prob": 62,
+     "conf": "media",
+     "why": "Se esperan 3,1 goles; más de 2,5 en 7 de 10 de Dominica y 7 de 10 de Cayman Islands",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Gana Dominica",
+     "prob": 60,
+     "conf": "media",
+     "why": "Dominica: 1,6 goles a favor y 1,9 en contra; Cayman Islands: 1,1 y 2,2; el mercado da 62 % a Dominica",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Más de 9.5 córners",
+     "prob": 59,
+     "conf": "media",
+     "why": "Se esperan 11,9 córners: Dominica 8,4 y Cayman Islands 3,5",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "Concacaf Nations League",
+   "id": "401929767",
+   "time": "16:00",
+   "home": "St. Kitts and Nevis",
+   "away": "Bonaire",
+   "score": null,
+   "meta": "hora UTC−3 · últimos partidos: SKN 5G 3E 2P · BOE 3G 2E 5P",
+   "picks": [
+    {
+     "market": "St. Kitts and Nevis o empate",
+     "prob": 65,
+     "conf": "alta",
+     "why": "St. Kitts and Nevis: 1,2 goles a favor y 1,4 en contra; Bonaire: 1,3 y 2,2; sin cuotas del mercado",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Más de 2.5 goles",
+     "prob": 62,
+     "conf": "media",
+     "why": "Se esperan 3,1 goles; más de 2,5 en 5 de 10 de St. Kitts and Nevis y 6 de 10 de Bonaire",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Ambos marcan",
+     "prob": 55,
+     "conf": "media",
+     "why": "Goles esperados: St. Kitts and Nevis 1,8, Bonaire 1,3",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "Concacaf Nations League",
+   "id": "401929768",
+   "time": "16:00",
+   "home": "St. Lucia",
+   "away": "Barbados",
+   "score": null,
+   "meta": "hora UTC−3 · últimos partidos: LCA 4G 2E 4P · BRB 3G 0E 7P",
+   "picks": [
+    {
+     "market": "Menos de 4.5 tarjetas",
+     "prob": 84,
+     "conf": "alta",
+     "why": "Se esperan 2,6 tarjetas entre los dos",
+     "result": "pending",
+     "fact": null,
+     "top": true
+    },
+    {
+     "market": "Más de 2.5 goles",
+     "prob": 72,
+     "conf": "alta",
+     "why": "Se esperan 3,8 goles; más de 2,5 en 7 de 10 de St. Lucia y 10 de 10 de Barbados",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Gana St. Lucia",
+     "prob": 63,
+     "conf": "media",
+     "why": "St. Lucia: 1,8 goles a favor y 1,4 en contra; Barbados: 1,4 y 3,8; el mercado da 55 % a St. Lucia; cara a cara: BRB domina 2-1-1",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "St. Lucia saca más córners",
+     "prob": 63,
+     "conf": "media",
+     "why": "Se esperan 9,6 córners: St. Lucia 6,0 y Barbados 3,6",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Más de 7.5 córners",
+     "prob": 59,
+     "conf": "media",
+     "why": "Se esperan 9,6 córners: St. Lucia 6,0 y Barbados 3,6",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Ambos marcan",
+     "prob": 57,
+     "conf": "media",
+     "why": "Goles esperados: St. Lucia 2,6, Barbados 1,2",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "UEFA Nations League",
+   "id": "401861196",
+   "time": "16:45",
+   "home": "Bosnia-Herzegovina",
+   "away": "Romania",
+   "score": null,
+   "meta": "hora UTC−3 · últimos partidos: BIH 5G 2E 3P · ROU 8G 0E 2P",
+   "picks": [
+    {
+     "market": "Menos de 5.5 tarjetas",
+     "prob": 74,
+     "conf": "alta",
+     "why": "Se esperan 4,2 tarjetas entre los dos",
+     "result": "pending",
+     "fact": null,
+     "top": true
+    },
+    {
+     "market": "Bosnia-Herzegovina o empate",
+     "prob": 64,
+     "conf": "media",
+     "why": "Bosnia-Herzegovina: 1,6 goles a favor y 1,9 en contra; Romania: 2,7 y 0,6; el mercado da 51 % a Bosnia-Herzegovina; cara a cara: BIH domina 4-1",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Menos de 9.5 córners",
+     "prob": 62,
+     "conf": "media",
+     "why": "Se esperan 8,1 córners: Bosnia-Herzegovina 3,2 y Romania 4,9",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Más de 2.5 goles",
+     "prob": 61,
+     "conf": "media",
+     "why": "Se esperan 3,0 goles; más de 2,5 en 7 de 10 de Bosnia-Herzegovina y 8 de 10 de Romania",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "UEFA Nations League",
+   "id": "401861194",
+   "time": "16:45",
+   "home": "Denmark",
+   "away": "Norway",
+   "score": null,
+   "meta": "hora UTC−3 · últimos partidos: DEN 5G 2E 3P · NOR 9G 1E 0P",
+   "picks": [
+    {
+     "market": "Menos de 5.5 tarjetas",
+     "prob": 76,
+     "conf": "alta",
+     "why": "Se esperan 4,1 tarjetas entre los dos",
+     "result": "pending",
+     "fact": null,
+     "top": true
+    },
+    {
+     "market": "Norway o empate",
+     "prob": 71,
+     "conf": "alta",
+     "why": "Denmark: 1,5 goles a favor y 1,0 en contra; Norway: 3,9 y 0,6; el mercado da 36 % a Norway; cara a cara: DEN domina 3-1-1",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Más de 2.5 goles",
+     "prob": 67,
+     "conf": "alta",
+     "why": "Se esperan 3,4 goles; más de 2,5 en 5 de 10 de Denmark y 7 de 10 de Norway",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Ambos marcan",
+     "prob": 55,
+     "conf": "media",
+     "why": "Goles esperados: Denmark 1,1, Norway 2,2",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "UEFA Nations League",
+   "id": "401861191",
+   "time": "16:45",
+   "home": "Hungary",
+   "away": "Northern Ireland",
+   "score": null,
+   "meta": "hora UTC−3 · últimos partidos: HUN 2G 3E 5P · NIR 4G 3E 3P",
+   "picks": [
+    {
+     "market": "Menos de 4.5 tarjetas",
+     "prob": 73,
+     "conf": "alta",
+     "why": "Se esperan 3,4 tarjetas entre los dos",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Northern Ireland o empate",
+     "prob": 67,
+     "conf": "alta",
+     "why": "Hungary: 0,6 goles a favor y 2,1 en contra; Northern Ireland: 1,5 y 0,9; el mercado da 23 % a Northern Ireland; cara a cara: HUN domina 2-1-2",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Menos de 2.5 goles",
+     "prob": 58,
+     "conf": "media",
+     "why": "Se esperan 2,3 goles; más de 2,5 en 5 de 10 de Hungary y 4 de 10 de Northern Ireland",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "UEFA Nations League",
+   "id": "401861193",
+   "time": "16:45",
+   "home": "Israel",
+   "away": "Austria",
+   "score": null,
+   "meta": "hora UTC−3 · últimos partidos: ISR 3G 1E 6P · AUT 7G 2E 1P",
+   "picks": [
+    {
+     "market": "Menos de 4.5 tarjetas",
+     "prob": 85,
+     "conf": "alta",
+     "why": "Se esperan 1,7 tarjetas entre los dos",
+     "result": "pending",
+     "fact": null,
+     "top": true
+    },
+    {
+     "market": "Austria o empate",
+     "prob": 79,
+     "conf": "alta",
+     "why": "Israel: 1,3 goles a favor y 2,1 en contra; Austria: 2,6 y 0,8; el mercado da 53 % a Austria; cara a cara: AUT domina 3-2",
+     "result": "pending",
+     "fact": null,
+     "top": true
+    },
+    {
+     "market": "Austria saca más córners",
+     "prob": 74,
+     "conf": "alta",
+     "why": "Se esperan 6,8 córners: Israel 1,5 y Austria 5,3",
+     "result": "pending",
+     "fact": null,
+     "top": true
+    },
+    {
+     "market": "Menos de 8.5 córners",
+     "prob": 65,
+     "conf": "alta",
+     "why": "Se esperan 6,8 córners: Israel 1,5 y Austria 5,3",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Más de 2.5 goles",
+     "prob": 63,
+     "conf": "media",
+     "why": "Se esperan 3,1 goles; más de 2,5 en 8 de 10 de Israel y 5 de 10 de Austria",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "UEFA Nations League",
+   "id": "401861195",
+   "time": "16:45",
+   "home": "Poland",
+   "away": "Sweden",
+   "score": null,
+   "meta": "hora UTC−3 · últimos partidos: POL 4G 1E 5P · SWE 5G 1E 4P",
+   "picks": [
+    {
+     "market": "Sweden o empate",
+     "prob": 67,
+     "conf": "alta",
+     "why": "Poland: 1,5 goles a favor y 2,0 en contra; Sweden: 2,5 y 1,1; el mercado da 33 % a Sweden; cara a cara: SWE domina 4-1",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Más de 2.5 goles",
+     "prob": 65,
+     "conf": "alta",
+     "why": "Se esperan 3,3 goles; más de 2,5 en 6 de 10 de Poland y 5 de 10 de Sweden",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Ambos marcan",
+     "prob": 57,
+     "conf": "media",
+     "why": "Goles esperados: Poland 1,3, Sweden 1,9",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "UEFA Nations League",
+   "id": "401861192",
+   "time": "16:45",
+   "home": "Republic of Ireland",
+   "away": "Kosovo",
+   "score": null,
+   "meta": "hora UTC−3 · últimos partidos: IRL 4G 3E 3P · KOS 8G 0E 2P",
+   "picks": [
+    {
+     "market": "Menos de 5.5 tarjetas",
+     "prob": 71,
+     "conf": "alta",
+     "why": "Se esperan 4,4 tarjetas entre los dos",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Republic of Ireland o empate",
+     "prob": 67,
+     "conf": "alta",
+     "why": "Republic of Ireland: 0,9 goles a favor y 1,6 en contra; Kosovo: 2,1 y 1,3; el mercado da 44 % a Republic of Ireland",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Menos de 9.5 córners",
+     "prob": 62,
+     "conf": "media",
+     "why": "Se esperan 8,0 córners: Republic of Ireland 4,0 y Kosovo 4,0",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "UEFA Nations League",
+   "id": "401861190",
+   "time": "16:45",
+   "home": "Ukraine",
+   "away": "Georgia",
+   "score": null,
+   "meta": "hora UTC−3 · últimos partidos: UKR 4G 2E 4P · GEO 5G 2E 3P",
+   "picks": [
+    {
+     "market": "Ukraine o empate",
+     "prob": 67,
+     "conf": "alta",
+     "why": "Ukraine: 1,4 goles a favor y 1,6 en contra; Georgia: 1,8 y 0,8; el mercado da 43 % a Ukraine; cara a cara: UKR domina 2-0-3",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Más de 7.5 córners",
+     "prob": 59,
+     "conf": "media",
+     "why": "Se esperan 9,6 córners: Ukraine 4,5 y Georgia 5,1",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Más de 3.5 tarjetas",
+     "prob": 59,
+     "conf": "media",
+     "why": "Se esperan 4,6 tarjetas entre los dos",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "UEFA Nations League",
+   "id": "401861189",
+   "time": "16:45",
+   "home": "Wales",
+   "away": "Portugal",
+   "score": null,
+   "meta": "hora UTC−3 · últimos partidos: WAL 5G 4E 1P · POR 5G 3E 2P",
+   "picks": [
+    {
+     "market": "Portugal o empate",
+     "prob": 74,
+     "conf": "alta",
+     "why": "Wales: 1,7 goles a favor y 0,8 en contra; Portugal: 2,1 y 1,3; el mercado da 65 % a Portugal; cara a cara: POR domina 2-0",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Más de 2.5 goles",
+     "prob": 62,
+     "conf": "media",
+     "why": "Se esperan 3,1 goles; más de 2,5 en 6 de 10 de Wales y 6 de 10 de Portugal",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Más de 3.5 tarjetas",
+     "prob": 60,
+     "conf": "media",
+     "why": "Se esperan 4,6 tarjetas entre los dos",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Más de 8.5 córners",
+     "prob": 59,
+     "conf": "media",
+     "why": "Se esperan 10,6 córners: Wales 4,8 y Portugal 5,8",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Ambos marcan",
+     "prob": 56,
+     "conf": "media",
+     "why": "Goles esperados: Wales 1,7, Portugal 1,4",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "Concacaf Nations League",
+   "id": "401929765",
+   "time": "21:00",
+   "home": "French Guiana",
+   "away": "St. Vincent and the Grenadines",
+   "score": null,
+   "meta": "hora UTC−3 · últimos partidos: GUF 4G 0E 1P · VIN 4G 4E 2P",
+   "picks": [
+    {
+     "market": "French Guiana o empate",
+     "prob": 67,
+     "conf": "alta",
+     "why": "French Guiana: 1,8 goles a favor y 0,7 en contra; St. Vincent and the Grenadines: 1,6 y 1,2; cara a cara: empatados 2-2; sin cuotas del mercado",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Más de 2.5 goles",
+     "prob": 55,
+     "conf": "media",
+     "why": "Se esperan 2,7 goles; más de 2,5 en 2 de 5 de French Guiana y 5 de 10 de St. Vincent and the Grenadines",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "Concacaf Nations League",
+   "id": "401929766",
+   "time": "21:00",
+   "home": "United States",
+   "away": "Haiti",
+   "score": null,
+   "meta": "hora UTC−3 · últimos partidos: USA 6G 2E 2P · HAI 4G 3E 3P",
+   "picks": [
+    {
+     "market": "Más de 2.5 goles",
+     "prob": 69,
+     "conf": "alta",
+     "why": "Se esperan 3,6 goles; más de 2,5 en 6 de 10 de United States y 7 de 10 de Haiti",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Gana United States",
+     "prob": 67,
+     "conf": "alta",
+     "why": "United States: 1,5 goles a favor y 1,1 en contra; Haiti: 2,2 y 1,1; el mercado da 87 % a United States; cara a cara: USA domina 4-0-1",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Ambos marcan",
+     "prob": 61,
+     "conf": "media",
+     "why": "Goles esperados: United States 1,7, Haiti 1,9",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  }
+ ]
+}

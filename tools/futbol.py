@@ -169,7 +169,7 @@ def analyse(home, away, hf, af, mk=None, tab=None):
             or next(((f"Menos de {l} tarjetas", 1 - p_over(cards, l)) for l in (4.5, 5.5) if 1 - p_over(cards, l) >= 0.66), None)
         if best:
             add(best[0], shrunk(best[1]), why)
-    return sorted(out, key=lambda p: -p["prob"])[:4]
+    return sorted(out, key=lambda p: -p["prob"])[:6]
 
 def build(date):
     cands = []

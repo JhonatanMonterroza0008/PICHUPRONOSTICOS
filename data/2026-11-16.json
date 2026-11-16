@@ -1,6 +1,6 @@
 {
  "date": "2026-11-16",
- "title": "UEFA Nations League, Concacaf Nations League",
+ "title": "UEFA Nations League, Concacaf Nations League, LALIGA 2, USL Championship y más",
  "note": "Goles con un modelo de Poisson sobre los últimos 10 partidos (los recientes pesan más), mezclado con las cuotas del mercado; córners y tarjetas con los últimos 6 que tienen estadísticas. Cada probabilidad se corrige con el historial de aciertos de ese mercado. Sin datos de árbitros.",
  "matches": [
   {
@@ -9,7 +9,7 @@
    "time": "12:00",
    "home": "Faroe Islands",
    "away": "Moldova",
-   "score": null,
+   "score": "1-0",
    "meta": "hora UTC−3 · últimos partidos: FRO 2G 4E 4P · MDA 4G 1E 5P",
    "picks": [
     {
@@ -17,8 +17,8 @@
      "prob": 77,
      "conf": "alta",
      "why": "Faroe Islands: 1,1 goles a favor y 0,9 en contra; Moldova: 1,1 y 1,0; el mercado da 53 % a Faroe Islands; cara a cara: empatados 1-1-3",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "1-0",
      "top": true
     },
     {
@@ -26,8 +26,8 @@
      "prob": 71,
      "conf": "alta",
      "why": "Se esperan 6,5 córners: Faroe Islands 2,6 y Moldova 3,9",
-     "result": "pending",
-     "fact": null,
+     "result": "miss",
+     "fact": "12 córners",
      "top": true
     },
     {
@@ -35,8 +35,8 @@
      "prob": 59,
      "conf": "media",
      "why": "Se esperan 2,2 goles; más de 2,5 en 3 de 10 de Faroe Islands y 2 de 10 de Moldova",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "1 goles",
      "top": false
     },
     {
@@ -44,8 +44,8 @@
      "prob": 59,
      "conf": "media",
      "why": "Se esperan 4,7 tarjetas entre los dos",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "4 tarjetas",
      "top": false
     }
    ]
@@ -56,7 +56,7 @@
    "time": "12:00",
    "home": "Kazakhstan",
    "away": "Slovakia",
-   "score": null,
+   "score": "2-2",
    "meta": "hora UTC−3 · últimos partidos: KAZ 2G 0E 8P · SVK 4G 2E 4P",
    "picks": [
     {
@@ -64,8 +64,8 @@
      "prob": 78,
      "conf": "alta",
      "why": "Kazakhstan: 0,4 goles a favor y 2,4 en contra; Slovakia: 1,3 y 0,9; el mercado da 46 % a Slovakia; cara a cara: KAZ domina 2-1",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "2-2",
      "top": true
     },
     {
@@ -73,8 +73,8 @@
      "prob": 66,
      "conf": "alta",
      "why": "Se esperan 11,1 córners: Kazakhstan 3,9 y Slovakia 7,2",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "3 a 1",
      "top": false
     },
     {
@@ -82,8 +82,8 @@
      "prob": 62,
      "conf": "media",
      "why": "Se esperan 5,0 tarjetas entre los dos",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "8 tarjetas",
      "top": false
     },
     {
@@ -91,8 +91,8 @@
      "prob": 56,
      "conf": "media",
      "why": "Se esperan 11,1 córners: Kazakhstan 3,9 y Slovakia 7,2",
-     "result": "pending",
-     "fact": null,
+     "result": "miss",
+     "fact": "4 córners",
      "top": false
     }
    ]
@@ -103,7 +103,7 @@
    "time": "14:00",
    "home": "Estonia",
    "away": "Bulgaria",
-   "score": null,
+   "score": "2-1",
    "meta": "hora UTC−3 · últimos partidos: EST 2G 1E 7P · BUL 2G 4E 4P",
    "picks": [
     {
@@ -111,8 +111,8 @@
      "prob": 70,
      "conf": "alta",
      "why": "Estonia: 0,7 goles a favor y 2,0 en contra; Bulgaria: 0,6 y 1,3; el mercado da 44 % a Estonia; cara a cara: BUL domina 1-0-3",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "2-1",
      "top": false
     },
     {
@@ -120,8 +120,8 @@
      "prob": 65,
      "conf": "alta",
      "why": "Se esperan 5,4 tarjetas entre los dos",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "4 tarjetas",
      "top": false
     },
     {
@@ -129,8 +129,8 @@
      "prob": 64,
      "conf": "media",
      "why": "Se esperan 9,4 córners: Estonia 3,3 y Bulgaria 6,1",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "3 a 2",
      "top": false
     },
     {
@@ -138,8 +138,8 @@
      "prob": 60,
      "conf": "media",
      "why": "Se esperan 9,4 córners: Estonia 3,3 y Bulgaria 6,1",
-     "result": "pending",
-     "fact": null,
+     "result": "miss",
+     "fact": "5 córners",
      "top": false
     }
    ]
@@ -150,7 +150,7 @@
    "time": "14:00",
    "home": "Iceland",
    "away": "Luxembourg",
-   "score": null,
+   "score": "3-0",
    "meta": "hora UTC−3 · últimos partidos: ISL 3G 1E 6P · LUX 1G 4E 5P",
    "picks": [
     {
@@ -158,8 +158,8 @@
      "prob": 62,
      "conf": "media",
      "why": "Iceland: 1,7 goles a favor y 2,2 en contra; Luxembourg: 0,4 y 1,1; el mercado da 74 % a Iceland; cara a cara: empatados 1-1-2",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "3-0",
      "top": false
     },
     {
@@ -167,8 +167,8 @@
      "prob": 62,
      "conf": "media",
      "why": "Se esperan 8,4 córners: Iceland 4,4 y Luxembourg 4,0",
-     "result": "pending",
-     "fact": null,
+     "result": "miss",
+     "fact": "12 córners",
      "top": false
     },
     {
@@ -176,8 +176,8 @@
      "prob": 59,
      "conf": "media",
      "why": "Se esperan 5,8 tarjetas entre los dos",
-     "result": "pending",
-     "fact": null,
+     "result": "miss",
+     "fact": "0 tarjetas",
      "top": false
     },
     {
@@ -185,8 +185,8 @@
      "prob": 57,
      "conf": "media",
      "why": "Se esperan 2,8 goles; más de 2,5 en 8 de 10 de Iceland y 2 de 10 de Luxembourg",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "3 goles",
      "top": false
     }
    ]
@@ -197,7 +197,7 @@
    "time": "14:00",
    "home": "Lithuania",
    "away": "Liechtenstein",
-   "score": null,
+   "score": "2-1",
    "meta": "hora UTC−3 · últimos partidos: LTU 2G 1E 7P · LIE 1G 2E 7P",
    "picks": [
     {
@@ -205,8 +205,8 @@
      "prob": 71,
      "conf": "alta",
      "why": "Lithuania: 0,8 goles a favor y 1,2 en contra; Liechtenstein: 0,5 y 1,7; el mercado da 84 % a Lithuania; cara a cara: LTU domina 2-1-2",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "2-1",
      "top": true
     },
     {
@@ -214,8 +214,8 @@
      "prob": 67,
      "conf": "alta",
      "why": "Se esperan 6,9 córners: Lithuania 4,0 y Liechtenstein 2,9",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "8 córners",
      "top": false
     },
     {
@@ -223,8 +223,8 @@
      "prob": 65,
      "conf": "alta",
      "why": "Se esperan 6,6 tarjetas entre los dos",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "5 tarjetas",
      "top": false
     }
    ]
@@ -326,6 +326,53 @@
    ]
   },
   {
+   "comp": "LALIGA 2",
+   "id": "401883305",
+   "time": "16:30",
+   "home": "Albacete",
+   "away": "RC Celta Fortuna",
+   "score": null,
+   "meta": "hora UTC−3 · últimos partidos: ALB 1G 2E 7P · CEL 4G 2E 4P",
+   "picks": [
+    {
+     "market": "Más de 3.5 tarjetas",
+     "prob": 67,
+     "conf": "alta",
+     "why": "Se esperan 5,2 tarjetas entre los dos",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "RC Celta Fortuna o empate",
+     "prob": 63,
+     "conf": "media",
+     "why": "Albacete: 0,8 goles a favor y 1,4 en contra; RC Celta Fortuna: 1,6 y 1,3; sin cuotas del mercado",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Más de 7.5 córners",
+     "prob": 57,
+     "conf": "media",
+     "why": "Se esperan 9,3 córners: Albacete 5,1 y RC Celta Fortuna 4,3",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Menos de 2.5 goles",
+     "prob": 55,
+     "conf": "media",
+     "why": "Se esperan 2,5 goles; más de 2,5 en 4 de 10 de Albacete y 5 de 10 de RC Celta Fortuna",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  },
+  {
    "comp": "UEFA Nations League",
    "id": "401861185",
    "time": "16:45",
@@ -336,16 +383,16 @@
    "picks": [
     {
      "market": "Menos de 4.5 tarjetas",
-     "prob": 71,
+     "prob": 72,
      "conf": "alta",
      "why": "Se esperan 3,5 tarjetas entre los dos",
      "result": "pending",
      "fact": null,
-     "top": false
+     "top": true
     },
     {
      "market": "Más de 2.5 goles",
-     "prob": 70,
+     "prob": 71,
      "conf": "alta",
      "why": "Se esperan 3,7 goles; más de 2,5 en 6 de 10 de Germany y 7 de 10 de Netherlands",
      "result": "pending",
@@ -363,9 +410,18 @@
     },
     {
      "market": "Menos de 10.5 córners",
-     "prob": 68,
+     "prob": 65,
      "conf": "alta",
      "why": "Se esperan 8,6 córners: Germany 4,3 y Netherlands 4,3",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Ambos marcan",
+     "prob": 63,
+     "conf": "media",
+     "why": "Goles esperados: Germany 1,8, Netherlands 1,9",
      "result": "pending",
      "fact": null,
      "top": false
@@ -383,34 +439,34 @@
    "picks": [
     {
      "market": "Malta o empate",
-     "prob": 75,
+     "prob": 74,
      "conf": "alta",
-     "why": "Gibraltar: 0,9 goles a favor y 1,5 en contra; Malta: 0,4 y 1,3; el mercado da 62 % a Malta; cara a cara: MLT domina 2-1-1",
-     "result": "pending",
-     "fact": null,
-     "top": true
-    },
-    {
-     "market": "Menos de 8.5 córners",
-     "prob": 72,
-     "conf": "alta",
-     "why": "Se esperan 6,3 córners: Gibraltar 3,7 y Malta 2,6",
+     "why": "Gibraltar: 0,9 goles a favor y 1,5 en contra; Malta: 0,4 y 1,3; el mercado da 57 % a Malta; cara a cara: MLT domina 2-1-1",
      "result": "pending",
      "fact": null,
      "top": true
     },
     {
      "market": "Más de 4.5 tarjetas",
-     "prob": 69,
+     "prob": 72,
      "conf": "alta",
      "why": "Se esperan 7,1 tarjetas entre los dos",
+     "result": "pending",
+     "fact": null,
+     "top": true
+    },
+    {
+     "market": "Menos de 8.5 córners",
+     "prob": 69,
+     "conf": "alta",
+     "why": "Se esperan 6,3 córners: Gibraltar 3,7 y Malta 2,6",
      "result": "pending",
      "fact": null,
      "top": false
     },
     {
      "market": "Menos de 2.5 goles",
-     "prob": 60,
+     "prob": 63,
      "conf": "media",
      "why": "Se esperan 2,1 goles; más de 2,5 en 5 de 10 de Gibraltar y 1 de 10 de Malta",
      "result": "pending",
@@ -430,25 +486,16 @@
    "picks": [
     {
      "market": "Gana Greece",
-     "prob": 66,
+     "prob": 67,
      "conf": "alta",
-     "why": "Greece: 2,1 goles a favor y 0,6 en contra; Serbia: 0,7 y 0,8; el mercado da 65 % a Greece; cara a cara: GRE domina 2-1",
+     "why": "Greece: 2,1 goles a favor y 0,6 en contra; Serbia: 0,7 y 0,8; el mercado da 66 % a Greece; cara a cara: GRE domina 2-1",
      "result": "pending",
      "fact": null,
      "top": false
     },
     {
      "market": "Greece saca más córners",
-     "prob": 60,
-     "conf": "media",
-     "why": "Se esperan 9,3 córners: Greece 5,7 y Serbia 3,6",
-     "result": "pending",
-     "fact": null,
-     "top": false
-    },
-    {
-     "market": "Más de 7.5 córners",
-     "prob": 59,
+     "prob": 62,
      "conf": "media",
      "why": "Se esperan 9,3 córners: Greece 5,7 y Serbia 3,6",
      "result": "pending",
@@ -457,9 +504,18 @@
     },
     {
      "market": "Más de 4.5 tarjetas",
-     "prob": 58,
+     "prob": 61,
      "conf": "media",
      "why": "Se esperan 5,8 tarjetas entre los dos",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Más de 7.5 córners",
+     "prob": 57,
+     "conf": "media",
+     "why": "Se esperan 9,3 córners: Greece 5,7 y Serbia 3,6",
      "result": "pending",
      "fact": null,
      "top": false
@@ -477,7 +533,7 @@
    "picks": [
     {
      "market": "Menos de 5.5 tarjetas",
-     "prob": 73,
+     "prob": 74,
      "conf": "alta",
      "why": "Se esperan 4,2 tarjetas entre los dos",
      "result": "pending",
@@ -486,16 +542,16 @@
     },
     {
      "market": "Slovenia o empate",
-     "prob": 68,
+     "prob": 69,
      "conf": "alta",
-     "why": "North Macedonia: 1,7 goles a favor y 0,3 en contra; Slovenia: 1,1 y 1,1; el mercado da 61 % a Slovenia; cara a cara: SVN domina 2-1-2",
+     "why": "North Macedonia: 1,7 goles a favor y 0,3 en contra; Slovenia: 1,1 y 1,1; el mercado da 63 % a Slovenia; cara a cara: SVN domina 2-1-2",
      "result": "pending",
      "fact": null,
      "top": false
     },
     {
      "market": "Menos de 8.5 córners",
-     "prob": 64,
+     "prob": 61,
      "conf": "media",
      "why": "Se esperan 7,2 córners: North Macedonia 3,7 y Slovenia 3,5",
      "result": "pending",
@@ -504,9 +560,9 @@
     },
     {
      "market": "Menos de 2.5 goles",
-     "prob": 57,
+     "prob": 59,
      "conf": "media",
-     "why": "Se esperan 2,3 goles; más de 2,5 en 2 de 10 de North Macedonia y 4 de 10 de Slovenia",
+     "why": "Se esperan 2,2 goles; más de 2,5 en 2 de 10 de North Macedonia y 4 de 10 de Slovenia",
      "result": "pending",
      "fact": null,
      "top": false
@@ -524,12 +580,135 @@
    "picks": [
     {
      "market": "Switzerland o empate",
-     "prob": 81,
+     "prob": 77,
      "conf": "alta",
-     "why": "Switzerland: 2,7 goles a favor y 0,7 en contra; Scotland: 1,2 y 0,7; el mercado da 52 % a Switzerland; cara a cara: SUI domina 2-0-1",
+     "why": "Switzerland: 2,7 goles a favor y 0,7 en contra; Scotland: 1,2 y 0,7; el mercado da 44 % a Switzerland; cara a cara: SUI domina 2-0-1",
      "result": "pending",
      "fact": null,
      "top": true
+    },
+    {
+     "market": "Más de 2.5 goles",
+     "prob": 57,
+     "conf": "media",
+     "why": "Se esperan 2,8 goles; más de 2,5 en 6 de 10 de Switzerland y 5 de 10 de Scotland",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "Peru Liga 1",
+   "id": "401886121",
+   "time": "17:15",
+   "home": "Cusco FC",
+   "away": "ADT",
+   "score": null,
+   "meta": "hora UTC−3 · últimos partidos: CFC 4G 1E 5P · ADT 2G 3E 5P",
+   "picks": [
+    {
+     "market": "Cusco FC o empate",
+     "prob": 77,
+     "conf": "alta",
+     "why": "Cusco FC: 1,1 goles a favor y 1,1 en contra; ADT: 0,8 y 1,3; el mercado da 55 % a Cusco FC; cara a cara: CFC domina 3-2",
+     "result": "pending",
+     "fact": null,
+     "top": true
+    },
+    {
+     "market": "Menos de 5.5 tarjetas",
+     "prob": 71,
+     "conf": "alta",
+     "why": "Se esperan 4,4 tarjetas entre los dos",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Menos de 10.5 córners",
+     "prob": 64,
+     "conf": "media",
+     "why": "Se esperan 8,7 córners: Cusco FC 4,7 y ADT 4,0",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Menos de 2.5 goles",
+     "prob": 55,
+     "conf": "media",
+     "why": "Se esperan 2,5 goles; más de 2,5 en 5 de 10 de Cusco FC y 3 de 10 de ADT",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "Peru Liga 1",
+   "id": "401886119",
+   "time": "17:15",
+   "home": "Deportivo Moquegua",
+   "away": "Atlético Grau",
+   "score": null,
+   "meta": "hora UTC−3 · últimos partidos: MOQ 4G 1E 5P · AGR 1G 4E 5P",
+   "picks": [
+    {
+     "market": "Deportivo Moquegua o empate",
+     "prob": 77,
+     "conf": "alta",
+     "why": "Deportivo Moquegua: 0,9 goles a favor y 1,6 en contra; Atlético Grau: 0,4 y 1,2; el mercado da 54 % a Deportivo Moquegua",
+     "result": "pending",
+     "fact": null,
+     "top": true
+    },
+    {
+     "market": "Más de 3.5 tarjetas",
+     "prob": 68,
+     "conf": "alta",
+     "why": "Se esperan 5,3 tarjetas entre los dos",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Menos de 9.5 córners",
+     "prob": 62,
+     "conf": "media",
+     "why": "Se esperan 8,1 córners: Deportivo Moquegua 3,5 y Atlético Grau 4,6",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Menos de 2.5 goles",
+     "prob": 59,
+     "conf": "media",
+     "why": "Se esperan 2,3 goles; más de 2,5 en 7 de 10 de Deportivo Moquegua y 3 de 10 de Atlético Grau",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "Liga AUF Uruguaya",
+   "id": "401933375",
+   "time": "20:00",
+   "home": "Montevideo Wanderers",
+   "away": "Juventud",
+   "score": null,
+   "meta": "hora UTC−3 · últimos partidos: WAN 3G 3E 4P · JUV 3G 3E 4P",
+   "picks": [
+    {
+     "market": "Montevideo Wanderers o empate",
+     "prob": 70,
+     "conf": "alta",
+     "why": "Montevideo Wanderers: 0,9 goles a favor y 1,4 en contra; Juventud: 1,2 y 1,3; el mercado da 44 % a Montevideo Wanderers; cara a cara: JUV domina 3-2",
+     "result": "pending",
+     "fact": null,
+     "top": false
     }
    ]
   },
@@ -544,7 +723,7 @@
    "picks": [
     {
      "market": "Más de 2.5 goles",
-     "prob": 68,
+     "prob": 69,
      "conf": "alta",
      "why": "Se esperan 3,5 goles; más de 2,5 en 5 de 10 de Martinique y 6 de 10 de Aruba",
      "result": "pending",
@@ -565,6 +744,111 @@
      "prob": 60,
      "conf": "media",
      "why": "Martinique: 1,8 goles a favor y 1,4 en contra; Aruba: 2,1 y 1,7; sin cuotas del mercado",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "Concacaf Nations League",
+   "id": "401929705",
+   "time": "21:00",
+   "home": "Trinidad and Tobago",
+   "away": "Antigua and Barbuda",
+   "score": null,
+   "meta": "hora UTC−3 · últimos partidos: TRI 3G 3E 4P · ATG 1G 2E 7P",
+   "picks": [
+    {
+     "market": "Más de 2.5 goles",
+     "prob": 76,
+     "conf": "alta",
+     "why": "Se esperan 4,1 goles; más de 2,5 en 6 de 10 de Trinidad and Tobago y 8 de 10 de Antigua and Barbuda",
+     "result": "pending",
+     "fact": null,
+     "top": true
+    },
+    {
+     "market": "Trinidad and Tobago o empate",
+     "prob": 74,
+     "conf": "alta",
+     "why": "Trinidad and Tobago: 1,8 goles a favor y 1,8 en contra; Antigua and Barbuda: 1,1 y 3,3; sin cuotas del mercado",
+     "result": "pending",
+     "fact": null,
+     "top": true
+    },
+    {
+     "market": "Ambos marcan",
+     "prob": 61,
+     "conf": "media",
+     "why": "Goles esperados: Trinidad and Tobago 2,8, Antigua and Barbuda 1,3",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "Concacaf Nations League",
+   "id": "401929770",
+   "time": "22:00",
+   "home": "Canada",
+   "away": "Guatemala",
+   "score": null,
+   "meta": "hora UTC−3 · últimos partidos: CAN 4G 5E 1P · GUA 4G 2E 4P",
+   "picks": [
+    {
+     "market": "Gana Canada",
+     "prob": 72,
+     "conf": "alta",
+     "why": "Canada: 1,7 goles a favor y 0,3 en contra; Guatemala: 1,6 y 1,5; el mercado da 78 % a Canada; cara a cara: CAN domina 3-1-1",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Más de 2.5 goles",
+     "prob": 61,
+     "conf": "media",
+     "why": "Se esperan 3,0 goles; más de 2,5 en 2 de 10 de Canada y 5 de 10 de Guatemala",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "USL Championship",
+   "id": "401933617",
+   "time": "23:00",
+   "home": "New Mexico United",
+   "away": "Sacramento Republic FC",
+   "score": null,
+   "meta": "hora UTC−3 · últimos partidos: NMU 5G 1E 4P · SAC 4G 5E 1P",
+   "picks": [
+    {
+     "market": "Sacramento Republic FC o empate",
+     "prob": 71,
+     "conf": "alta",
+     "why": "New Mexico United: 1,4 goles a favor y 1,9 en contra; Sacramento Republic FC: 1,4 y 0,4; el mercado da 37 % a Sacramento Republic FC; cara a cara: SAC domina 4-1",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Más de 4.5 tarjetas",
+     "prob": 59,
+     "conf": "media",
+     "why": "Se esperan 5,6 tarjetas entre los dos",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Más de 7.5 córners",
+     "prob": 56,
+     "conf": "media",
+     "why": "Se esperan 9,2 córners: New Mexico United 4,1 y Sacramento Republic FC 5,1",
      "result": "pending",
      "fact": null,
      "top": false

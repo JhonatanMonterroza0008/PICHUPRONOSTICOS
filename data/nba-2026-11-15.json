@@ -544,7 +544,7 @@
    "time": "21:00",
    "home": "Washington Wizards",
    "away": "Houston Rockets",
-   "score": null,
+   "score": "119-147",
    "meta": "hora UTC−3 · WSH 4-9 · HOU 10-3 · Bajas: Tristan Vukcevic, Reece Beekman, Clint Capela, Steven Adams, Fred VanVleet",
    "picks": [
     {
@@ -552,8 +552,8 @@
      "prob": 72,
      "conf": "alta",
      "why": "73 % según el modelo de ESPN",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "119-147",
      "top": false
     },
     {
@@ -561,8 +561,8 @@
      "prob": 88,
      "conf": "alta",
      "why": "Lo logró en 10 de sus últimos 10; promedia 23,1",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "19 puntos",
      "top": true
     },
     {
@@ -570,8 +570,8 @@
      "prob": 81,
      "conf": "alta",
      "why": "Lo logró en 9 de sus últimos 10; promedia 24,8",
-     "result": "pending",
-     "fact": null,
+     "result": "miss",
+     "fact": "14 puntos",
      "top": false
     },
     {
@@ -579,8 +579,8 @@
      "prob": 81,
      "conf": "alta",
      "why": "Lo logró en 9 de sus últimos 10; promedia 18,5",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "11 puntos",
      "top": false
     },
     {
@@ -588,8 +588,8 @@
      "prob": 74,
      "conf": "alta",
      "why": "Lo logró en 8 de sus últimos 10; promedia 8,0",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "8 asistencias",
      "top": false
     },
     {
@@ -597,8 +597,8 @@
      "prob": 74,
      "conf": "alta",
      "why": "Lo logró en 8 de sus últimos 10; promedia 7,9",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "8 asistencias",
      "top": false
     },
     {
@@ -606,8 +606,8 @@
      "prob": 78,
      "conf": "alta",
      "why": "Lo logró en 9 de sus últimos 10; promedia 3,0",
-     "result": "pending",
-     "fact": null,
+     "result": "miss",
+     "fact": "1 triples",
      "top": false
     },
     {
@@ -615,8 +615,8 @@
      "prob": 70,
      "conf": "alta",
      "why": "Lo logró en 8 de sus últimos 10; promedia 2,6",
-     "result": "pending",
-     "fact": null,
+     "result": "miss",
+     "fact": "1 triples",
      "top": false
     },
     {
@@ -624,8 +624,8 @@
      "prob": 88,
      "conf": "alta",
      "why": "Lo logró en 10 de sus últimos 10; promedia 9,6",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "8 rebotes",
      "top": true
     },
     {
@@ -633,8 +633,8 @@
      "prob": 76,
      "conf": "alta",
      "why": "Lo logró en 8 de sus últimos 10; promedia 10,3",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "8 rebotes",
      "top": false
     },
     {
@@ -642,8 +642,8 @@
      "prob": 68,
      "conf": "alta",
      "why": "Lo logró en 8 de sus últimos 10; promedia 7,6 · en duda por lesión",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "9 rebotes",
      "top": false
     }
    ]
@@ -654,7 +654,7 @@
    "time": "22:00",
    "home": "Milwaukee Bucks",
    "away": "Atlanta Hawks",
-   "score": null,
+   "score": "106-113",
    "meta": "hora UTC−3 · MIL 1-12 · ATL 7-6 · Bajas: Ousmane Dieng, Kingston Flemings, Mouhamed Gueye, Keshon Gilbert, Asa Newell, Henri Veesaar",
    "picks": [
     {
@@ -662,8 +662,8 @@
      "prob": 73,
      "conf": "alta",
      "why": "74 % según el modelo de ESPN",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "106-113",
      "top": false
     },
     {
@@ -671,8 +671,8 @@
      "prob": 81,
      "conf": "alta",
      "why": "Lo logró en 9 de sus últimos 10; promedia 15,5",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "16 puntos",
      "top": false
     },
     {
@@ -680,8 +680,8 @@
      "prob": 73,
      "conf": "alta",
      "why": "Lo logró en 8 de sus últimos 10; promedia 21,6",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "20 puntos",
      "top": false
     },
     {
@@ -689,8 +689,8 @@
      "prob": 73,
      "conf": "alta",
      "why": "Lo logró en 8 de sus últimos 10; promedia 20,1",
-     "result": "pending",
-     "fact": null,
+     "result": "miss",
+     "fact": "5 puntos",
      "top": false
     },
     {
@@ -698,8 +698,8 @@
      "prob": 82,
      "conf": "alta",
      "why": "Lo logró en 9 de sus últimos 10; promedia 7,5",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "5 asistencias",
      "top": false
     },
     {
@@ -707,8 +707,8 @@
      "prob": 82,
      "conf": "alta",
      "why": "Lo logró en 9 de sus últimos 10; promedia 6,2",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "5 asistencias",
      "top": false
     },
     {
@@ -716,8 +716,8 @@
      "prob": 70,
      "conf": "alta",
      "why": "Lo logró en 8 de sus últimos 10; promedia 3,7",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "2 triples",
      "top": false
     },
     {
@@ -725,8 +725,8 @@
      "prob": 70,
      "conf": "alta",
      "why": "Lo logró en 8 de sus últimos 10; promedia 2,7",
-     "result": "pending",
-     "fact": null,
+     "result": "miss",
+     "fact": "1 triples",
      "top": false
     },
     {
@@ -734,8 +734,8 @@
      "prob": 70,
      "conf": "alta",
      "why": "Lo logró en 8 de sus últimos 10; promedia 2,6",
-     "result": "pending",
-     "fact": null,
+     "result": "void",
+     "fact": "No jugó",
      "top": false
     },
     {
@@ -743,8 +743,8 @@
      "prob": 88,
      "conf": "alta",
      "why": "Lo logró en 10 de sus últimos 10; promedia 8,8",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "11 rebotes",
      "top": true
     },
     {
@@ -752,8 +752,8 @@
      "prob": 76,
      "conf": "alta",
      "why": "Lo logró en 8 de sus últimos 10; promedia 8,8",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "11 rebotes",
      "top": false
     }
    ]
@@ -764,7 +764,7 @@
    "time": "23:00",
    "home": "Sacramento Kings",
    "away": "Oklahoma City Thunder",
-   "score": null,
+   "score": "103-125",
    "meta": "hora UTC−3 · SAC 1-11 · OKC 8-5 · Bajas: Maxime Raynaud, Ben Simmons, Jaylin Williams, Thomas Sorber, Cason Wallace, Chet Holmgren",
    "picks": [
     {
@@ -772,8 +772,8 @@
      "prob": 85,
      "conf": "alta",
      "why": "86 % según el modelo de ESPN",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "103-125",
      "top": false
     },
     {
@@ -781,8 +781,8 @@
      "prob": 88,
      "conf": "alta",
      "why": "Lo logró en 10 de sus últimos 10; promedia 20,7",
-     "result": "pending",
-     "fact": null,
+     "result": "void",
+     "fact": "No jugó",
      "top": true
     },
     {
@@ -790,8 +790,8 @@
      "prob": 81,
      "conf": "alta",
      "why": "Lo logró en 9 de sus últimos 10; promedia 31,3",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "37 puntos",
      "top": false
     },
     {
@@ -799,8 +799,8 @@
      "prob": 73,
      "conf": "alta",
      "why": "Lo logró en 8 de sus últimos 10; promedia 26,0",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "26 puntos",
      "top": false
     },
     {
@@ -808,8 +808,8 @@
      "prob": 74,
      "conf": "alta",
      "why": "Lo logró en 8 de sus últimos 10; promedia 7,9",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "6 asistencias",
      "top": false
     },
     {
@@ -817,8 +817,8 @@
      "prob": 74,
      "conf": "alta",
      "why": "Lo logró en 8 de sus últimos 10; promedia 5,6",
-     "result": "pending",
-     "fact": null,
+     "result": "miss",
+     "fact": "3 asistencias",
      "top": false
     },
     {
@@ -826,8 +826,8 @@
      "prob": 70,
      "conf": "alta",
      "why": "Lo logró en 8 de sus últimos 10; promedia 3,5",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "3 triples",
      "top": false
     },
     {
@@ -835,8 +835,8 @@
      "prob": 76,
      "conf": "alta",
      "why": "Lo logró en 8 de sus últimos 10; promedia 12,7",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "13 rebotes",
      "top": false
     },
     {
@@ -844,8 +844,8 @@
      "prob": 76,
      "conf": "alta",
      "why": "Lo logró en 8 de sus últimos 10; promedia 11,6",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "11 rebotes",
      "top": false
     }
    ]

@@ -10,8 +10,7 @@ run(sys.executable, "tools/verify.py")
 for dia in (str(datetime.date.today()), manana):  # hoy también, por si ayer no corrió
     if not (ROOT / "data" / f"{dia}.json").exists():
         run(sys.executable, "tools/futbol.py", dia)
-    if not (ROOT / "data" / f"nba-{dia}.json").exists():
-        run(sys.executable, "tools/nba.py", dia)
+    run(sys.executable, "tools/nba.py", dia)  # siempre: las líneas de jugadores salen el mismo día del partido
 run("git", "add", "data")
 if run("git", "diff", "--cached", "--quiet"):
     run("git", "commit", "-q", "-m", f"Actualización diaria {manana}")

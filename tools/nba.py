@@ -5,8 +5,9 @@ El segundo argumento es opcional: líneas de una casa de apuestas por abreviatur
 (ml, spread del local, total y sus cuotas [local/más, visitante/menos]). Sin él se usan las que publica ESPN.
 Cada probabilidad se corrige con el historial de aciertos de ese tipo de mercado (tools/calibra.py).
 Fuente: API pública de ESPN. Solo biblioteca estándar.
-Los umbrales ("20+ puntos") son propios: el mayor valor que el jugador alcanzó en al menos
-el 80 % de sus últimos 10 partidos. No son líneas de casas de apuestas.
+Jugadores: se usa la línea real de la casa (DraftKings, vía ESPN): con línea 25.5 el mercado es "26+ puntos"
+o "menos de 25.5 puntos", y la probabilidad mezcla sus últimos 10 partidos con la cuota. Si el partido aún no
+tiene líneas publicadas se usa un umbral propio (el mayor valor alcanzado en el 80 % de sus últimos 10).
 """
 import json, math, pathlib, statistics, sys, urllib.request
 from concurrent.futures import ThreadPoolExecutor
@@ -15,6 +16,8 @@ import calibra
 
 SITE = "https://site.api.espn.com/apis/site/v2/sports/basketball/nba"
 WEB = "https://site.web.api.espn.com/apis/common/v3/sports/basketball/nba"
+CORE = "https://sports.core.api.espn.com/v2/sports/basketball/leagues/nba"
+PROP = {"Total Points": "PTS", "Total Assists": "AST", "Total Rebounds": "REB", "Total 3-Point Field Goals": "3PT"}
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 UTC_OFFSET = -3  # hora que muestra la página
 # estadística: (columna del gamelog, nombre, mínimo que vale la pena, paso del umbral)
@@ -46,6 +49,25 @@ def last_games(athlete_id):
                     pass
         break  # solo la temporada actual
     return rows[:10]
+
+def props(eid):
+    """Líneas de jugadores de la casa: {id de jugador: {estadística: (línea, cuota más, cuota menos)}}. Vacío si no hay."""
+    out, page = {}, 1
+    try:
+        while True:
+            r = get(f"{CORE}/events/{eid}/competitions/{eid}/odds/100/propBets?limit=500&page={page}")
+            for i in r.get("items", []):
+                key = PROP.get(i["type"]["name"])
+                if key and "athlete" in i:
+                    aid = i["athlete"]["$ref"].split("athletes/")[1].split("?")[0]
+                    out.setdefault(aid, {}).setdefault(key, []).append((float(i["odds"]["total"]["value"]), float(i["odds"]["decimal"]["value"])))
+            if page >= r.get("pageCount", 1):
+                break
+            page += 1
+    except Exception:
+        return {}
+    # ESPN lista primero "más de" y después "menos de" para la misma línea
+    return {a: {k: (v[0][0], v[0][1], v[1][1]) for k, v in d.items() if len(v) == 2 and v[0][0] == v[1][0]} for a, d in out.items()}
 
 def pick_for(vals, floor, step):
     """Mayor umbral (múltiplo de step) alcanzado en >= 80 % de los partidos. Devuelve (umbral, aciertos) o None."""
@@ -120,7 +142,7 @@ def build(date, lines=None):
         summ = get(f"{SITE}/summary?event={e['id']}")
         status = {i["athlete"]["id"]: i.get("status", "") for t in summ.get("injuries", []) for i in t.get("injuries", [])}
         out_names = [i["athlete"]["displayName"] for t in summ.get("injuries", []) for i in t.get("injuries", []) if "Out" in i.get("status", "")]
-        cands = []
+        cands, book = [], props(e["id"])
         for side in ("home", "away"):
             tid = teams[side]["team"]["id"]
             roster = [a for a in get(f"{SITE}/teams/{tid}/roster")["athletes"] if "Out" not in status.get(a["id"], "")]
@@ -132,6 +154,22 @@ def build(date, lines=None):
                 doubt = "Day-To-Day" in status.get(a["id"], "")
                 for key, (name, floor, step) in STATS.items():
                     vals = [r[key] for r in rows]
+                    if book:  # con líneas publicadas solo se pronostica lo que la casa ofrece
+                        if key not in book.get(a["id"], {}):
+                            continue
+                        L, o_dec, u_dec = book[a["id"]][key]
+                        t, n, avg = math.floor(L) + 1, len(vals), sum(vals) / len(vals)
+                        hits = sum(v >= t for v in vals)
+                        mkt = (1 / o_dec) / (1 / o_dec + 1 / u_dec)
+                        over = 50 * (hits + 1) / (n + 2) + 50 * mkt
+                        market, p, odds = (f"{a['displayName']} {t}+ {name}", over, o_dec) if over >= 50 else (f"{a['displayName']} menos de {L:g} {name}", 100 - over, u_dec)
+                        p = min(88, calibra.ajusta(p, market, tab, True)) - (8 if doubt else 0)
+                        if p < 55:
+                            continue
+                        why = f"Línea de la casa {L:g}; llegó a {t} en {hits} de sus últimos {n}; promedia {avg:.1f}; el mercado da {100 * mkt:.0f} % a más".replace(".", ",")
+                        cands.append({"key": key, "avg": avg, "market": f"{market} (cuota {odds:.2f})", "prob": p, "conf": conf(p),
+                                      "why": why + (" · en duda por lesión" if doubt else ""), "result": "pending", "fact": None, "top": False})
+                        continue
                     got = pick_for(vals, floor, step)
                     if not got:
                         continue
@@ -176,7 +214,7 @@ def build(date, lines=None):
     assert all(1 <= p["prob"] <= 99 for p in allp), "datos de NBA incompletos"
     for p in sorted(allp, key=lambda p: -p["prob"])[:10]:
         p["top"] = True
-    note = "Umbrales de jugadores propios, a partir de sus últimos 10 partidos; no son líneas de casas de apuestas."
+    note = "Jugadores: líneas reales de una casa de apuestas (DraftKings, vía ESPN; en Rushbet suelen ser iguales o variar medio punto), mezclando sus últimos 10 partidos con la cuota. Si un partido aún no tiene líneas, el umbral es propio."
     note += " Hándicap, total y cuotas: líneas de una casa de apuestas tomadas el día del partido. Cada probabilidad se corrige con el historial de aciertos de ese mercado."
     return {"date": date, "sport": "nba", "title": f"NBA, {len(matches)} partidos",
             "note": note,
@@ -189,7 +227,12 @@ if __name__ == "__main__":
     if not day:
         print("sin partidos de NBA por empezar para", date)
         sys.exit(0)
-    (ROOT / "data" / f"nba-{date}.json").write_text(json.dumps(day, ensure_ascii=False, indent=1), encoding="utf-8")
+    path = ROOT / "data" / f"nba-{date}.json"
+    if path.exists():  # al regenerar se conservan los partidos que ya empezaron
+        ids = {m["id"] for m in day["matches"]}
+        day["matches"] = [m for m in json.loads(path.read_text(encoding="utf-8"))["matches"] if m["id"] not in ids] + day["matches"]
+        day["title"] = f"NBA, {len(day['matches'])} partidos"
+    path.write_text(json.dumps(day, ensure_ascii=False, indent=1), encoding="utf-8")
     idx_path = ROOT / "data" / "index.json"
     idx = json.loads(idx_path.read_text(encoding="utf-8"))
     idx["nba"] = sorted(set(idx.get("nba", [])) | {date})
