@@ -14,10 +14,19 @@
    "meta": "hora UTC−3 · TOR 5-8 · NY 7-6 · Bajas: Nate Bittle, Kawhi Leonard",
    "picks": [
     {
-     "market": "Gana Knicks",
-     "prob": 70,
+     "market": "Gana Knicks (cuota 1.66)",
+     "prob": 65,
      "conf": "alta",
-     "why": "68 % según el modelo de ESPN",
+     "why": "68 % según el modelo de ESPN y 58 % según las cuotas",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Total: más de 216.5 puntos (cuota 1.91)",
+     "prob": 56,
+     "conf": "media",
+     "why": "Total esperado 222; lo superaron Raptors en 9 de 10 y Knicks en 4 de 10",
      "result": "pending",
      "fact": null,
      "top": false
@@ -139,7 +148,7 @@
      "why": "Lo logró en 9 de sus últimos 10; promedia 24,3",
      "result": "pending",
      "fact": null,
-     "top": false
+     "top": true
     },
     {
      "market": "Ayo Dosunmu 15+ puntos",
@@ -148,7 +157,7 @@
      "why": "Lo logró en 9 de sus últimos 10; promedia 20,2",
      "result": "pending",
      "fact": null,
-     "top": false
+     "top": true
     },
     {
      "market": "LaMelo Ball 4+ asistencias",
@@ -231,13 +240,13 @@
    "home": "San Antonio Spurs",
    "away": "Detroit Pistons",
    "score": null,
-   "meta": "hora UTC−3 · SA 12-2 · DET 8-4 · Bajas: Tobias Harris, Jayden Quaintance, Isaiah Joe, Jalen Duren",
+   "meta": "hora UTC−3 · SA 12-2 · DET 8-4 · Bajas: Tobias Harris, Jayden Quaintance, Taurean Prince, Ronald Holland II, Isaiah Joe, Duncan Robinson",
    "picks": [
     {
-     "market": "Gana Spurs",
-     "prob": 80,
+     "market": "Gana Spurs (cuota 1.29)",
+     "prob": 78,
      "conf": "alta",
-     "why": "78 % según el modelo de ESPN",
+     "why": "78 % según el modelo de ESPN y 75 % según las cuotas",
      "result": "pending",
      "fact": null,
      "top": false
@@ -261,10 +270,10 @@
      "top": false
     },
     {
-     "market": "Duncan Robinson 10+ puntos",
-     "prob": 80,
+     "market": "Victor Wembanyama 25+ puntos",
+     "prob": 75,
      "conf": "alta",
-     "why": "Lo logró en 10 de sus últimos 10; promedia 17,1 · en duda por lesión",
+     "why": "Lo logró en 8 de sus últimos 10; promedia 31,2",
      "result": "pending",
      "fact": null,
      "top": false
@@ -297,15 +306,6 @@
      "top": false
     },
     {
-     "market": "Duncan Robinson 2+ triples",
-     "prob": 76,
-     "conf": "alta",
-     "why": "Lo logró en 10 de sus últimos 10; promedia 3,7 · en duda por lesión",
-     "result": "pending",
-     "fact": null,
-     "top": false
-    },
-    {
      "market": "Victor Wembanyama 8+ rebotes",
      "prob": 76,
      "conf": "alta",
@@ -332,13 +332,13 @@
    "home": "LA Clippers",
    "away": "Utah Jazz",
    "score": null,
-   "meta": "hora UTC−3 · LAC 4-8 · UTAH 1-13 · Bajas: Brandon Ingram, Yanic Konan Niederhauser, Bradley Beal, Jordan Miller, Trey Alexander, Lauri Markkanen",
+   "meta": "hora UTC−3 · LAC 4-8 · UTAH 1-13 · Bajas: Yanic Konan Niederhauser, Brandon Ingram, Bradley Beal, Jordan Miller, Jaxson Hayes, Lauri Markkanen",
    "picks": [
     {
-     "market": "Gana Clippers",
-     "prob": 64,
-     "conf": "media",
-     "why": "62 % según el modelo de ESPN",
+     "market": "Gana Clippers (cuota 1.46)",
+     "prob": 66,
+     "conf": "alta",
+     "why": "62 % según el modelo de ESPN y 66 % según las cuotas",
      "result": "pending",
      "fact": null,
      "top": false
@@ -424,25 +424,16 @@
    "home": "Los Angeles Lakers",
    "away": "Charlotte Hornets",
    "score": null,
-   "meta": "hora UTC−3 · LAL 12-2 · CHA 4-9 · Bajas: Kon Knueppel, Dennis Schroder",
+   "meta": "hora UTC−3 · LAL 12-2 · CHA 4-9 · Bajas: Austin Reaves, Walker Kessler, Kon Knueppel, Dennis Schroder",
    "picks": [
     {
-     "market": "Gana Lakers",
-     "prob": 84,
+     "market": "Gana Lakers (cuota 1.26)",
+     "prob": 81,
      "conf": "alta",
-     "why": "82 % según el modelo de ESPN",
+     "why": "82 % según el modelo de ESPN y 76 % según las cuotas",
      "result": "pending",
      "fact": null,
-     "top": true
-    },
-    {
-     "market": "Walker Kessler 10+ puntos",
-     "prob": 88,
-     "conf": "alta",
-     "why": "Lo logró en 10 de sus últimos 10; promedia 14,0",
-     "result": "pending",
-     "fact": null,
-     "top": true
+     "top": false
     },
     {
      "market": "Naz Reid 10+ puntos",
@@ -454,10 +445,10 @@
      "top": false
     },
     {
-     "market": "Austin Reaves 15+ puntos",
-     "prob": 80,
+     "market": "Luka Doncic 35+ puntos",
+     "prob": 75,
      "conf": "alta",
-     "why": "Lo logró en 10 de sus últimos 10; promedia 24,5 · en duda por lesión",
+     "why": "Lo logró en 8 de sus últimos 10; promedia 41,7",
      "result": "pending",
      "fact": null,
      "top": false
@@ -470,15 +461,6 @@
      "result": "pending",
      "fact": null,
      "top": true
-    },
-    {
-     "market": "Austin Reaves 4+ asistencias",
-     "prob": 67,
-     "conf": "alta",
-     "why": "Lo logró en 8 de sus últimos 10; promedia 4,1 · en duda por lesión",
-     "result": "pending",
-     "fact": null,
-     "top": false
     },
     {
      "market": "Luka Doncic 5+ triples",
@@ -494,15 +476,6 @@
      "prob": 67,
      "conf": "alta",
      "why": "Lo logró en 8 de sus últimos 10; promedia 3,2",
-     "result": "pending",
-     "fact": null,
-     "top": false
-    },
-    {
-     "market": "Walker Kessler 10+ rebotes",
-     "prob": 76,
-     "conf": "alta",
-     "why": "Lo logró en 8 de sus últimos 10; promedia 12,1",
      "result": "pending",
      "fact": null,
      "top": false

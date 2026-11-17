@@ -874,118 +874,118 @@
    "meta": "hora UTC−3 · DEN 7-4 · PHX 5-7 · Bajas: Julian Strawther, Mark Williams",
    "picks": [
     {
-     "market": "Gana Nuggets (cuota 1.25)",
-     "prob": 76,
+     "market": "Gana Nuggets (cuota 1.23)",
+     "prob": 77,
      "conf": "alta",
-     "why": "71 % según el modelo de ESPN y 77 % según las cuotas",
+     "why": "71 % según el modelo de ESPN y 78 % según las cuotas",
      "result": "pending",
      "fact": null,
      "top": true
     },
     {
-     "market": "Cameron Johnson menos de 12.5 puntos (cuota 1.86)",
+     "market": "Cameron Johnson menos de 12.5 puntos (cuota 1.91)",
      "prob": 60,
      "conf": "media",
-     "why": "Línea de la casa 12,5; llegó a 13 en 2 de sus últimos 8; promedia 12,1; el mercado da 49 % a más",
-     "result": "pending",
-     "fact": null,
-     "top": false
-    },
-    {
-     "market": "Nikola Jokic menos de 26.5 puntos (cuota 1.81)",
-     "prob": 59,
-     "conf": "media",
-     "why": "Línea de la casa 26,5; llegó a 27 en 3 de sus últimos 10; promedia 24,8; el mercado da 48 % a más",
-     "result": "pending",
-     "fact": null,
-     "top": false
-    },
-    {
-     "market": "Aaron Gordon menos de 13.5 puntos (cuota 1.96)",
-     "prob": 57,
-     "conf": "media",
-     "why": "Línea de la casa 13,5; llegó a 14 en 3 de sus últimos 10; promedia 10,1; el mercado da 52 % a más",
-     "result": "pending",
-     "fact": null,
-     "top": false
-    },
-    {
-     "market": "Dillon Brooks menos de 2.5 asistencias (cuota 1.52)",
-     "prob": 68,
-     "conf": "alta",
-     "why": "Línea de la casa 2,5; llegó a 3 en 2 de sus últimos 10; promedia 1,8; el mercado da 38 % a más",
+     "why": "Línea de la casa 12,5; llegó a 13 en 2 de sus últimos 8; promedia 12,1; el mercado da 51 % a más",
      "result": "pending",
      "fact": null,
      "top": true
     },
     {
-     "market": "Miles Bridges 3+ asistencias (cuota 1.72)",
-     "prob": 61,
+     "market": "Aaron Gordon menos de 12.5 puntos (cuota 2.01)",
+     "prob": 57,
      "conf": "media",
-     "why": "Línea de la casa 2,5; llegó a 3 en 7 de sus últimos 10; promedia 3,4; el mercado da 54 % a más",
+     "why": "Línea de la casa 12,5; llegó a 13 en 3 de sus últimos 10; promedia 10,1; el mercado da 53 % a más",
      "result": "pending",
      "fact": null,
      "top": false
     },
     {
-     "market": "Aaron Gordon menos de 2.5 asistencias (cuota 1.68)",
-     "prob": 61,
+     "market": "Dillon Brooks 15+ puntos (cuota 1.84)",
+     "prob": 55,
      "conf": "media",
-     "why": "Línea de la casa 2,5; llegó a 3 en 3 de sus últimos 10; promedia 2,1; el mercado da 44 % a más",
+     "why": "Línea de la casa 14,5; llegó a 15 en 6 de sus últimos 10; promedia 14,0; el mercado da 51 % a más",
      "result": "pending",
      "fact": null,
      "top": false
     },
     {
-     "market": "Nikola Jokic menos de 1.5 triples (cuota 1.62)",
+     "market": "Christian Braun 2+ asistencias (cuota 1.53)",
+     "prob": 64,
+     "conf": "media",
+     "why": "Línea de la casa 1,5; llegó a 2 en 7 de sus últimos 10; promedia 2,4; el mercado da 61 % a más",
+     "result": "pending",
+     "fact": null,
+     "top": true
+    },
+    {
+     "market": "Aaron Gordon menos de 2.5 asistencias (cuota 1.63)",
+     "prob": 62,
+     "conf": "media",
+     "why": "Línea de la casa 2,5; llegó a 3 en 3 de sus últimos 10; promedia 2,1; el mercado da 43 % a más",
+     "result": "pending",
+     "fact": null,
+     "top": true
+    },
+    {
+     "market": "Miles Bridges 3+ asistencias (cuota 1.78)",
+     "prob": 60,
+     "conf": "media",
+     "why": "Línea de la casa 2,5; llegó a 3 en 7 de sus últimos 10; promedia 3,4; el mercado da 53 % a más",
+     "result": "pending",
+     "fact": null,
+     "top": true
+    },
+    {
+     "market": "Nikola Jokic menos de 1.5 triples (cuota 1.55)",
+     "prob": 68,
+     "conf": "alta",
+     "why": "Línea de la casa 1,5; llegó a 2 en 2 de sus últimos 10; promedia 1,0; el mercado da 40 % a más",
+     "result": "pending",
+     "fact": null,
+     "top": true
+    },
+    {
+     "market": "Aaron Gordon menos de 1.5 triples (cuota 1.61)",
+     "prob": 67,
+     "conf": "alta",
+     "why": "Línea de la casa 1,5; llegó a 2 en 2 de sus últimos 10; promedia 0,9; el mercado da 42 % a más",
+     "result": "pending",
+     "fact": null,
+     "top": true
+    },
+    {
+     "market": "Cameron Johnson menos de 2.5 triples (cuota 1.51)",
      "prob": 66,
      "conf": "alta",
-     "why": "Línea de la casa 1,5; llegó a 2 en 2 de sus últimos 10; promedia 1,0; el mercado da 42 % a más",
+     "why": "Línea de la casa 2,5; llegó a 3 en 2 de sus últimos 8; promedia 2,1; el mercado da 38 % a más",
      "result": "pending",
      "fact": null,
-     "top": false
+     "top": true
     },
     {
-     "market": "Jalen Green menos de 1.5 triples (cuota 1.64)",
-     "prob": 66,
-     "conf": "alta",
-     "why": "Línea de la casa 1,5; llegó a 2 en 2 de sus últimos 10; promedia 0,8; el mercado da 43 % a más",
-     "result": "pending",
-     "fact": null,
-     "top": false
-    },
-    {
-     "market": "Aaron Gordon menos de 1.5 triples (cuota 1.71)",
+     "market": "Aaron Gordon menos de 5.5 rebotes (cuota 1.68)",
      "prob": 65,
-     "conf": "alta",
-     "why": "Línea de la casa 1,5; llegó a 2 en 2 de sus últimos 10; promedia 0,9; el mercado da 45 % a más",
-     "result": "pending",
-     "fact": null,
-     "top": false
-    },
-    {
-     "market": "Aaron Gordon menos de 5.5 rebotes (cuota 1.66)",
-     "prob": 66,
      "conf": "alta",
      "why": "Línea de la casa 5,5; llegó a 6 en 2 de sus últimos 10; promedia 4,9; el mercado da 44 % a más",
      "result": "pending",
      "fact": null,
-     "top": false
+     "top": true
     },
     {
-     "market": "Miles Bridges 6+ rebotes (cuota 1.72)",
-     "prob": 62,
+     "market": "Miles Bridges 6+ rebotes (cuota 1.78)",
+     "prob": 61,
      "conf": "media",
-     "why": "Línea de la casa 5,5; llegó a 6 en 7 de sus últimos 10; promedia 7,2; el mercado da 54 % a más",
+     "why": "Línea de la casa 5,5; llegó a 6 en 7 de sus últimos 10; promedia 7,2; el mercado da 52 % a más",
      "result": "pending",
      "fact": null,
-     "top": false
+     "top": true
     },
     {
-     "market": "Jalen Green 3+ rebotes (cuota 1.58)",
-     "prob": 60,
+     "market": "Jalen Green 3+ rebotes (cuota 1.64)",
+     "prob": 59,
      "conf": "media",
-     "why": "Línea de la casa 2,5; llegó a 3 en 6 de sus últimos 10; promedia 3,5; el mercado da 59 % a más",
+     "why": "Línea de la casa 2,5; llegó a 3 en 6 de sus últimos 10; promedia 3,5; el mercado da 57 % a más",
      "result": "pending",
      "fact": null,
      "top": false

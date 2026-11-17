@@ -235,7 +235,7 @@
    "time": "16:00",
    "home": "Cuba",
    "away": "Grenada",
-   "score": null,
+   "score": "9-0",
    "meta": "hora UTC−3 · últimos partidos: CUB 3G 3E 4P · GRN 2G 3E 5P",
    "picks": [
     {
@@ -243,8 +243,8 @@
      "prob": 64,
      "conf": "media",
      "why": "Cuba: 1,4 goles a favor y 1,2 en contra; Grenada: 0,9 y 1,5; el mercado da 71 % a Cuba; cara a cara: CUB domina 2-1",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "9-0",
      "top": false
     },
     {
@@ -252,8 +252,8 @@
      "prob": 59,
      "conf": "media",
      "why": "Se esperan 3,0 goles; más de 2,5 en 7 de 10 de Cuba y 5 de 10 de Grenada",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "9 goles",
      "top": false
     }
    ]
@@ -264,7 +264,7 @@
    "time": "16:00",
    "home": "Guadeloupe",
    "away": "Bermuda",
-   "score": null,
+   "score": "4-1",
    "meta": "hora UTC−3 · últimos partidos: GDL 6G 1E 3P · BER 4G 1E 5P",
    "picks": [
     {
@@ -272,8 +272,8 @@
      "prob": 74,
      "conf": "alta",
      "why": "Se esperan 4,0 goles; más de 2,5 en 8 de 10 de Guadeloupe y 8 de 10 de Bermuda",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "5 goles",
      "top": true
     },
     {
@@ -281,8 +281,8 @@
      "prob": 71,
      "conf": "alta",
      "why": "Guadeloupe: 2,5 goles a favor y 1,3 en contra; Bermuda: 1,9 y 3,0; el mercado da 74 % a Guadeloupe",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "4-1",
      "top": false
     },
     {
@@ -290,8 +290,8 @@
      "prob": 61,
      "conf": "media",
      "why": "Goles esperados: Guadeloupe 2,7, Bermuda 1,3",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "4-1",
      "top": false
     }
    ]
@@ -302,7 +302,7 @@
    "time": "16:00",
    "home": "Guyana",
    "away": "Puerto Rico",
-   "score": null,
+   "score": "4-2",
    "meta": "hora UTC−3 · últimos partidos: GUY 2G 1E 7P · PUR 6G 0E 2P",
    "picks": [
     {
@@ -310,8 +310,8 @@
      "prob": 67,
      "conf": "alta",
      "why": "Guyana: 1,3 goles a favor y 1,9 en contra; Puerto Rico: 2,0 y 0,7; el mercado da 54 % a Guyana; cara a cara: GUY domina 3-1",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "4-2",
      "top": false
     },
     {
@@ -319,8 +319,8 @@
      "prob": 57,
      "conf": "media",
      "why": "Se esperan 2,9 goles; más de 2,5 en 7 de 10 de Guyana y 4 de 8 de Puerto Rico",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "6 goles",
      "top": false
     }
    ]
@@ -331,7 +331,7 @@
    "time": "16:30",
    "home": "Albacete",
    "away": "RC Celta Fortuna",
-   "score": null,
+   "score": "1-0",
    "meta": "hora UTC−3 · últimos partidos: ALB 1G 2E 7P · CEL 4G 2E 4P",
    "picks": [
     {
@@ -339,8 +339,8 @@
      "prob": 67,
      "conf": "alta",
      "why": "Se esperan 5,2 tarjetas entre los dos",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "8 tarjetas",
      "top": false
     },
     {
@@ -348,8 +348,8 @@
      "prob": 63,
      "conf": "media",
      "why": "Albacete: 0,8 goles a favor y 1,4 en contra; RC Celta Fortuna: 1,6 y 1,3; sin cuotas del mercado",
-     "result": "pending",
-     "fact": null,
+     "result": "miss",
+     "fact": "1-0",
      "top": false
     },
     {
@@ -357,8 +357,8 @@
      "prob": 57,
      "conf": "media",
      "why": "Se esperan 9,3 córners: Albacete 5,1 y RC Celta Fortuna 4,3",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "14 córners",
      "top": false
     },
     {
@@ -366,8 +366,8 @@
      "prob": 55,
      "conf": "media",
      "why": "Se esperan 2,5 goles; más de 2,5 en 4 de 10 de Albacete y 5 de 10 de RC Celta Fortuna",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "1 goles",
      "top": false
     }
    ]
@@ -378,7 +378,7 @@
    "time": "16:45",
    "home": "Germany",
    "away": "Netherlands",
-   "score": null,
+   "score": "5-0",
    "meta": "hora UTC−3 · últimos partidos: GER 5G 2E 3P · NED 6G 4E 0P",
    "picks": [
     {
@@ -386,8 +386,8 @@
      "prob": 72,
      "conf": "alta",
      "why": "Se esperan 3,5 tarjetas entre los dos",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "1 tarjetas",
      "top": true
     },
     {
@@ -395,8 +395,8 @@
      "prob": 71,
      "conf": "alta",
      "why": "Se esperan 3,7 goles; más de 2,5 en 6 de 10 de Germany y 7 de 10 de Netherlands",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "5 goles",
      "top": false
     },
     {
@@ -404,8 +404,8 @@
      "prob": 69,
      "conf": "alta",
      "why": "Germany: 2,5 goles a favor y 1,2 en contra; Netherlands: 3,0 y 1,0; el mercado da 50 % a Germany; cara a cara: GER domina 2-0-3",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "5-0",
      "top": false
     },
     {
@@ -413,8 +413,8 @@
      "prob": 65,
      "conf": "alta",
      "why": "Se esperan 8,6 córners: Germany 4,3 y Netherlands 4,3",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "5 córners",
      "top": false
     },
     {
@@ -422,8 +422,8 @@
      "prob": 63,
      "conf": "media",
      "why": "Goles esperados: Germany 1,8, Netherlands 1,9",
-     "result": "pending",
-     "fact": null,
+     "result": "miss",
+     "fact": "5-0",
      "top": false
     }
    ]
@@ -434,7 +434,7 @@
    "time": "16:45",
    "home": "Gibraltar",
    "away": "Malta",
-   "score": null,
+   "score": "1-1",
    "meta": "hora UTC−3 · últimos partidos: GIB 2G 4E 4P · MLT 3G 2E 5P",
    "picks": [
     {
@@ -442,8 +442,8 @@
      "prob": 74,
      "conf": "alta",
      "why": "Gibraltar: 0,9 goles a favor y 1,5 en contra; Malta: 0,4 y 1,3; el mercado da 57 % a Malta; cara a cara: MLT domina 2-1-1",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "1-1",
      "top": true
     },
     {
@@ -451,8 +451,8 @@
      "prob": 72,
      "conf": "alta",
      "why": "Se esperan 7,1 tarjetas entre los dos",
-     "result": "pending",
-     "fact": null,
+     "result": "miss",
+     "fact": "2 tarjetas",
      "top": true
     },
     {
@@ -460,8 +460,8 @@
      "prob": 69,
      "conf": "alta",
      "why": "Se esperan 6,3 córners: Gibraltar 3,7 y Malta 2,6",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "7 córners",
      "top": false
     },
     {
@@ -469,8 +469,8 @@
      "prob": 63,
      "conf": "media",
      "why": "Se esperan 2,1 goles; más de 2,5 en 5 de 10 de Gibraltar y 1 de 10 de Malta",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "2 goles",
      "top": false
     }
    ]
@@ -481,7 +481,7 @@
    "time": "16:45",
    "home": "Greece",
    "away": "Serbia",
-   "score": null,
+   "score": "1-0",
    "meta": "hora UTC−3 · últimos partidos: GRE 8G 0E 2P · SRB 3G 5E 2P",
    "picks": [
     {
@@ -489,8 +489,8 @@
      "prob": 67,
      "conf": "alta",
      "why": "Greece: 2,1 goles a favor y 0,6 en contra; Serbia: 0,7 y 0,8; el mercado da 66 % a Greece; cara a cara: GRE domina 2-1",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "1-0",
      "top": false
     },
     {
@@ -498,8 +498,8 @@
      "prob": 62,
      "conf": "media",
      "why": "Se esperan 9,3 córners: Greece 5,7 y Serbia 3,6",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "10 a 0",
      "top": false
     },
     {
@@ -507,8 +507,8 @@
      "prob": 61,
      "conf": "media",
      "why": "Se esperan 5,8 tarjetas entre los dos",
-     "result": "pending",
-     "fact": null,
+     "result": "miss",
+     "fact": "2 tarjetas",
      "top": false
     },
     {
@@ -516,8 +516,8 @@
      "prob": 57,
      "conf": "media",
      "why": "Se esperan 9,3 córners: Greece 5,7 y Serbia 3,6",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "10 córners",
      "top": false
     }
    ]
@@ -528,7 +528,7 @@
    "time": "16:45",
    "home": "North Macedonia",
    "away": "Slovenia",
-   "score": null,
+   "score": "0-3",
    "meta": "hora UTC−3 · últimos partidos: MKD 7G 3E 0P · SVN 5G 3E 2P",
    "picks": [
     {
@@ -536,8 +536,8 @@
      "prob": 74,
      "conf": "alta",
      "why": "Se esperan 4,2 tarjetas entre los dos",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "4 tarjetas",
      "top": true
     },
     {
@@ -545,8 +545,8 @@
      "prob": 69,
      "conf": "alta",
      "why": "North Macedonia: 1,7 goles a favor y 0,3 en contra; Slovenia: 1,1 y 1,1; el mercado da 63 % a Slovenia; cara a cara: SVN domina 2-1-2",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "0-3",
      "top": false
     },
     {
@@ -554,8 +554,8 @@
      "prob": 61,
      "conf": "media",
      "why": "Se esperan 7,2 córners: North Macedonia 3,7 y Slovenia 3,5",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "8 córners",
      "top": false
     },
     {
@@ -563,8 +563,8 @@
      "prob": 59,
      "conf": "media",
      "why": "Se esperan 2,2 goles; más de 2,5 en 2 de 10 de North Macedonia y 4 de 10 de Slovenia",
-     "result": "pending",
-     "fact": null,
+     "result": "miss",
+     "fact": "3 goles",
      "top": false
     }
    ]
@@ -575,7 +575,7 @@
    "time": "16:45",
    "home": "Switzerland",
    "away": "Scotland",
-   "score": null,
+   "score": "4-0",
    "meta": "hora UTC−3 · últimos partidos: SUI 7G 3E 0P · SCO 6G 2E 2P",
    "picks": [
     {
@@ -583,8 +583,8 @@
      "prob": 77,
      "conf": "alta",
      "why": "Switzerland: 2,7 goles a favor y 0,7 en contra; Scotland: 1,2 y 0,7; el mercado da 44 % a Switzerland; cara a cara: SUI domina 2-0-1",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "4-0",
      "top": true
     },
     {
@@ -592,8 +592,8 @@
      "prob": 57,
      "conf": "media",
      "why": "Se esperan 2,8 goles; más de 2,5 en 6 de 10 de Switzerland y 5 de 10 de Scotland",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "4 goles",
      "top": false
     }
    ]
@@ -604,7 +604,7 @@
    "time": "17:15",
    "home": "Cusco FC",
    "away": "ADT",
-   "score": null,
+   "score": "2-2",
    "meta": "hora UTC−3 · últimos partidos: CFC 4G 1E 5P · ADT 2G 3E 5P",
    "picks": [
     {
@@ -612,8 +612,8 @@
      "prob": 77,
      "conf": "alta",
      "why": "Cusco FC: 1,1 goles a favor y 1,1 en contra; ADT: 0,8 y 1,3; el mercado da 55 % a Cusco FC; cara a cara: CFC domina 3-2",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "2-2",
      "top": true
     },
     {
@@ -621,8 +621,8 @@
      "prob": 71,
      "conf": "alta",
      "why": "Se esperan 4,4 tarjetas entre los dos",
-     "result": "pending",
-     "fact": null,
+     "result": "miss",
+     "fact": "6 tarjetas",
      "top": false
     },
     {
@@ -630,8 +630,8 @@
      "prob": 64,
      "conf": "media",
      "why": "Se esperan 8,7 córners: Cusco FC 4,7 y ADT 4,0",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "7 córners",
      "top": false
     },
     {
@@ -639,8 +639,8 @@
      "prob": 55,
      "conf": "media",
      "why": "Se esperan 2,5 goles; más de 2,5 en 5 de 10 de Cusco FC y 3 de 10 de ADT",
-     "result": "pending",
-     "fact": null,
+     "result": "miss",
+     "fact": "4 goles",
      "top": false
     }
    ]
@@ -651,7 +651,7 @@
    "time": "17:15",
    "home": "Deportivo Moquegua",
    "away": "Atlético Grau",
-   "score": null,
+   "score": "2-1",
    "meta": "hora UTC−3 · últimos partidos: MOQ 4G 1E 5P · AGR 1G 4E 5P",
    "picks": [
     {
@@ -659,8 +659,8 @@
      "prob": 77,
      "conf": "alta",
      "why": "Deportivo Moquegua: 0,9 goles a favor y 1,6 en contra; Atlético Grau: 0,4 y 1,2; el mercado da 54 % a Deportivo Moquegua",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "2-1",
      "top": true
     },
     {
@@ -668,8 +668,8 @@
      "prob": 68,
      "conf": "alta",
      "why": "Se esperan 5,3 tarjetas entre los dos",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "5 tarjetas",
      "top": false
     },
     {
@@ -677,8 +677,8 @@
      "prob": 62,
      "conf": "media",
      "why": "Se esperan 8,1 córners: Deportivo Moquegua 3,5 y Atlético Grau 4,6",
-     "result": "pending",
-     "fact": null,
+     "result": "miss",
+     "fact": "12 córners",
      "top": false
     },
     {
@@ -686,8 +686,8 @@
      "prob": 59,
      "conf": "media",
      "why": "Se esperan 2,3 goles; más de 2,5 en 7 de 10 de Deportivo Moquegua y 3 de 10 de Atlético Grau",
-     "result": "pending",
-     "fact": null,
+     "result": "miss",
+     "fact": "3 goles",
      "top": false
     }
    ]
@@ -698,7 +698,7 @@
    "time": "20:00",
    "home": "Montevideo Wanderers",
    "away": "Juventud",
-   "score": null,
+   "score": "2-1",
    "meta": "hora UTC−3 · últimos partidos: WAN 3G 3E 4P · JUV 3G 3E 4P",
    "picks": [
     {
@@ -706,8 +706,8 @@
      "prob": 70,
      "conf": "alta",
      "why": "Montevideo Wanderers: 0,9 goles a favor y 1,4 en contra; Juventud: 1,2 y 1,3; el mercado da 44 % a Montevideo Wanderers; cara a cara: JUV domina 3-2",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "2-1",
      "top": false
     }
    ]
@@ -718,7 +718,7 @@
    "time": "21:00",
    "home": "Martinique",
    "away": "Aruba",
-   "score": null,
+   "score": "1-1",
    "meta": "hora UTC−3 · últimos partidos: MTQ 5G 2E 3P · ARU 3G 1E 6P",
    "picks": [
     {
@@ -726,8 +726,8 @@
      "prob": 69,
      "conf": "alta",
      "why": "Se esperan 3,5 goles; más de 2,5 en 5 de 10 de Martinique y 6 de 10 de Aruba",
-     "result": "pending",
-     "fact": null,
+     "result": "miss",
+     "fact": "2 goles",
      "top": false
     },
     {
@@ -735,8 +735,8 @@
      "prob": 61,
      "conf": "media",
      "why": "Goles esperados: Martinique 1,9, Aruba 1,6",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "1-1",
      "top": false
     },
     {
@@ -744,8 +744,8 @@
      "prob": 60,
      "conf": "media",
      "why": "Martinique: 1,8 goles a favor y 1,4 en contra; Aruba: 2,1 y 1,7; sin cuotas del mercado",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "1-1",
      "top": false
     }
    ]
@@ -756,7 +756,7 @@
    "time": "21:00",
    "home": "Trinidad and Tobago",
    "away": "Antigua and Barbuda",
-   "score": null,
+   "score": "1-1",
    "meta": "hora UTC−3 · últimos partidos: TRI 3G 3E 4P · ATG 1G 2E 7P",
    "picks": [
     {
@@ -764,8 +764,8 @@
      "prob": 76,
      "conf": "alta",
      "why": "Se esperan 4,1 goles; más de 2,5 en 6 de 10 de Trinidad and Tobago y 8 de 10 de Antigua and Barbuda",
-     "result": "pending",
-     "fact": null,
+     "result": "miss",
+     "fact": "2 goles",
      "top": true
     },
     {
@@ -773,8 +773,8 @@
      "prob": 74,
      "conf": "alta",
      "why": "Trinidad and Tobago: 1,8 goles a favor y 1,8 en contra; Antigua and Barbuda: 1,1 y 3,3; sin cuotas del mercado",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "1-1",
      "top": true
     },
     {
@@ -782,8 +782,8 @@
      "prob": 61,
      "conf": "media",
      "why": "Goles esperados: Trinidad and Tobago 2,8, Antigua and Barbuda 1,3",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "1-1",
      "top": false
     }
    ]
