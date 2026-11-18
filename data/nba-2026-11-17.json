@@ -335,82 +335,91 @@
    "meta": "hora UTC−3 · LAC 4-8 · UTAH 1-13 · Bajas: Yanic Konan Niederhauser, Brandon Ingram, Bradley Beal, Jordan Miller, Jaxson Hayes, Lauri Markkanen",
    "picks": [
     {
-     "market": "Gana Clippers (cuota 1.46)",
-     "prob": 66,
+     "market": "Gana Clippers (cuota 1.44)",
+     "prob": 65,
      "conf": "alta",
-     "why": "62 % según el modelo de ESPN y 66 % según las cuotas",
+     "why": "62 % según el modelo de ESPN y 67 % según las cuotas",
+     "result": "pending",
+     "fact": null,
+     "top": true
+    },
+    {
+     "market": "Derrick Jones Jr. 10+ puntos (cuota 1.86)",
+     "prob": 61,
+     "conf": "media",
+     "why": "Línea de la casa 9,5; llegó a 10 en 8 de sus últimos 10; promedia 11,9; el mercado da 51 % a más",
+     "result": "pending",
+     "fact": null,
+     "top": true
+    },
+    {
+     "market": "Darius Garland 7+ asistencias (cuota 1.74)",
+     "prob": 61,
+     "conf": "media",
+     "why": "Línea de la casa 6,5; llegó a 7 en 7 de sus últimos 10; promedia 7,3; el mercado da 54 % a más",
      "result": "pending",
      "fact": null,
      "top": false
     },
     {
-     "market": "Darius Garland 15+ puntos",
-     "prob": 75,
-     "conf": "alta",
-     "why": "Lo logró en 8 de sus últimos 10; promedia 19,9",
+     "market": "Rui Hachimura menos de 1.5 asistencias (cuota 1.54)",
+     "prob": 60,
+     "conf": "media",
+     "why": "Línea de la casa 1,5; llegó a 2 en 4 de sus últimos 10; promedia 1,6; el mercado da 39 % a más",
      "result": "pending",
      "fact": null,
      "top": false
     },
     {
-     "market": "Keyonte George 10+ puntos",
-     "prob": 75,
-     "conf": "alta",
-     "why": "Lo logró en 8 de sus últimos 10; promedia 19,9",
+     "market": "Darryn Peterson menos de 4.5 asistencias (cuota 1.69)",
+     "prob": 57,
+     "conf": "media",
+     "why": "Línea de la casa 4,5; llegó a 5 en 4 de sus últimos 10; promedia 4,3; el mercado da 45 % a más",
      "result": "pending",
      "fact": null,
      "top": false
     },
     {
-     "market": "Darryn Peterson 15+ puntos",
-     "prob": 75,
-     "conf": "alta",
-     "why": "Lo logró en 8 de sus últimos 10; promedia 19,4",
+     "market": "Brook Lopez menos de 1.5 triples (cuota 1.77)",
+     "prob": 60,
+     "conf": "media",
+     "why": "Línea de la casa 1,5; llegó a 2 en 3 de sus últimos 10; promedia 1,4; el mercado da 47 % a más",
      "result": "pending",
      "fact": null,
      "top": false
     },
     {
-     "market": "Darius Garland 6+ asistencias",
-     "prob": 75,
-     "conf": "alta",
-     "why": "Lo logró en 8 de sus últimos 10; promedia 7,3",
+     "market": "Ace Bailey menos de 1.5 triples (cuota 2.16)",
+     "prob": 55,
+     "conf": "media",
+     "why": "Línea de la casa 1,5; llegó a 2 en 3 de sus últimos 10; promedia 1,5; el mercado da 57 % a más",
      "result": "pending",
      "fact": null,
      "top": false
     },
     {
-     "market": "Keyonte George 4+ asistencias",
-     "prob": 75,
-     "conf": "alta",
-     "why": "Lo logró en 8 de sus últimos 10; promedia 6,1",
+     "market": "Rui Hachimura 5+ rebotes (cuota 1.65)",
+     "prob": 62,
+     "conf": "media",
+     "why": "Línea de la casa 4,5; llegó a 5 en 7 de sus últimos 10; promedia 6,0; el mercado da 57 % a más",
+     "result": "pending",
+     "fact": null,
+     "top": true
+    },
+    {
+     "market": "Ace Bailey 6+ rebotes (cuota 1.84)",
+     "prob": 59,
+     "conf": "media",
+     "why": "Línea de la casa 5,5; llegó a 6 en 7 de sus últimos 10; promedia 5,7; el mercado da 51 % a más",
      "result": "pending",
      "fact": null,
      "top": false
     },
     {
-     "market": "Darryn Peterson 4+ asistencias",
-     "prob": 75,
-     "conf": "alta",
-     "why": "Lo logró en 8 de sus últimos 10; promedia 4,3",
-     "result": "pending",
-     "fact": null,
-     "top": false
-    },
-    {
-     "market": "Darryn Peterson 2+ triples",
-     "prob": 76,
-     "conf": "alta",
-     "why": "Lo logró en 9 de sus últimos 10; promedia 2,8",
-     "result": "pending",
-     "fact": null,
-     "top": false
-    },
-    {
-     "market": "Derrick Jones Jr. 2+ triples",
-     "prob": 67,
-     "conf": "alta",
-     "why": "Lo logró en 8 de sus últimos 10; promedia 2,3",
+     "market": "Keyonte George menos de 4.5 rebotes (cuota 1.62)",
+     "prob": 58,
+     "conf": "media",
+     "why": "Línea de la casa 4,5; llegó a 5 en 4 de sus últimos 10; promedia 4,5; el mercado da 42 % a más",
      "result": "pending",
      "fact": null,
      "top": false
@@ -427,73 +436,127 @@
    "meta": "hora UTC−3 · LAL 12-2 · CHA 4-9 · Bajas: Austin Reaves, Walker Kessler, Kon Knueppel, Dennis Schroder",
    "picks": [
     {
-     "market": "Gana Lakers (cuota 1.26)",
-     "prob": 81,
+     "market": "Gana Lakers (cuota 1.35)",
+     "prob": 76,
      "conf": "alta",
-     "why": "82 % según el modelo de ESPN y 76 % según las cuotas",
-     "result": "pending",
-     "fact": null,
-     "top": false
-    },
-    {
-     "market": "Naz Reid 10+ puntos",
-     "prob": 83,
-     "conf": "alta",
-     "why": "Lo logró en 9 de sus últimos 10; promedia 16,4",
-     "result": "pending",
-     "fact": null,
-     "top": false
-    },
-    {
-     "market": "Luka Doncic 35+ puntos",
-     "prob": 75,
-     "conf": "alta",
-     "why": "Lo logró en 8 de sus últimos 10; promedia 41,7",
-     "result": "pending",
-     "fact": null,
-     "top": false
-    },
-    {
-     "market": "Luka Doncic 4+ asistencias",
-     "prob": 88,
-     "conf": "alta",
-     "why": "Lo logró en 10 de sus últimos 10; promedia 7,9",
+     "why": "80 % según el modelo de ESPN y 71 % según las cuotas",
      "result": "pending",
      "fact": null,
      "top": true
     },
     {
-     "market": "Luka Doncic 5+ triples",
-     "prob": 76,
-     "conf": "alta",
-     "why": "Lo logró en 9 de sus últimos 10; promedia 5,8",
+     "market": "Hándicap Lakers -6.5 (cuota 1.86)",
+     "prob": 55,
+     "conf": "media",
+     "why": "Diferencia esperada: Lakers +11,7 con los últimos 10 y 10 partidos",
      "result": "pending",
      "fact": null,
      "top": false
     },
     {
-     "market": "Grayson Allen 2+ triples",
+     "market": "Quentin Grimes menos de 13.5 puntos (cuota 1.84)",
+     "prob": 63,
+     "conf": "media",
+     "why": "Línea de la casa 13,5; llegó a 14 en 2 de sus últimos 10; promedia 8,7; el mercado da 49 % a más",
+     "result": "pending",
+     "fact": null,
+     "top": true
+    },
+    {
+     "market": "Luka Doncic 37+ puntos (cuota 1.85)",
+     "prob": 62,
+     "conf": "media",
+     "why": "Línea de la casa 36,5; llegó a 37 en 8 de sus últimos 10; promedia 41,7; el mercado da 51 % a más",
+     "result": "pending",
+     "fact": null,
+     "top": true
+    },
+    {
+     "market": "Naz Reid menos de 17.5 puntos (cuota 1.88)",
+     "prob": 58,
+     "conf": "media",
+     "why": "Línea de la casa 17,5; llegó a 18 en 3 de sus últimos 10; promedia 16,4; el mercado da 50 % a más",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Moussa Diabate 2+ asistencias (cuota 1.61)",
+     "prob": 63,
+     "conf": "media",
+     "why": "Línea de la casa 1,5; llegó a 2 en 7 de sus últimos 10; promedia 1,9; el mercado da 58 % a más",
+     "result": "pending",
+     "fact": null,
+     "top": true
+    },
+    {
+     "market": "Naz Reid menos de 2.5 asistencias (cuota 1.80)",
+     "prob": 59,
+     "conf": "media",
+     "why": "Línea de la casa 2,5; llegó a 3 en 3 de sus últimos 10; promedia 2,0; el mercado da 48 % a más",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Sion James menos de 3.5 asistencias (cuota 1.68)",
+     "prob": 57,
+     "conf": "media",
+     "why": "Línea de la casa 3,5; llegó a 4 en 4 de sus últimos 10; promedia 2,9; el mercado da 44 % a más",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Naz Reid menos de 2.5 triples (cuota 1.57)",
      "prob": 67,
      "conf": "alta",
-     "why": "Lo logró en 8 de sus últimos 10; promedia 3,2",
+     "why": "Línea de la casa 2,5; llegó a 3 en 2 de sus últimos 10; promedia 1,9; el mercado da 40 % a más",
+     "result": "pending",
+     "fact": null,
+     "top": true
+    },
+    {
+     "market": "Sion James menos de 1.5 triples (cuota 1.57)",
+     "prob": 63,
+     "conf": "media",
+     "why": "Línea de la casa 1,5; llegó a 2 en 3 de sus últimos 10; promedia 1,3; el mercado da 40 % a más",
+     "result": "pending",
+     "fact": null,
+     "top": true
+    },
+    {
+     "market": "Quentin Grimes menos de 1.5 triples (cuota 1.80)",
+     "prob": 63,
+     "conf": "media",
+     "why": "Línea de la casa 1,5; llegó a 2 en 2 de sus últimos 10; promedia 1,0; el mercado da 48 % a más",
+     "result": "pending",
+     "fact": null,
+     "top": true
+    },
+    {
+     "market": "Jake LaRavia menos de 4.5 rebotes (cuota 1.78)",
+     "prob": 60,
+     "conf": "media",
+     "why": "Línea de la casa 4,5; llegó a 5 en 3 de sus últimos 10; promedia 4,4; el mercado da 48 % a más",
      "result": "pending",
      "fact": null,
      "top": false
     },
     {
-     "market": "Moussa Diabate 8+ rebotes",
-     "prob": 76,
-     "conf": "alta",
-     "why": "Lo logró en 8 de sus últimos 10; promedia 9,9",
+     "market": "Brandon Miller 4+ rebotes (cuota 1.65)",
+     "prob": 58,
+     "conf": "media",
+     "why": "Línea de la casa 3,5; llegó a 4 en 6 de sus últimos 10; promedia 4,9; el mercado da 57 % a más",
      "result": "pending",
      "fact": null,
      "top": false
     },
     {
-     "market": "Naz Reid 6+ rebotes",
-     "prob": 76,
-     "conf": "alta",
-     "why": "Lo logró en 8 de sus últimos 10; promedia 8,0",
+     "market": "Grayson Allen 3+ rebotes (cuota 1.64)",
+     "prob": 58,
+     "conf": "media",
+     "why": "Línea de la casa 2,5; llegó a 3 en 6 de sus últimos 10; promedia 3,2; el mercado da 57 % a más",
      "result": "pending",
      "fact": null,
      "top": false

@@ -1,0 +1,591 @@
+{
+ "date": "2026-11-18",
+ "title": "Brazil Serie A, UEFA Women's Champions League, WSL Players Cup, Peru Liga 1 y más",
+ "note": "Goles con un modelo de Poisson sobre los últimos 10 partidos (los recientes pesan más), mezclado con las cuotas del mercado; córners y tarjetas con los últimos 6 que tienen estadísticas. Cada probabilidad se corrige con el historial de aciertos de ese mercado. Sin datos de árbitros.",
+ "matches": [
+  {
+   "comp": "Brazil Serie A",
+   "id": "401841315",
+   "time": "19:30",
+   "home": "Coritiba",
+   "away": "Santos",
+   "score": null,
+   "meta": "hora UTC−3 · últimos partidos: CFC 4G 3E 3P · SAN 2G 4E 4P",
+   "picks": [
+    {
+     "market": "Santos o empate",
+     "prob": 70,
+     "conf": "alta",
+     "why": "Coritiba: 1,2 goles a favor y 1,1 en contra; Santos: 1,0 y 1,3; el mercado da 45 % a Santos; cara a cara: SAN domina 3-1-1",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Más de 3.5 tarjetas",
+     "prob": 67,
+     "conf": "alta",
+     "why": "Se esperan 5,3 tarjetas entre los dos",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Santos saca más córners",
+     "prob": 66,
+     "conf": "alta",
+     "why": "Se esperan 11,4 córners: Coritiba 4,2 y Santos 7,2",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Más de 9.5 córners",
+     "prob": 59,
+     "conf": "media",
+     "why": "Se esperan 11,4 córners: Coritiba 4,2 y Santos 7,2",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "Brazil Serie A",
+   "id": "401841310",
+   "time": "20:00",
+   "home": "Remo",
+   "away": "Chapecoense",
+   "score": null,
+   "meta": "hora UTC−3 · últimos partidos: REMO 1G 4E 5P · CHA 1G 5E 4P",
+   "picks": [
+    {
+     "market": "Remo o empate",
+     "prob": 79,
+     "conf": "alta",
+     "why": "Remo: 1,1 goles a favor y 1,8 en contra; Chapecoense: 1,4 y 1,8; el mercado da 60 % a Remo; cara a cara: REMO domina 1-0-2",
+     "result": "pending",
+     "fact": null,
+     "top": true
+    },
+    {
+     "market": "Remo saca más córners",
+     "prob": 63,
+     "conf": "media",
+     "why": "Se esperan 11,5 córners: Remo 7,0 y Chapecoense 4,5",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Más de 3.5 tarjetas",
+     "prob": 63,
+     "conf": "media",
+     "why": "Se esperan 5,0 tarjetas entre los dos",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Más de 2.5 goles",
+     "prob": 60,
+     "conf": "media",
+     "why": "Se esperan 3,0 goles; más de 2,5 en 4 de 10 de Remo y 3 de 10 de Chapecoense",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Más de 9.5 córners",
+     "prob": 60,
+     "conf": "media",
+     "why": "Se esperan 11,5 córners: Remo 7,0 y Chapecoense 4,5",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Ambos marcan",
+     "prob": 58,
+     "conf": "media",
+     "why": "Goles esperados: Remo 1,6, Chapecoense 1,5",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "Brazil Serie A",
+   "id": "401841314",
+   "time": "20:30",
+   "home": "Cruzeiro",
+   "away": "Palmeiras",
+   "score": null,
+   "meta": "hora UTC−3 · últimos partidos: CRU 4G 1E 5P · PAL 7G 1E 2P",
+   "picks": [
+    {
+     "market": "Cruzeiro o empate",
+     "prob": 69,
+     "conf": "alta",
+     "why": "Cruzeiro: 1,6 goles a favor y 1,4 en contra; Palmeiras: 1,5 y 0,9; el mercado da 36 % a Cruzeiro; cara a cara: PAL domina 2-1-2",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Más de 2.5 goles",
+     "prob": 55,
+     "conf": "media",
+     "why": "Se esperan 2,7 goles; más de 2,5 en 7 de 10 de Cruzeiro y 5 de 10 de Palmeiras",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "Brazil Serie A",
+   "id": "401841313",
+   "time": "20:30",
+   "home": "Flamengo",
+   "away": "Athletico-PR",
+   "score": null,
+   "meta": "hora UTC−3 · últimos partidos: FLA 3G 2E 5P · CAP 5G 1E 4P",
+   "picks": [
+    {
+     "market": "Gana Flamengo",
+     "prob": 64,
+     "conf": "media",
+     "why": "Flamengo: 1,2 goles a favor y 1,6 en contra; Athletico-PR: 1,4 y 1,1; el mercado da 75 % a Flamengo; cara a cara: FLA domina 2-1-2",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Más de 2.5 goles",
+     "prob": 59,
+     "conf": "media",
+     "why": "Se esperan 3,0 goles; más de 2,5 en 6 de 10 de Flamengo y 6 de 10 de Athletico-PR",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Ambos marcan",
+     "prob": 57,
+     "conf": "media",
+     "why": "Goles esperados: Flamengo 1,4, Athletico-PR 1,6",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "Brazil Serie A",
+   "id": "401841316",
+   "time": "21:30",
+   "home": "Corinthians",
+   "away": "Botafogo",
+   "score": null,
+   "meta": "hora UTC−3 · últimos partidos: COR 5G 2E 3P · BOT 4G 0E 6P",
+   "picks": [
+    {
+     "market": "Corinthians o empate",
+     "prob": 78,
+     "conf": "alta",
+     "why": "Corinthians: 1,4 goles a favor y 0,9 en contra; Botafogo: 1,5 y 1,1; el mercado da 51 % a Corinthians; cara a cara: BOT domina 3-0-2",
+     "result": "pending",
+     "fact": null,
+     "top": true
+    }
+   ]
+  },
+  {
+   "comp": "Brazil Serie A",
+   "id": "401841312",
+   "time": "21:30",
+   "home": "Grêmio",
+   "away": "Bahia",
+   "score": null,
+   "meta": "hora UTC−3 · últimos partidos: GRE 5G 1E 4P · BAH 6G 2E 2P",
+   "picks": [
+    {
+     "market": "Grêmio o empate",
+     "prob": 77,
+     "conf": "alta",
+     "why": "Grêmio: 2,3 goles a favor y 1,1 en contra; Bahia: 1,3 y 0,9; el mercado da 42 % a Grêmio; cara a cara: BAH domina 3-1-1",
+     "result": "pending",
+     "fact": null,
+     "top": true
+    },
+    {
+     "market": "Más de 2.5 goles",
+     "prob": 57,
+     "conf": "media",
+     "why": "Se esperan 2,9 goles; más de 2,5 en 5 de 10 de Grêmio y 4 de 10 de Bahia",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "UEFA Women's Champions League",
+   "id": "401916981",
+   "time": "14:45",
+   "home": "Real Madrid",
+   "away": "Internazionale",
+   "score": null,
+   "meta": "hora UTC−3 · últimos partidos: RMA 6G 3E 1P · INT 2G 1E 3P",
+   "picks": [
+    {
+     "market": "Menos de 4.5 tarjetas",
+     "prob": 85,
+     "conf": "alta",
+     "why": "Se esperan 2,5 tarjetas entre los dos",
+     "result": "pending",
+     "fact": null,
+     "top": true
+    },
+    {
+     "market": "Gana Real Madrid",
+     "prob": 75,
+     "conf": "alta",
+     "why": "Real Madrid: 2,0 goles a favor y 1,2 en contra; Internazionale: 1,0 y 2,1; el mercado da 76 % a Real Madrid",
+     "result": "pending",
+     "fact": null,
+     "top": true
+    },
+    {
+     "market": "Real Madrid saca más córners",
+     "prob": 69,
+     "conf": "alta",
+     "why": "Se esperan 8,8 córners: Real Madrid 5,9 y Internazionale 2,9",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Más de 2.5 goles",
+     "prob": 66,
+     "conf": "alta",
+     "why": "Se esperan 3,4 goles; más de 2,5 en 5 de 10 de Real Madrid y 3 de 6 de Internazionale",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Menos de 10.5 córners",
+     "prob": 63,
+     "conf": "media",
+     "why": "Se esperan 8,8 córners: Real Madrid 5,9 y Internazionale 2,9",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Ambos marcan",
+     "prob": 57,
+     "conf": "media",
+     "why": "Goles esperados: Real Madrid 2,3, Internazionale 1,1",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "UEFA Women's Champions League",
+   "id": "401916980",
+   "time": "17:00",
+   "home": "Chelsea",
+   "away": "Paris Saint-Germain",
+   "score": null,
+   "meta": "hora UTC−3 · últimos partidos: CHE 8G 2E 0P · PSG 7G 2E 1P",
+   "picks": [
+    {
+     "market": "Menos de 4.5 tarjetas",
+     "prob": 85,
+     "conf": "alta",
+     "why": "Se esperan 2,4 tarjetas entre los dos",
+     "result": "pending",
+     "fact": null,
+     "top": true
+    },
+    {
+     "market": "Gana Chelsea",
+     "prob": 67,
+     "conf": "alta",
+     "why": "Chelsea: 2,5 goles a favor y 0,6 en contra; Paris Saint-Germain: 2,2 y 0,7; el mercado da 72 % a Chelsea; cara a cara: CHE domina 2-0",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Chelsea saca más córners",
+     "prob": 62,
+     "conf": "media",
+     "why": "Se esperan 10,1 córners: Chelsea 6,1 y Paris Saint-Germain 4,0",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Más de 2.5 goles",
+     "prob": 61,
+     "conf": "media",
+     "why": "Se esperan 3,1 goles; más de 2,5 en 4 de 10 de Chelsea y 4 de 10 de Paris Saint-Germain",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Ambos marcan",
+     "prob": 58,
+     "conf": "media",
+     "why": "Goles esperados: Chelsea 1,8, Paris Saint-Germain 1,3",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Más de 8.5 córners",
+     "prob": 57,
+     "conf": "media",
+     "why": "Se esperan 10,1 córners: Chelsea 6,1 y Paris Saint-Germain 4,0",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "UEFA Women's Champions League",
+   "id": "401916979",
+   "time": "17:00",
+   "home": "Juventus",
+   "away": "OH Leuven",
+   "score": null,
+   "meta": "hora UTC−3 · últimos partidos: JUV 5G 1E 2P · OHL 3G 3E 2P",
+   "picks": [
+    {
+     "market": "Gana Juventus",
+     "prob": 69,
+     "conf": "alta",
+     "why": "Juventus: 2,2 goles a favor y 1,3 en contra; OH Leuven: 1,9 y 1,4; el mercado da 75 % a Juventus",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Más de 2.5 goles",
+     "prob": 66,
+     "conf": "alta",
+     "why": "Se esperan 3,4 goles; más de 2,5 en 7 de 8 de Juventus y 5 de 8 de OH Leuven",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Ambos marcan",
+     "prob": 62,
+     "conf": "media",
+     "why": "Goles esperados: Juventus 2,0, OH Leuven 1,5",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "WSL Players Cup",
+   "id": "401923287",
+   "time": "16:00",
+   "home": "London City Lionesses",
+   "away": "Brighton & Hove Albion",
+   "score": null,
+   "meta": "hora UTC−3 · últimos partidos: LCL 8G 1E 1P · BHA 4G 2E 4P",
+   "picks": [
+    {
+     "market": "Menos de 4.5 tarjetas",
+     "prob": 85,
+     "conf": "alta",
+     "why": "Se esperan 2,5 tarjetas entre los dos",
+     "result": "pending",
+     "fact": null,
+     "top": true
+    },
+    {
+     "market": "London City Lionesses o empate",
+     "prob": 70,
+     "conf": "alta",
+     "why": "London City Lionesses: 2,3 goles a favor y 0,9 en contra; Brighton & Hove Albion: 1,9 y 1,2; cara a cara: LCL domina 2-1; sin cuotas del mercado",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Más de 2.5 goles",
+     "prob": 62,
+     "conf": "media",
+     "why": "Se esperan 3,2 goles; más de 2,5 en 7 de 10 de London City Lionesses y 6 de 10 de Brighton & Hove Albion",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Menos de 9.5 córners",
+     "prob": 60,
+     "conf": "media",
+     "why": "Se esperan 8,2 córners: London City Lionesses 4,5 y Brighton & Hove Albion 3,7",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Ambos marcan",
+     "prob": 58,
+     "conf": "media",
+     "why": "Goles esperados: London City Lionesses 1,9, Brighton & Hove Albion 1,3",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "WSL Players Cup",
+   "id": "401923284",
+   "time": "16:00",
+   "home": "Manchester United",
+   "away": "Everton",
+   "score": null,
+   "meta": "hora UTC−3 · últimos partidos: MAN 6G 2E 2P · EVE 6G 0E 4P",
+   "picks": [
+    {
+     "market": "Menos de 4.5 tarjetas",
+     "prob": 85,
+     "conf": "alta",
+     "why": "Se esperan 1,9 tarjetas entre los dos",
+     "result": "pending",
+     "fact": null,
+     "top": true
+    },
+    {
+     "market": "Everton saca más córners",
+     "prob": 74,
+     "conf": "alta",
+     "why": "Se esperan 7,7 córners: Manchester United 2,0 y Everton 5,8",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Manchester United o empate",
+     "prob": 69,
+     "conf": "alta",
+     "why": "Manchester United: 2,7 goles a favor y 1,8 en contra; Everton: 1,1 y 0,8; cara a cara: MAN domina 4-0-1; sin cuotas del mercado",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Menos de 9.5 córners",
+     "prob": 65,
+     "conf": "alta",
+     "why": "Se esperan 7,7 córners: Manchester United 2,0 y Everton 5,8",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Más de 2.5 goles",
+     "prob": 64,
+     "conf": "media",
+     "why": "Se esperan 3,2 goles; más de 2,5 en 7 de 10 de Manchester United y 4 de 10 de Everton",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Ambos marcan",
+     "prob": 60,
+     "conf": "media",
+     "why": "Goles esperados: Manchester United 1,9, Everton 1,3",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "Peru Liga 1",
+   "id": "401886138",
+   "time": "17:00",
+   "home": "Alianza Atlético",
+   "away": "Melgar",
+   "score": null,
+   "meta": "hora UTC−3 · últimos partidos: AAT 3G 5E 2P · MGR 3G 3E 4P",
+   "picks": [
+    {
+     "market": "Alianza Atlético o empate",
+     "prob": 76,
+     "conf": "alta",
+     "why": "Alianza Atlético: 0,9 goles a favor y 0,7 en contra; Melgar: 1,6 y 1,2; el mercado da 49 % a Alianza Atlético; cara a cara: MGR domina 3-1-1",
+     "result": "pending",
+     "fact": null,
+     "top": true
+    },
+    {
+     "market": "Más de 7.5 córners",
+     "prob": 63,
+     "conf": "media",
+     "why": "Se esperan 9,8 córners: Alianza Atlético 5,0 y Melgar 4,7",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Más de 3.5 tarjetas",
+     "prob": 61,
+     "conf": "media",
+     "why": "Se esperan 4,8 tarjetas entre los dos",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "Copa Bolivia",
+   "id": "401930226",
+   "time": "20:30",
+   "home": "Always Ready",
+   "away": "Real Potosí",
+   "score": null,
+   "meta": "hora UTC−3 · últimos partidos: CAR 5G 2E 3P · RPO 4G 4E 2P",
+   "picks": [
+    {
+     "market": "Always Ready o empate",
+     "prob": 68,
+     "conf": "alta",
+     "why": "Always Ready: 1,5 goles a favor y 0,7 en contra; Real Potosí: 1,3 y 0,8; cara a cara: CAR domina 3-1-1; sin cuotas del mercado",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Menos de 2.5 goles",
+     "prob": 60,
+     "conf": "media",
+     "why": "Se esperan 2,2 goles; más de 2,5 en 4 de 10 de Always Ready y 5 de 10 de Real Potosí",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  }
+ ]
+}

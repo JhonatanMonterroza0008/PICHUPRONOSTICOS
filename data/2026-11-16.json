@@ -794,7 +794,7 @@
    "time": "22:00",
    "home": "Canada",
    "away": "Guatemala",
-   "score": null,
+   "score": "4-1",
    "meta": "hora UTC−3 · últimos partidos: CAN 4G 5E 1P · GUA 4G 2E 4P",
    "picks": [
     {
@@ -802,8 +802,8 @@
      "prob": 72,
      "conf": "alta",
      "why": "Canada: 1,7 goles a favor y 0,3 en contra; Guatemala: 1,6 y 1,5; el mercado da 78 % a Canada; cara a cara: CAN domina 3-1-1",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "4-1",
      "top": false
     },
     {
@@ -811,8 +811,8 @@
      "prob": 61,
      "conf": "media",
      "why": "Se esperan 3,0 goles; más de 2,5 en 2 de 10 de Canada y 5 de 10 de Guatemala",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "5 goles",
      "top": false
     }
    ]
@@ -823,7 +823,7 @@
    "time": "23:00",
    "home": "New Mexico United",
    "away": "Sacramento Republic FC",
-   "score": null,
+   "score": "1-2",
    "meta": "hora UTC−3 · últimos partidos: NMU 5G 1E 4P · SAC 4G 5E 1P",
    "picks": [
     {
@@ -831,8 +831,8 @@
      "prob": 71,
      "conf": "alta",
      "why": "New Mexico United: 1,4 goles a favor y 1,9 en contra; Sacramento Republic FC: 1,4 y 0,4; el mercado da 37 % a Sacramento Republic FC; cara a cara: SAC domina 4-1",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "1-2",
      "top": false
     },
     {
@@ -840,8 +840,8 @@
      "prob": 59,
      "conf": "media",
      "why": "Se esperan 5,6 tarjetas entre los dos",
-     "result": "pending",
-     "fact": null,
+     "result": "miss",
+     "fact": "1 tarjetas",
      "top": false
     },
     {
@@ -849,8 +849,8 @@
      "prob": 56,
      "conf": "media",
      "why": "Se esperan 9,2 córners: New Mexico United 4,1 y Sacramento Republic FC 5,1",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "15 córners",
      "top": false
     }
    ]
