@@ -10,7 +10,7 @@
    "time": "21:30",
    "home": "Toronto Raptors",
    "away": "New York Knicks",
-   "score": null,
+   "score": "102-111",
    "meta": "hora UTC−3 · TOR 5-8 · NY 7-6 · Bajas: Nate Bittle, Kawhi Leonard",
    "picks": [
     {
@@ -18,8 +18,8 @@
      "prob": 65,
      "conf": "alta",
      "why": "68 % según el modelo de ESPN y 58 % según las cuotas",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "102-111",
      "top": false
     },
     {
@@ -27,8 +27,8 @@
      "prob": 56,
      "conf": "media",
      "why": "Total esperado 222; lo superaron Raptors en 9 de 10 y Knicks en 4 de 10",
-     "result": "pending",
-     "fact": null,
+     "result": "miss",
+     "fact": "213 puntos",
      "top": false
     },
     {
@@ -36,8 +36,8 @@
      "prob": 88,
      "conf": "alta",
      "why": "Lo logró en 10 de sus últimos 10; promedia 17,0",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "14 puntos",
      "top": true
     },
     {
@@ -45,8 +45,8 @@
      "prob": 83,
      "conf": "alta",
      "why": "Lo logró en 9 de sus últimos 10; promedia 27,9",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "31 puntos",
      "top": true
     },
     {
@@ -54,8 +54,8 @@
      "prob": 83,
      "conf": "alta",
      "why": "Lo logró en 9 de sus últimos 10; promedia 21,8",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "16 puntos",
      "top": true
     },
     {
@@ -63,8 +63,8 @@
      "prob": 83,
      "conf": "alta",
      "why": "Lo logró en 9 de sus últimos 10; promedia 6,6",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "5 asistencias",
      "top": true
     },
     {
@@ -72,8 +72,8 @@
      "prob": 82,
      "conf": "alta",
      "why": "Lo logró en 8 de sus últimos 9; promedia 5,0",
-     "result": "pending",
-     "fact": null,
+     "result": "miss",
+     "fact": "2 asistencias",
      "top": false
     },
     {
@@ -81,8 +81,8 @@
      "prob": 75,
      "conf": "alta",
      "why": "Lo logró en 8 de sus últimos 10; promedia 7,5",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "6 asistencias",
      "top": false
     },
     {
@@ -90,8 +90,8 @@
      "prob": 67,
      "conf": "alta",
      "why": "Lo logró en 8 de sus últimos 10; promedia 3,2",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "4 triples",
      "top": false
     },
     {
@@ -99,8 +99,8 @@
      "prob": 67,
      "conf": "alta",
      "why": "Lo logró en 8 de sus últimos 10; promedia 2,2",
-     "result": "pending",
-     "fact": null,
+     "result": "miss",
+     "fact": "1 triples",
      "top": false
     },
     {
@@ -108,8 +108,8 @@
      "prob": 85,
      "conf": "alta",
      "why": "Lo logró en 9 de sus últimos 10; promedia 14,5",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "16 rebotes",
      "top": true
     }
    ]
@@ -120,7 +120,7 @@
    "time": "22:00",
    "home": "Minnesota Timberwolves",
    "away": "Portland Trail Blazers",
-   "score": null,
+   "score": "106-105",
    "meta": "hora UTC−3 · MIN 9-4 · POR 9-3 · Bajas: Jaylen Clark, Anthony Edwards, Donte DiVincenzo, Chris Youngblood, Vit Krejci, Ja Morant",
    "picks": [
     {
@@ -128,8 +128,8 @@
      "prob": 63,
      "conf": "media",
      "why": "61 % según el modelo de ESPN",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "106-105",
      "top": false
     },
     {
@@ -137,8 +137,8 @@
      "prob": 88,
      "conf": "alta",
      "why": "Lo logró en 10 de sus últimos 10; promedia 17,5",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "22 puntos",
      "top": true
     },
     {
@@ -146,8 +146,8 @@
      "prob": 83,
      "conf": "alta",
      "why": "Lo logró en 9 de sus últimos 10; promedia 24,3",
-     "result": "pending",
-     "fact": null,
+     "result": "void",
+     "fact": "No jugó",
      "top": true
     },
     {
@@ -155,8 +155,8 @@
      "prob": 83,
      "conf": "alta",
      "why": "Lo logró en 9 de sus últimos 10; promedia 20,2",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "30 puntos",
      "top": true
     },
     {
@@ -164,8 +164,8 @@
      "prob": 83,
      "conf": "alta",
      "why": "Lo logró en 9 de sus últimos 10; promedia 6,2",
-     "result": "pending",
-     "fact": null,
+     "result": "miss",
+     "fact": "2 asistencias",
      "top": false
     },
     {
@@ -173,8 +173,8 @@
      "prob": 75,
      "conf": "alta",
      "why": "Lo logró en 8 de sus últimos 10; promedia 6,5",
-     "result": "pending",
-     "fact": null,
+     "result": "void",
+     "fact": "No jugó",
      "top": false
     },
     {
@@ -182,8 +182,8 @@
      "prob": 67,
      "conf": "alta",
      "why": "Lo logró en 8 de sus últimos 10; promedia 3,6",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "3 triples",
      "top": false
     },
     {
@@ -191,8 +191,8 @@
      "prob": 67,
      "conf": "alta",
      "why": "Lo logró en 8 de sus últimos 10; promedia 2,9",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "5 triples",
      "top": false
     },
     {
@@ -200,8 +200,8 @@
      "prob": 67,
      "conf": "alta",
      "why": "Lo logró en 8 de sus últimos 10; promedia 2,5",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "2 triples",
      "top": false
     },
     {
@@ -209,8 +209,8 @@
      "prob": 85,
      "conf": "alta",
      "why": "Lo logró en 9 de sus últimos 10; promedia 10,8",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "12 rebotes",
      "top": true
     },
     {
@@ -218,8 +218,8 @@
      "prob": 76,
      "conf": "alta",
      "why": "Lo logró en 8 de sus últimos 10; promedia 11,3",
-     "result": "pending",
-     "fact": null,
+     "result": "miss",
+     "fact": "4 rebotes",
      "top": false
     },
     {
@@ -227,8 +227,8 @@
      "prob": 76,
      "conf": "alta",
      "why": "Lo logró en 8 de sus últimos 10; promedia 6,1",
-     "result": "pending",
-     "fact": null,
+     "result": "miss",
+     "fact": "5 rebotes",
      "top": false
     }
    ]
@@ -239,7 +239,7 @@
    "time": "22:00",
    "home": "San Antonio Spurs",
    "away": "Detroit Pistons",
-   "score": null,
+   "score": "93-105",
    "meta": "hora UTC−3 · SA 12-2 · DET 8-4 · Bajas: Tobias Harris, Jayden Quaintance, Taurean Prince, Ronald Holland II, Isaiah Joe, Duncan Robinson",
    "picks": [
     {
@@ -247,8 +247,8 @@
      "prob": 78,
      "conf": "alta",
      "why": "78 % según el modelo de ESPN y 75 % según las cuotas",
-     "result": "pending",
-     "fact": null,
+     "result": "miss",
+     "fact": "93-105",
      "top": false
     },
     {
@@ -256,8 +256,8 @@
      "prob": 83,
      "conf": "alta",
      "why": "Lo logró en 9 de sus últimos 10; promedia 27,0",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "27 puntos",
      "top": false
     },
     {
@@ -265,8 +265,8 @@
      "prob": 83,
      "conf": "alta",
      "why": "Lo logró en 9 de sus últimos 10; promedia 18,3",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "20 puntos",
      "top": false
     },
     {
@@ -274,8 +274,8 @@
      "prob": 75,
      "conf": "alta",
      "why": "Lo logró en 8 de sus últimos 10; promedia 31,2",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "25 puntos",
      "top": false
     },
     {
@@ -283,8 +283,8 @@
      "prob": 83,
      "conf": "alta",
      "why": "Lo logró en 9 de sus últimos 10; promedia 7,9",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "6 asistencias",
      "top": false
     },
     {
@@ -292,8 +292,8 @@
      "prob": 75,
      "conf": "alta",
      "why": "Lo logró en 8 de sus últimos 10; promedia 5,6",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "7 asistencias",
      "top": false
     },
     {
@@ -301,8 +301,8 @@
      "prob": 75,
      "conf": "alta",
      "why": "Lo logró en 8 de sus últimos 10; promedia 5,1",
-     "result": "pending",
-     "fact": null,
+     "result": "miss",
+     "fact": "2 asistencias",
      "top": false
     },
     {
@@ -310,8 +310,8 @@
      "prob": 76,
      "conf": "alta",
      "why": "Lo logró en 8 de sus últimos 10; promedia 11,9",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "18 rebotes",
      "top": false
     },
     {
@@ -319,8 +319,8 @@
      "prob": 76,
      "conf": "alta",
      "why": "Lo logró en 8 de sus últimos 10; promedia 8,4",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "9 rebotes",
      "top": false
     }
    ]
@@ -331,7 +331,7 @@
    "time": "00:30",
    "home": "LA Clippers",
    "away": "Utah Jazz",
-   "score": null,
+   "score": "107-132",
    "meta": "hora UTC−3 · LAC 4-8 · UTAH 1-13 · Bajas: Yanic Konan Niederhauser, Brandon Ingram, Bradley Beal, Jordan Miller, Jaxson Hayes, Lauri Markkanen",
    "picks": [
     {
@@ -339,8 +339,8 @@
      "prob": 65,
      "conf": "alta",
      "why": "62 % según el modelo de ESPN y 67 % según las cuotas",
-     "result": "pending",
-     "fact": null,
+     "result": "miss",
+     "fact": "107-132",
      "top": true
     },
     {
@@ -348,8 +348,8 @@
      "prob": 61,
      "conf": "media",
      "why": "Línea de la casa 9,5; llegó a 10 en 8 de sus últimos 10; promedia 11,9; el mercado da 51 % a más",
-     "result": "pending",
-     "fact": null,
+     "result": "miss",
+     "fact": "5 puntos",
      "top": true
     },
     {
@@ -357,8 +357,8 @@
      "prob": 61,
      "conf": "media",
      "why": "Línea de la casa 6,5; llegó a 7 en 7 de sus últimos 10; promedia 7,3; el mercado da 54 % a más",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "7 asistencias",
      "top": false
     },
     {
@@ -366,8 +366,8 @@
      "prob": 60,
      "conf": "media",
      "why": "Línea de la casa 1,5; llegó a 2 en 4 de sus últimos 10; promedia 1,6; el mercado da 39 % a más",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "1 asistencias",
      "top": false
     },
     {
@@ -375,8 +375,8 @@
      "prob": 57,
      "conf": "media",
      "why": "Línea de la casa 4,5; llegó a 5 en 4 de sus últimos 10; promedia 4,3; el mercado da 45 % a más",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "2 asistencias",
      "top": false
     },
     {
@@ -384,8 +384,8 @@
      "prob": 60,
      "conf": "media",
      "why": "Línea de la casa 1,5; llegó a 2 en 3 de sus últimos 10; promedia 1,4; el mercado da 47 % a más",
-     "result": "pending",
-     "fact": null,
+     "result": "miss",
+     "fact": "4 triples",
      "top": false
     },
     {
@@ -393,8 +393,8 @@
      "prob": 55,
      "conf": "media",
      "why": "Línea de la casa 1,5; llegó a 2 en 3 de sus últimos 10; promedia 1,5; el mercado da 57 % a más",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "1 triples",
      "top": false
     },
     {
@@ -402,8 +402,8 @@
      "prob": 62,
      "conf": "media",
      "why": "Línea de la casa 4,5; llegó a 5 en 7 de sus últimos 10; promedia 6,0; el mercado da 57 % a más",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "5 rebotes",
      "top": true
     },
     {
@@ -411,8 +411,8 @@
      "prob": 59,
      "conf": "media",
      "why": "Línea de la casa 5,5; llegó a 6 en 7 de sus últimos 10; promedia 5,7; el mercado da 51 % a más",
-     "result": "pending",
-     "fact": null,
+     "result": "miss",
+     "fact": "1 rebotes",
      "top": false
     },
     {
@@ -420,8 +420,8 @@
      "prob": 58,
      "conf": "media",
      "why": "Línea de la casa 4,5; llegó a 5 en 4 de sus últimos 10; promedia 4,5; el mercado da 42 % a más",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "2 rebotes",
      "top": false
     }
    ]
@@ -432,7 +432,7 @@
    "time": "01:00",
    "home": "Los Angeles Lakers",
    "away": "Charlotte Hornets",
-   "score": null,
+   "score": "118-114",
    "meta": "hora UTC−3 · LAL 12-2 · CHA 4-9 · Bajas: Austin Reaves, Walker Kessler, Kon Knueppel, Dennis Schroder",
    "picks": [
     {
@@ -440,8 +440,8 @@
      "prob": 76,
      "conf": "alta",
      "why": "80 % según el modelo de ESPN y 71 % según las cuotas",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "118-114",
      "top": true
     },
     {
@@ -449,8 +449,8 @@
      "prob": 55,
      "conf": "media",
      "why": "Diferencia esperada: Lakers +11,7 con los últimos 10 y 10 partidos",
-     "result": "pending",
-     "fact": null,
+     "result": "miss",
+     "fact": "118-114",
      "top": false
     },
     {
@@ -458,8 +458,8 @@
      "prob": 63,
      "conf": "media",
      "why": "Línea de la casa 13,5; llegó a 14 en 2 de sus últimos 10; promedia 8,7; el mercado da 49 % a más",
-     "result": "pending",
-     "fact": null,
+     "result": "miss",
+     "fact": "47 puntos",
      "top": true
     },
     {
@@ -467,8 +467,8 @@
      "prob": 62,
      "conf": "media",
      "why": "Línea de la casa 36,5; llegó a 37 en 8 de sus últimos 10; promedia 41,7; el mercado da 51 % a más",
-     "result": "pending",
-     "fact": null,
+     "result": "miss",
+     "fact": "36 puntos",
      "top": true
     },
     {
@@ -476,8 +476,8 @@
      "prob": 58,
      "conf": "media",
      "why": "Línea de la casa 17,5; llegó a 18 en 3 de sus últimos 10; promedia 16,4; el mercado da 50 % a más",
-     "result": "pending",
-     "fact": null,
+     "result": "miss",
+     "fact": "23 puntos",
      "top": false
     },
     {
@@ -485,8 +485,8 @@
      "prob": 63,
      "conf": "media",
      "why": "Línea de la casa 1,5; llegó a 2 en 7 de sus últimos 10; promedia 1,9; el mercado da 58 % a más",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "2 asistencias",
      "top": true
     },
     {
@@ -494,8 +494,8 @@
      "prob": 59,
      "conf": "media",
      "why": "Línea de la casa 2,5; llegó a 3 en 3 de sus últimos 10; promedia 2,0; el mercado da 48 % a más",
-     "result": "pending",
-     "fact": null,
+     "result": "miss",
+     "fact": "4 asistencias",
      "top": false
     },
     {
@@ -503,8 +503,8 @@
      "prob": 57,
      "conf": "media",
      "why": "Línea de la casa 3,5; llegó a 4 en 4 de sus últimos 10; promedia 2,9; el mercado da 44 % a más",
-     "result": "pending",
-     "fact": null,
+     "result": "miss",
+     "fact": "4 asistencias",
      "top": false
     },
     {
@@ -512,8 +512,8 @@
      "prob": 67,
      "conf": "alta",
      "why": "Línea de la casa 2,5; llegó a 3 en 2 de sus últimos 10; promedia 1,9; el mercado da 40 % a más",
-     "result": "pending",
-     "fact": null,
+     "result": "miss",
+     "fact": "4 triples",
      "top": true
     },
     {
@@ -521,8 +521,8 @@
      "prob": 63,
      "conf": "media",
      "why": "Línea de la casa 1,5; llegó a 2 en 3 de sus últimos 10; promedia 1,3; el mercado da 40 % a más",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "0 triples",
      "top": true
     },
     {
@@ -530,8 +530,8 @@
      "prob": 63,
      "conf": "media",
      "why": "Línea de la casa 1,5; llegó a 2 en 2 de sus últimos 10; promedia 1,0; el mercado da 48 % a más",
-     "result": "pending",
-     "fact": null,
+     "result": "miss",
+     "fact": "10 triples",
      "top": true
     },
     {
@@ -539,8 +539,8 @@
      "prob": 60,
      "conf": "media",
      "why": "Línea de la casa 4,5; llegó a 5 en 3 de sus últimos 10; promedia 4,4; el mercado da 48 % a más",
-     "result": "pending",
-     "fact": null,
+     "result": "miss",
+     "fact": "5 rebotes",
      "top": false
     },
     {
@@ -548,8 +548,8 @@
      "prob": 58,
      "conf": "media",
      "why": "Línea de la casa 3,5; llegó a 4 en 6 de sus últimos 10; promedia 4,9; el mercado da 57 % a más",
-     "result": "pending",
-     "fact": null,
+     "result": "miss",
+     "fact": "2 rebotes",
      "top": false
     },
     {
@@ -557,8 +557,8 @@
      "prob": 58,
      "conf": "media",
      "why": "Línea de la casa 2,5; llegó a 3 en 6 de sus últimos 10; promedia 3,2; el mercado da 57 % a más",
-     "result": "pending",
-     "fact": null,
+     "result": "void",
+     "fact": "No jugó",
      "top": false
     }
    ]
