@@ -87,7 +87,7 @@
    "time": "14:45",
    "home": "Paris FC",
    "away": "HB Køge",
-   "score": null,
+   "score": "2-1",
    "meta": "hora UTC−3 · últimos partidos: PFC 5G 3E 2P · HBK 4G 2E 2P",
    "picks": [
     {
@@ -95,8 +95,8 @@
      "prob": 80,
      "conf": "alta",
      "why": "Paris FC: 2,2 goles a favor y 2,0 en contra; HB Køge: 1,9 y 1,5; el mercado da 59 % a Paris FC",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "2-1",
      "top": true
     },
     {
@@ -104,8 +104,8 @@
      "prob": 67,
      "conf": "alta",
      "why": "Se esperan 3,6 goles; más de 2,5 en 6 de 10 de Paris FC y 4 de 8 de HB Køge",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "3 goles",
      "top": true
     },
     {
@@ -113,8 +113,8 @@
      "prob": 63,
      "conf": "media",
      "why": "Goles esperados: Paris FC 1,9, HB Køge 1,7",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "2-1",
      "top": false
     }
    ]
