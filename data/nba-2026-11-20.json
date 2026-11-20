@@ -11,13 +11,13 @@
    "home": "Atlanta Hawks",
    "away": "Charlotte Hornets",
    "score": null,
-   "meta": "hora UTC−3 · ATL 9-6 · CHA 4-10 · Bajas: Asa Newell, CJ McCollum, Mouhamed Gueye, Kon Knueppel, Dennis Schroder",
+   "meta": "hora UTC−3 · ATL 9-6 · CHA 4-10 · Bajas: Jock Landale, Asa Newell, CJ McCollum, Mouhamed Gueye, Grant Williams, Grayson Allen",
    "picks": [
     {
-     "market": "Gana Hawks",
-     "prob": 72,
+     "market": "Gana Hawks (cuota 1.47)",
+     "prob": 67,
      "conf": "alta",
-     "why": "74 % según el modelo de ESPN",
+     "why": "75 % según el modelo de ESPN y 65 % según las cuotas",
      "result": "pending",
      "fact": null,
      "top": false
@@ -86,15 +86,6 @@
      "top": false
     },
     {
-     "market": "Grayson Allen 2+ triples",
-     "prob": 60,
-     "conf": "media",
-     "why": "Lo logró en 8 de sus últimos 10; promedia 3,2 · en duda por lesión",
-     "result": "pending",
-     "fact": null,
-     "top": false
-    },
-    {
      "market": "Jalen Johnson 6+ rebotes",
      "prob": 88,
      "conf": "alta",
@@ -130,13 +121,13 @@
    "home": "Brooklyn Nets",
    "away": "Orlando Magic",
    "score": null,
-   "meta": "hora UTC−3 · BKN 3-11 · ORL 6-8 · Bajas: Izaiyah Nelson, Jonathan Isaac, Noah Penda, Paolo Banchero",
+   "meta": "hora UTC−3 · BKN 3-11 · ORL 6-8 · Bajas: Grant Nelson, Izaiyah Nelson, Jonathan Isaac, Noah Penda, Paolo Banchero",
    "picks": [
     {
-     "market": "Gana Magic",
-     "prob": 64,
+     "market": "Gana Magic (cuota 1.50)",
+     "prob": 63,
      "conf": "media",
-     "why": "66 % según el modelo de ESPN",
+     "why": "66 % según el modelo de ESPN y 64 % según las cuotas",
      "result": "pending",
      "fact": null,
      "top": false
@@ -202,7 +193,7 @@
      "why": "Lo logró en 10 de sus últimos 10; promedia 3,4",
      "result": "pending",
      "fact": null,
-     "top": true
+     "top": false
     },
     {
      "market": "Desmond Bane 3+ triples",
@@ -258,13 +249,13 @@
    "home": "Cleveland Cavaliers",
    "away": "Indiana Pacers",
    "score": null,
-   "meta": "hora UTC−3 · CLE 8-8 · IND 5-10 · Bajas: Nae'Qwan Tomlin, Evan Mobley, Tyrese Haliburton, Johnny Furphy, Ben Sheppard",
+   "meta": "hora UTC−3 · CLE 8-8 · IND 5-10 · Bajas: Jaylon Tyson, Nae'Qwan Tomlin, Evan Mobley, Tyrese Haliburton, Johnny Furphy",
    "picks": [
     {
-     "market": "Gana Cavaliers",
-     "prob": 78,
+     "market": "Gana Cavaliers (cuota 1.41)",
+     "prob": 72,
      "conf": "alta",
-     "why": "81 % según el modelo de ESPN",
+     "why": "81 % según el modelo de ESPN y 68 % según las cuotas",
      "result": "pending",
      "fact": null,
      "top": false
@@ -368,13 +359,22 @@
    "home": "Detroit Pistons",
    "away": "Toronto Raptors",
    "score": null,
-   "meta": "hora UTC−3 · DET 10-4 · TOR 5-10 · Bajas: Duncan Robinson, Kawhi Leonard, Nate Bittle",
+   "meta": "hora UTC−3 · DET 10-4 · TOR 5-10 · Bajas: Taurean Prince, Ebuka Okorie, Ronald Holland II, Collin Murray-Boyles, RJ Barrett, Kawhi Leonard",
    "picks": [
     {
-     "market": "Gana Pistons",
-     "prob": 71,
+     "market": "Gana Pistons (cuota 1.34)",
+     "prob": 69,
      "conf": "alta",
-     "why": "74 % según el modelo de ESPN",
+     "why": "71 % según el modelo de ESPN y 71 % según las cuotas",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Total: más de 215.5 puntos (cuota 1.88)",
+     "prob": 58,
+     "conf": "media",
+     "why": "Total esperado 225; lo superaron Pistons en 6 de 10 y Raptors en 7 de 10",
      "result": "pending",
      "fact": null,
      "top": false
@@ -389,19 +389,19 @@
      "top": true
     },
     {
+     "market": "Duncan Robinson 10+ puntos",
+     "prob": 88,
+     "conf": "alta",
+     "why": "Lo logró en 10 de sus últimos 10; promedia 17,1",
+     "result": "pending",
+     "fact": null,
+     "top": true
+    },
+    {
      "market": "Cade Cunningham 15+ puntos",
      "prob": 75,
      "conf": "alta",
      "why": "Lo logró en 9 de sus últimos 10; promedia 27,1 · en duda por lesión",
-     "result": "pending",
-     "fact": null,
-     "top": false
-    },
-    {
-     "market": "RJ Barrett 10+ puntos",
-     "prob": 75,
-     "conf": "alta",
-     "why": "Lo logró en 9 de sus últimos 10; promedia 20,4 · en duda por lesión",
      "result": "pending",
      "fact": null,
      "top": false
@@ -429,6 +429,15 @@
      "prob": 74,
      "conf": "alta",
      "why": "Lo logró en 8 de sus últimos 10; promedia 7,2",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Duncan Robinson 2+ triples",
+     "prob": 85,
+     "conf": "alta",
+     "why": "Lo logró en 10 de sus últimos 10; promedia 3,7",
      "result": "pending",
      "fact": null,
      "top": false
@@ -463,10 +472,10 @@
    "meta": "hora UTC−3 · CHI 4-10 · WSH 5-11 · Bajas: Tobe Awaka, Caleb Wilson, Tristan Vukcevic, Reece Beekman, Justin Champagnie, Jamir Watkins",
    "picks": [
     {
-     "market": "Gana Bulls",
-     "prob": 56,
+     "market": "Gana Bulls (cuota 1.70)",
+     "prob": 55,
      "conf": "media",
-     "why": "59 % según el modelo de ESPN",
+     "why": "58 % según el modelo de ESPN y 56 % según las cuotas",
      "result": "pending",
      "fact": null,
      "top": false
@@ -570,7 +579,7 @@
    "home": "Oklahoma City Thunder",
    "away": "New Orleans Pelicans",
    "score": null,
-   "meta": "hora UTC−3 · OKC 9-6 · NO 5-11 · Bajas: Thomas Sorber, Cason Wallace, Chet Holmgren, Jalen Williams, Bennedict Mathurin, Bryce McGowens",
+   "meta": "hora UTC−3 · OKC 9-6 · NO 5-11 · Bajas: Thomas Sorber, Cason Wallace, Chet Holmgren, Jalen Williams, Bryce McGowens, Trendon Watford",
    "picks": [
     {
      "market": "Gana Thunder",
@@ -662,13 +671,13 @@
    "home": "Utah Jazz",
    "away": "Phoenix Suns",
    "score": null,
-   "meta": "hora UTC−3 · UTAH 3-13 · PHX 7-7 · Bajas: Lauri Markkanen, Jusuf Nurkic, Jaren Jackson Jr., Mark Williams",
+   "meta": "hora UTC−3 · UTAH 3-13 · PHX 7-7 · Bajas: Jusuf Nurkic, Lauri Markkanen, Jaren Jackson Jr., Mark Williams",
    "picks": [
     {
      "market": "Gana Suns",
-     "prob": 58,
+     "prob": 59,
      "conf": "media",
-     "why": "61 % según el modelo de ESPN",
+     "why": "62 % según el modelo de ESPN",
      "result": "pending",
      "fact": null,
      "top": false
@@ -748,10 +757,10 @@
    "meta": "hora UTC−3 · DEN 8-5 · HOU 12-4 · Bajas: Julian Strawther, Clint Capela",
    "picks": [
     {
-     "market": "Gana Rockets",
+     "market": "Gana Nuggets (cuota 1.82)",
      "prob": 49,
      "conf": "baja",
-     "why": "52 % según el modelo de ESPN",
+     "why": "51 % según el modelo de ESPN y 53 % según las cuotas",
      "result": "pending",
      "fact": null,
      "top": false
@@ -858,10 +867,10 @@
    "meta": "hora UTC−3 · LAL 13-3 · SAC 1-13 · Bajas: Austin Reaves, Maxime Raynaud, Ben Simmons",
    "picks": [
     {
-     "market": "Gana Lakers",
+     "market": "Gana Lakers (cuota 1.10)",
      "prob": 85,
      "conf": "alta",
-     "why": "88 % según el modelo de ESPN",
+     "why": "88 % según el modelo de ESPN y 88 % según las cuotas",
      "result": "pending",
      "fact": null,
      "top": false
