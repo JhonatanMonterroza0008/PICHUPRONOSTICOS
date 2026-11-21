@@ -67,7 +67,7 @@
    "time": "21:30",
    "home": "São Paulo",
    "away": "Fluminense",
-   "score": null,
+   "score": "0-1",
    "meta": "hora UTC−3 · últimos partidos: SAO 5G 2E 3P · FLU 8G 1E 1P",
    "picks": [
     {
@@ -75,8 +75,8 @@
      "prob": 71,
      "conf": "alta",
      "why": "São Paulo: 1,2 goles a favor y 1,5 en contra; Fluminense: 1,6 y 0,9; el mercado da 40 % a São Paulo; cara a cara: FLU domina 3-2",
-     "result": "pending",
-     "fact": null,
+     "result": "miss",
+     "fact": "0-1",
      "top": true
     }
    ]

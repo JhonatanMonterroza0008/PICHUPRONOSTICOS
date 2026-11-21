@@ -1,0 +1,620 @@
+{
+ "date": "2026-11-21",
+ "title": "English Premier League, LALIGA, LALIGA 2",
+ "note": "Goles con un modelo de Poisson sobre los últimos 10 partidos (los recientes pesan más), mezclado con las cuotas del mercado; córners y tarjetas con los últimos 6 que tienen estadísticas. Cada probabilidad se corrige con el historial de aciertos de ese mercado. Sin datos de árbitros.",
+ "matches": [
+  {
+   "comp": "English Premier League",
+   "id": "401879233",
+   "time": "09:30",
+   "home": "Manchester City",
+   "away": "Fulham",
+   "score": null,
+   "meta": "hora UTC−3 · últimos partidos: MNC 8G 1E 1P · FUL 3G 3E 4P",
+   "picks": [
+    {
+     "market": "Gana Manchester City",
+     "prob": 70,
+     "conf": "alta",
+     "why": "Manchester City: 2,1 goles a favor y 1,1 en contra; Fulham: 1,5 y 1,5; el mercado da 68 % a Manchester City; cara a cara: MNC domina 5-0",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Más de 2.5 goles",
+     "prob": 64,
+     "conf": "media",
+     "why": "Se esperan 3,3 goles; más de 2,5 en 6 de 10 de Manchester City y 6 de 10 de Fulham",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Ambos marcan",
+     "prob": 60,
+     "conf": "media",
+     "why": "Goles esperados: Manchester City 2,1, Fulham 1,3",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "English Premier League",
+   "id": "401879238",
+   "time": "12:00",
+   "home": "AFC Bournemouth",
+   "away": "Nottingham Forest",
+   "score": null,
+   "meta": "hora UTC−3 · últimos partidos: BOU 2G 4E 4P · NFO 3G 2E 5P",
+   "picks": [
+    {
+     "market": "AFC Bournemouth o empate",
+     "prob": 76,
+     "conf": "alta",
+     "why": "AFC Bournemouth: 1,6 goles a favor y 1,7 en contra; Nottingham Forest: 1,0 y 1,1; el mercado da 50 % a AFC Bournemouth; cara a cara: BOU domina 2-0-3",
+     "result": "pending",
+     "fact": null,
+     "top": true
+    },
+    {
+     "market": "Más de 3.5 tarjetas",
+     "prob": 68,
+     "conf": "alta",
+     "why": "Se esperan 5,0 tarjetas entre los dos",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Más de 7.5 córners",
+     "prob": 59,
+     "conf": "media",
+     "why": "Se esperan 9,3 córners: AFC Bournemouth 5,1 y Nottingham Forest 4,2",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "English Premier League",
+   "id": "401878756",
+   "time": "12:00",
+   "home": "Aston Villa",
+   "away": "Sunderland",
+   "score": null,
+   "meta": "hora UTC−3 · últimos partidos: AVL 3G 1E 6P · SUN 5G 1E 4P",
+   "picks": [
+    {
+     "market": "Aston Villa o empate",
+     "prob": 74,
+     "conf": "alta",
+     "why": "Aston Villa: 1,1 goles a favor y 1,9 en contra; Sunderland: 1,2 y 1,3; el mercado da 54 % a Aston Villa; cara a cara: AVL domina 3-1-1",
+     "result": "pending",
+     "fact": null,
+     "top": true
+    },
+    {
+     "market": "Más de 2.5 goles",
+     "prob": 55,
+     "conf": "media",
+     "why": "Se esperan 2,8 goles; más de 2,5 en 8 de 10 de Aston Villa y 3 de 10 de Sunderland",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Ambos marcan",
+     "prob": 55,
+     "conf": "media",
+     "why": "Goles esperados: Aston Villa 1,3, Sunderland 1,5",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "English Premier League",
+   "id": "401879236",
+   "time": "12:00",
+   "home": "Chelsea",
+   "away": "Leeds United",
+   "score": null,
+   "meta": "hora UTC−3 · últimos partidos: CHE 6G 2E 2P · LEE 6G 3E 1P",
+   "picks": [
+    {
+     "market": "Chelsea o empate",
+     "prob": 74,
+     "conf": "alta",
+     "why": "Chelsea: 2,5 goles a favor y 1,5 en contra; Leeds United: 2,0 y 1,0; el mercado da 48 % a Chelsea; cara a cara: CHE domina 3-1-1",
+     "result": "pending",
+     "fact": null,
+     "top": true
+    },
+    {
+     "market": "Más de 2.5 goles",
+     "prob": 61,
+     "conf": "media",
+     "why": "Se esperan 3,1 goles; más de 2,5 en 8 de 10 de Chelsea y 3 de 10 de Leeds United",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Ambos marcan",
+     "prob": 59,
+     "conf": "media",
+     "why": "Goles esperados: Chelsea 1,7, Leeds United 1,4",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "English Premier League",
+   "id": "401879235",
+   "time": "12:00",
+   "home": "Coventry City",
+   "away": "Crystal Palace",
+   "score": null,
+   "meta": "hora UTC−3 · últimos partidos: COV 5G 0E 5P · CRY 6G 0E 4P",
+   "picks": [
+    {
+     "market": "Coventry City o empate",
+     "prob": 68,
+     "conf": "alta",
+     "why": "Coventry City: 1,6 goles a favor y 1,6 en contra; Crystal Palace: 2,3 y 1,7; el mercado da 38 % a Coventry City; cara a cara: empatados 2-2-1",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Más de 2.5 goles",
+     "prob": 62,
+     "conf": "media",
+     "why": "Se esperan 3,2 goles; más de 2,5 en 6 de 10 de Coventry City y 9 de 10 de Crystal Palace",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Ambos marcan",
+     "prob": 61,
+     "conf": "media",
+     "why": "Goles esperados: Coventry City 1,6, Crystal Palace 1,6",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "English Premier League",
+   "id": "401878754",
+   "time": "12:00",
+   "home": "Tottenham Hotspur",
+   "away": "Ipswich Town",
+   "score": null,
+   "meta": "hora UTC−3 · últimos partidos: TOT 4G 4E 2P · IPS 6G 0E 4P",
+   "picks": [
+    {
+     "market": "Menos de 4.5 tarjetas",
+     "prob": 84,
+     "conf": "alta",
+     "why": "Se esperan 1,8 tarjetas entre los dos",
+     "result": "pending",
+     "fact": null,
+     "top": true
+    },
+    {
+     "market": "Tottenham Hotspur o empate",
+     "prob": 79,
+     "conf": "alta",
+     "why": "Tottenham Hotspur: 1,5 goles a favor y 0,8 en contra; Ipswich Town: 2,4 y 1,7; el mercado da 61 % a Tottenham Hotspur; cara a cara: IPS domina 3-2",
+     "result": "pending",
+     "fact": null,
+     "top": true
+    },
+    {
+     "market": "Más de 2.5 goles",
+     "prob": 61,
+     "conf": "media",
+     "why": "Se esperan 3,1 goles; más de 2,5 en 4 de 10 de Tottenham Hotspur y 8 de 10 de Ipswich Town",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Ambos marcan",
+     "prob": 59,
+     "conf": "media",
+     "why": "Goles esperados: Tottenham Hotspur 1,7, Ipswich Town 1,4",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Más de 7.5 córners",
+     "prob": 55,
+     "conf": "media",
+     "why": "Se esperan 8,9 córners: Tottenham Hotspur 4,7 y Ipswich Town 4,2",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "English Premier League",
+   "id": "401879232",
+   "time": "14:30",
+   "home": "Newcastle United",
+   "away": "Arsenal",
+   "score": null,
+   "meta": "hora UTC−3 · últimos partidos: NEW 4G 3E 3P · ARS 7G 1E 2P",
+   "picks": [
+    {
+     "market": "Menos de 4.5 tarjetas",
+     "prob": 84,
+     "conf": "alta",
+     "why": "Se esperan 1,8 tarjetas entre los dos",
+     "result": "pending",
+     "fact": null,
+     "top": true
+    },
+    {
+     "market": "Arsenal o empate",
+     "prob": 80,
+     "conf": "alta",
+     "why": "Newcastle United: 1,5 goles a favor y 2,0 en contra; Arsenal: 2,1 y 1,2; el mercado da 62 % a Arsenal; cara a cara: ARS domina 4-1",
+     "result": "pending",
+     "fact": null,
+     "top": true
+    },
+    {
+     "market": "Menos de 9.5 córners",
+     "prob": 63,
+     "conf": "media",
+     "why": "Se esperan 7,8 córners: Newcastle United 4,3 y Arsenal 3,5",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Más de 2.5 goles",
+     "prob": 61,
+     "conf": "media",
+     "why": "Se esperan 3,2 goles; más de 2,5 en 7 de 10 de Newcastle United y 6 de 10 de Arsenal",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Ambos marcan",
+     "prob": 59,
+     "conf": "media",
+     "why": "Goles esperados: Newcastle United 1,4, Arsenal 1,8",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "LALIGA",
+   "id": "401882806",
+   "time": "10:00",
+   "home": "Alavés",
+   "away": "Deportivo",
+   "score": null,
+   "meta": "hora UTC−3 · últimos partidos: ALA 3G 3E 4P · DEP 3G 5E 2P",
+   "picks": [
+    {
+     "market": "Alavés o empate",
+     "prob": 74,
+     "conf": "alta",
+     "why": "Alavés: 1,5 goles a favor y 1,0 en contra; Deportivo: 1,1 y 0,9; el mercado da 41 % a Alavés; cara a cara: ALA domina 3-1-1",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Menos de 5.5 tarjetas",
+     "prob": 66,
+     "conf": "alta",
+     "why": "Se esperan 4,3 tarjetas entre los dos",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Más de 8.5 córners",
+     "prob": 60,
+     "conf": "media",
+     "why": "Se esperan 10,6 córners: Alavés 5,8 y Deportivo 4,7",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "LALIGA 2",
+   "id": "401882299",
+   "time": "10:00",
+   "home": "CD Sabadell",
+   "away": "Granada",
+   "score": null,
+   "meta": "hora UTC−3 · últimos partidos: CDS 4G 5E 1P · GRA 5G 2E 3P",
+   "picks": [
+    {
+     "market": "CD Sabadell o empate",
+     "prob": 72,
+     "conf": "alta",
+     "why": "CD Sabadell: 1,4 goles a favor y 0,8 en contra; Granada: 1,7 y 1,1; el mercado da 38 % a CD Sabadell",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Menos de 9.5 córners",
+     "prob": 64,
+     "conf": "media",
+     "why": "Se esperan 7,7 córners: CD Sabadell 3,9 y Granada 3,8",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Más de 4.5 tarjetas",
+     "prob": 62,
+     "conf": "media",
+     "why": "Se esperan 5,6 tarjetas entre los dos",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "LALIGA",
+   "id": "401882799",
+   "time": "12:15",
+   "home": "Rayo Vallecano",
+   "away": "Valencia",
+   "score": null,
+   "meta": "hora UTC−3 · últimos partidos: RAY 2G 3E 5P · VAL 1G 3E 6P",
+   "picks": [
+    {
+     "market": "Rayo Vallecano o empate",
+     "prob": 75,
+     "conf": "alta",
+     "why": "Rayo Vallecano: 1,2 goles a favor y 2,4 en contra; Valencia: 0,6 y 1,7; el mercado da 49 % a Rayo Vallecano; cara a cara: RAY domina 1-0-4",
+     "result": "pending",
+     "fact": null,
+     "top": true
+    },
+    {
+     "market": "Menos de 5.5 tarjetas",
+     "prob": 69,
+     "conf": "alta",
+     "why": "Se esperan 4,1 tarjetas entre los dos",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Más de 7.5 córners",
+     "prob": 62,
+     "conf": "media",
+     "why": "Se esperan 9,7 córners: Rayo Vallecano 4,7 y Valencia 5,1",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Más de 2.5 goles",
+     "prob": 55,
+     "conf": "media",
+     "why": "Se esperan 2,8 goles; más de 2,5 en 7 de 10 de Rayo Vallecano y 5 de 10 de Valencia",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "LALIGA 2",
+   "id": "401883108",
+   "time": "12:15",
+   "home": "Real Sociedad II",
+   "away": "Cádiz",
+   "score": null,
+   "meta": "hora UTC−3 · últimos partidos: RSO2 2G 2E 6P · CAD 1G 4E 5P",
+   "picks": [
+    {
+     "market": "Real Sociedad II o empate",
+     "prob": 74,
+     "conf": "alta",
+     "why": "Real Sociedad II: 1,3 goles a favor y 1,8 en contra; Cádiz: 1,0 y 1,5; el mercado da 45 % a Real Sociedad II; cara a cara: RSO2 domina 1-0-1",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Más de 3.5 tarjetas",
+     "prob": 64,
+     "conf": "media",
+     "why": "Se esperan 4,7 tarjetas entre los dos",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Menos de 9.5 córners",
+     "prob": 60,
+     "conf": "media",
+     "why": "Se esperan 8,1 córners: Real Sociedad II 3,7 y Cádiz 4,4",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Más de 2.5 goles",
+     "prob": 55,
+     "conf": "media",
+     "why": "Se esperan 2,8 goles; más de 2,5 en 7 de 10 de Real Sociedad II y 5 de 10 de Cádiz",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "LALIGA",
+   "id": "401882797",
+   "time": "14:30",
+   "home": "Sevilla",
+   "away": "Real Betis",
+   "score": null,
+   "meta": "hora UTC−3 · últimos partidos: SEV 4G 2E 4P · BET 7G 1E 2P",
+   "picks": [
+    {
+     "market": "Real Betis o empate",
+     "prob": 70,
+     "conf": "alta",
+     "why": "Sevilla: 1,5 goles a favor y 1,6 en contra; Real Betis: 1,6 y 1,2; el mercado da 40 % a Real Betis; cara a cara: BET domina 2-1-2",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Más de 3.5 tarjetas",
+     "prob": 65,
+     "conf": "alta",
+     "why": "Se esperan 4,8 tarjetas entre los dos",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Menos de 9.5 córners",
+     "prob": 61,
+     "conf": "media",
+     "why": "Se esperan 8,0 córners: Sevilla 4,3 y Real Betis 3,6",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Más de 2.5 goles",
+     "prob": 56,
+     "conf": "media",
+     "why": "Se esperan 2,8 goles; más de 2,5 en 7 de 10 de Sevilla y 5 de 10 de Real Betis",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Ambos marcan",
+     "prob": 55,
+     "conf": "media",
+     "why": "Goles esperados: Sevilla 1,4, Real Betis 1,4",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "LALIGA 2",
+   "id": "401882301",
+   "time": "14:30",
+   "home": "Castellón",
+   "away": "Eldense",
+   "score": null,
+   "meta": "hora UTC−3 · últimos partidos: CAS 6G 3E 1P · ELD 3G 2E 5P",
+   "picks": [
+    {
+     "market": "Gana Castellón",
+     "prob": 70,
+     "conf": "alta",
+     "why": "Castellón: 1,3 goles a favor y 0,7 en contra; Eldense: 0,8 y 1,3; el mercado da 65 % a Castellón; cara a cara: CAS domina 1-0-1",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Menos de 5.5 tarjetas",
+     "prob": 65,
+     "conf": "alta",
+     "why": "Se esperan 4,5 tarjetas entre los dos",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Más de 8.5 córners",
+     "prob": 58,
+     "conf": "media",
+     "why": "Se esperan 10,3 córners: Castellón 5,1 y Eldense 5,1",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "LALIGA",
+   "id": "401882798",
+   "time": "17:00",
+   "home": "Real Madrid",
+   "away": "Celta Vigo",
+   "score": null,
+   "meta": "hora UTC−3 · últimos partidos: RMA 8G 1E 1P · CEL 1G 6E 3P",
+   "picks": [
+    {
+     "market": "Gana Real Madrid",
+     "prob": 81,
+     "conf": "alta",
+     "why": "Real Madrid: 2,5 goles a favor y 0,9 en contra; Celta Vigo: 0,8 y 0,9; el mercado da 82 % a Real Madrid; cara a cara: RMA domina 4-1",
+     "result": "pending",
+     "fact": null,
+     "top": true
+    },
+    {
+     "market": "Menos de 4.5 tarjetas",
+     "prob": 68,
+     "conf": "alta",
+     "why": "Se esperan 3,3 tarjetas entre los dos",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Menos de 9.5 córners",
+     "prob": 62,
+     "conf": "media",
+     "why": "Se esperan 7,9 córners: Real Madrid 4,6 y Celta Vigo 3,3",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Más de 2.5 goles",
+     "prob": 60,
+     "conf": "media",
+     "why": "Se esperan 3,1 goles; más de 2,5 en 8 de 10 de Real Madrid y 2 de 10 de Celta Vigo",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  }
+ ]
+}
