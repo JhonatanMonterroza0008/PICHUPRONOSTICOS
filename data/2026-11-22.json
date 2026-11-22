@@ -1,0 +1,710 @@
+{
+ "date": "2026-11-22",
+ "title": "English Premier League, LALIGA, LALIGA 2, Serie A",
+ "note": "Goles con un modelo de Poisson sobre los últimos 10 partidos (los recientes pesan más), mezclado con las cuotas del mercado; córners y tarjetas con los últimos 6 que tienen estadísticas. Cada probabilidad se corrige con el historial de aciertos de ese mercado. Sin datos de árbitros.",
+ "matches": [
+  {
+   "comp": "English Premier League",
+   "id": "401879234",
+   "time": "11:00",
+   "home": "Hull City",
+   "away": "Brighton & Hove Albion",
+   "score": null,
+   "meta": "hora UTC−3 · últimos partidos: HUL 2G 5E 3P · BHA 7G 2E 1P",
+   "picks": [
+    {
+     "market": "Menos de 4.5 tarjetas",
+     "prob": 67,
+     "conf": "alta",
+     "why": "Se esperan 3,2 tarjetas entre los dos",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Gana Brighton & Hove Albion",
+     "prob": 66,
+     "conf": "alta",
+     "why": "Hull City: 0,8 goles a favor y 0,9 en contra; Brighton & Hove Albion: 2,7 y 1,0; el mercado da 64 % a Brighton & Hove Albion; cara a cara: HUL domina 2-1-2",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Brighton & Hove Albion saca más córners",
+     "prob": 66,
+     "conf": "alta",
+     "why": "Se esperan 8,4 córners: Hull City 3,0 y Brighton & Hove Albion 5,5",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Menos de 9.5 córners",
+     "prob": 58,
+     "conf": "media",
+     "why": "Se esperan 8,4 córners: Hull City 3,0 y Brighton & Hove Albion 5,5",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "English Premier League",
+   "id": "401878755",
+   "time": "13:30",
+   "home": "Liverpool",
+   "away": "Manchester United",
+   "score": null,
+   "meta": "hora UTC−3 · últimos partidos: LIV 5G 3E 2P · MAN 4G 3E 3P",
+   "picks": [
+    {
+     "market": "Menos de 4.5 tarjetas",
+     "prob": 83,
+     "conf": "alta",
+     "why": "Se esperan 1,1 tarjetas entre los dos",
+     "result": "pending",
+     "fact": null,
+     "top": true
+    },
+    {
+     "market": "Liverpool o empate",
+     "prob": 75,
+     "conf": "alta",
+     "why": "Liverpool: 2,0 goles a favor y 1,5 en contra; Manchester United: 2,0 y 1,3; el mercado da 56 % a Liverpool; cara a cara: empatados 2-2-1",
+     "result": "pending",
+     "fact": null,
+     "top": true
+    },
+    {
+     "market": "Menos de 8.5 córners",
+     "prob": 75,
+     "conf": "alta",
+     "why": "Se esperan 5,5 córners: Liverpool 1,9 y Manchester United 3,6",
+     "result": "pending",
+     "fact": null,
+     "top": true
+    },
+    {
+     "market": "Ambos marcan",
+     "prob": 64,
+     "conf": "media",
+     "why": "Goles esperados: Liverpool 1,7, Manchester United 1,6",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Más de 2.5 goles",
+     "prob": 63,
+     "conf": "media",
+     "why": "Se esperan 3,4 goles; más de 2,5 en 6 de 10 de Liverpool y 6 de 10 de Manchester United",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "LALIGA",
+   "id": "401882804",
+   "time": "10:00",
+   "home": "Barcelona",
+   "away": "Villarreal",
+   "score": null,
+   "meta": "hora UTC−3 · últimos partidos: BAR 9G 1E 0P · VIL 4G 2E 4P",
+   "picks": [
+    {
+     "market": "Gana Barcelona",
+     "prob": 79,
+     "conf": "alta",
+     "why": "Barcelona: 3,9 goles a favor y 1,2 en contra; Villarreal: 2,0 y 1,6; el mercado da 79 % a Barcelona; cara a cara: BAR domina 3-2",
+     "result": "pending",
+     "fact": null,
+     "top": true
+    },
+    {
+     "market": "Más de 2.5 goles",
+     "prob": 76,
+     "conf": "alta",
+     "why": "Se esperan 4,5 goles; más de 2,5 en 9 de 10 de Barcelona y 9 de 10 de Villarreal",
+     "result": "pending",
+     "fact": null,
+     "top": true
+    },
+    {
+     "market": "Menos de 4.5 tarjetas",
+     "prob": 73,
+     "conf": "alta",
+     "why": "Se esperan 2,7 tarjetas entre los dos",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Ambos marcan",
+     "prob": 70,
+     "conf": "alta",
+     "why": "Goles esperados: Barcelona 3,0, Villarreal 1,5",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Más de 7.5 córners",
+     "prob": 64,
+     "conf": "media",
+     "why": "Se esperan 9,4 córners: Barcelona 4,9 y Villarreal 4,5",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "LALIGA 2",
+   "id": "401882300",
+   "time": "10:00",
+   "home": "Córdoba",
+   "away": "Real Oviedo",
+   "score": null,
+   "meta": "hora UTC−3 · últimos partidos: COR 4G 0E 6P · OVI 5G 2E 3P",
+   "picks": [
+    {
+     "market": "Más de 3.5 tarjetas",
+     "prob": 75,
+     "conf": "alta",
+     "why": "Se esperan 5,6 tarjetas entre los dos",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Córdoba o empate",
+     "prob": 69,
+     "conf": "alta",
+     "why": "Córdoba: 1,4 goles a favor y 2,3 en contra; Real Oviedo: 1,3 y 1,0; el mercado da 48 % a Córdoba; cara a cara: empatados 1-1-3",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Menos de 10.5 córners",
+     "prob": 65,
+     "conf": "alta",
+     "why": "Se esperan 8,5 córners: Córdoba 4,5 y Real Oviedo 4,1",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Ambos marcan",
+     "prob": 59,
+     "conf": "media",
+     "why": "Goles esperados: Córdoba 1,3, Real Oviedo 1,7",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Más de 2.5 goles",
+     "prob": 58,
+     "conf": "media",
+     "why": "Se esperan 3,0 goles; más de 2,5 en 9 de 10 de Córdoba y 5 de 10 de Real Oviedo",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "LALIGA",
+   "id": "401882800",
+   "time": "12:15",
+   "home": "Racing Santander",
+   "away": "Real Sociedad",
+   "score": null,
+   "meta": "hora UTC−3 · últimos partidos: RAC 3G 3E 4P · RSO 3G 1E 6P",
+   "picks": [
+    {
+     "market": "Más de 2.5 goles",
+     "prob": 68,
+     "conf": "alta",
+     "why": "Se esperan 3,7 goles; más de 2,5 en 8 de 10 de Racing Santander y 8 de 10 de Real Sociedad",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Racing Santander o empate",
+     "prob": 66,
+     "conf": "alta",
+     "why": "Racing Santander: 1,9 goles a favor y 2,1 en contra; Real Sociedad: 1,1 y 2,0; el mercado da 30 % a Racing Santander; cara a cara: RSO domina 2-0-3",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Ambos marcan",
+     "prob": 66,
+     "conf": "alta",
+     "why": "Goles esperados: Racing Santander 2,2, Real Sociedad 1,5",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Real Sociedad saca más córners",
+     "prob": 65,
+     "conf": "alta",
+     "why": "Se esperan 12,3 córners: Racing Santander 4,7 y Real Sociedad 7,6",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Menos de 5.5 tarjetas",
+     "prob": 65,
+     "conf": "alta",
+     "why": "Se esperan 4,2 tarjetas entre los dos",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Más de 10.5 córners",
+     "prob": 61,
+     "conf": "media",
+     "why": "Se esperan 12,3 córners: Racing Santander 4,7 y Real Sociedad 7,6",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "LALIGA 2",
+   "id": "401882298",
+   "time": "12:15",
+   "home": "Sporting Gijón",
+   "away": "Las Palmas",
+   "score": null,
+   "meta": "hora UTC−3 · últimos partidos: RSG 4G 1E 5P · LPA 4G 2E 4P",
+   "picks": [
+    {
+     "market": "Sporting Gijón o empate",
+     "prob": 70,
+     "conf": "alta",
+     "why": "Sporting Gijón: 1,0 goles a favor y 1,8 en contra; Las Palmas: 1,7 y 1,5; el mercado da 45 % a Sporting Gijón; cara a cara: LPA domina 3-0-2",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Menos de 4.5 tarjetas",
+     "prob": 69,
+     "conf": "alta",
+     "why": "Se esperan 3,0 tarjetas entre los dos",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Menos de 9.5 córners",
+     "prob": 63,
+     "conf": "media",
+     "why": "Se esperan 8,0 córners: Sporting Gijón 3,9 y Las Palmas 4,1",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Ambos marcan",
+     "prob": 57,
+     "conf": "media",
+     "why": "Goles esperados: Sporting Gijón 1,3, Las Palmas 1,5",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Más de 2.5 goles",
+     "prob": 55,
+     "conf": "media",
+     "why": "Se esperan 2,8 goles; más de 2,5 en 4 de 10 de Sporting Gijón y 7 de 10 de Las Palmas",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "LALIGA",
+   "id": "401882801",
+   "time": "14:30",
+   "home": "Osasuna",
+   "away": "Málaga",
+   "score": null,
+   "meta": "hora UTC−3 · últimos partidos: OSA 3G 2E 5P · MCF 1G 4E 5P",
+   "picks": [
+    {
+     "market": "Osasuna o empate",
+     "prob": 75,
+     "conf": "alta",
+     "why": "Osasuna: 0,9 goles a favor y 1,8 en contra; Málaga: 1,3 y 1,9; el mercado da 52 % a Osasuna; cara a cara: OSA domina 2-1-2",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Ambos marcan",
+     "prob": 56,
+     "conf": "media",
+     "why": "Goles esperados: Osasuna 1,4, Málaga 1,3",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "LALIGA 2",
+   "id": "401883109",
+   "time": "14:30",
+   "home": "Girona",
+   "away": "Eibar",
+   "score": null,
+   "meta": "hora UTC−3 · últimos partidos: GIR 4G 3E 3P · EIB 7G 1E 2P",
+   "picks": [
+    {
+     "market": "Girona o empate",
+     "prob": 72,
+     "conf": "alta",
+     "why": "Girona: 1,7 goles a favor y 1,8 en contra; Eibar: 1,8 y 1,0; el mercado da 52 % a Girona; cara a cara: EIB domina 4-1",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Girona saca más córners",
+     "prob": 67,
+     "conf": "alta",
+     "why": "Se esperan 8,1 córners: Girona 5,4 y Eibar 2,7",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Más de 3.5 tarjetas",
+     "prob": 65,
+     "conf": "alta",
+     "why": "Se esperan 4,6 tarjetas entre los dos",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Menos de 9.5 córners",
+     "prob": 61,
+     "conf": "media",
+     "why": "Se esperan 8,1 córners: Girona 5,4 y Eibar 2,7",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Ambos marcan",
+     "prob": 59,
+     "conf": "media",
+     "why": "Goles esperados: Girona 1,4, Eibar 1,6",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Más de 2.5 goles",
+     "prob": 57,
+     "conf": "media",
+     "why": "Se esperan 3,0 goles; más de 2,5 en 6 de 10 de Girona y 7 de 10 de Eibar",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "LALIGA 2",
+   "id": "401883304",
+   "time": "14:30",
+   "home": "RC Celta Fortuna",
+   "away": "Real Valladolid",
+   "score": null,
+   "meta": "hora UTC−3 · últimos partidos: CEL 4G 2E 4P · VLL 4G 3E 3P",
+   "picks": [
+    {
+     "market": "Más de 4.5 tarjetas",
+     "prob": 70,
+     "conf": "alta",
+     "why": "Se esperan 6,2 tarjetas entre los dos",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "RC Celta Fortuna o empate",
+     "prob": 64,
+     "conf": "media",
+     "why": "RC Celta Fortuna: 1,6 goles a favor y 1,3 en contra; Real Valladolid: 1,5 y 1,4; sin cuotas del mercado",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Menos de 9.5 córners",
+     "prob": 64,
+     "conf": "media",
+     "why": "Se esperan 7,8 córners: RC Celta Fortuna 3,6 y Real Valladolid 4,1",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Ambos marcan",
+     "prob": 58,
+     "conf": "media",
+     "why": "Goles esperados: RC Celta Fortuna 1,6, Real Valladolid 1,3",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Más de 2.5 goles",
+     "prob": 56,
+     "conf": "media",
+     "why": "Se esperan 2,9 goles; más de 2,5 en 5 de 10 de RC Celta Fortuna y 5 de 10 de Real Valladolid",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "LALIGA",
+   "id": "401882803",
+   "time": "17:00",
+   "home": "Getafe",
+   "away": "Atlético Madrid",
+   "score": null,
+   "meta": "hora UTC−3 · últimos partidos: GET 2G 3E 5P · ATM 5G 1E 4P",
+   "picks": [
+    {
+     "market": "Atlético Madrid o empate",
+     "prob": 82,
+     "conf": "alta",
+     "why": "Getafe: 0,9 goles a favor y 1,7 en contra; Atlético Madrid: 2,0 y 1,5; el mercado da 62 % a Atlético Madrid; cara a cara: ATM domina 4-1",
+     "result": "pending",
+     "fact": null,
+     "top": true
+    },
+    {
+     "market": "Menos de 8.5 córners",
+     "prob": 74,
+     "conf": "alta",
+     "why": "Se esperan 5,8 córners: Getafe 2,7 y Atlético Madrid 3,1",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Menos de 4.5 tarjetas",
+     "prob": 71,
+     "conf": "alta",
+     "why": "Se esperan 2,9 tarjetas entre los dos",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Ambos marcan",
+     "prob": 56,
+     "conf": "media",
+     "why": "Goles esperados: Getafe 1,2, Atlético Madrid 1,6",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "LALIGA 2",
+   "id": "401883111",
+   "time": "17:00",
+   "home": "Burgos",
+   "away": "Albacete",
+   "score": null,
+   "meta": "hora UTC−3 · últimos partidos: BUR 4G 3E 3P · ALB 1G 2E 7P",
+   "picks": [
+    {
+     "market": "Burgos o empate",
+     "prob": 79,
+     "conf": "alta",
+     "why": "Burgos: 1,2 goles a favor y 1,0 en contra; Albacete: 0,8 y 1,4; el mercado da 46 % a Burgos; cara a cara: BUR domina 3-2",
+     "result": "pending",
+     "fact": null,
+     "top": true
+    },
+    {
+     "market": "Menos de 5.5 tarjetas",
+     "prob": 66,
+     "conf": "alta",
+     "why": "Se esperan 4,1 tarjetas entre los dos",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Más de 8.5 córners",
+     "prob": 61,
+     "conf": "media",
+     "why": "Se esperan 10,1 córners: Burgos 4,3 y Albacete 5,8",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "Serie A",
+   "id": "401875008",
+   "time": "08:30",
+   "home": "Juventus",
+   "away": "Venezia",
+   "score": null,
+   "meta": "hora UTC−3 · últimos partidos: JUV 6G 2E 2P · VEN 2G 1E 7P",
+   "picks": [
+    {
+     "market": "Menos de 4.5 tarjetas",
+     "prob": 77,
+     "conf": "alta",
+     "why": "Se esperan 2,3 tarjetas entre los dos",
+     "result": "pending",
+     "fact": null,
+     "top": true
+    },
+    {
+     "market": "Gana Juventus",
+     "prob": 70,
+     "conf": "alta",
+     "why": "Juventus: 1,2 goles a favor y 0,4 en contra; Venezia: 1,6 y 1,9; el mercado da 69 % a Juventus; cara a cara: JUV domina 2-0-2",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Menos de 9.5 córners",
+     "prob": 58,
+     "conf": "media",
+     "why": "Se esperan 8,4 córners: Juventus 4,0 y Venezia 4,4",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "Serie A",
+   "id": "401875047",
+   "time": "11:00",
+   "home": "Bologna",
+   "away": "Udinese",
+   "score": null,
+   "meta": "hora UTC−3 · últimos partidos: BOL 2G 3E 5P · UDI 3G 2E 5P",
+   "picks": [
+    {
+     "market": "Bologna o empate",
+     "prob": 76,
+     "conf": "alta",
+     "why": "Bologna: 0,7 goles a favor y 1,2 en contra; Udinese: 1,2 y 1,4; el mercado da 55 % a Bologna; cara a cara: BOL domina 2-0-3",
+     "result": "pending",
+     "fact": null,
+     "top": true
+    },
+    {
+     "market": "Menos de 5.5 tarjetas",
+     "prob": 68,
+     "conf": "alta",
+     "why": "Se esperan 3,9 tarjetas entre los dos",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Más de 7.5 córners",
+     "prob": 67,
+     "conf": "alta",
+     "why": "Se esperan 9,9 córners: Bologna 5,6 y Udinese 4,3",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "Serie A",
+   "id": "401874960",
+   "time": "11:00",
+   "home": "Sassuolo",
+   "away": "Genoa",
+   "score": null,
+   "meta": "hora UTC−3 · últimos partidos: SAS 3G 3E 4P · GEN 3G 1E 6P",
+   "picks": [
+    {
+     "market": "Sassuolo o empate",
+     "prob": 72,
+     "conf": "alta",
+     "why": "Sassuolo: 1,9 goles a favor y 1,7 en contra; Genoa: 1,0 y 1,5; el mercado da 36 % a Sassuolo; cara a cara: GEN domina 4-0-1",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Menos de 4.5 tarjetas",
+     "prob": 72,
+     "conf": "alta",
+     "why": "Se esperan 2,8 tarjetas entre los dos",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Más de 8.5 córners",
+     "prob": 60,
+     "conf": "media",
+     "why": "Se esperan 10,0 córners: Sassuolo 4,6 y Genoa 5,4",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Ambos marcan",
+     "prob": 57,
+     "conf": "media",
+     "why": "Goles esperados: Sassuolo 1,7, Genoa 1,2",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Más de 2.5 goles",
+     "prob": 55,
+     "conf": "media",
+     "why": "Se esperan 2,9 goles; más de 2,5 en 8 de 10 de Sassuolo y 4 de 10 de Genoa",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  }
+ ]
+}
