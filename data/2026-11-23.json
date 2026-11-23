@@ -1,0 +1,683 @@
+{
+ "date": "2026-11-23",
+ "title": "English Premier League, LALIGA 2, LALIGA, Serie A y más",
+ "note": "Goles con un modelo de Poisson sobre los últimos 10 partidos (los recientes pesan más), mezclado con las cuotas del mercado; córners y tarjetas con los últimos 6 que tienen estadísticas. Cada probabilidad se corrige con el historial de aciertos de ese mercado. Sin datos de árbitros.",
+ "matches": [
+  {
+   "comp": "English Premier League",
+   "id": "401879237",
+   "time": "17:00",
+   "home": "Brentford",
+   "away": "Everton",
+   "score": null,
+   "meta": "hora UTC−3 · últimos partidos: BRE 6G 4E 0P · EVE 5G 4E 1P",
+   "picks": [
+    {
+     "market": "Menos de 4.5 tarjetas",
+     "prob": 79,
+     "conf": "alta",
+     "why": "Se esperan 2,0 tarjetas entre los dos",
+     "result": "pending",
+     "fact": null,
+     "top": true
+    },
+    {
+     "market": "Brentford o empate",
+     "prob": 78,
+     "conf": "alta",
+     "why": "Brentford: 3,5 goles a favor y 1,0 en contra; Everton: 1,7 y 1,0; el mercado da 41 % a Brentford; cara a cara: empatados 1-1-3",
+     "result": "pending",
+     "fact": null,
+     "top": true
+    },
+    {
+     "market": "Menos de 10.5 córners",
+     "prob": 65,
+     "conf": "alta",
+     "why": "Se esperan 8,5 córners: Brentford 4,6 y Everton 4,0",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Más de 2.5 goles",
+     "prob": 61,
+     "conf": "media",
+     "why": "Se esperan 3,2 goles; más de 2,5 en 8 de 10 de Brentford y 4 de 10 de Everton",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Ambos marcan",
+     "prob": 56,
+     "conf": "media",
+     "why": "Goles esperados: Brentford 2,2, Everton 1,1",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "LALIGA 2",
+   "id": "401883110",
+   "time": "16:30",
+   "home": "Ceuta",
+   "away": "Almería",
+   "score": null,
+   "meta": "hora UTC−3 · últimos partidos: CEU 2G 2E 6P · ALM 8G 0E 2P",
+   "picks": [
+    {
+     "market": "Menos de 4.5 tarjetas",
+     "prob": 69,
+     "conf": "alta",
+     "why": "Se esperan 3,0 tarjetas entre los dos",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Gana Almería",
+     "prob": 64,
+     "conf": "media",
+     "why": "Ceuta: 1,0 goles a favor y 2,3 en contra; Almería: 2,0 y 0,4; el mercado da 49 % a Almería; cara a cara: empatados 1-1",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Menos de 9.5 córners",
+     "prob": 59,
+     "conf": "media",
+     "why": "Se esperan 8,2 córners: Ceuta 4,6 y Almería 3,6",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Más de 2.5 goles",
+     "prob": 55,
+     "conf": "media",
+     "why": "Se esperan 2,8 goles; más de 2,5 en 6 de 10 de Ceuta y 4 de 10 de Almería",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "LALIGA",
+   "id": "401882802",
+   "time": "17:00",
+   "home": "Levante",
+   "away": "Elche",
+   "score": null,
+   "meta": "hora UTC−3 · últimos partidos: LEV 3G 4E 3P · ELC 2G 4E 4P",
+   "picks": [
+    {
+     "market": "Levante o empate",
+     "prob": 75,
+     "conf": "alta",
+     "why": "Levante: 1,7 goles a favor y 1,7 en contra; Elche: 1,5 y 1,8; el mercado da 44 % a Levante; cara a cara: LEV domina 3-1-1",
+     "result": "pending",
+     "fact": null,
+     "top": true
+    },
+    {
+     "market": "Menos de 4.5 tarjetas",
+     "prob": 69,
+     "conf": "alta",
+     "why": "Se esperan 3,0 tarjetas entre los dos",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Más de 7.5 córners",
+     "prob": 64,
+     "conf": "media",
+     "why": "Se esperan 9,4 córners: Levante 3,7 y Elche 5,6",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Más de 2.5 goles",
+     "prob": 61,
+     "conf": "media",
+     "why": "Se esperan 3,2 goles; más de 2,5 en 7 de 10 de Levante y 6 de 10 de Elche",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Elche saca más córners",
+     "prob": 61,
+     "conf": "media",
+     "why": "Se esperan 9,4 córners: Levante 3,7 y Elche 5,6",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Ambos marcan",
+     "prob": 60,
+     "conf": "media",
+     "why": "Goles esperados: Levante 1,8, Elche 1,4",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "Serie A",
+   "id": "401875009",
+   "time": "16:45",
+   "home": "Monza",
+   "away": "Fiorentina",
+   "score": null,
+   "meta": "hora UTC−3 · últimos partidos: MON 4G 2E 4P · FIO 4G 3E 3P",
+   "picks": [
+    {
+     "market": "Menos de 4.5 tarjetas",
+     "prob": 73,
+     "conf": "alta",
+     "why": "Se esperan 2,6 tarjetas entre los dos",
+     "result": "pending",
+     "fact": null,
+     "top": true
+    },
+    {
+     "market": "Fiorentina o empate",
+     "prob": 71,
+     "conf": "alta",
+     "why": "Monza: 2,0 goles a favor y 1,7 en contra; Fiorentina: 2,1 y 1,8; el mercado da 48 % a Fiorentina; cara a cara: empatados 2-2-1",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Más de 2.5 goles",
+     "prob": 65,
+     "conf": "alta",
+     "why": "Se esperan 3,5 goles; más de 2,5 en 7 de 10 de Monza y 8 de 10 de Fiorentina",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Ambos marcan",
+     "prob": 63,
+     "conf": "media",
+     "why": "Goles esperados: Monza 1,9, Fiorentina 1,6",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Menos de 9.5 córners",
+     "prob": 59,
+     "conf": "media",
+     "why": "Se esperan 8,3 córners: Monza 4,4 y Fiorentina 3,8",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "Brazil Serie A",
+   "id": "401841323",
+   "time": "19:30",
+   "home": "Internacional",
+   "away": "Vitória",
+   "score": null,
+   "meta": "hora UTC−3 · últimos partidos: INT 6G 1E 3P · VIT 4G 1E 5P",
+   "picks": [
+    {
+     "market": "Gana Internacional",
+     "prob": 64,
+     "conf": "media",
+     "why": "Internacional: 2,0 goles a favor y 1,0 en contra; Vitória: 1,3 y 1,7; el mercado da 57 % a Internacional; cara a cara: VIT domina 3-2",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Más de 2.5 goles",
+     "prob": 56,
+     "conf": "media",
+     "why": "Se esperan 2,9 goles; más de 2,5 en 6 de 10 de Internacional y 5 de 10 de Vitória",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "Brazil Serie A",
+   "id": "401841326",
+   "time": "20:00",
+   "home": "Botafogo",
+   "away": "São Paulo",
+   "score": null,
+   "meta": "hora UTC−3 · últimos partidos: BOT 4G 0E 6P · SAO 5G 2E 3P",
+   "picks": [
+    {
+     "market": "Botafogo o empate",
+     "prob": 76,
+     "conf": "alta",
+     "why": "Botafogo: 1,5 goles a favor y 1,1 en contra; São Paulo: 1,2 y 1,5; el mercado da 42 % a Botafogo; cara a cara: BOT domina 2-1-2",
+     "result": "pending",
+     "fact": null,
+     "top": true
+    }
+   ]
+  },
+  {
+   "comp": "Brazil Serie A",
+   "id": "401841320",
+   "time": "21:00",
+   "home": "Santos",
+   "away": "Grêmio",
+   "score": null,
+   "meta": "hora UTC−3 · últimos partidos: SAN 2G 4E 4P · GRE 5G 1E 4P",
+   "picks": [
+    {
+     "market": "Santos o empate",
+     "prob": 72,
+     "conf": "alta",
+     "why": "Santos: 1,0 goles a favor y 1,3 en contra; Grêmio: 2,3 y 1,1; el mercado da 57 % a Santos; cara a cara: GRE domina 3-1-1",
+     "result": "pending",
+     "fact": null,
+     "top": true
+    },
+    {
+     "market": "Más de 2.5 goles",
+     "prob": 57,
+     "conf": "media",
+     "why": "Se esperan 2,9 goles; más de 2,5 en 4 de 10 de Santos y 5 de 10 de Grêmio",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Ambos marcan",
+     "prob": 56,
+     "conf": "media",
+     "why": "Goles esperados: Santos 1,2, Grêmio 1,7",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "Argentine LPF",
+   "id": "401933756",
+   "time": "17:00",
+   "home": "Gimnasia La Plata",
+   "away": "Newell's Old Boys",
+   "score": null,
+   "meta": "hora UTC−3 · últimos partidos: GLP 4G 2E 4P · NOB 0G 3E 7P",
+   "picks": [
+    {
+     "market": "Gimnasia La Plata o empate",
+     "prob": 81,
+     "conf": "alta",
+     "why": "Gimnasia La Plata: 1,2 goles a favor y 1,3 en contra; Newell's Old Boys: 0,7 y 2,1; el mercado da 45 % a Gimnasia La Plata; cara a cara: GLP domina 3-1-1",
+     "result": "pending",
+     "fact": null,
+     "top": true
+    },
+    {
+     "market": "Más de 3.5 tarjetas",
+     "prob": 72,
+     "conf": "alta",
+     "why": "Se esperan 5,1 tarjetas entre los dos",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Menos de 10.5 córners",
+     "prob": 63,
+     "conf": "media",
+     "why": "Se esperan 8,7 córners: Gimnasia La Plata 4,3 y Newell's Old Boys 4,4",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "Greek Super League",
+   "id": "401896728",
+   "time": "12:00",
+   "home": "Asteras Tripoli",
+   "away": "Aris",
+   "score": null,
+   "meta": "hora UTC−3 · últimos partidos: AST 2G 3E 5P · ARI 5G 1E 4P",
+   "picks": [
+    {
+     "market": "Asteras Tripoli o empate",
+     "prob": 69,
+     "conf": "alta",
+     "why": "Asteras Tripoli: 1,2 goles a favor y 1,8 en contra; Aris: 1,6 y 2,6; el mercado da 27 % a Asteras Tripoli; cara a cara: ARI domina 3-1-1",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Menos de 5.5 tarjetas",
+     "prob": 68,
+     "conf": "alta",
+     "why": "Se esperan 3,9 tarjetas entre los dos",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Más de 7.5 córners",
+     "prob": 65,
+     "conf": "alta",
+     "why": "Se esperan 9,5 córners: Asteras Tripoli 3,7 y Aris 5,8",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Aris saca más córners",
+     "prob": 63,
+     "conf": "media",
+     "why": "Se esperan 9,5 córners: Asteras Tripoli 3,7 y Aris 5,8",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Más de 2.5 goles",
+     "prob": 58,
+     "conf": "media",
+     "why": "Se esperan 3,0 goles; más de 2,5 en 6 de 10 de Asteras Tripoli y 8 de 10 de Aris",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Ambos marcan",
+     "prob": 57,
+     "conf": "media",
+     "why": "Goles esperados: Asteras Tripoli 1,7, Aris 1,3",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "Turkish Super Lig",
+   "id": "401888370",
+   "time": "14:00",
+   "home": "Istanbul Basaksehir",
+   "away": "Çorum FK",
+   "score": null,
+   "meta": "hora UTC−3 · últimos partidos: IBFK 3G 3E 4P · COR 5G 1E 4P",
+   "picks": [
+    {
+     "market": "Istanbul Basaksehir o empate",
+     "prob": 73,
+     "conf": "alta",
+     "why": "Istanbul Basaksehir: 1,2 goles a favor y 1,5 en contra; Çorum FK: 2,0 y 1,8; el mercado da 49 % a Istanbul Basaksehir",
+     "result": "pending",
+     "fact": null,
+     "top": true
+    },
+    {
+     "market": "Más de 7.5 córners",
+     "prob": 64,
+     "conf": "media",
+     "why": "Se esperan 9,3 córners: Istanbul Basaksehir 5,8 y Çorum FK 3,5",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Istanbul Basaksehir saca más córners",
+     "prob": 64,
+     "conf": "media",
+     "why": "Se esperan 9,3 córners: Istanbul Basaksehir 5,8 y Çorum FK 3,5",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Menos de 5.5 tarjetas",
+     "prob": 61,
+     "conf": "media",
+     "why": "Se esperan 4,4 tarjetas entre los dos",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Más de 2.5 goles",
+     "prob": 60,
+     "conf": "media",
+     "why": "Se esperan 3,1 goles; más de 2,5 en 5 de 10 de Istanbul Basaksehir y 8 de 10 de Çorum FK",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Ambos marcan",
+     "prob": 60,
+     "conf": "media",
+     "why": "Goles esperados: Istanbul Basaksehir 1,6, Çorum FK 1,6",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "Danish Superliga",
+   "id": "401874538",
+   "time": "15:00",
+   "home": "Brøndby IF",
+   "away": "FC Midtjylland",
+   "score": null,
+   "meta": "hora UTC−3 · últimos partidos: BRO 4G 2E 4P · MID 7G 1E 2P",
+   "picks": [
+    {
+     "market": "Más de 3.5 tarjetas",
+     "prob": 69,
+     "conf": "alta",
+     "why": "Se esperan 4,9 tarjetas entre los dos",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Más de 8.5 córners",
+     "prob": 63,
+     "conf": "media",
+     "why": "Se esperan 10,3 córners: Brøndby IF 5,4 y FC Midtjylland 4,9",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Brøndby IF o empate",
+     "prob": 61,
+     "conf": "media",
+     "why": "Brøndby IF: 1,4 goles a favor y 1,4 en contra; FC Midtjylland: 1,6 y 1,1; cara a cara: MID domina 3-1-1; sin cuotas del mercado",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "AFC Champions League Elite",
+   "id": "401912601",
+   "time": "15:15",
+   "home": "Al Ittihad",
+   "away": "Pakhtakor",
+   "score": null,
+   "meta": "hora UTC−3 · últimos partidos: ITT 7G 3E 0P · PAK 1G 2E 2P",
+   "picks": [
+    {
+     "market": "Gana Al Ittihad",
+     "prob": 72,
+     "conf": "alta",
+     "why": "Al Ittihad: 2,1 goles a favor y 0,8 en contra; Pakhtakor: 1,5 y 1,5; el mercado da 72 % a Al Ittihad; cara a cara: ITT domina 3-0-1",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Menos de 5.5 tarjetas",
+     "prob": 66,
+     "conf": "alta",
+     "why": "Se esperan 4,0 tarjetas entre los dos",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Más de 2.5 goles",
+     "prob": 61,
+     "conf": "media",
+     "why": "Se esperan 3,2 goles; más de 2,5 en 6 de 10 de Al Ittihad y 2 de 5 de Pakhtakor",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Menos de 9.5 córners",
+     "prob": 60,
+     "conf": "media",
+     "why": "Se esperan 8,1 córners: Al Ittihad 4,1 y Pakhtakor 4,0",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Ambos marcan",
+     "prob": 57,
+     "conf": "media",
+     "why": "Goles esperados: Al Ittihad 2,1, Pakhtakor 1,1",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "Liga F",
+   "id": "401882449",
+   "time": "16:00",
+   "home": "Espanyol",
+   "away": "Valencia",
+   "score": null,
+   "meta": "hora UTC−3 · últimos partidos: ESP 4G 3E 3P · VAL 2G 0E 8P",
+   "picks": [
+    {
+     "market": "Espanyol o empate",
+     "prob": 80,
+     "conf": "alta",
+     "why": "Espanyol: 1,3 goles a favor y 1,1 en contra; Valencia: 0,7 y 2,1; el mercado da 42 % a Espanyol; cara a cara: ESP domina 2-0-1",
+     "result": "pending",
+     "fact": null,
+     "top": true
+    },
+    {
+     "market": "Menos de 4.5 tarjetas",
+     "prob": 71,
+     "conf": "alta",
+     "why": "Se esperan 2,8 tarjetas entre los dos",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Más de 7.5 córners",
+     "prob": 62,
+     "conf": "media",
+     "why": "Se esperan 9,1 córners: Espanyol 4,4 y Valencia 4,7",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "Keuken Kampioen Divisie",
+   "id": "401875836",
+   "time": "16:00",
+   "home": "Jong Ajax",
+   "away": "Jong AZ",
+   "score": null,
+   "meta": "hora UTC−3 · últimos partidos: JAJ 2G 2E 6P · JAZ 4G 1E 5P",
+   "picks": [
+    {
+     "market": "Más de 2.5 goles",
+     "prob": 71,
+     "conf": "alta",
+     "why": "Se esperan 4,0 goles; más de 2,5 en 6 de 10 de Jong Ajax y 7 de 10 de Jong AZ",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Jong AZ o empate",
+     "prob": 68,
+     "conf": "alta",
+     "why": "Jong Ajax: 1,6 goles a favor y 2,6 en contra; Jong AZ: 2,2 y 1,8; el mercado da 34 % a Jong AZ; cara a cara: JAZ domina 3-2",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Ambos marcan",
+     "prob": 68,
+     "conf": "alta",
+     "why": "Goles esperados: Jong Ajax 1,8, Jong AZ 2,2",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Más de 8.5 córners",
+     "prob": 63,
+     "conf": "media",
+     "why": "Se esperan 10,3 córners: Jong Ajax 4,1 y Jong AZ 6,2",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Jong AZ saca más córners",
+     "prob": 62,
+     "conf": "media",
+     "why": "Se esperan 10,3 córners: Jong Ajax 4,1 y Jong AZ 6,2",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Menos de 4.5 tarjetas",
+     "prob": 59,
+     "conf": "media",
+     "why": "Se esperan 3,7 tarjetas entre los dos",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  }
+ ]
+}

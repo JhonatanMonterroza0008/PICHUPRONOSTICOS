@@ -470,7 +470,7 @@
    "time": "00:00",
    "home": "Sacramento Kings",
    "away": "Boston Celtics",
-   "score": null,
+   "score": "97-96",
    "meta": "hora UTC−3 · SAC 1-13 · BOS 11-4 · Bajas: Precious Achiuwa, Maxime Raynaud, Ben Simmons",
    "picks": [
     {
@@ -478,8 +478,8 @@
      "prob": 85,
      "conf": "alta",
      "why": "90 % según el modelo de ESPN",
-     "result": "pending",
-     "fact": null,
+     "result": "miss",
+     "fact": "97-96",
      "top": true
     },
     {
@@ -487,8 +487,8 @@
      "prob": 88,
      "conf": "alta",
      "why": "Lo logró en 10 de sus últimos 10; promedia 18,8",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "13 puntos",
      "top": true
     },
     {
@@ -496,8 +496,8 @@
      "prob": 83,
      "conf": "alta",
      "why": "Lo logró en 9 de sus últimos 10; promedia 28,1",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "21 puntos",
      "top": false
     },
     {
@@ -505,8 +505,8 @@
      "prob": 75,
      "conf": "alta",
      "why": "Lo logró en 9 de sus últimos 10; promedia 25,7 · en duda por lesión",
-     "result": "pending",
-     "fact": null,
+     "result": "void",
+     "fact": "No jugó",
      "top": false
     },
     {
@@ -514,8 +514,8 @@
      "prob": 83,
      "conf": "alta",
      "why": "Lo logró en 9 de sus últimos 10; promedia 7,9",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "8 asistencias",
      "top": false
     },
     {
@@ -523,8 +523,8 @@
      "prob": 75,
      "conf": "alta",
      "why": "Lo logró en 9 de sus últimos 10; promedia 6,3 · en duda por lesión",
-     "result": "pending",
-     "fact": null,
+     "result": "void",
+     "fact": "No jugó",
      "top": false
     },
     {
@@ -532,8 +532,8 @@
      "prob": 74,
      "conf": "alta",
      "why": "Lo logró en 8 de sus últimos 10; promedia 5,4",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "4 asistencias",
      "top": false
     },
     {
@@ -541,8 +541,8 @@
      "prob": 78,
      "conf": "alta",
      "why": "Lo logró en 9 de sus últimos 10; promedia 3,9",
-     "result": "pending",
-     "fact": null,
+     "result": "miss",
+     "fact": "2 triples",
      "top": false
     },
     {
@@ -550,8 +550,8 @@
      "prob": 62,
      "conf": "media",
      "why": "Lo logró en 8 de sus últimos 10; promedia 3,0 · en duda por lesión",
-     "result": "pending",
-     "fact": null,
+     "result": "void",
+     "fact": "No jugó",
      "top": false
     },
     {
@@ -559,8 +559,8 @@
      "prob": 72,
      "conf": "alta",
      "why": "Lo logró en 8 de sus últimos 10; promedia 11,9",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "17 rebotes",
      "top": false
     },
     {
@@ -568,8 +568,8 @@
      "prob": 64,
      "conf": "media",
      "why": "Lo logró en 8 de sus últimos 10; promedia 6,8 · en duda por lesión",
-     "result": "pending",
-     "fact": null,
+     "result": "void",
+     "fact": "No jugó",
      "top": false
     }
    ]
