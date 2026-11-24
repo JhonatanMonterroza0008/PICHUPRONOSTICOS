@@ -1,0 +1,293 @@
+{
+ "date": "2026-11-24",
+ "sport": "nba",
+ "title": "NBA, 3 partidos",
+ "note": "Jugadores: líneas reales de una casa de apuestas (DraftKings, vía ESPN; en Rushbet suelen ser iguales o variar medio punto), mezclando sus últimos 10 partidos con la cuota. Si un partido aún no tiene líneas, el umbral es propio. Hándicap, total y cuotas: líneas de una casa de apuestas tomadas el día del partido. Cada probabilidad se corrige con el historial de aciertos de ese mercado.",
+ "matches": [
+  {
+   "comp": "NBA",
+   "id": "401909314",
+   "time": "21:00",
+   "home": "Orlando Magic",
+   "away": "Detroit Pistons",
+   "score": null,
+   "meta": "hora UTC−3 · ORL 7-9 · DET 10-6 · Bajas: Jonathan Isaac, Izaiyah Nelson, Noah Penda, Paolo Banchero, Ebuka Okorie, Jalen Duren",
+   "picks": [
+    {
+     "market": "Gana Pistons (cuota 1.77)",
+     "prob": 52,
+     "conf": "media",
+     "why": "53 % según el modelo de ESPN y 54 % según las cuotas",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Total: más de 213.5 puntos (cuota 1.91)",
+     "prob": 57,
+     "conf": "media",
+     "why": "Total esperado 224; lo superaron Magic en 6 de 10 y Pistons en 7 de 10",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Ausar Thompson 10+ puntos (cuota 1.76)",
+     "prob": 66,
+     "conf": "alta",
+     "why": "Línea de la casa 9,5; llegó a 10 en 8 de sus últimos 10; promedia 12,2; el mercado da 54 % a más",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Kevin Huerter menos de 2.5 triples (cuota 1.57)",
+     "prob": 63,
+     "conf": "media",
+     "why": "Línea de la casa 2,5; llegó a 3 en 3 de sus últimos 10; promedia 1,7; el mercado da 40 % a más",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Daniss Jenkins menos de 2.5 triples (cuota 1.54)",
+     "prob": 60,
+     "conf": "media",
+     "why": "Línea de la casa 2,5; llegó a 3 en 4 de sus últimos 10; promedia 2,4; el mercado da 39 % a más",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "John Collins menos de 1.5 triples (cuota 1.41)",
+     "prob": 58,
+     "conf": "media",
+     "why": "Línea de la casa 1,5; llegó a 2 en 5 de sus últimos 10; promedia 1,6; el mercado da 33 % a más",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "NBA",
+   "id": "401909315",
+   "time": "22:00",
+   "home": "Washington Wizards",
+   "away": "Boston Celtics",
+   "score": null,
+   "meta": "hora UTC−3 · WSH 7-11 · BOS 11-6 · Bajas: Tristan Vukcevic, Reece Beekman, Justin Champagnie, Jamir Watkins, Mitchell Robinson",
+   "picks": [
+    {
+     "market": "Gana Celtics (cuota 1.22)",
+     "prob": 75,
+     "conf": "alta",
+     "why": "76 % según el modelo de ESPN y 79 % según las cuotas",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Kyshawn George 10+ puntos",
+     "prob": 88,
+     "conf": "alta",
+     "why": "Lo logró en 10 de sus últimos 10; promedia 18,2",
+     "result": "pending",
+     "fact": null,
+     "top": true
+    },
+    {
+     "market": "Anthony Davis 20+ puntos",
+     "prob": 85,
+     "conf": "alta",
+     "why": "Lo logró en 9 de sus últimos 10; promedia 26,8",
+     "result": "pending",
+     "fact": null,
+     "top": true
+    },
+    {
+     "market": "Jayson Tatum 20+ puntos",
+     "prob": 85,
+     "conf": "alta",
+     "why": "Lo logró en 9 de sus últimos 10; promedia 25,8",
+     "result": "pending",
+     "fact": null,
+     "top": true
+    },
+    {
+     "market": "Trae Young 4+ asistencias",
+     "prob": 83,
+     "conf": "alta",
+     "why": "Lo logró en 9 de sus últimos 10; promedia 8,2",
+     "result": "pending",
+     "fact": null,
+     "top": true
+    },
+    {
+     "market": "Jayson Tatum 4+ asistencias",
+     "prob": 83,
+     "conf": "alta",
+     "why": "Lo logró en 9 de sus últimos 10; promedia 6,2",
+     "result": "pending",
+     "fact": null,
+     "top": true
+    },
+    {
+     "market": "Payton Pritchard 4+ asistencias",
+     "prob": 75,
+     "conf": "alta",
+     "why": "Lo logró en 8 de sus últimos 10; promedia 4,5",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Paul George 2+ triples",
+     "prob": 66,
+     "conf": "alta",
+     "why": "Lo logró en 8 de sus últimos 10; promedia 3,2",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Jayson Tatum 2+ triples",
+     "prob": 66,
+     "conf": "alta",
+     "why": "Lo logró en 8 de sus últimos 10; promedia 3,2",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Kyshawn George 2+ triples",
+     "prob": 66,
+     "conf": "alta",
+     "why": "Lo logró en 8 de sus últimos 10; promedia 3,1",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Neemias Queta 6+ rebotes",
+     "prob": 80,
+     "conf": "alta",
+     "why": "Lo logró en 9 de sus últimos 10; promedia 8,1",
+     "result": "pending",
+     "fact": null,
+     "top": true
+    },
+    {
+     "market": "Anthony Davis 8+ rebotes",
+     "prob": 72,
+     "conf": "alta",
+     "why": "Lo logró en 8 de sus últimos 10; promedia 10,4",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "AJ Dybantsa 6+ rebotes",
+     "prob": 72,
+     "conf": "alta",
+     "why": "Lo logró en 8 de sus últimos 10; promedia 7,7",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "NBA",
+   "id": "401909316",
+   "time": "00:00",
+   "home": "Denver Nuggets",
+   "away": "Dallas Mavericks",
+   "score": null,
+   "meta": "hora UTC−3 · DEN 10-5 · DAL 10-7 · Bajas: Tobi Lawal, Dereck Lively II, Sergio de Larrea, Tarik Biberovic",
+   "picks": [
+    {
+     "market": "Gana Nuggets (cuota 1.31)",
+     "prob": 69,
+     "conf": "alta",
+     "why": "70 % según el modelo de ESPN y 73 % según las cuotas",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Cooper Flagg 15+ puntos",
+     "prob": 85,
+     "conf": "alta",
+     "why": "Lo logró en 9 de sus últimos 10; promedia 23,8",
+     "result": "pending",
+     "fact": null,
+     "top": true
+    },
+    {
+     "market": "Nikola Jokic 25+ puntos",
+     "prob": 76,
+     "conf": "alta",
+     "why": "Lo logró en 8 de sus últimos 10; promedia 27,0",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Jamal Murray 15+ puntos",
+     "prob": 76,
+     "conf": "alta",
+     "why": "Lo logró en 8 de sus últimos 10; promedia 26,4",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Nikola Jokic 8+ asistencias",
+     "prob": 83,
+     "conf": "alta",
+     "why": "Lo logró en 9 de sus últimos 10; promedia 9,2",
+     "result": "pending",
+     "fact": null,
+     "top": true
+    },
+    {
+     "market": "Cooper Flagg 4+ asistencias",
+     "prob": 83,
+     "conf": "alta",
+     "why": "Lo logró en 9 de sus últimos 10; promedia 6,3",
+     "result": "pending",
+     "fact": null,
+     "top": true
+    },
+    {
+     "market": "Kyrie Irving 4+ asistencias",
+     "prob": 83,
+     "conf": "alta",
+     "why": "Lo logró en 9 de sus últimos 10; promedia 5,0",
+     "result": "pending",
+     "fact": null,
+     "top": true
+    },
+    {
+     "market": "Kyrie Irving 2+ triples",
+     "prob": 66,
+     "conf": "alta",
+     "why": "Lo logró en 8 de sus últimos 10; promedia 3,6",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Nikola Jokic 8+ rebotes",
+     "prob": 80,
+     "conf": "alta",
+     "why": "Lo logró en 9 de sus últimos 10; promedia 11,5",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  }
+ ]
+}

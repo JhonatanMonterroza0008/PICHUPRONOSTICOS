@@ -1,0 +1,755 @@
+{
+ "date": "2026-11-24",
+ "title": "UEFA Champions League, Brazil Serie A, Colombian Primera A, EFL Championship",
+ "note": "Goles con un modelo de Poisson sobre los últimos 10 partidos (los recientes pesan más), mezclado con las cuotas del mercado; córners y tarjetas con los últimos 6 que tienen estadísticas. Cada probabilidad se corrige con el historial de aciertos de ese mercado. Sin datos de árbitros.",
+ "matches": [
+  {
+   "comp": "UEFA Champions League",
+   "id": "401915380",
+   "time": "14:45",
+   "home": "Bodo/Glimt",
+   "away": "LASK Linz",
+   "score": null,
+   "meta": "hora UTC−3 · últimos partidos: BODO 7G 1E 2P · LAS 6G 0E 4P",
+   "picks": [
+    {
+     "market": "Bodo/Glimt o empate",
+     "prob": 79,
+     "conf": "alta",
+     "why": "Bodo/Glimt: 2,3 goles a favor y 1,1 en contra; LASK Linz: 2,2 y 1,1; el mercado da 64 % a Bodo/Glimt",
+     "result": "pending",
+     "fact": null,
+     "top": true
+    },
+    {
+     "market": "Menos de 4.5 tarjetas",
+     "prob": 79,
+     "conf": "alta",
+     "why": "Se esperan 2,0 tarjetas entre los dos",
+     "result": "pending",
+     "fact": null,
+     "top": true
+    },
+    {
+     "market": "Más de 2.5 goles",
+     "prob": 66,
+     "conf": "alta",
+     "why": "Se esperan 3,6 goles; más de 2,5 en 7 de 10 de Bodo/Glimt y 8 de 10 de LASK Linz",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Ambos marcan",
+     "prob": 62,
+     "conf": "media",
+     "why": "Goles esperados: Bodo/Glimt 2,0, LASK Linz 1,6",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Bodo/Glimt saca más córners",
+     "prob": 61,
+     "conf": "media",
+     "why": "Se esperan 10,0 córners: Bodo/Glimt 5,9 y LASK Linz 4,1",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Más de 8.5 córners",
+     "prob": 59,
+     "conf": "media",
+     "why": "Se esperan 10,0 córners: Bodo/Glimt 5,9 y LASK Linz 4,1",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "UEFA Champions League",
+   "id": "401915300",
+   "time": "14:45",
+   "home": "Galatasaray",
+   "away": "Aston Villa",
+   "score": null,
+   "meta": "hora UTC−3 · últimos partidos: GAL 4G 2E 4P · AVL 3G 1E 6P",
+   "picks": [
+    {
+     "market": "Menos de 4.5 tarjetas",
+     "prob": 74,
+     "conf": "alta",
+     "why": "Se esperan 2,5 tarjetas entre los dos",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Galatasaray o empate",
+     "prob": 69,
+     "conf": "alta",
+     "why": "Galatasaray: 2,2 goles a favor y 2,0 en contra; Aston Villa: 1,1 y 1,9; el mercado da 32 % a Galatasaray",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Más de 2.5 goles",
+     "prob": 66,
+     "conf": "alta",
+     "why": "Se esperan 3,6 goles; más de 2,5 en 9 de 10 de Galatasaray y 8 de 10 de Aston Villa",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Ambos marcan",
+     "prob": 60,
+     "conf": "media",
+     "why": "Goles esperados: Galatasaray 2,2, Aston Villa 1,4",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Menos de 8.5 córners",
+     "prob": 55,
+     "conf": "media",
+     "why": "Se esperan 7,5 córners: Galatasaray 4,3 y Aston Villa 3,2",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "UEFA Champions League",
+   "id": "401915295",
+   "time": "17:00",
+   "home": "Arsenal",
+   "away": "Borussia Dortmund",
+   "score": null,
+   "meta": "hora UTC−3 · últimos partidos: ARS 7G 1E 2P · DOR 6G 1E 3P",
+   "picks": [
+    {
+     "market": "Menos de 4.5 tarjetas",
+     "prob": 80,
+     "conf": "alta",
+     "why": "Se esperan 1,7 tarjetas entre los dos",
+     "result": "pending",
+     "fact": null,
+     "top": true
+    },
+    {
+     "market": "Gana Arsenal",
+     "prob": 64,
+     "conf": "media",
+     "why": "Arsenal: 2,1 goles a favor y 1,2 en contra; Borussia Dortmund: 1,9 y 1,2; el mercado da 68 % a Arsenal; cara a cara: ARS domina 3-2",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Menos de 10.5 córners",
+     "prob": 60,
+     "conf": "media",
+     "why": "Se esperan 8,8 córners: Arsenal 4,8 y Borussia Dortmund 4,0",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Más de 2.5 goles",
+     "prob": 59,
+     "conf": "media",
+     "why": "Se esperan 3,1 goles; más de 2,5 en 6 de 10 de Arsenal y 7 de 10 de Borussia Dortmund",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Ambos marcan",
+     "prob": 56,
+     "conf": "media",
+     "why": "Goles esperados: Arsenal 1,8, Borussia Dortmund 1,4",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "UEFA Champions League",
+   "id": "401915296",
+   "time": "17:00",
+   "home": "Como",
+   "away": "AEK Athens",
+   "score": null,
+   "meta": "hora UTC−3 · últimos partidos: COMO 4G 4E 2P · AEK 6G 3E 1P",
+   "picks": [
+    {
+     "market": "Menos de 4.5 tarjetas",
+     "prob": 79,
+     "conf": "alta",
+     "why": "Se esperan 1,9 tarjetas entre los dos",
+     "result": "pending",
+     "fact": null,
+     "top": true
+    },
+    {
+     "market": "Como o empate",
+     "prob": 75,
+     "conf": "alta",
+     "why": "Como: 1,3 goles a favor y 1,0 en contra; AEK Athens: 2,2 y 0,4; el mercado da 76 % a Como",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Menos de 8.5 córners",
+     "prob": 59,
+     "conf": "media",
+     "why": "Se esperan 7,2 córners: Como 3,4 y AEK Athens 3,8",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Más de 2.5 goles",
+     "prob": 58,
+     "conf": "media",
+     "why": "Se esperan 3,1 goles; más de 2,5 en 4 de 10 de Como y 6 de 10 de AEK Athens",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "UEFA Champions League",
+   "id": "401915294",
+   "time": "17:00",
+   "home": "Feyenoord Rotterdam",
+   "away": "FC Porto",
+   "score": null,
+   "meta": "hora UTC−3 · últimos partidos: FEY 7G 2E 1P · FCP 8G 0E 2P",
+   "picks": [
+    {
+     "market": "Menos de 4.5 tarjetas",
+     "prob": 82,
+     "conf": "alta",
+     "why": "Se esperan 1,0 tarjetas entre los dos",
+     "result": "pending",
+     "fact": null,
+     "top": true
+    },
+    {
+     "market": "FC Porto o empate",
+     "prob": 67,
+     "conf": "alta",
+     "why": "Feyenoord Rotterdam: 2,7 goles a favor y 1,3 en contra; FC Porto: 2,2 y 0,6; el mercado da 42 % a FC Porto; cara a cara: empatados 1-1",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Más de 7.5 córners",
+     "prob": 64,
+     "conf": "media",
+     "why": "Se esperan 9,6 córners: Feyenoord Rotterdam 4,5 y FC Porto 5,2",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Más de 2.5 goles",
+     "prob": 61,
+     "conf": "media",
+     "why": "Se esperan 3,3 goles; más de 2,5 en 9 de 10 de Feyenoord Rotterdam y 6 de 10 de FC Porto",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Ambos marcan",
+     "prob": 58,
+     "conf": "media",
+     "why": "Goles esperados: Feyenoord Rotterdam 1,7, FC Porto 1,5",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "UEFA Champions League",
+   "id": "401915379",
+   "time": "17:00",
+   "home": "Manchester City",
+   "away": "Napoli",
+   "score": null,
+   "meta": "hora UTC−3 · últimos partidos: MNC 8G 1E 1P · NAP 4G 2E 4P",
+   "picks": [
+    {
+     "market": "Menos de 4.5 tarjetas",
+     "prob": 72,
+     "conf": "alta",
+     "why": "Se esperan 2,7 tarjetas entre los dos",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Manchester City saca más córners",
+     "prob": 70,
+     "conf": "alta",
+     "why": "Se esperan 9,6 córners: Manchester City 6,3 y Napoli 3,3",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Gana Manchester City",
+     "prob": 68,
+     "conf": "alta",
+     "why": "Manchester City: 2,1 goles a favor y 1,1 en contra; Napoli: 2,0 y 1,3; el mercado da 73 % a Manchester City; cara a cara: MNC domina 3-1-1",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Más de 2.5 goles",
+     "prob": 65,
+     "conf": "alta",
+     "why": "Se esperan 3,5 goles; más de 2,5 en 6 de 10 de Manchester City y 5 de 10 de Napoli",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Más de 7.5 córners",
+     "prob": 64,
+     "conf": "media",
+     "why": "Se esperan 9,6 córners: Manchester City 6,3 y Napoli 3,3",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Ambos marcan",
+     "prob": 60,
+     "conf": "media",
+     "why": "Goles esperados: Manchester City 2,0, Napoli 1,5",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "UEFA Champions League",
+   "id": "401915299",
+   "time": "17:00",
+   "home": "RB Leipzig",
+   "away": "Lens",
+   "score": null,
+   "meta": "hora UTC−3 · últimos partidos: RBL 5G 0E 5P · RCL 5G 1E 4P",
+   "picks": [
+    {
+     "market": "Menos de 4.5 tarjetas",
+     "prob": 75,
+     "conf": "alta",
+     "why": "Se esperan 2,5 tarjetas entre los dos",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Gana RB Leipzig",
+     "prob": 66,
+     "conf": "alta",
+     "why": "RB Leipzig: 2,2 goles a favor y 1,6 en contra; Lens: 1,6 y 1,4; el mercado da 69 % a RB Leipzig",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Más de 2.5 goles",
+     "prob": 66,
+     "conf": "alta",
+     "why": "Se esperan 3,6 goles; más de 2,5 en 7 de 10 de RB Leipzig y 6 de 10 de Lens",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Menos de 10.5 córners",
+     "prob": 63,
+     "conf": "media",
+     "why": "Se esperan 8,5 córners: RB Leipzig 4,7 y Lens 3,8",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Ambos marcan",
+     "prob": 61,
+     "conf": "media",
+     "why": "Goles esperados: RB Leipzig 2,1, Lens 1,5",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "UEFA Champions League",
+   "id": "401915298",
+   "time": "17:00",
+   "home": "Real Madrid",
+   "away": "PSV Eindhoven",
+   "score": null,
+   "meta": "hora UTC−3 · últimos partidos: RMA 8G 1E 1P · PSV 6G 2E 2P",
+   "picks": [
+    {
+     "market": "Menos de 4.5 tarjetas",
+     "prob": 76,
+     "conf": "alta",
+     "why": "Se esperan 2,4 tarjetas entre los dos",
+     "result": "pending",
+     "fact": null,
+     "top": true
+    },
+    {
+     "market": "Más de 2.5 goles",
+     "prob": 74,
+     "conf": "alta",
+     "why": "Se esperan 4,4 goles; más de 2,5 en 8 de 10 de Real Madrid y 10 de 10 de PSV Eindhoven",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Gana Real Madrid",
+     "prob": 73,
+     "conf": "alta",
+     "why": "Real Madrid: 2,5 goles a favor y 0,9 en contra; PSV Eindhoven: 3,0 y 2,0; el mercado da 82 % a Real Madrid",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Ambos marcan",
+     "prob": 68,
+     "conf": "alta",
+     "why": "Goles esperados: Real Madrid 2,5, PSV Eindhoven 1,9",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Menos de 8.5 córners",
+     "prob": 61,
+     "conf": "media",
+     "why": "Se esperan 6,9 córners: Real Madrid 3,0 y PSV Eindhoven 3,9",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "UEFA Champions League",
+   "id": "401915297",
+   "time": "17:00",
+   "home": "Slovan Bratislava",
+   "away": "Real Betis",
+   "score": null,
+   "meta": "hora UTC−3 · últimos partidos: SLB 4G 2E 4P · BET 7G 1E 2P",
+   "picks": [
+    {
+     "market": "Menos de 8.5 córners",
+     "prob": 73,
+     "conf": "alta",
+     "why": "Se esperan 5,5 córners: Slovan Bratislava 3,4 y Real Betis 2,1",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Gana Real Betis",
+     "prob": 67,
+     "conf": "alta",
+     "why": "Slovan Bratislava: 1,3 goles a favor y 1,6 en contra; Real Betis: 1,6 y 1,2; el mercado da 76 % a Real Betis",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Menos de 4.5 tarjetas",
+     "prob": 66,
+     "conf": "alta",
+     "why": "Se esperan 3,2 tarjetas entre los dos",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Más de 2.5 goles",
+     "prob": 61,
+     "conf": "media",
+     "why": "Se esperan 3,2 goles; más de 2,5 en 6 de 10 de Slovan Bratislava y 5 de 10 de Real Betis",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Ambos marcan",
+     "prob": 58,
+     "conf": "media",
+     "why": "Goles esperados: Slovan Bratislava 1,6, Real Betis 1,7",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "Brazil Serie A",
+   "id": "401841335",
+   "time": "18:00",
+   "home": "Chapecoense",
+   "away": "Palmeiras",
+   "score": null,
+   "meta": "hora UTC−3 · últimos partidos: CHA 1G 5E 4P · PAL 7G 1E 2P",
+   "picks": [
+    {
+     "market": "Palmeiras o empate",
+     "prob": 72,
+     "conf": "alta",
+     "why": "Chapecoense: 1,4 goles a favor y 1,8 en contra; Palmeiras: 1,5 y 0,9; el mercado da 41 % a Palmeiras; cara a cara: PAL domina 5-0",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Palmeiras saca más córners",
+     "prob": 69,
+     "conf": "alta",
+     "why": "Se esperan 12,0 córners: Chapecoense 4,3 y Palmeiras 7,7",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Más de 9.5 córners",
+     "prob": 65,
+     "conf": "alta",
+     "why": "Se esperan 12,0 córners: Chapecoense 4,3 y Palmeiras 7,7",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Menos de 4.5 tarjetas",
+     "prob": 58,
+     "conf": "media",
+     "why": "Se esperan 3,8 tarjetas entre los dos",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "Colombian Primera A",
+   "id": "401934688",
+   "time": "20:20",
+   "home": "Millonarios",
+   "away": "Atlético Bucaramanga",
+   "score": null,
+   "meta": "hora UTC−3 · últimos partidos: MIL 2G 3E 5P · BUC 4G 5E 1P",
+   "picks": [
+    {
+     "market": "Más de 3.5 tarjetas",
+     "prob": 76,
+     "conf": "alta",
+     "why": "Se esperan 5,6 tarjetas entre los dos",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Millonarios o empate",
+     "prob": 73,
+     "conf": "alta",
+     "why": "Millonarios: 0,6 goles a favor y 1,1 en contra; Atlético Bucaramanga: 1,7 y 0,8; el mercado da 61 % a Millonarios; cara a cara: BUC domina 2-1-2",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Atlético Bucaramanga saca más córners",
+     "prob": 66,
+     "conf": "alta",
+     "why": "Se esperan 6,8 córners: Millonarios 2,3 y Atlético Bucaramanga 4,5",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Menos de 8.5 córners",
+     "prob": 63,
+     "conf": "media",
+     "why": "Se esperan 6,8 córners: Millonarios 2,3 y Atlético Bucaramanga 4,5",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Menos de 2.5 goles",
+     "prob": 55,
+     "conf": "media",
+     "why": "Se esperan 2,3 goles; más de 2,5 en 5 de 10 de Millonarios y 6 de 10 de Atlético Bucaramanga",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "Colombian Primera A",
+   "id": "401934706",
+   "time": "22:30",
+   "home": "América de Cali",
+   "away": "Deportivo Cali",
+   "score": null,
+   "meta": "hora UTC−3 · últimos partidos: AME 6G 1E 3P · DCI 3G 3E 4P",
+   "picks": [
+    {
+     "market": "América de Cali o empate",
+     "prob": 79,
+     "conf": "alta",
+     "why": "América de Cali: 1,6 goles a favor y 0,7 en contra; Deportivo Cali: 1,2 y 1,0; el mercado da 46 % a América de Cali; cara a cara: AME domina 2-1-2",
+     "result": "pending",
+     "fact": null,
+     "top": true
+    },
+    {
+     "market": "Más de 4.5 tarjetas",
+     "prob": 79,
+     "conf": "alta",
+     "why": "Se esperan 7,2 tarjetas entre los dos",
+     "result": "pending",
+     "fact": null,
+     "top": true
+    },
+    {
+     "market": "Menos de 8.5 córners",
+     "prob": 62,
+     "conf": "media",
+     "why": "Se esperan 6,8 córners: América de Cali 3,0 y Deportivo Cali 3,9",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "EFL Championship",
+   "id": "401880148",
+   "time": "16:45",
+   "home": "Bristol City",
+   "away": "Wrexham",
+   "score": null,
+   "meta": "hora UTC−3 · últimos partidos: BRC 5G 1E 4P · WXM 3G 3E 4P",
+   "picks": [
+    {
+     "market": "Menos de 4.5 tarjetas",
+     "prob": 77,
+     "conf": "alta",
+     "why": "Se esperan 2,2 tarjetas entre los dos",
+     "result": "pending",
+     "fact": null,
+     "top": true
+    },
+    {
+     "market": "Bristol City o empate",
+     "prob": 73,
+     "conf": "alta",
+     "why": "Bristol City: 1,6 goles a favor y 1,4 en contra; Wrexham: 1,0 y 0,9; el mercado da 40 % a Bristol City; cara a cara: BRC domina 3-1-1",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Más de 9.5 córners",
+     "prob": 61,
+     "conf": "media",
+     "why": "Se esperan 11,4 córners: Bristol City 5,1 y Wrexham 6,3",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "EFL Championship",
+   "id": "401880147",
+   "time": "16:45",
+   "home": "Cardiff City",
+   "away": "Preston North End",
+   "score": null,
+   "meta": "hora UTC−3 · últimos partidos: CAR 2G 4E 4P · PNE 1G 2E 7P",
+   "picks": [
+    {
+     "market": "Gana Cardiff City",
+     "prob": 66,
+     "conf": "alta",
+     "why": "Cardiff City: 1,9 goles a favor y 1,6 en contra; Preston North End: 0,9 y 2,0; el mercado da 62 % a Cardiff City; cara a cara: PNE domina 3-1-1",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Menos de 4.5 tarjetas",
+     "prob": 64,
+     "conf": "media",
+     "why": "Se esperan 3,3 tarjetas entre los dos",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Más de 2.5 goles",
+     "prob": 62,
+     "conf": "media",
+     "why": "Se esperan 3,3 goles; más de 2,5 en 6 de 10 de Cardiff City y 7 de 10 de Preston North End",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Más de 9.5 córners",
+     "prob": 58,
+     "conf": "media",
+     "why": "Se esperan 11,0 córners: Cardiff City 6,3 y Preston North End 4,7",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Ambos marcan",
+     "prob": 55,
+     "conf": "media",
+     "why": "Goles esperados: Cardiff City 2,2, Preston North End 1,2",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  }
+ ]
+}
