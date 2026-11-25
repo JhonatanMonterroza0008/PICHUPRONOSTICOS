@@ -728,7 +728,7 @@
    "time": "00:00",
    "home": "Los Angeles Lakers",
    "away": "Utah Jazz",
-   "score": null,
+   "score": "109-94",
    "meta": "hora UTC−3 · LAL 14-3 · UTAH 3-15 · Bajas: Austin Reaves, Jaxson Hayes, Jusuf Nurkic, Lauri Markkanen, Jaren Jackson Jr.",
    "picks": [
     {
@@ -736,8 +736,8 @@
      "prob": 82,
      "conf": "alta",
      "why": "81 % según el modelo de ESPN y 85 % según las cuotas",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "109-94",
      "top": false
     },
     {
@@ -745,8 +745,8 @@
      "prob": 88,
      "conf": "alta",
      "why": "Lo logró en 10 de sus últimos 10; promedia 21,6",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "14 puntos",
      "top": true
     },
     {
@@ -754,8 +754,8 @@
      "prob": 88,
      "conf": "alta",
      "why": "Lo logró en 10 de sus últimos 10; promedia 14,4",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "10 puntos",
      "top": true
     },
     {
@@ -763,8 +763,8 @@
      "prob": 83,
      "conf": "alta",
      "why": "Lo logró en 9 de sus últimos 10; promedia 18,9",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "13 puntos",
      "top": false
     },
     {
@@ -772,8 +772,8 @@
      "prob": 88,
      "conf": "alta",
      "why": "Lo logró en 10 de sus últimos 10; promedia 8,2",
-     "result": "pending",
-     "fact": null,
+     "result": "miss",
+     "fact": "2 asistencias",
      "top": true
     },
     {
@@ -781,8 +781,8 @@
      "prob": 75,
      "conf": "alta",
      "why": "Lo logró en 8 de sus últimos 10; promedia 7,7",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "8 asistencias",
      "top": false
     },
     {
@@ -790,8 +790,8 @@
      "prob": 67,
      "conf": "alta",
      "why": "Lo logró en 8 de sus últimos 10; promedia 4,7",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "3 triples",
      "top": false
     },
     {
@@ -799,8 +799,8 @@
      "prob": 73,
      "conf": "alta",
      "why": "Lo logró en 8 de sus últimos 10; promedia 11,7",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "12 rebotes",
      "top": false
     }
    ]
@@ -811,7 +811,7 @@
    "time": "00:00",
    "home": "Sacramento Kings",
    "away": "San Antonio Spurs",
-   "score": null,
+   "score": "107-123",
    "meta": "hora UTC−3 · SAC 2-14 · SA 14-3 · Bajas: Maxime Raynaud, Ben Simmons, Dylan Harper, Tobias Harris, Jayden Quaintance",
    "picks": [
     {
@@ -819,8 +819,8 @@
      "prob": 84,
      "conf": "alta",
      "why": "90 % según el modelo de ESPN y 79 % según las cuotas",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "107-123",
      "top": false
     },
     {
@@ -828,8 +828,8 @@
      "prob": 88,
      "conf": "alta",
      "why": "Lo logró en 10 de sus últimos 10; promedia 17,7",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "18 puntos",
      "top": true
     },
     {
@@ -837,8 +837,8 @@
      "prob": 83,
      "conf": "alta",
      "why": "Lo logró en 9 de sus últimos 10; promedia 32,8",
-     "result": "pending",
-     "fact": null,
+     "result": "void",
+     "fact": "No jugó",
      "top": false
     },
     {
@@ -846,8 +846,8 @@
      "prob": 83,
      "conf": "alta",
      "why": "Lo logró en 9 de sus últimos 10; promedia 16,7",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "28 puntos",
      "top": false
     },
     {
@@ -855,8 +855,8 @@
      "prob": 88,
      "conf": "alta",
      "why": "Lo logró en 10 de sus últimos 10; promedia 8,0",
-     "result": "pending",
-     "fact": null,
+     "result": "miss",
+     "fact": "4 asistencias",
      "top": false
     },
     {
@@ -864,8 +864,8 @@
      "prob": 75,
      "conf": "alta",
      "why": "Lo logró en 8 de sus últimos 10; promedia 6,5",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "11 asistencias",
      "top": false
     },
     {
@@ -873,8 +873,8 @@
      "prob": 84,
      "conf": "alta",
      "why": "Lo logró en 10 de sus últimos 10; promedia 3,1",
-     "result": "pending",
-     "fact": null,
+     "result": "miss",
+     "fact": "0 triples",
      "top": false
     },
     {
@@ -882,8 +882,8 @@
      "prob": 73,
      "conf": "alta",
      "why": "Lo logró en 8 de sus últimos 10; promedia 13,5",
-     "result": "pending",
-     "fact": null,
+     "result": "void",
+     "fact": "No jugó",
      "top": false
     },
     {
@@ -891,8 +891,8 @@
      "prob": 73,
      "conf": "alta",
      "why": "Lo logró en 8 de sus últimos 10; promedia 12,3",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "12 rebotes",
      "top": false
     }
    ]

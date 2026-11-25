@@ -1,0 +1,620 @@
+{
+ "date": "2026-11-25",
+ "title": "UEFA Champions League, Liga MX, Colombian Primera A, EFL Championship",
+ "note": "Goles con un modelo de Poisson sobre los últimos 10 partidos (los recientes pesan más), mezclado con las cuotas del mercado; córners y tarjetas con los últimos 6 que tienen estadísticas. Cada probabilidad se corrige con el historial de aciertos de ese mercado. Sin datos de árbitros.",
+ "matches": [
+  {
+   "comp": "UEFA Champions League",
+   "id": "401915378",
+   "time": "14:45",
+   "home": "Sabah FK",
+   "away": "Barcelona",
+   "score": null,
+   "meta": "hora UTC−3 · últimos partidos: SAB 7G 0E 3P · BAR 9G 1E 0P",
+   "picks": [
+    {
+     "market": "Menos de 4.5 tarjetas",
+     "prob": 79,
+     "conf": "alta",
+     "why": "Se esperan 1,8 tarjetas entre los dos",
+     "result": "pending",
+     "fact": null,
+     "top": true
+    },
+    {
+     "market": "Gana Barcelona",
+     "prob": 75,
+     "conf": "alta",
+     "why": "Sabah FK: 2,0 goles a favor y 0,9 en contra; Barcelona: 3,9 y 1,2; el mercado da 88 % a Barcelona",
+     "result": "pending",
+     "fact": null,
+     "top": true
+    },
+    {
+     "market": "Más de 2.5 goles",
+     "prob": 74,
+     "conf": "alta",
+     "why": "Se esperan 4,4 goles; más de 2,5 en 6 de 10 de Sabah FK y 9 de 10 de Barcelona",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Menos de 8.5 córners",
+     "prob": 68,
+     "conf": "alta",
+     "why": "Se esperan 6,1 córners: Sabah FK 2,2 y Barcelona 3,9",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Ambos marcan",
+     "prob": 67,
+     "conf": "alta",
+     "why": "Goles esperados: Sabah FK 1,9, Barcelona 2,5",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "UEFA Champions League",
+   "id": "401915292",
+   "time": "17:00",
+   "home": "Club Brugge",
+   "away": "Liverpool",
+   "score": null,
+   "meta": "hora UTC−3 · últimos partidos: BRU 6G 0E 4P · LIV 5G 3E 2P",
+   "picks": [
+    {
+     "market": "Menos de 4.5 tarjetas",
+     "prob": 80,
+     "conf": "alta",
+     "why": "Se esperan 1,6 tarjetas entre los dos",
+     "result": "pending",
+     "fact": null,
+     "top": true
+    },
+    {
+     "market": "Club Brugge saca más córners",
+     "prob": 73,
+     "conf": "alta",
+     "why": "Se esperan 8,8 córners: Club Brugge 6,0 y Liverpool 2,8",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Liverpool o empate",
+     "prob": 72,
+     "conf": "alta",
+     "why": "Club Brugge: 1,7 goles a favor y 1,1 en contra; Liverpool: 2,0 y 1,5; el mercado da 58 % a Liverpool",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Más de 2.5 goles",
+     "prob": 64,
+     "conf": "media",
+     "why": "Se esperan 3,5 goles; más de 2,5 en 7 de 10 de Club Brugge y 6 de 10 de Liverpool",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Menos de 10.5 córners",
+     "prob": 61,
+     "conf": "media",
+     "why": "Se esperan 8,8 córners: Club Brugge 6,0 y Liverpool 2,8",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Ambos marcan",
+     "prob": 59,
+     "conf": "media",
+     "why": "Goles esperados: Club Brugge 1,9, Liverpool 1,6",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "UEFA Champions League",
+   "id": "401915376",
+   "time": "17:00",
+   "home": "Internazionale",
+   "away": "VfB Stuttgart",
+   "score": null,
+   "meta": "hora UTC−3 · últimos partidos: INT 7G 2E 1P · VFB 6G 0E 4P",
+   "picks": [
+    {
+     "market": "Internazionale o empate",
+     "prob": 79,
+     "conf": "alta",
+     "why": "Internazionale: 1,9 goles a favor y 1,1 en contra; VfB Stuttgart: 2,3 y 1,3; el mercado da 67 % a Internazionale",
+     "result": "pending",
+     "fact": null,
+     "top": true
+    },
+    {
+     "market": "Menos de 4.5 tarjetas",
+     "prob": 75,
+     "conf": "alta",
+     "why": "Se esperan 2,3 tarjetas entre los dos",
+     "result": "pending",
+     "fact": null,
+     "top": true
+    },
+    {
+     "market": "Más de 2.5 goles",
+     "prob": 66,
+     "conf": "alta",
+     "why": "Se esperan 3,7 goles; más de 2,5 en 6 de 10 de Internazionale y 8 de 10 de VfB Stuttgart",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Más de 8.5 córners",
+     "prob": 63,
+     "conf": "media",
+     "why": "Se esperan 10,4 córners: Internazionale 5,3 y VfB Stuttgart 5,1",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Ambos marcan",
+     "prob": 61,
+     "conf": "media",
+     "why": "Goles esperados: Internazionale 1,9, VfB Stuttgart 1,7",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "UEFA Champions League",
+   "id": "401915374",
+   "time": "17:00",
+   "home": "Paris Saint-Germain",
+   "away": "AS Roma",
+   "score": null,
+   "meta": "hora UTC−3 · últimos partidos: PSG 4G 3E 3P · ROMA 5G 3E 2P",
+   "picks": [
+    {
+     "market": "Paris Saint-Germain o empate",
+     "prob": 78,
+     "conf": "alta",
+     "why": "Paris Saint-Germain: 1,4 goles a favor y 1,5 en contra; AS Roma: 2,3 y 1,9; el mercado da 66 % a Paris Saint-Germain",
+     "result": "pending",
+     "fact": null,
+     "top": true
+    },
+    {
+     "market": "Menos de 4.5 tarjetas",
+     "prob": 69,
+     "conf": "alta",
+     "why": "Se esperan 2,9 tarjetas entre los dos",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Más de 2.5 goles",
+     "prob": 66,
+     "conf": "alta",
+     "why": "Se esperan 3,7 goles; más de 2,5 en 7 de 10 de Paris Saint-Germain y 8 de 10 de AS Roma",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Menos de 8.5 córners",
+     "prob": 63,
+     "conf": "media",
+     "why": "Se esperan 6,7 córners: Paris Saint-Germain 3,8 y AS Roma 2,9",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Ambos marcan",
+     "prob": 62,
+     "conf": "media",
+     "why": "Goles esperados: Paris Saint-Germain 1,9, AS Roma 1,8",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "UEFA Champions League",
+   "id": "401915375",
+   "time": "17:00",
+   "home": "Shakhtar Donetsk",
+   "away": "Fenerbahce",
+   "score": null,
+   "meta": "hora UTC−3 · últimos partidos: SHK 2G 1E 2P · FEN 7G 2E 1P",
+   "picks": [
+    {
+     "market": "Fenerbahce o empate",
+     "prob": 73,
+     "conf": "alta",
+     "why": "Shakhtar Donetsk: 1,5 goles a favor y 0,8 en contra; Fenerbahce: 2,5 y 0,5; el mercado da 41 % a Fenerbahce; cara a cara: empatados 1-1-1",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Menos de 9.5 córners",
+     "prob": 61,
+     "conf": "media",
+     "why": "Se esperan 7,8 córners: Shakhtar Donetsk 3,2 y Fenerbahce 4,6",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Menos de 4.5 tarjetas",
+     "prob": 57,
+     "conf": "media",
+     "why": "Se esperan 3,8 tarjetas entre los dos",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "UEFA Champions League",
+   "id": "401915373",
+   "time": "17:00",
+   "home": "Sporting CP",
+   "away": "Manchester United",
+   "score": null,
+   "meta": "hora UTC−3 · últimos partidos: SCP 7G 3E 0P · MAN 4G 3E 3P",
+   "picks": [
+    {
+     "market": "Sporting CP o empate",
+     "prob": 71,
+     "conf": "alta",
+     "why": "Sporting CP: 2,6 goles a favor y 1,1 en contra; Manchester United: 2,0 y 1,3; el mercado da 38 % a Sporting CP; cara a cara: MAN domina 2-0",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Menos de 8.5 córners",
+     "prob": 69,
+     "conf": "alta",
+     "why": "Se esperan 6,0 córners: Sporting CP 2,9 y Manchester United 3,1",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Menos de 4.5 tarjetas",
+     "prob": 68,
+     "conf": "alta",
+     "why": "Se esperan 2,9 tarjetas entre los dos",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Más de 2.5 goles",
+     "prob": 62,
+     "conf": "media",
+     "why": "Se esperan 3,4 goles; más de 2,5 en 7 de 10 de Sporting CP y 6 de 10 de Manchester United",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Ambos marcan",
+     "prob": 58,
+     "conf": "media",
+     "why": "Goles esperados: Sporting CP 2,0, Manchester United 1,4",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "Liga MX",
+   "id": "401931986",
+   "time": "22:00",
+   "home": "Toluca",
+   "away": "Atlas",
+   "score": null,
+   "meta": "hora UTC−3 · últimos partidos: TOL 5G 1E 4P · ATS 5G 1E 4P",
+   "picks": [
+    {
+     "market": "Gana Toluca",
+     "prob": 67,
+     "conf": "alta",
+     "why": "Toluca: 2,5 goles a favor y 1,3 en contra; Atlas: 1,3 y 1,5; el mercado da 65 % a Toluca; cara a cara: TOL domina 3-0-2",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Más de 2.5 goles",
+     "prob": 62,
+     "conf": "media",
+     "why": "Se esperan 3,4 goles; más de 2,5 en 8 de 10 de Toluca y 5 de 10 de Atlas",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Ambos marcan",
+     "prob": 55,
+     "conf": "media",
+     "why": "Goles esperados: Toluca 2,2, Atlas 1,2",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "Liga MX",
+   "id": "401931998",
+   "time": "00:10",
+   "home": "Monterrey",
+   "away": "América",
+   "score": null,
+   "meta": "hora UTC−3 · últimos partidos: MTY 5G 2E 3P · AME 5G 4E 1P",
+   "picks": [
+    {
+     "market": "Monterrey o empate",
+     "prob": 72,
+     "conf": "alta",
+     "why": "Monterrey: 1,7 goles a favor y 1,3 en contra; América: 1,1 y 0,5; el mercado da 41 % a Monterrey; cara a cara: empatados 2-2-1",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "Colombian Primera A",
+   "id": "401934687",
+   "time": "20:20",
+   "home": "Independiente Santa Fe",
+   "away": "Once Caldas",
+   "score": null,
+   "meta": "hora UTC−3 · últimos partidos: SFE 3G 5E 2P · CAL 5G 4E 1P",
+   "picks": [
+    {
+     "market": "Más de 4.5 tarjetas",
+     "prob": 75,
+     "conf": "alta",
+     "why": "Se esperan 6,6 tarjetas entre los dos",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Independiente Santa Fe o empate",
+     "prob": 72,
+     "conf": "alta",
+     "why": "Independiente Santa Fe: 1,3 goles a favor y 1,0 en contra; Once Caldas: 1,6 y 1,0; el mercado da 42 % a Independiente Santa Fe; cara a cara: CAL domina 2-1-2",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Más de 9.5 córners",
+     "prob": 60,
+     "conf": "media",
+     "why": "Se esperan 11,1 córners: Independiente Santa Fe 4,8 y Once Caldas 6,3",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "Colombian Primera A",
+   "id": "401934705",
+   "time": "22:30",
+   "home": "Atlético Nacional",
+   "away": "Independiente Medellín",
+   "score": null,
+   "meta": "hora UTC−3 · últimos partidos: NAL 6G 0E 4P · DIM 2G 5E 3P",
+   "picks": [
+    {
+     "market": "Atlético Nacional o empate",
+     "prob": 81,
+     "conf": "alta",
+     "why": "Atlético Nacional: 2,1 goles a favor y 1,0 en contra; Independiente Medellín: 1,1 y 1,4; el mercado da 52 % a Atlético Nacional; cara a cara: NAL domina 4-0-1",
+     "result": "pending",
+     "fact": null,
+     "top": true
+    },
+    {
+     "market": "Más de 3.5 tarjetas",
+     "prob": 77,
+     "conf": "alta",
+     "why": "Se esperan 5,5 tarjetas entre los dos",
+     "result": "pending",
+     "fact": null,
+     "top": true
+    },
+    {
+     "market": "Menos de 9.5 córners",
+     "prob": 63,
+     "conf": "media",
+     "why": "Se esperan 7,6 córners: Atlético Nacional 3,6 y Independiente Medellín 4,0",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "EFL Championship",
+   "id": "401880140",
+   "time": "16:45",
+   "home": "Bolton Wanderers",
+   "away": "West Bromwich Albion",
+   "score": null,
+   "meta": "hora UTC−3 · últimos partidos: BOL 3G 1E 6P · WBA 5G 2E 3P",
+   "picks": [
+    {
+     "market": "West Bromwich Albion o empate",
+     "prob": 76,
+     "conf": "alta",
+     "why": "Bolton Wanderers: 1,0 goles a favor y 1,6 en contra; West Bromwich Albion: 2,0 y 1,3; el mercado da 48 % a West Bromwich Albion; cara a cara: empatados 2-2-1",
+     "result": "pending",
+     "fact": null,
+     "top": true
+    },
+    {
+     "market": "Más de 7.5 córners",
+     "prob": 67,
+     "conf": "alta",
+     "why": "Se esperan 9,9 córners: Bolton Wanderers 5,7 y West Bromwich Albion 4,2",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Menos de 4.5 tarjetas",
+     "prob": 65,
+     "conf": "alta",
+     "why": "Se esperan 3,2 tarjetas entre los dos",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "EFL Championship",
+   "id": "401880139",
+   "time": "16:45",
+   "home": "Burnley",
+   "away": "Birmingham City",
+   "score": null,
+   "meta": "hora UTC−3 · últimos partidos: BUR 0G 5E 5P · BIR 3G 5E 2P",
+   "picks": [
+    {
+     "market": "Menos de 4.5 tarjetas",
+     "prob": 74,
+     "conf": "alta",
+     "why": "Se esperan 2,4 tarjetas entre los dos",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Birmingham City o empate",
+     "prob": 68,
+     "conf": "alta",
+     "why": "Burnley: 1,0 goles a favor y 1,9 en contra; Birmingham City: 1,4 y 1,6; el mercado da 38 % a Birmingham City; cara a cara: BUR domina 2-0-3",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Más de 8.5 córners",
+     "prob": 64,
+     "conf": "media",
+     "why": "Se esperan 10,6 córners: Burnley 5,5 y Birmingham City 5,1",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "EFL Championship",
+   "id": "401880137",
+   "time": "16:45",
+   "home": "Watford",
+   "away": "Blackburn Rovers",
+   "score": null,
+   "meta": "hora UTC−3 · últimos partidos: WAT 3G 2E 5P · BLK 3G 3E 4P",
+   "picks": [
+    {
+     "market": "Más de 3.5 tarjetas",
+     "prob": 69,
+     "conf": "alta",
+     "why": "Se esperan 4,8 tarjetas entre los dos",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Watford o empate",
+     "prob": 68,
+     "conf": "alta",
+     "why": "Watford: 1,0 goles a favor y 1,4 en contra; Blackburn Rovers: 1,5 y 1,5; el mercado da 38 % a Watford; cara a cara: empatados 2-2-1",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Más de 9.5 córners",
+     "prob": 60,
+     "conf": "media",
+     "why": "Se esperan 11,1 córners: Watford 5,4 y Blackburn Rovers 5,7",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "EFL Championship",
+   "id": "401880138",
+   "time": "17:00",
+   "home": "Stoke City",
+   "away": "Millwall",
+   "score": null,
+   "meta": "hora UTC−3 · últimos partidos: STK 5G 2E 3P · MIL 4G 2E 4P",
+   "picks": [
+    {
+     "market": "Stoke City o empate",
+     "prob": 72,
+     "conf": "alta",
+     "why": "Stoke City: 1,5 goles a favor y 1,4 en contra; Millwall: 1,5 y 1,3; el mercado da 41 % a Stoke City; cara a cara: MIL domina 3-0-2",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Menos de 4.5 tarjetas",
+     "prob": 65,
+     "conf": "alta",
+     "why": "Se esperan 3,2 tarjetas entre los dos",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Menos de 9.5 córners",
+     "prob": 57,
+     "conf": "media",
+     "why": "Se esperan 8,2 córners: Stoke City 3,7 y Millwall 4,5",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  }
+ ]
+}
