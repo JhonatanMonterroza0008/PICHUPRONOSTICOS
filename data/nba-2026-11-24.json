@@ -203,7 +203,7 @@
    "time": "00:00",
    "home": "Denver Nuggets",
    "away": "Dallas Mavericks",
-   "score": null,
+   "score": "101-120",
    "meta": "hora UTC−3 · DEN 10-5 · DAL 10-7 · Bajas: Tobi Lawal, Dereck Lively II, Sergio de Larrea, Tarik Biberovic",
    "picks": [
     {
@@ -211,8 +211,8 @@
      "prob": 69,
      "conf": "alta",
      "why": "70 % según el modelo de ESPN y 73 % según las cuotas",
-     "result": "pending",
-     "fact": null,
+     "result": "miss",
+     "fact": "101-120",
      "top": false
     },
     {
@@ -220,8 +220,8 @@
      "prob": 85,
      "conf": "alta",
      "why": "Lo logró en 9 de sus últimos 10; promedia 23,8",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "24 puntos",
      "top": true
     },
     {
@@ -229,8 +229,8 @@
      "prob": 76,
      "conf": "alta",
      "why": "Lo logró en 8 de sus últimos 10; promedia 27,0",
-     "result": "pending",
-     "fact": null,
+     "result": "miss",
+     "fact": "18 puntos",
      "top": false
     },
     {
@@ -238,8 +238,8 @@
      "prob": 76,
      "conf": "alta",
      "why": "Lo logró en 8 de sus últimos 10; promedia 26,4",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "20 puntos",
      "top": false
     },
     {
@@ -247,8 +247,8 @@
      "prob": 83,
      "conf": "alta",
      "why": "Lo logró en 9 de sus últimos 10; promedia 9,2",
-     "result": "pending",
-     "fact": null,
+     "result": "miss",
+     "fact": "5 asistencias",
      "top": true
     },
     {
@@ -256,8 +256,8 @@
      "prob": 83,
      "conf": "alta",
      "why": "Lo logró en 9 de sus últimos 10; promedia 6,3",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "12 asistencias",
      "top": true
     },
     {
@@ -265,8 +265,8 @@
      "prob": 83,
      "conf": "alta",
      "why": "Lo logró en 9 de sus últimos 10; promedia 5,0",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "6 asistencias",
      "top": true
     },
     {
@@ -274,8 +274,8 @@
      "prob": 66,
      "conf": "alta",
      "why": "Lo logró en 8 de sus últimos 10; promedia 3,6",
-     "result": "pending",
-     "fact": null,
+     "result": "miss",
+     "fact": "1 triples",
      "top": false
     },
     {
@@ -283,8 +283,8 @@
      "prob": 80,
      "conf": "alta",
      "why": "Lo logró en 9 de sus últimos 10; promedia 11,5",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "11 rebotes",
      "top": false
     }
    ]
