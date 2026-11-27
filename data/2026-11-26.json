@@ -9,7 +9,7 @@
    "time": "14:45",
    "home": "Besiktas",
    "away": "Hapoel Be'er",
-   "score": null,
+   "score": "2-1",
    "meta": "hora UTC−3 · últimos partidos: BES 7G 1E 2P · HBE 4G 1E 5P",
    "picks": [
     {
@@ -17,8 +17,8 @@
      "prob": 75,
      "conf": "alta",
      "why": "Se esperan 5,3 córners: Besiktas 3,0 y Hapoel Be'er 2,3",
-     "result": "pending",
-     "fact": null,
+     "result": "miss",
+     "fact": "15 córners",
      "top": true
     },
     {
@@ -26,8 +26,8 @@
      "prob": 70,
      "conf": "alta",
      "why": "Besiktas: 1,3 goles a favor y 0,6 en contra; Hapoel Be'er: 1,3 y 1,4; el mercado da 76 % a Besiktas; cara a cara: BES domina 2-0",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "2-1",
      "top": false
     },
     {
@@ -35,8 +35,8 @@
      "prob": 61,
      "conf": "media",
      "why": "Se esperan 3,6 tarjetas entre los dos",
-     "result": "pending",
-     "fact": null,
+     "result": "miss",
+     "fact": "8 tarjetas",
      "top": false
     },
     {
@@ -44,8 +44,8 @@
      "prob": 55,
      "conf": "media",
      "why": "Se esperan 2,9 goles; más de 2,5 en 3 de 10 de Besiktas y 5 de 10 de Hapoel Be'er",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "3 goles",
      "top": false
     }
    ]
@@ -56,7 +56,7 @@
    "time": "14:45",
    "home": "Celta Vigo",
    "away": "AFC Bournemouth",
-   "score": null,
+   "score": "1-2",
    "meta": "hora UTC−3 · últimos partidos: CEL 1G 6E 3P · BOU 2G 4E 4P",
    "picks": [
     {
@@ -64,8 +64,8 @@
      "prob": 72,
      "conf": "alta",
      "why": "Celta Vigo: 0,8 goles a favor y 0,9 en contra; AFC Bournemouth: 1,6 y 1,7; el mercado da 47 % a AFC Bournemouth",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "1-2",
      "top": false
     },
     {
@@ -73,8 +73,8 @@
      "prob": 67,
      "conf": "alta",
      "why": "Se esperan 9,9 córners: Celta Vigo 4,4 y AFC Bournemouth 5,5",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "11 córners",
      "top": false
     },
     {
@@ -82,8 +82,8 @@
      "prob": 66,
      "conf": "alta",
      "why": "Se esperan 4,5 tarjetas entre los dos",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "6 tarjetas",
      "top": false
     }
    ]
@@ -94,7 +94,7 @@
    "time": "14:45",
    "home": "Dinamo Zagreb",
    "away": "Bayer Leverkusen",
-   "score": null,
+   "score": "0-2",
    "meta": "hora UTC−3 · últimos partidos: DZG 5G 3E 2P · B04 7G 1E 2P",
    "picks": [
     {
@@ -102,8 +102,8 @@
      "prob": 75,
      "conf": "alta",
      "why": "Dinamo Zagreb: 2,1 goles a favor y 1,3 en contra; Bayer Leverkusen: 2,4 y 1,2; el mercado da 57 % a Bayer Leverkusen",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "0-2",
      "top": true
     },
     {
@@ -111,8 +111,8 @@
      "prob": 69,
      "conf": "alta",
      "why": "Se esperan 3,0 tarjetas entre los dos",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "4 tarjetas",
      "top": false
     },
     {
@@ -120,8 +120,8 @@
      "prob": 62,
      "conf": "media",
      "why": "Se esperan 3,4 goles; más de 2,5 en 6 de 10 de Dinamo Zagreb y 8 de 10 de Bayer Leverkusen",
-     "result": "pending",
-     "fact": null,
+     "result": "miss",
+     "fact": "2 goles",
      "top": false
     },
     {
@@ -129,8 +129,8 @@
      "prob": 58,
      "conf": "media",
      "why": "Goles esperados: Dinamo Zagreb 1,7, Bayer Leverkusen 1,7",
-     "result": "pending",
-     "fact": null,
+     "result": "miss",
+     "fact": "0-2",
      "top": false
     },
     {
@@ -138,8 +138,8 @@
      "prob": 58,
      "conf": "media",
      "why": "Se esperan 7,4 córners: Dinamo Zagreb 4,0 y Bayer Leverkusen 3,4",
-     "result": "pending",
-     "fact": null,
+     "result": "miss",
+     "fact": "12 córners",
      "top": false
     }
    ]
@@ -150,7 +150,7 @@
    "time": "14:45",
    "home": "Marseille",
    "away": "Levski Sofia",
-   "score": null,
+   "score": "1-0",
    "meta": "hora UTC−3 · últimos partidos: OLM 3G 0E 7P · LEV 4G 4E 2P",
    "picks": [
     {
@@ -158,8 +158,8 @@
      "prob": 80,
      "conf": "alta",
      "why": "Marseille: 1,6 goles a favor y 1,6 en contra; Levski Sofia: 1,3 y 0,8; el mercado da 71 % a Marseille",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "1-0",
      "top": true
     },
     {
@@ -167,8 +167,8 @@
      "prob": 74,
      "conf": "alta",
      "why": "Se esperan 5,4 córners: Marseille 3,5 y Levski Sofia 1,9",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "5 córners",
      "top": true
     },
     {
@@ -176,8 +176,8 @@
      "prob": 61,
      "conf": "media",
      "why": "Se esperan 3,6 tarjetas entre los dos",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "3 tarjetas",
      "top": false
     }
    ]
@@ -188,7 +188,7 @@
    "time": "14:45",
    "home": "Olympiacos",
    "away": "AC Milan",
-   "score": null,
+   "score": "2-4",
    "meta": "hora UTC−3 · últimos partidos: OLY 5G 2E 3P · MIL 4G 4E 2P",
    "picks": [
     {
@@ -196,8 +196,8 @@
      "prob": 70,
      "conf": "alta",
      "why": "Olympiacos: 0,7 goles a favor y 0,7 en contra; AC Milan: 1,7 y 1,5; el mercado da 40 % a AC Milan; cara a cara: OLY domina 3-1",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "2-4",
      "top": false
     },
     {
@@ -205,8 +205,8 @@
      "prob": 66,
      "conf": "alta",
      "why": "Se esperan 8,7 córners: Olympiacos 5,3 y AC Milan 3,3",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "6 a 1",
      "top": false
     },
     {
@@ -214,8 +214,8 @@
      "prob": 62,
      "conf": "media",
      "why": "Se esperan 8,7 córners: Olympiacos 5,3 y AC Milan 3,3",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "7 córners",
      "top": false
     },
     {
@@ -223,8 +223,8 @@
      "prob": 58,
      "conf": "media",
      "why": "Se esperan 3,8 tarjetas entre los dos",
-     "result": "pending",
-     "fact": null,
+     "result": "miss",
+     "fact": "5 tarjetas",
      "top": false
     }
    ]
@@ -235,7 +235,7 @@
    "time": "14:45",
    "home": "RB Salzburg",
    "away": "Ararat-Armenia",
-   "score": null,
+   "score": "2-0",
    "meta": "hora UTC−3 · últimos partidos: SLZ 6G 3E 1P · ARA 5G 1E 4P",
    "picks": [
     {
@@ -243,8 +243,8 @@
      "prob": 75,
      "conf": "alta",
      "why": "Se esperan 2,4 tarjetas entre los dos",
-     "result": "pending",
-     "fact": null,
+     "result": "miss",
+     "fact": "5 tarjetas",
      "top": true
     },
     {
@@ -252,8 +252,8 @@
      "prob": 72,
      "conf": "alta",
      "why": "Se esperan 5,7 córners: RB Salzburg 3,4 y Ararat-Armenia 2,3",
-     "result": "pending",
-     "fact": null,
+     "result": "miss",
+     "fact": "12 córners",
      "top": false
     },
     {
@@ -261,8 +261,8 @@
      "prob": 70,
      "conf": "alta",
      "why": "RB Salzburg: 1,6 goles a favor y 1,3 en contra; Ararat-Armenia: 1,6 y 1,3; el mercado da 82 % a RB Salzburg",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "2-0",
      "top": false
     },
     {
@@ -270,8 +270,8 @@
      "prob": 61,
      "conf": "media",
      "why": "Se esperan 3,3 goles; más de 2,5 en 4 de 10 de RB Salzburg y 5 de 10 de Ararat-Armenia",
-     "result": "pending",
-     "fact": null,
+     "result": "miss",
+     "fact": "2 goles",
      "top": false
     },
     {
@@ -279,8 +279,8 @@
      "prob": 58,
      "conf": "media",
      "why": "Goles esperados: RB Salzburg 1,8, Ararat-Armenia 1,6",
-     "result": "pending",
-     "fact": null,
+     "result": "miss",
+     "fact": "2-0",
      "top": false
     }
    ]
@@ -291,7 +291,7 @@
    "time": "14:45",
    "home": "Union St.-Gilloise",
    "away": "Lech Poznan",
-   "score": null,
+   "score": "2-2",
    "meta": "hora UTC−3 · últimos partidos: USG 6G 2E 2P · LECH 4G 3E 3P",
    "picks": [
     {
@@ -299,8 +299,8 @@
      "prob": 70,
      "conf": "alta",
      "why": "Se esperan 4,1 goles; más de 2,5 en 9 de 10 de Union St.-Gilloise y 8 de 10 de Lech Poznan",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "4 goles",
      "top": false
     },
     {
@@ -308,8 +308,8 @@
      "prob": 70,
      "conf": "alta",
      "why": "Se esperan 5,0 tarjetas entre los dos",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "5 tarjetas",
      "top": false
     },
     {
@@ -317,8 +317,8 @@
      "prob": 65,
      "conf": "alta",
      "why": "Goles esperados: Union St.-Gilloise 2,2, Lech Poznan 1,9",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "2-2",
      "top": false
     },
     {
@@ -326,8 +326,8 @@
      "prob": 64,
      "conf": "media",
      "why": "Union St.-Gilloise: 3,0 goles a favor y 2,2 en contra; Lech Poznan: 2,6 y 1,7; el mercado da 70 % a Union St.-Gilloise",
-     "result": "pending",
-     "fact": null,
+     "result": "miss",
+     "fact": "2-2",
      "top": false
     },
     {
@@ -335,8 +335,8 @@
      "prob": 60,
      "conf": "media",
      "why": "Se esperan 7,1 córners: Union St.-Gilloise 3,0 y Lech Poznan 4,0",
-     "result": "pending",
-     "fact": null,
+     "result": "miss",
+     "fact": "9 córners",
      "top": false
     }
    ]
@@ -347,7 +347,7 @@
    "time": "14:45",
    "home": "Viktoria Plzen",
    "away": "Benfica",
-   "score": null,
+   "score": "4-0",
    "meta": "hora UTC−3 · últimos partidos: PLZ 2G 0E 4P · SLB 7G 2E 1P",
    "picks": [
     {
@@ -355,8 +355,8 @@
      "prob": 68,
      "conf": "alta",
      "why": "Se esperan 3,1 tarjetas entre los dos",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "2 tarjetas",
      "top": false
     },
     {
@@ -364,8 +364,8 @@
      "prob": 67,
      "conf": "alta",
      "why": "Viktoria Plzen: 1,4 goles a favor y 2,0 en contra; Benfica: 3,3 y 1,0; el mercado da 64 % a Benfica",
-     "result": "pending",
-     "fact": null,
+     "result": "miss",
+     "fact": "4-0",
      "top": false
     },
     {
@@ -373,8 +373,8 @@
      "prob": 65,
      "conf": "alta",
      "why": "Se esperan 3,6 goles; más de 2,5 en 5 de 6 de Viktoria Plzen y 9 de 10 de Benfica",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "4 goles",
      "top": false
     },
     {
@@ -382,8 +382,8 @@
      "prob": 59,
      "conf": "media",
      "why": "Se esperan 8,1 córners: Viktoria Plzen 3,3 y Benfica 4,8",
-     "result": "pending",
-     "fact": null,
+     "result": "miss",
+     "fact": "14 córners",
      "top": false
     },
     {
@@ -391,8 +391,8 @@
      "prob": 57,
      "conf": "media",
      "why": "Goles esperados: Viktoria Plzen 1,2, Benfica 2,3",
-     "result": "pending",
-     "fact": null,
+     "result": "miss",
+     "fact": "4-0",
      "top": false
     }
    ]
@@ -403,7 +403,7 @@
    "time": "17:00",
    "home": "Crystal Palace",
    "away": "Real Sociedad",
-   "score": null,
+   "score": "2-1",
    "meta": "hora UTC−3 · últimos partidos: CRY 6G 0E 4P · RSO 3G 1E 6P",
    "picks": [
     {
@@ -411,8 +411,8 @@
      "prob": 78,
      "conf": "alta",
      "why": "Crystal Palace: 2,3 goles a favor y 1,7 en contra; Real Sociedad: 1,1 y 2,0; el mercado da 46 % a Crystal Palace",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "2-1",
      "top": true
     },
     {
@@ -420,8 +420,8 @@
      "prob": 62,
      "conf": "media",
      "why": "Se esperan 3,4 goles; más de 2,5 en 9 de 10 de Crystal Palace y 8 de 10 de Real Sociedad",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "3 goles",
      "top": false
     },
     {
@@ -429,8 +429,8 @@
      "prob": 56,
      "conf": "media",
      "why": "Goles esperados: Crystal Palace 2,2, Real Sociedad 1,2",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "2-1",
      "top": false
     }
    ]
@@ -441,7 +441,7 @@
    "time": "17:00",
    "home": "Ferencvaros",
    "away": "NK Celje",
-   "score": null,
+   "score": "0-0",
    "meta": "hora UTC−3 · últimos partidos: FER 7G 2E 1P · NKC 2G 4E 4P",
    "picks": [
     {
@@ -449,8 +449,8 @@
      "prob": 74,
      "conf": "alta",
      "why": "Se esperan 5,4 córners: Ferencvaros 3,0 y NK Celje 2,4",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "8 córners",
      "top": true
     },
     {
@@ -458,8 +458,8 @@
      "prob": 69,
      "conf": "alta",
      "why": "Ferencvaros: 2,0 goles a favor y 0,8 en contra; NK Celje: 1,6 y 1,9; el mercado da 70 % a Ferencvaros",
-     "result": "pending",
-     "fact": null,
+     "result": "miss",
+     "fact": "0-0",
      "top": false
     },
     {
@@ -467,8 +467,8 @@
      "prob": 62,
      "conf": "media",
      "why": "Se esperan 4,4 tarjetas entre los dos",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "1 tarjetas",
      "top": false
     },
     {
@@ -476,8 +476,8 @@
      "prob": 59,
      "conf": "media",
      "why": "Se esperan 3,2 goles; más de 2,5 en 7 de 10 de Ferencvaros y 7 de 10 de NK Celje",
-     "result": "pending",
-     "fact": null,
+     "result": "miss",
+     "fact": "0 goles",
      "top": false
     }
    ]
@@ -488,7 +488,7 @@
    "time": "17:00",
    "home": "Juventus",
    "away": "Omonia Nicosia",
-   "score": null,
+   "score": "4-1",
    "meta": "hora UTC−3 · últimos partidos: JUV 6G 2E 2P · OMON 5G 1E 4P",
    "picks": [
     {
@@ -496,8 +496,8 @@
      "prob": 75,
      "conf": "alta",
      "why": "Se esperan 5,3 córners: Juventus 3,0 y Omonia Nicosia 2,4",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "8 córners",
      "top": true
     },
     {
@@ -505,8 +505,8 @@
      "prob": 72,
      "conf": "alta",
      "why": "Juventus: 1,2 goles a favor y 0,4 en contra; Omonia Nicosia: 1,2 y 0,9; el mercado da 82 % a Juventus",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "4-1",
      "top": false
     },
     {
@@ -514,8 +514,8 @@
      "prob": 67,
      "conf": "alta",
      "why": "Se esperan 3,1 tarjetas entre los dos",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "3 tarjetas",
      "top": false
     }
    ]
@@ -526,7 +526,7 @@
    "time": "17:00",
    "home": "Lyon",
    "away": "Lillestrom",
-   "score": null,
+   "score": "0-0",
    "meta": "hora UTC−3 · últimos partidos: LYON 5G 3E 2P · LSK 6G 1E 3P",
    "picks": [
     {
@@ -534,8 +534,8 @@
      "prob": 72,
      "conf": "alta",
      "why": "Se esperan 2,8 tarjetas entre los dos",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "4 tarjetas",
      "top": false
     },
     {
@@ -543,8 +543,8 @@
      "prob": 67,
      "conf": "alta",
      "why": "Lyon: 1,7 goles a favor y 0,9 en contra; Lillestrom: 1,8 y 0,8; el mercado da 79 % a Lyon",
-     "result": "pending",
-     "fact": null,
+     "result": "miss",
+     "fact": "0-0",
      "top": false
     },
     {
@@ -552,8 +552,8 @@
      "prob": 63,
      "conf": "media",
      "why": "Se esperan 10,4 córners: Lyon 5,6 y Lillestrom 4,8",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "15 córners",
      "top": false
     },
     {
@@ -561,8 +561,8 @@
      "prob": 57,
      "conf": "media",
      "why": "Se esperan 3,1 goles; más de 2,5 en 6 de 10 de Lyon y 5 de 10 de Lillestrom",
-     "result": "pending",
-     "fact": null,
+     "result": "miss",
+     "fact": "0 goles",
      "top": false
     },
     {
@@ -570,8 +570,8 @@
      "prob": 55,
      "conf": "media",
      "why": "Goles esperados: Lyon 1,6, Lillestrom 1,5",
-     "result": "pending",
-     "fact": null,
+     "result": "miss",
+     "fact": "0-0",
      "top": false
     }
    ]
@@ -582,7 +582,7 @@
    "time": "17:00",
    "home": "NEC Nijmegen",
    "away": "Stade Rennais",
-   "score": null,
+   "score": "3-1",
    "meta": "hora UTC−3 · últimos partidos: NEC 3G 2E 5P · REN 3G 3E 4P",
    "picks": [
     {
@@ -590,8 +590,8 @@
      "prob": 72,
      "conf": "alta",
      "why": "Se esperan 10,7 córners: NEC Nijmegen 6,9 y Stade Rennais 3,8",
-     "result": "pending",
-     "fact": null,
+     "result": "miss",
+     "fact": "1 a 5",
      "top": false
     },
     {
@@ -599,8 +599,8 @@
      "prob": 68,
      "conf": "alta",
      "why": "NEC Nijmegen: 1,4 goles a favor y 1,7 en contra; Stade Rennais: 1,7 y 2,1; el mercado da 45 % a Stade Rennais",
-     "result": "pending",
-     "fact": null,
+     "result": "miss",
+     "fact": "3-1",
      "top": false
     },
     {
@@ -608,8 +608,8 @@
      "prob": 65,
      "conf": "alta",
      "why": "Se esperan 10,7 córners: NEC Nijmegen 6,9 y Stade Rennais 3,8",
-     "result": "pending",
-     "fact": null,
+     "result": "miss",
+     "fact": "6 córners",
      "top": false
     },
     {
@@ -617,8 +617,8 @@
      "prob": 64,
      "conf": "media",
      "why": "Se esperan 3,3 tarjetas entre los dos",
-     "result": "pending",
-     "fact": null,
+     "result": "miss",
+     "fact": "6 tarjetas",
      "top": false
     },
     {
@@ -626,8 +626,8 @@
      "prob": 62,
      "conf": "media",
      "why": "Se esperan 3,4 goles; más de 2,5 en 9 de 10 de NEC Nijmegen y 7 de 10 de Stade Rennais",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "4 goles",
      "top": false
     },
     {
@@ -635,8 +635,8 @@
      "prob": 58,
      "conf": "media",
      "why": "Goles esperados: NEC Nijmegen 1,9, Stade Rennais 1,5",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "3-1",
      "top": false
     }
    ]
@@ -647,7 +647,7 @@
    "time": "17:00",
    "home": "OFI Crete",
    "away": "Anderlecht",
-   "score": null,
+   "score": "1-3",
    "meta": "hora UTC−3 · últimos partidos: OFI 6G 1E 3P · AND 7G 1E 2P",
    "picks": [
     {
@@ -655,8 +655,8 @@
      "prob": 73,
      "conf": "alta",
      "why": "OFI Crete: 1,8 goles a favor y 0,6 en contra; Anderlecht: 1,7 y 0,9; el mercado da 54 % a Anderlecht",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "1-3",
      "top": true
     },
     {
@@ -664,8 +664,8 @@
      "prob": 71,
      "conf": "alta",
      "why": "Se esperan 6,6 córners: OFI Crete 2,1 y Anderlecht 4,5",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "7 a 3",
      "top": false
     },
     {
@@ -673,8 +673,8 @@
      "prob": 70,
      "conf": "alta",
      "why": "Se esperan 2,9 tarjetas entre los dos",
-     "result": "pending",
-     "fact": null,
+     "result": "miss",
+     "fact": "7 tarjetas",
      "top": false
     },
     {
@@ -682,8 +682,8 @@
      "prob": 65,
      "conf": "alta",
      "why": "Se esperan 6,6 córners: OFI Crete 2,1 y Anderlecht 4,5",
-     "result": "pending",
-     "fact": null,
+     "result": "miss",
+     "fact": "10 córners",
      "top": false
     }
    ]

@@ -1,0 +1,629 @@
+{
+ "date": "2026-11-27",
+ "title": "English Premier League, LALIGA 2, LALIGA, Serie A y más",
+ "note": "Goles con un modelo de Poisson sobre los últimos 10 partidos (los recientes pesan más), mezclado con las cuotas del mercado; córners y tarjetas con los últimos 6 que tienen estadísticas. Cada probabilidad se corrige con el historial de aciertos de ese mercado. Sin datos de árbitros.",
+ "matches": [
+  {
+   "comp": "English Premier League",
+   "id": "401879225",
+   "time": "17:00",
+   "home": "Nottingham Forest",
+   "away": "Chelsea",
+   "score": null,
+   "meta": "hora UTC−3 · últimos partidos: NFO 3G 2E 5P · CHE 6G 2E 2P",
+   "picks": [
+    {
+     "market": "Chelsea o empate",
+     "prob": 69,
+     "conf": "alta",
+     "why": "Nottingham Forest: 1,0 goles a favor y 1,1 en contra; Chelsea: 2,5 y 1,5; el mercado da 33 % a Chelsea; cara a cara: CHE domina 3-1-1",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Chelsea saca más córners",
+     "prob": 67,
+     "conf": "alta",
+     "why": "Se esperan 7,3 córners: Nottingham Forest 2,7 y Chelsea 4,6",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Menos de 5.5 tarjetas",
+     "prob": 63,
+     "conf": "media",
+     "why": "Se esperan 4,2 tarjetas entre los dos",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Menos de 8.5 córners",
+     "prob": 56,
+     "conf": "media",
+     "why": "Se esperan 7,3 córners: Nottingham Forest 2,7 y Chelsea 4,6",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "LALIGA 2",
+   "id": "401883102",
+   "time": "16:30",
+   "home": "Leganés",
+   "away": "CD Sabadell",
+   "score": null,
+   "meta": "hora UTC−3 · últimos partidos: LEG 4G 3E 3P · CDS 4G 5E 1P",
+   "picks": [
+    {
+     "market": "Leganés o empate",
+     "prob": 71,
+     "conf": "alta",
+     "why": "Leganés: 1,1 goles a favor y 1,1 en contra; CD Sabadell: 1,4 y 0,8; el mercado da 39 % a Leganés; cara a cara: LEG domina 2-1-1",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "LALIGA",
+   "id": "401882791",
+   "time": "17:00",
+   "home": "Levante",
+   "away": "Racing Santander",
+   "score": null,
+   "meta": "hora UTC−3 · últimos partidos: LEV 3G 4E 3P · RAC 3G 3E 4P",
+   "picks": [
+    {
+     "market": "Levante o empate",
+     "prob": 75,
+     "conf": "alta",
+     "why": "Levante: 1,7 goles a favor y 1,7 en contra; Racing Santander: 1,9 y 2,1; el mercado da 47 % a Levante; cara a cara: empatados 2-2-1",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Menos de 4.5 tarjetas",
+     "prob": 66,
+     "conf": "alta",
+     "why": "Se esperan 3,2 tarjetas entre los dos",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Más de 2.5 goles",
+     "prob": 65,
+     "conf": "alta",
+     "why": "Se esperan 3,7 goles; más de 2,5 en 7 de 10 de Levante y 8 de 10 de Racing Santander",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Ambos marcan",
+     "prob": 60,
+     "conf": "media",
+     "why": "Goles esperados: Levante 2,0, Racing Santander 1,6",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Más de 10.5 córners",
+     "prob": 59,
+     "conf": "media",
+     "why": "Se esperan 12,1 córners: Levante 6,4 y Racing Santander 5,7",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "Serie A",
+   "id": "401875004",
+   "time": "16:45",
+   "home": "Venezia",
+   "away": "Bologna",
+   "score": null,
+   "meta": "hora UTC−3 · últimos partidos: VEN 2G 1E 7P · BOL 2G 3E 5P",
+   "picks": [
+    {
+     "market": "Bologna o empate",
+     "prob": 70,
+     "conf": "alta",
+     "why": "Venezia: 1,6 goles a favor y 1,9 en contra; Bologna: 0,7 y 1,2; el mercado da 42 % a Bologna; cara a cara: empatados 2-2",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Menos de 4.5 tarjetas",
+     "prob": 68,
+     "conf": "alta",
+     "why": "Se esperan 3,0 tarjetas entre los dos",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Más de 7.5 córners",
+     "prob": 66,
+     "conf": "alta",
+     "why": "Se esperan 9,7 córners: Venezia 5,3 y Bologna 4,4",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "2. Bundesliga",
+   "id": "401885047",
+   "time": "14:30",
+   "home": "1. FC Heidenheim 1846",
+   "away": "1. FC Nürnberg",
+   "score": null,
+   "meta": "hora UTC−3 · últimos partidos: HDH 5G 1E 4P · FCN 6G 4E 0P",
+   "picks": [
+    {
+     "market": "1. FC Nürnberg o empate",
+     "prob": 69,
+     "conf": "alta",
+     "why": "1. FC Heidenheim 1846: 2,3 goles a favor y 2,8 en contra; 1. FC Nürnberg: 2,6 y 1,2; el mercado da 33 % a 1. FC Nürnberg; cara a cara: HDH domina 3-2",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Más de 2.5 goles",
+     "prob": 69,
+     "conf": "alta",
+     "why": "Se esperan 4,0 goles; más de 2,5 en 8 de 10 de 1. FC Heidenheim 1846 y 7 de 10 de 1. FC Nürnberg",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Más de 8.5 córners",
+     "prob": 66,
+     "conf": "alta",
+     "why": "Se esperan 10,8 córners: 1. FC Heidenheim 1846 5,5 y 1. FC Nürnberg 5,3",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Ambos marcan",
+     "prob": 63,
+     "conf": "media",
+     "why": "Goles esperados: 1. FC Heidenheim 1846 1,7, 1. FC Nürnberg 2,3",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Menos de 4.5 tarjetas",
+     "prob": 59,
+     "conf": "media",
+     "why": "Se esperan 3,7 tarjetas entre los dos",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "2. Bundesliga",
+   "id": "401885045",
+   "time": "14:30",
+   "home": "VfL Bochum",
+   "away": "SV Darmstadt 98",
+   "score": null,
+   "meta": "hora UTC−3 · últimos partidos: BOC 4G 2E 4P · SVD 4G 1E 5P",
+   "picks": [
+    {
+     "market": "VfL Bochum o empate",
+     "prob": 79,
+     "conf": "alta",
+     "why": "VfL Bochum: 1,1 goles a favor y 0,9 en contra; SV Darmstadt 98: 1,5 y 1,8; el mercado da 53 % a VfL Bochum; cara a cara: SVD domina 2-1-2",
+     "result": "pending",
+     "fact": null,
+     "top": true
+    },
+    {
+     "market": "Más de 8.5 córners",
+     "prob": 65,
+     "conf": "alta",
+     "why": "Se esperan 10,8 córners: VfL Bochum 6,0 y SV Darmstadt 98 4,8",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Menos de 5.5 tarjetas",
+     "prob": 64,
+     "conf": "media",
+     "why": "Se esperan 4,2 tarjetas entre los dos",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "Austrian Bundesliga",
+   "id": "401881739",
+   "time": "15:30",
+   "home": "Grazer AK",
+   "away": "SC Rheindorf Altach",
+   "score": null,
+   "meta": "hora UTC−3 · últimos partidos: GRA 3G 3E 4P · SCR 3G 0E 7P",
+   "picks": [
+    {
+     "market": "SC Rheindorf Altach o empate",
+     "prob": 75,
+     "conf": "alta",
+     "why": "Grazer AK: 1,0 goles a favor y 2,4 en contra; SC Rheindorf Altach: 1,2 y 1,5; el mercado da 42 % a SC Rheindorf Altach; cara a cara: GRA domina 2-1-2",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Más de 7.5 córners",
+     "prob": 65,
+     "conf": "alta",
+     "why": "Se esperan 9,5 córners: Grazer AK 4,5 y SC Rheindorf Altach 5,1",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Menos de 5.5 tarjetas",
+     "prob": 65,
+     "conf": "alta",
+     "why": "Se esperan 4,1 tarjetas entre los dos",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "Bundesliga",
+   "id": "401884720",
+   "time": "16:30",
+   "home": "Werder Bremen",
+   "away": "Borussia Mönchengladbach",
+   "score": null,
+   "meta": "hora UTC−3 · últimos partidos: SVW 4G 4E 2P · BMG 3G 1E 6P",
+   "picks": [
+    {
+     "market": "Werder Bremen o empate",
+     "prob": 78,
+     "conf": "alta",
+     "why": "Werder Bremen: 1,9 goles a favor y 1,6 en contra; Borussia Mönchengladbach: 2,1 y 2,1; el mercado da 56 % a Werder Bremen; cara a cara: BMG domina 2-1-2",
+     "result": "pending",
+     "fact": null,
+     "top": true
+    },
+    {
+     "market": "Menos de 4.5 tarjetas",
+     "prob": 65,
+     "conf": "alta",
+     "why": "Se esperan 3,3 tarjetas entre los dos",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Más de 2.5 goles",
+     "prob": 63,
+     "conf": "media",
+     "why": "Se esperan 3,6 goles; más de 2,5 en 8 de 10 de Werder Bremen y 9 de 10 de Borussia Mönchengladbach",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Más de 9.5 córners",
+     "prob": 61,
+     "conf": "media",
+     "why": "Se esperan 11,2 córners: Werder Bremen 5,0 y Borussia Mönchengladbach 6,2",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Ambos marcan",
+     "prob": 59,
+     "conf": "media",
+     "why": "Goles esperados: Werder Bremen 2,0, Borussia Mönchengladbach 1,6",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "Ligue 1",
+   "id": "401876392",
+   "time": "16:45",
+   "home": "Brest",
+   "away": "Paris FC",
+   "score": null,
+   "meta": "hora UTC−3 · últimos partidos: BRE 2G 5E 3P · PAR 4G 2E 4P",
+   "picks": [
+    {
+     "market": "Menos de 4.5 tarjetas",
+     "prob": 75,
+     "conf": "alta",
+     "why": "Se esperan 2,4 tarjetas entre los dos",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Brest saca más córners",
+     "prob": 73,
+     "conf": "alta",
+     "why": "Se esperan 8,3 córners: Brest 5,6 y Paris FC 2,6",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Paris FC o empate",
+     "prob": 69,
+     "conf": "alta",
+     "why": "Brest: 1,6 goles a favor y 1,7 en contra; Paris FC: 1,4 y 1,7; el mercado da 43 % a Paris FC; cara a cara: empatados 2-2-1",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Menos de 9.5 córners",
+     "prob": 56,
+     "conf": "media",
+     "why": "Se esperan 8,3 córners: Brest 5,6 y Paris FC 2,6",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "Colombian Primera A",
+   "id": "401936055",
+   "time": "20:35",
+   "home": "Deportivo Cali",
+   "away": "Atlético Bucaramanga",
+   "score": null,
+   "meta": "hora UTC−3 · últimos partidos: DCI 3G 3E 4P · BUC 4G 5E 1P",
+   "picks": [
+    {
+     "market": "Deportivo Cali o empate",
+     "prob": 75,
+     "conf": "alta",
+     "why": "Deportivo Cali: 1,2 goles a favor y 1,0 en contra; Atlético Bucaramanga: 1,7 y 0,8; el mercado da 49 % a Deportivo Cali; cara a cara: DCI domina 2-1-2",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Más de 4.5 tarjetas",
+     "prob": 71,
+     "conf": "alta",
+     "why": "Se esperan 6,1 tarjetas entre los dos",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Menos de 8.5 córners",
+     "prob": 55,
+     "conf": "media",
+     "why": "Se esperan 7,5 córners: Deportivo Cali 3,1 y Atlético Bucaramanga 4,4",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "Colombian Primera A",
+   "id": "401936054",
+   "time": "22:40",
+   "home": "Millonarios",
+   "away": "América de Cali",
+   "score": null,
+   "meta": "hora UTC−3 · últimos partidos: MIL 2G 3E 5P · AME 6G 1E 3P",
+   "picks": [
+    {
+     "market": "Más de 4.5 tarjetas",
+     "prob": 76,
+     "conf": "alta",
+     "why": "Se esperan 6,6 tarjetas entre los dos",
+     "result": "pending",
+     "fact": null,
+     "top": true
+    },
+    {
+     "market": "Millonarios o empate",
+     "prob": 70,
+     "conf": "alta",
+     "why": "Millonarios: 0,6 goles a favor y 1,1 en contra; América de Cali: 1,6 y 0,7; el mercado da 48 % a Millonarios; cara a cara: AME domina 2-1-2",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Menos de 8.5 córners",
+     "prob": 67,
+     "conf": "alta",
+     "why": "Se esperan 6,1 córners: Millonarios 3,1 y América de Cali 3,0",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Menos de 2.5 goles",
+     "prob": 55,
+     "conf": "media",
+     "why": "Se esperan 2,2 goles; más de 2,5 en 5 de 10 de Millonarios y 6 de 10 de América de Cali",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "Argentine Nacional B",
+   "id": "401933218",
+   "time": "19:00",
+   "home": "Atlanta",
+   "away": "Ciudad de Bolívar",
+   "score": null,
+   "meta": "hora UTC−3 · últimos partidos: ATL 4G 1E 5P · CDB 2G 7E 1P",
+   "picks": [
+    {
+     "market": "Menos de 8.5 córners",
+     "prob": 79,
+     "conf": "alta",
+     "why": "Se esperan 1,1 córners: Atlanta 1,0 y Ciudad de Bolívar 0,1",
+     "result": "pending",
+     "fact": null,
+     "top": true
+    },
+    {
+     "market": "Atlanta o empate",
+     "prob": 78,
+     "conf": "alta",
+     "why": "Atlanta: 0,8 goles a favor y 0,9 en contra; Ciudad de Bolívar: 0,6 y 0,5; el mercado da 45 % a Atlanta",
+     "result": "pending",
+     "fact": null,
+     "top": true
+    },
+    {
+     "market": "Más de 4.5 tarjetas",
+     "prob": 67,
+     "conf": "alta",
+     "why": "Se esperan 5,7 tarjetas entre los dos",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Menos de 2.5 goles",
+     "prob": 66,
+     "conf": "alta",
+     "why": "Se esperan 1,7 goles; más de 2,5 en 4 de 10 de Atlanta y 0 de 10 de Ciudad de Bolívar",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "Argentine Nacional B",
+   "id": "401933219",
+   "time": "21:00",
+   "home": "Deportivo Morón",
+   "away": "Colón (Santa Fe)",
+   "score": null,
+   "meta": "hora UTC−3 · últimos partidos: MOR 6G 2E 2P · COL 5G 3E 2P",
+   "picks": [
+    {
+     "market": "Menos de 8.5 córners",
+     "prob": 80,
+     "conf": "alta",
+     "why": "Se esperan 0,0 córners: Deportivo Morón 0,0 y Colón (Santa Fe) 0,0",
+     "result": "pending",
+     "fact": null,
+     "top": true
+    },
+    {
+     "market": "Deportivo Morón o empate",
+     "prob": 78,
+     "conf": "alta",
+     "why": "Deportivo Morón: 1,5 goles a favor y 0,8 en contra; Colón (Santa Fe): 1,1 y 0,7; el mercado da 41 % a Deportivo Morón; cara a cara: MOR domina 3-0-2",
+     "result": "pending",
+     "fact": null,
+     "top": true
+    },
+    {
+     "market": "Más de 3.5 tarjetas",
+     "prob": 72,
+     "conf": "alta",
+     "why": "Se esperan 5,0 tarjetas entre los dos",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Menos de 2.5 goles",
+     "prob": 60,
+     "conf": "media",
+     "why": "Se esperan 2,0 goles; más de 2,5 en 3 de 10 de Deportivo Morón y 3 de 10 de Colón (Santa Fe)",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "Argentine Nacional B",
+   "id": "401933198",
+   "time": "21:00",
+   "home": "Tristán Suárez",
+   "away": "Gimnasia y Tiro (Salta)",
+   "score": null,
+   "meta": "hora UTC−3 · últimos partidos: TRI 4G 5E 1P · GYT 3G 4E 3P",
+   "picks": [
+    {
+     "market": "Tristán Suárez o empate",
+     "prob": 82,
+     "conf": "alta",
+     "why": "Tristán Suárez: 0,9 goles a favor y 0,3 en contra; Gimnasia y Tiro (Salta): 1,1 y 1,0; el mercado da 52 % a Tristán Suárez; cara a cara: TRI domina 2-0-3",
+     "result": "pending",
+     "fact": null,
+     "top": true
+    },
+    {
+     "market": "Menos de 8.5 córners",
+     "prob": 80,
+     "conf": "alta",
+     "why": "Se esperan 0,0 córners: Tristán Suárez 0,0 y Gimnasia y Tiro (Salta) 0,0",
+     "result": "pending",
+     "fact": null,
+     "top": true
+    },
+    {
+     "market": "Menos de 5.5 tarjetas",
+     "prob": 65,
+     "conf": "alta",
+     "why": "Se esperan 4,1 tarjetas entre los dos",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Menos de 2.5 goles",
+     "prob": 63,
+     "conf": "media",
+     "why": "Se esperan 1,8 goles; más de 2,5 en 2 de 10 de Tristán Suárez y 3 de 10 de Gimnasia y Tiro (Salta)",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  }
+ ]
+}

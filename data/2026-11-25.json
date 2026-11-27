@@ -374,7 +374,7 @@
    "time": "00:10",
    "home": "Monterrey",
    "away": "América",
-   "score": null,
+   "score": "0-0",
    "meta": "hora UTC−3 · últimos partidos: MTY 5G 2E 3P · AME 5G 4E 1P",
    "picks": [
     {
@@ -382,8 +382,8 @@
      "prob": 72,
      "conf": "alta",
      "why": "Monterrey: 1,7 goles a favor y 1,3 en contra; América: 1,1 y 0,5; el mercado da 41 % a Monterrey; cara a cara: empatados 2-2-1",
-     "result": "pending",
-     "fact": null,
+     "result": "hit",
+     "fact": "0-0",
      "top": false
     }
    ]

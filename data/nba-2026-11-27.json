@@ -1,0 +1,1281 @@
+{
+ "date": "2026-11-27",
+ "sport": "nba",
+ "title": "NBA, 11 partidos",
+ "note": "Jugadores: líneas reales de una casa de apuestas (DraftKings, vía ESPN; en Rushbet suelen ser iguales o variar medio punto), mezclando sus últimos 10 partidos con la cuota. Si un partido aún no tiene líneas, el umbral es propio. Hándicap, total y cuotas: líneas de una casa de apuestas tomadas el día del partido. Cada probabilidad se corrige con el historial de aciertos de ese mercado.",
+ "matches": [
+  {
+   "comp": "NBA",
+   "id": "401909326",
+   "time": "21:00",
+   "home": "New York Knicks",
+   "away": "Miami Heat",
+   "score": null,
+   "meta": "hora UTC−3 · NY 12-6 · MIA 10-7 · Bajas: Jordan Clarkson, OG Anunoby",
+   "picks": [
+    {
+     "market": "Gana Knicks (cuota 1.60)",
+     "prob": 67,
+     "conf": "alta",
+     "why": "77 % según el modelo de ESPN y 60 % según las cuotas",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Davion Mitchell 14+ puntos (cuota 1.81)",
+     "prob": 68,
+     "conf": "alta",
+     "why": "Línea de la casa 13,5; llegó a 14 en 9 de sus últimos 10; promedia 18,0; el mercado da 52 % a más",
+     "result": "pending",
+     "fact": null,
+     "top": true
+    },
+    {
+     "market": "Landry Shamet menos de 13.5 puntos (cuota 1.81)",
+     "prob": 59,
+     "conf": "media",
+     "why": "Línea de la casa 13,5; llegó a 14 en 3 de sus últimos 10; promedia 12,9; el mercado da 48 % a más",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Mikal Bridges menos de 12.5 puntos (cuota 1.84)",
+     "prob": 59,
+     "conf": "media",
+     "why": "Línea de la casa 12,5; llegó a 13 en 3 de sus últimos 10; promedia 10,2; el mercado da 49 % a más",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Davion Mitchell 8+ asistencias (cuota 1.76)",
+     "prob": 64,
+     "conf": "media",
+     "why": "Línea de la casa 7,5; llegó a 8 en 8 de sus últimos 10; promedia 9,2; el mercado da 53 % a más",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Bam Adebayo 3+ asistencias (cuota 1.58)",
+     "prob": 63,
+     "conf": "media",
+     "why": "Línea de la casa 2,5; llegó a 3 en 7 de sus últimos 10; promedia 3,8; el mercado da 59 % a más",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Klay Thompson 2+ asistencias (cuota 1.86)",
+     "prob": 58,
+     "conf": "media",
+     "why": "Línea de la casa 1,5; llegó a 2 en 7 de sus últimos 10; promedia 2,5; el mercado da 50 % a más",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Bam Adebayo menos de 1.5 triples (cuota 1.45)",
+     "prob": 70,
+     "conf": "alta",
+     "why": "Línea de la casa 1,5; llegó a 2 en 2 de sus últimos 10; promedia 0,9; el mercado da 35 % a más",
+     "result": "pending",
+     "fact": null,
+     "top": true
+    },
+    {
+     "market": "Pelle Larsson 1+ triples (cuota 1.43)",
+     "prob": 66,
+     "conf": "alta",
+     "why": "Línea de la casa 0,5; llegó a 1 en 9 de sus últimos 10; promedia 1,7; el mercado da 66 % a más",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Josh Hart menos de 1.5 triples (cuota 1.57)",
+     "prob": 63,
+     "conf": "media",
+     "why": "Línea de la casa 1,5; llegó a 2 en 3 de sus últimos 10; promedia 0,9; el mercado da 40 % a más",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Josh Hart menos de 8.5 rebotes (cuota 1.77)",
+     "prob": 68,
+     "conf": "alta",
+     "why": "Línea de la casa 8,5; llegó a 9 en 1 de sus últimos 10; promedia 6,2; el mercado da 47 % a más",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Klay Thompson menos de 2.5 rebotes (cuota 1.52)",
+     "prob": 68,
+     "conf": "alta",
+     "why": "Línea de la casa 2,5; llegó a 3 en 2 de sus últimos 10; promedia 1,7; el mercado da 39 % a más",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Pelle Larsson 3+ rebotes (cuota 1.63)",
+     "prob": 63,
+     "conf": "media",
+     "why": "Línea de la casa 2,5; llegó a 3 en 8 de sus últimos 10; promedia 3,5; el mercado da 57 % a más",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "NBA",
+   "id": "401909327",
+   "time": "21:30",
+   "home": "Detroit Pistons",
+   "away": "Milwaukee Bucks",
+   "score": null,
+   "meta": "hora UTC−3 · DET 11-6 · MIL 2-17 · Bajas: Duncan Robinson, Cade Cunningham, Jalen Duren, Ebuka Okorie, Taurean Prince",
+   "picks": [
+    {
+     "market": "Gana Pistons (cuota 1.24)",
+     "prob": 80,
+     "conf": "alta",
+     "why": "86 % según el modelo de ESPN y 77 % según las cuotas",
+     "result": "pending",
+     "fact": null,
+     "top": true
+    },
+    {
+     "market": "Kyle Kuzma 12+ puntos (cuota 1.80)",
+     "prob": 64,
+     "conf": "media",
+     "why": "Línea de la casa 11,5; llegó a 12 en 8 de sus últimos 10; promedia 15,1; el mercado da 52 % a más",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Kevin Huerter menos de 14.5 puntos (cuota 1.78)",
+     "prob": 60,
+     "conf": "media",
+     "why": "Línea de la casa 14,5; llegó a 15 en 3 de sus últimos 10; promedia 13,0; el mercado da 47 % a más",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Daniss Jenkins menos de 18.5 puntos (cuota 1.78)",
+     "prob": 56,
+     "conf": "media",
+     "why": "Línea de la casa 18,5; llegó a 19 en 4 de sus últimos 10; promedia 17,1; el mercado da 47 % a más",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Kyle Kuzma menos de 2.5 asistencias (cuota 1.61)",
+     "prob": 62,
+     "conf": "media",
+     "why": "Línea de la casa 2,5; llegó a 3 en 3 de sus últimos 10; promedia 1,8; el mercado da 42 % a más",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Ausar Thompson menos de 5.5 asistencias (cuota 1.90)",
+     "prob": 58,
+     "conf": "media",
+     "why": "Línea de la casa 5,5; llegó a 6 en 3 de sus últimos 10; promedia 5,7; el mercado da 51 % a más",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Daniss Jenkins menos de 7.5 asistencias (cuota 1.86)",
+     "prob": 58,
+     "conf": "media",
+     "why": "Línea de la casa 7,5; llegó a 8 en 3 de sus últimos 10; promedia 4,9; el mercado da 50 % a más",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Myles Turner menos de 1.5 triples (cuota 1.69)",
+     "prob": 61,
+     "conf": "media",
+     "why": "Línea de la casa 1,5; llegó a 2 en 3 de sus últimos 10; promedia 1,7; el mercado da 45 % a más",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Daniss Jenkins menos de 2.5 triples (cuota 1.52)",
+     "prob": 60,
+     "conf": "media",
+     "why": "Línea de la casa 2,5; llegó a 3 en 4 de sus últimos 10; promedia 2,5; el mercado da 38 % a más",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Jaime Jaquez Jr. menos de 1.5 triples (cuota 1.50)",
+     "prob": 60,
+     "conf": "media",
+     "why": "Línea de la casa 1,5; llegó a 2 en 4 de sus últimos 10; promedia 1,6; el mercado da 38 % a más",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Myles Turner 6+ rebotes (cuota 1.99)",
+     "prob": 58,
+     "conf": "media",
+     "why": "Línea de la casa 5,5; llegó a 6 en 8 de sus últimos 10; promedia 7,1; el mercado da 47 % a más",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Daniss Jenkins menos de 4.5 rebotes (cuota 1.69)",
+     "prob": 57,
+     "conf": "media",
+     "why": "Línea de la casa 4,5; llegó a 5 en 4 de sus últimos 10; promedia 4,0; el mercado da 45 % a más",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Tyler Herro menos de 4.5 rebotes (cuota 1.66)",
+     "prob": 57,
+     "conf": "media",
+     "why": "Línea de la casa 4,5; llegó a 5 en 4 de sus últimos 10; promedia 3,9; el mercado da 44 % a más",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "NBA",
+   "id": "401909328",
+   "time": "21:30",
+   "home": "Indiana Pacers",
+   "away": "Philadelphia 76ers",
+   "score": null,
+   "meta": "hora UTC−3 · IND 6-12 · PHI 15-4 · Bajas: Tyrese Haliburton, Ben Sheppard, Jaylen Brown, Ariel Hukporti",
+   "picks": [
+    {
+     "market": "Gana 76ers (cuota 1.65)",
+     "prob": 59,
+     "conf": "media",
+     "why": "62 % según el modelo de ESPN y 58 % según las cuotas",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Aaron Nesmith menos de 12.5 puntos (cuota 1.90)",
+     "prob": 58,
+     "conf": "media",
+     "why": "Línea de la casa 12,5; llegó a 13 en 3 de sus últimos 10; promedia 9,8; el mercado da 51 % a más",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Pascal Siakam 23+ puntos (cuota 1.82)",
+     "prob": 56,
+     "conf": "media",
+     "why": "Línea de la casa 22,5; llegó a 23 en 6 de sus últimos 10; promedia 24,0; el mercado da 52 % a más",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Kelly Oubre Jr. 12+ puntos (cuota 1.81)",
+     "prob": 56,
+     "conf": "media",
+     "why": "Línea de la casa 11,5; llegó a 12 en 8 de sus últimos 10; promedia 14,2; el mercado da 52 % a más · en duda por lesión",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "VJ Edgecombe 4+ asistencias (cuota 1.60)",
+     "prob": 66,
+     "conf": "alta",
+     "why": "Línea de la casa 3,5; llegó a 4 en 8 de sus últimos 10; promedia 5,2; el mercado da 58 % a más",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Aaron Nesmith 2+ asistencias (cuota 1.64)",
+     "prob": 62,
+     "conf": "media",
+     "why": "Línea de la casa 1,5; llegó a 2 en 7 de sus últimos 10; promedia 2,7; el mercado da 57 % a más",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Pascal Siakam menos de 3.5 asistencias (cuota 1.60)",
+     "prob": 58,
+     "conf": "media",
+     "why": "Línea de la casa 3,5; llegó a 4 en 4 de sus últimos 10; promedia 3,5; el mercado da 42 % a más",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "LeBron James menos de 1.5 triples (cuota 1.51)",
+     "prob": 64,
+     "conf": "media",
+     "why": "Línea de la casa 1,5; llegó a 2 en 3 de sus últimos 10; promedia 1,3; el mercado da 38 % a más",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Pascal Siakam 2+ triples (cuota 1.85)",
+     "prob": 58,
+     "conf": "media",
+     "why": "Línea de la casa 1,5; llegó a 2 en 9 de sus últimos 10; promedia 2,2; el mercado da 51 % a más",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Andrew Nembhard 2+ triples (cuota 1.67)",
+     "prob": 57,
+     "conf": "media",
+     "why": "Línea de la casa 1,5; llegó a 2 en 8 de sus últimos 10; promedia 2,6; el mercado da 56 % a más",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "VJ Edgecombe menos de 6.5 rebotes (cuota 1.67)",
+     "prob": 57,
+     "conf": "media",
+     "why": "Línea de la casa 6,5; llegó a 7 en 4 de sus últimos 10; promedia 5,8; el mercado da 44 % a más",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Pascal Siakam menos de 6.5 rebotes (cuota 1.68)",
+     "prob": 57,
+     "conf": "media",
+     "why": "Línea de la casa 6,5; llegó a 7 en 4 de sus últimos 10; promedia 5,4; el mercado da 44 % a más",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Tyrese Maxey menos de 3.5 rebotes (cuota 1.80)",
+     "prob": 55,
+     "conf": "media",
+     "why": "Línea de la casa 3,5; llegó a 4 en 4 de sus últimos 10; promedia 2,6; el mercado da 48 % a más",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "NBA",
+   "id": "401909329",
+   "time": "21:30",
+   "home": "Toronto Raptors",
+   "away": "Brooklyn Nets",
+   "score": null,
+   "meta": "hora UTC−3 · TOR 6-11 · BKN 4-13 · Bajas: Kawhi Leonard, Nate Bittle, RJ Barrett, Moritz Wagner, Nolan Traore",
+   "picks": [
+    {
+     "market": "Gana Raptors (cuota 1.30)",
+     "prob": 73,
+     "conf": "alta",
+     "why": "74 % según el modelo de ESPN y 74 % según las cuotas",
+     "result": "pending",
+     "fact": null,
+     "top": true
+    },
+    {
+     "market": "Immanuel Quickley menos de 19.5 puntos (cuota 1.83)",
+     "prob": 59,
+     "conf": "media",
+     "why": "Línea de la casa 19,5; llegó a 20 en 3 de sus últimos 10; promedia 17,5; el mercado da 49 % a más",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Danny Wolf 8+ puntos (cuota 1.88)",
+     "prob": 59,
+     "conf": "media",
+     "why": "Línea de la casa 7,5; llegó a 8 en 7 de sus últimos 10; promedia 10,3; el mercado da 50 % a más",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Jakob Poeltl menos de 10.5 puntos (cuota 1.72)",
+     "prob": 57,
+     "conf": "media",
+     "why": "Línea de la casa 10,5; llegó a 11 en 4 de sus últimos 10; promedia 10,7; el mercado da 45 % a más",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Ja'Kobe Walter menos de 2.5 asistencias (cuota 1.67)",
+     "prob": 66,
+     "conf": "alta",
+     "why": "Línea de la casa 2,5; llegó a 3 en 2 de sus últimos 10; promedia 1,9; el mercado da 44 % a más",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Day'Ron Sharpe 5+ asistencias (cuota 1.98)",
+     "prob": 61,
+     "conf": "media",
+     "why": "Línea de la casa 4,5; llegó a 5 en 8 de sus últimos 10; promedia 5,7; el mercado da 47 % a más",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Jakob Poeltl 2+ asistencias (cuota 1.54)",
+     "prob": 59,
+     "conf": "media",
+     "why": "Línea de la casa 1,5; llegó a 2 en 6 de sus últimos 10; promedia 2,2; el mercado da 61 % a más",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Day'Ron Sharpe menos de 0.5 triples (cuota 1.35)",
+     "prob": 72,
+     "conf": "alta",
+     "why": "Línea de la casa 0,5; llegó a 1 en 2 de sus últimos 10; promedia 0,3; el mercado da 31 % a más",
+     "result": "pending",
+     "fact": null,
+     "top": true
+    },
+    {
+     "market": "Ja'Kobe Walter menos de 2.5 triples (cuota 2.14)",
+     "prob": 55,
+     "conf": "media",
+     "why": "Línea de la casa 2,5; llegó a 3 en 3 de sus últimos 10; promedia 2,5; el mercado da 56 % a más",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Danny Wolf menos de 1.5 triples (cuota 1.56)",
+     "prob": 55,
+     "conf": "media",
+     "why": "Línea de la casa 1,5; llegó a 2 en 5 de sus últimos 10; promedia 2,0; el mercado da 40 % a más",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Julius Randle menos de 6.5 rebotes (cuota 1.75)",
+     "prob": 64,
+     "conf": "media",
+     "why": "Línea de la casa 6,5; llegó a 7 en 2 de sus últimos 10; promedia 4,9; el mercado da 47 % a más",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Scottie Barnes menos de 6.5 rebotes (cuota 2.11)",
+     "prob": 60,
+     "conf": "media",
+     "why": "Línea de la casa 6,5; llegó a 7 en 2 de sus últimos 10; promedia 6,4; el mercado da 56 % a más",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Collin Murray-Boyles menos de 5.5 rebotes (cuota 1.81)",
+     "prob": 55,
+     "conf": "media",
+     "why": "Línea de la casa 5,5; llegó a 6 en 4 de sus últimos 10; promedia 5,0; el mercado da 48 % a más",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "NBA",
+   "id": "401909330",
+   "time": "22:00",
+   "home": "Boston Celtics",
+   "away": "Atlanta Hawks",
+   "score": null,
+   "meta": "hora UTC−3 · BOS 12-6 · ATL 11-6 · Bajas: Mitchell Robinson, Jock Landale, Asa Newell, CJ McCollum, Mouhamed Gueye, Henri Veesaar",
+   "picks": [
+    {
+     "market": "Gana Celtics (cuota 1.24)",
+     "prob": 73,
+     "conf": "alta",
+     "why": "71 % según el modelo de ESPN y 78 % según las cuotas",
+     "result": "pending",
+     "fact": null,
+     "top": true
+    },
+    {
+     "market": "Onyeka Okongwu 14+ puntos (cuota 1.86)",
+     "prob": 63,
+     "conf": "media",
+     "why": "Línea de la casa 13,5; llegó a 14 en 8 de sus últimos 10; promedia 16,4; el mercado da 51 % a más",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Jalen Johnson menos de 18.5 puntos (cuota 1.95)",
+     "prob": 57,
+     "conf": "media",
+     "why": "Línea de la casa 18,5; llegó a 19 en 3 de sus últimos 10; promedia 18,2; el mercado da 52 % a más",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Nickeil Alexander-Walker menos de 20.5 puntos (cuota 1.84)",
+     "prob": 55,
+     "conf": "media",
+     "why": "Línea de la casa 20,5; llegó a 21 en 4 de sus últimos 10; promedia 22,7; el mercado da 49 % a más",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Neemias Queta 2+ asistencias (cuota 1.54)",
+     "prob": 68,
+     "conf": "alta",
+     "why": "Línea de la casa 1,5; llegó a 2 en 8 de sus últimos 10; promedia 2,6; el mercado da 61 % a más",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Onyeka Okongwu menos de 2.5 asistencias (cuota 1.53)",
+     "prob": 60,
+     "conf": "media",
+     "why": "Línea de la casa 2,5; llegó a 3 en 4 de sus últimos 10; promedia 2,2; el mercado da 39 % a más",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Derrick White 5+ asistencias (cuota 1.83)",
+     "prob": 58,
+     "conf": "media",
+     "why": "Línea de la casa 4,5; llegó a 5 en 7 de sus últimos 10; promedia 5,1; el mercado da 51 % a más",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Jalen Johnson menos de 1.5 triples (cuota 1.48)",
+     "prob": 65,
+     "conf": "alta",
+     "why": "Línea de la casa 1,5; llegó a 2 en 3 de sus últimos 10; promedia 0,9; el mercado da 37 % a más",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Onyeka Okongwu 2+ triples (cuota 1.56)",
+     "prob": 63,
+     "conf": "media",
+     "why": "Línea de la casa 1,5; llegó a 2 en 9 de sus últimos 10; promedia 2,3; el mercado da 60 % a más",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Jayson Tatum 3+ triples (cuota 1.59)",
+     "prob": 58,
+     "conf": "media",
+     "why": "Línea de la casa 2,5; llegó a 3 en 8 de sus últimos 10; promedia 3,7; el mercado da 59 % a más",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Dyson Daniels 8+ rebotes (cuota 1.85)",
+     "prob": 64,
+     "conf": "media",
+     "why": "Línea de la casa 7,5; llegó a 8 en 9 de sus últimos 10; promedia 10,1; el mercado da 50 % a más",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Derrick White menos de 3.5 rebotes (cuota 1.63)",
+     "prob": 58,
+     "conf": "media",
+     "why": "Línea de la casa 3,5; llegó a 4 en 4 de sus últimos 10; promedia 3,3; el mercado da 43 % a más",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Onyeka Okongwu 8+ rebotes (cuota 1.81)",
+     "prob": 56,
+     "conf": "media",
+     "why": "Línea de la casa 7,5; llegó a 8 en 7 de sus últimos 10; promedia 8,9; el mercado da 52 % a más",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "NBA",
+   "id": "401909331",
+   "time": "22:30",
+   "home": "Minnesota Timberwolves",
+   "away": "Memphis Grizzlies",
+   "score": null,
+   "meta": "hora UTC−3 · MIN 14-5 · MEM 14-5 · Bajas: Donte DiVincenzo, Jaylen Clark, Anthony Edwards, Scotty Pippen Jr., Cameron Boozer, Jerami Grant",
+   "picks": [
+    {
+     "market": "Gana Timberwolves (cuota 1.62)",
+     "prob": 62,
+     "conf": "media",
+     "why": "67 % según el modelo de ESPN y 59 % según las cuotas",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Ayo Dosunmu 19+ puntos (cuota 1.85)",
+     "prob": 55,
+     "conf": "media",
+     "why": "Línea de la casa 18,5; llegó a 19 en 6 de sus últimos 10; promedia 19,6; el mercado da 51 % a más",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Cedric Coward 16+ puntos (cuota 1.83)",
+     "prob": 55,
+     "conf": "media",
+     "why": "Línea de la casa 15,5; llegó a 16 en 6 de sus últimos 10; promedia 16,5; el mercado da 51 % a más",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Ayo Dosunmu menos de 4.5 asistencias (cuota 1.76)",
+     "prob": 64,
+     "conf": "media",
+     "why": "Línea de la casa 4,5; llegó a 5 en 2 de sus últimos 10; promedia 2,8; el mercado da 47 % a más",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Ty Jerome menos de 5.5 asistencias (cuota 1.80)",
+     "prob": 59,
+     "conf": "media",
+     "why": "Línea de la casa 5,5; llegó a 6 en 3 de sus últimos 10; promedia 4,8; el mercado da 48 % a más",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Jaylen Wells menos de 1.5 asistencias (cuota 1.94)",
+     "prob": 57,
+     "conf": "media",
+     "why": "Línea de la casa 1,5; llegó a 2 en 3 de sus últimos 10; promedia 1,1; el mercado da 52 % a más",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Jonathan Kuminga menos de 1.5 triples (cuota 1.70)",
+     "prob": 61,
+     "conf": "media",
+     "why": "Línea de la casa 1,5; llegó a 2 en 3 de sus últimos 10; promedia 1,2; el mercado da 45 % a más",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Cedric Coward menos de 2.5 triples (cuota 1.51)",
+     "prob": 60,
+     "conf": "media",
+     "why": "Línea de la casa 2,5; llegó a 3 en 4 de sus últimos 10; promedia 2,1; el mercado da 38 % a más",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Ayo Dosunmu menos de 4.5 rebotes (cuota 1.68)",
+     "prob": 69,
+     "conf": "alta",
+     "why": "Línea de la casa 4,5; llegó a 5 en 1 de sus últimos 10; promedia 3,3; el mercado da 44 % a más",
+     "result": "pending",
+     "fact": null,
+     "top": true
+    },
+    {
+     "market": "Jonathan Kuminga menos de 5.5 rebotes (cuota 1.71)",
+     "prob": 56,
+     "conf": "media",
+     "why": "Línea de la casa 5,5; llegó a 6 en 4 de sus últimos 10; promedia 5,3; el mercado da 45 % a más",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Rudy Gobert menos de 10.5 rebotes (cuota 1.82)",
+     "prob": 55,
+     "conf": "media",
+     "why": "Línea de la casa 10,5; llegó a 11 en 4 de sus últimos 10; promedia 9,2; el mercado da 49 % a más",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "NBA",
+   "id": "401909332",
+   "time": "23:00",
+   "home": "Phoenix Suns",
+   "away": "Dallas Mavericks",
+   "score": null,
+   "meta": "hora UTC−3 · PHX 9-8 · DAL 11-7 · Bajas: Mark Williams, Tobi Lawal, Sergio de Larrea, Dereck Lively II, Tarik Biberovic",
+   "picks": [
+    {
+     "market": "Gana Suns (cuota 1.74)",
+     "prob": 54,
+     "conf": "media",
+     "why": "55 % según el modelo de ESPN y 55 % según las cuotas",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Miles Bridges menos de 14.5 puntos (cuota 1.90)",
+     "prob": 62,
+     "conf": "media",
+     "why": "Línea de la casa 14,5; llegó a 15 en 2 de sus últimos 10; promedia 11,6; el mercado da 51 % a más",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Devin Booker menos de 25.5 puntos (cuota 1.88)",
+     "prob": 58,
+     "conf": "media",
+     "why": "Línea de la casa 25,5; llegó a 26 en 3 de sus últimos 10; promedia 23,9; el mercado da 50 % a más",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Dillon Brooks menos de 15.5 puntos (cuota 1.87)",
+     "prob": 58,
+     "conf": "media",
+     "why": "Línea de la casa 15,5; llegó a 16 en 3 de sus últimos 10; promedia 13,2; el mercado da 50 % a más",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "P.J. Washington menos de 1.5 asistencias (cuota 1.55)",
+     "prob": 63,
+     "conf": "media",
+     "why": "Línea de la casa 1,5; llegó a 2 en 3 de sus últimos 10; promedia 1,3; el mercado da 40 % a más",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Miles Bridges 3+ asistencias (cuota 1.69)",
+     "prob": 61,
+     "conf": "media",
+     "why": "Línea de la casa 2,5; llegó a 3 en 7 de sus últimos 10; promedia 3,5; el mercado da 55 % a más",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Jalen Green menos de 3.5 asistencias (cuota 1.63)",
+     "prob": 58,
+     "conf": "media",
+     "why": "Línea de la casa 3,5; llegó a 4 en 4 de sus últimos 10; promedia 3,0; el mercado da 43 % a más",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Collin Gillespie menos de 2.5 triples (cuota 1.52)",
+     "prob": 56,
+     "conf": "media",
+     "why": "Línea de la casa 2,5; llegó a 3 en 5 de sus últimos 10; promedia 2,5; el mercado da 38 % a más",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Devin Booker menos de 3.5 rebotes (cuota 1.60)",
+     "prob": 63,
+     "conf": "media",
+     "why": "Línea de la casa 3,5; llegó a 4 en 3 de sus últimos 10; promedia 2,5; el mercado da 42 % a más",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "P.J. Washington 5+ rebotes (cuota 1.66)",
+     "prob": 62,
+     "conf": "media",
+     "why": "Línea de la casa 4,5; llegó a 5 en 8 de sus últimos 10; promedia 5,7; el mercado da 56 % a más",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Collin Gillespie 3+ rebotes (cuota 1.60)",
+     "prob": 59,
+     "conf": "media",
+     "why": "Línea de la casa 2,5; llegó a 3 en 7 de sus últimos 10; promedia 3,0; el mercado da 58 % a más",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "NBA",
+   "id": "401909333",
+   "time": "23:30",
+   "home": "San Antonio Spurs",
+   "away": "Los Angeles Lakers",
+   "score": null,
+   "meta": "hora UTC−3 · SA 15-4 · LAL 15-3 · Bajas: Dylan Harper, Tobias Harris, Jayden Quaintance, Austin Reaves",
+   "picks": [
+    {
+     "market": "Gana Spurs (cuota 1.46)",
+     "prob": 68,
+     "conf": "alta",
+     "why": "72 % según el modelo de ESPN y 66 % según las cuotas",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Julian Champagnie 11+ puntos (cuota 1.81)",
+     "prob": 60,
+     "conf": "media",
+     "why": "Línea de la casa 10,5; llegó a 11 en 7 de sus últimos 10; promedia 12,4; el mercado da 52 % a más",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Walker Kessler 13+ puntos (cuota 1.80)",
+     "prob": 56,
+     "conf": "media",
+     "why": "Línea de la casa 12,5; llegó a 13 en 6 de sus últimos 10; promedia 13,8; el mercado da 52 % a más",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Victor Wembanyama menos de 3.5 asistencias (cuota 1.59)",
+     "prob": 63,
+     "conf": "media",
+     "why": "Línea de la casa 3,5; llegó a 4 en 3 de sus últimos 10; promedia 3,2; el mercado da 41 % a más",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Jake LaRavia 2+ asistencias (cuota 1.79)",
+     "prob": 63,
+     "conf": "media",
+     "why": "Línea de la casa 1,5; llegó a 2 en 8 de sus últimos 10; promedia 2,4; el mercado da 52 % a más",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Quentin Grimes 3+ asistencias (cuota 1.82)",
+     "prob": 59,
+     "conf": "media",
+     "why": "Línea de la casa 2,5; llegó a 3 en 7 de sus últimos 10; promedia 3,5; el mercado da 51 % a más",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "De'Aaron Fox menos de 1.5 triples (cuota 1.41)",
+     "prob": 63,
+     "conf": "media",
+     "why": "Línea de la casa 1,5; llegó a 2 en 2 de sus últimos 10; promedia 0,6; el mercado da 33 % a más · en duda por lesión",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Victor Wembanyama 2+ triples (cuota 1.51)",
+     "prob": 60,
+     "conf": "media",
+     "why": "Línea de la casa 1,5; llegó a 2 en 8 de sus últimos 10; promedia 2,6; el mercado da 62 % a más",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Quentin Grimes menos de 1.5 triples (cuota 1.73)",
+     "prob": 56,
+     "conf": "media",
+     "why": "Línea de la casa 1,5; llegó a 2 en 4 de sus últimos 10; promedia 2,5; el mercado da 46 % a más",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Walker Kessler 11+ rebotes (cuota 1.83)",
+     "prob": 56,
+     "conf": "media",
+     "why": "Línea de la casa 10,5; llegó a 11 en 7 de sus últimos 10; promedia 11,4; el mercado da 51 % a más",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Matisse Thybulle menos de 2.5 rebotes (cuota 1.73)",
+     "prob": 56,
+     "conf": "media",
+     "why": "Línea de la casa 2,5; llegó a 3 en 4 de sus últimos 10; promedia 2,9; el mercado da 46 % a más",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Victor Wembanyama menos de 12.5 rebotes (cuota 1.84)",
+     "prob": 55,
+     "conf": "media",
+     "why": "Línea de la casa 12,5; llegó a 13 en 4 de sus últimos 10; promedia 12,6; el mercado da 49 % a más",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "NBA",
+   "id": "401909334",
+   "time": "23:30",
+   "home": "Utah Jazz",
+   "away": "Denver Nuggets",
+   "score": null,
+   "meta": "hora UTC−3 · UTAH 3-16 · DEN 10-6 · Bajas: Jusuf Nurkic, Lauri Markkanen, Jaren Jackson Jr.",
+   "picks": [
+    {
+     "market": "Gana Nuggets (cuota 1.21)",
+     "prob": 74,
+     "conf": "alta",
+     "why": "70 % según el modelo de ESPN y 79 % según las cuotas",
+     "result": "pending",
+     "fact": null,
+     "top": true
+    },
+    {
+     "market": "Hándicap Jazz +9.5 (cuota 1.93)",
+     "prob": 60,
+     "conf": "media",
+     "why": "Diferencia esperada: Jazz -0,6 con los últimos 10 y 10 partidos",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Aaron Gordon menos de 13.5 puntos (cuota 1.81)",
+     "prob": 59,
+     "conf": "media",
+     "why": "Línea de la casa 13,5; llegó a 14 en 3 de sus últimos 10; promedia 11,3; el mercado da 48 % a más",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Keyonte George menos de 21.5 puntos (cuota 1.87)",
+     "prob": 58,
+     "conf": "media",
+     "why": "Línea de la casa 21,5; llegó a 22 en 3 de sus últimos 10; promedia 19,1; el mercado da 50 % a más",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Nikola Jokic menos de 26.5 puntos (cuota 1.84)",
+     "prob": 55,
+     "conf": "media",
+     "why": "Línea de la casa 26,5; llegó a 27 en 4 de sus últimos 10; promedia 26,2; el mercado da 49 % a más",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Aaron Gordon menos de 2.5 asistencias (cuota 1.62)",
+     "prob": 66,
+     "conf": "alta",
+     "why": "Línea de la casa 2,5; llegó a 3 en 2 de sus últimos 10; promedia 1,8; el mercado da 42 % a más",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Keyonte George 7+ asistencias (cuota 2.01)",
+     "prob": 60,
+     "conf": "media",
+     "why": "Línea de la casa 6,5; llegó a 7 en 8 de sus últimos 10; promedia 7,5; el mercado da 47 % a más",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Christian Braun 3+ asistencias (cuota 2.01)",
+     "prob": 60,
+     "conf": "media",
+     "why": "Línea de la casa 2,5; llegó a 3 en 8 de sus últimos 10; promedia 2,8; el mercado da 47 % a más",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Aaron Gordon menos de 1.5 triples (cuota 1.51)",
+     "prob": 73,
+     "conf": "alta",
+     "why": "Línea de la casa 1,5; llegó a 2 en 1 de sus últimos 10; promedia 0,7; el mercado da 38 % a más",
+     "result": "pending",
+     "fact": null,
+     "top": true
+    },
+    {
+     "market": "Nikola Jokic menos de 1.5 triples (cuota 1.57)",
+     "prob": 63,
+     "conf": "media",
+     "why": "Línea de la casa 1,5; llegó a 2 en 3 de sus últimos 10; promedia 1,3; el mercado da 40 % a más",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Keyonte George menos de 2.5 triples (cuota 1.62)",
+     "prob": 62,
+     "conf": "media",
+     "why": "Línea de la casa 2,5; llegó a 3 en 3 de sus últimos 10; promedia 2,1; el mercado da 42 % a más",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Aaron Gordon menos de 5.5 rebotes (cuota 1.67)",
+     "prob": 65,
+     "conf": "alta",
+     "why": "Línea de la casa 5,5; llegó a 6 en 2 de sus últimos 10; promedia 4,2; el mercado da 44 % a más",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Keyonte George 4+ rebotes (cuota 1.90)",
+     "prob": 55,
+     "conf": "media",
+     "why": "Línea de la casa 3,5; llegó a 4 en 7 de sus últimos 10; promedia 4,0; el mercado da 49 % a más",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "NBA",
+   "id": "401909335",
+   "time": "23:30",
+   "home": "LA Clippers",
+   "away": "New Orleans Pelicans",
+   "score": null,
+   "meta": "hora UTC−3 · LAC 4-13 · NO 5-14 · Bajas: Bradley Beal, Jordan Miller, Trendon Watford, Bennedict Mathurin, Dejounte Murray",
+   "picks": [
+    {
+     "market": "Gana Clippers (cuota 1.63)",
+     "prob": 56,
+     "conf": "media",
+     "why": "56 % según el modelo de ESPN y 59 % según las cuotas",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Rui Hachimura 14+ puntos (cuota 1.94)",
+     "prob": 58,
+     "conf": "media",
+     "why": "Línea de la casa 13,5; llegó a 14 en 7 de sus últimos 10; promedia 14,8; el mercado da 48 % a más",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Derrick Jones Jr. 8+ puntos (cuota 1.82)",
+     "prob": 56,
+     "conf": "media",
+     "why": "Línea de la casa 7,5; llegó a 8 en 6 de sus últimos 10; promedia 8,6; el mercado da 52 % a más",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Max Strus menos de 8.5 puntos (cuota 1.76)",
+     "prob": 56,
+     "conf": "media",
+     "why": "Línea de la casa 8,5; llegó a 9 en 4 de sus últimos 10; promedia 7,9; el mercado da 47 % a más",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Trey Murphy III 3+ asistencias (cuota 1.62)",
+     "prob": 66,
+     "conf": "alta",
+     "why": "Línea de la casa 2,5; llegó a 3 en 8 de sus últimos 10; promedia 3,4; el mercado da 58 % a más",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Darius Garland menos de 7.5 asistencias (cuota 1.69)",
+     "prob": 65,
+     "conf": "alta",
+     "why": "Línea de la casa 7,5; llegó a 8 en 2 de sus últimos 10; promedia 6,3; el mercado da 45 % a más",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Herbert Jones 2+ asistencias (cuota 1.62)",
+     "prob": 62,
+     "conf": "media",
+     "why": "Línea de la casa 1,5; llegó a 2 en 7 de sus últimos 10; promedia 2,4; el mercado da 58 % a más",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Trey Murphy III menos de 2.5 triples (cuota 1.55)",
+     "prob": 59,
+     "conf": "media",
+     "why": "Línea de la casa 2,5; llegó a 3 en 4 de sus últimos 10; promedia 2,2; el mercado da 40 % a más",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Brook Lopez menos de 1.5 triples (cuota 1.58)",
+     "prob": 59,
+     "conf": "media",
+     "why": "Línea de la casa 1,5; llegó a 2 en 4 de sus últimos 10; promedia 2,0; el mercado da 41 % a más",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Herbert Jones menos de 1.5 triples (cuota 1.49)",
+     "prob": 56,
+     "conf": "media",
+     "why": "Línea de la casa 1,5; llegó a 2 en 5 de sus últimos 10; promedia 1,4; el mercado da 37 % a más",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Jeremiah Fears menos de 5.5 rebotes (cuota 1.65)",
+     "prob": 58,
+     "conf": "media",
+     "why": "Línea de la casa 5,5; llegó a 6 en 4 de sus últimos 10; promedia 5,5; el mercado da 43 % a más",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Herbert Jones menos de 2.5 rebotes (cuota 2.11)",
+     "prob": 55,
+     "conf": "media",
+     "why": "Línea de la casa 2,5; llegó a 3 en 3 de sus últimos 10; promedia 2,4; el mercado da 56 % a más",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  },
+  {
+   "comp": "NBA",
+   "id": "401909336",
+   "time": "23:30",
+   "home": "Portland Trail Blazers",
+   "away": "Golden State Warriors",
+   "score": null,
+   "meta": "hora UTC−3 · POR 12-6 · GS 10-8 · Bajas: Chris Youngblood, Vit Krejci, Ja Morant, Shaedon Sharpe, Stephen Curry, Kristaps Porzingis",
+   "picks": [
+    {
+     "market": "Gana Trail Blazers (cuota 1.25)",
+     "prob": 78,
+     "conf": "alta",
+     "why": "82 % según el modelo de ESPN y 77 % según las cuotas",
+     "result": "pending",
+     "fact": null,
+     "top": true
+    },
+    {
+     "market": "Draymond Green menos de 5.5 puntos (cuota 1.90)",
+     "prob": 58,
+     "conf": "media",
+     "why": "Línea de la casa 5,5; llegó a 6 en 3 de sus últimos 10; promedia 4,1; el mercado da 51 % a más",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Brandin Podziemski menos de 15.5 puntos (cuota 1.99)",
+     "prob": 57,
+     "conf": "media",
+     "why": "Línea de la casa 15,5; llegó a 16 en 3 de sus últimos 10; promedia 15,0; el mercado da 53 % a más",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    },
+    {
+     "market": "Yaxel Lendeborg menos de 19.5 puntos (cuota 1.79)",
+     "prob": 55,
+     "conf": "media",
+     "why": "Línea de la casa 19,5; llegó a 20 en 4 de sus últimos 10; promedia 17,0; el mercado da 47 % a más",
+     "result": "pending",
+     "fact": null,
+     "top": false
+    }
+   ]
+  }
+ ]
+}
